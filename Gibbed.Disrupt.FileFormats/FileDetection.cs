@@ -95,6 +95,19 @@ namespace Gibbed.Disrupt.FileFormats
                 return new Tuple<string, string>("gfx", "hkx");
             }
 
+            if (read >= 2 && guess[0] == 'p' && guess[1] == 'A')
+            {
+                return new Tuple<string, string>("animations", "dpax");
+            }
+
+            if (read >= 20 && guess[16] == 'S' &&
+                guess[17] == 't' &&
+                guess[18] == 'r' &&
+                guess[19] == 'm')
+            {
+                return new Tuple<string, string>("strm", "bin");
+            }
+
             if (read >= 4)
             {
                 uint magic = BitConverter.ToUInt32(guess, 0);
@@ -157,6 +170,51 @@ namespace Gibbed.Disrupt.FileFormats
                 if (magic == 0x00014C53)
                 {
                     return new Tuple<string, string>("languages", "loc");
+                }
+
+                if (magic == 175074913)
+                {
+                    return new Tuple<string, string>("annotation", "ano");
+                }
+
+                if (magic == 1112818504)
+                {
+                    return new Tuple<string, string>("cbatch", "cbatch");
+                }
+
+                if (magic == 1281970290)
+                {
+                    return new Tuple<string, string>("lightprobe", "lipr.bin");
+                }
+
+                if (magic == 1299591697)
+                {
+                    return new Tuple<string, string>("move", "bin");
+                }
+
+                if (magic == 1397508178)
+                {
+                    return new Tuple<string, string>("roadresources", "hgfx");
+                }
+
+                if (magic == 1196247376)
+                {
+                    return new Tuple<string, string>("gfx", "xbgmip");
+                }
+
+                if (magic == 1397901394)
+                {
+                    return new Tuple<string, string>("srhr", "bin");
+                }
+
+                if (magic == 1397902418)
+                {
+                    return new Tuple<string, string>("srlr", "bin");
+                }
+
+                if (magic == 1396921426)
+                {
+                    return new Tuple<string, string>("sctr", "bin");
                 }
             }
 
@@ -230,6 +288,11 @@ namespace Gibbed.Disrupt.FileFormats
             if (read >= 1 && text.StartsWith("<Sequence>") == true)
             {
                 return new Tuple<string, string>("game", "seq");
+            }
+
+            if (read >= 8 && text.StartsWith("<Binary>") == true)
+            {
+                return new Tuple<string, string>("pilot", "pnm");
             }
 
             return null;
