@@ -123,7 +123,7 @@ namespace Gibbed.Disrupt.FileFormats.Big
                                                     : left;
                     //var uncompressedBlockSize = Math.Min(maximumUncompressedBlockSize, left);
 
-                    using (var temp = input.ReadToMemoryStream(compressedBlockSize))
+                    using (var temp = input.ReadToMemoryStream((int)compressedBlockSize))
                     {
                         var zlib = new InflaterInputStream(temp, new Inflater(true));
                         output.WriteFromStream(zlib, uncompressedBlockSize);

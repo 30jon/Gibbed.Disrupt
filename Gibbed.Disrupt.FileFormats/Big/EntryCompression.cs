@@ -65,7 +65,7 @@ namespace Gibbed.Disrupt.FileFormats.Big
                                         Stream input,
                                         Stream output)
         {
-            var uncompressedData = input.ReadBytes((uint)input.Length);
+            var uncompressedData = input.ReadBytes((int)input.Length);
             var uncompressedSize = (uint)uncompressedData.Length;
 
             var compressedData = new byte[uncompressedData.Length +

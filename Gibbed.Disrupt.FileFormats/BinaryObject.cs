@@ -182,14 +182,14 @@ namespace Gibbed.Disrupt.FileFormats
                         throw new FormatException("offset to offset isn't supported");
                     }
 
-                    value = input.ReadBytes(size);
+                    value = input.ReadBytes((int)size);
 
                     input.Seek(position, SeekOrigin.Begin);
                     ReadCount(input, out isOffset, endian);
                 }
                 else
                 {
-                    value = input.ReadBytes(size);
+                    value = input.ReadBytes((int)size);
                 }
 
                 this._Fields.Add(nameHash, value);

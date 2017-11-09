@@ -199,7 +199,7 @@ namespace Gibbed.Disrupt.FileFormats
                 {
                     throw new FormatException("bad length for localization name");
                 }
-                var nameBytes = input.ReadBytes(nameLength);
+                var nameBytes = input.ReadBytes((int)nameLength);
                 var unknownValue = input.ReadValueU64(Endian.Little);
             }
 

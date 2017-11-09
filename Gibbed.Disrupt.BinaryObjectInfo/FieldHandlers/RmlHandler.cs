@@ -42,7 +42,7 @@ namespace Gibbed.Disrupt.BinaryObjectInfo.FieldHandlers
             {
                 rml.Serialize(temp);
                 temp.Position = 0;
-                return temp.ReadBytes((uint)temp.Length);
+                return temp.ReadBytes((int)temp.Length);
             }
         }
 
