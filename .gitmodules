@@ -1,0 +1,12 @@
+[submodule "XCompression"]
+	path = XCompression
+	url = https://github.com/30jon/XCompression.git
+[submodule "Gibbed.IO"]
+	path = Gibbed.IO
+	url = https://github.com/gibbed/Gibbed.IO.git
+[submodule "Gibbed.ProjectData"]
+	path = Gibbed.ProjectData
+	url = https://github.com/gibbed/Gibbed.ProjectData.git
+[submodule "NDesk.Options"]
+	path = NDesk.Options
+	url = https://github.com/gibbed/NDesk.Options.git

@@ -216,6 +216,11 @@ namespace Gibbed.Disrupt.FileFormats
                 {
                     return new Tuple<string, string>("sctr", "bin");
                 }
+
+                if (magic == 1731347019)
+                {
+                    return new Tuple<string, string>("bink", "bik");
+                }
             }
 
             string text = Encoding.ASCII.GetString(guess, 0, read);
@@ -290,7 +295,7 @@ namespace Gibbed.Disrupt.FileFormats
                 return new Tuple<string, string>("game", "seq");
             }
 
-            if (read >= 8 && text.StartsWith("<Binary>") == true)
+            if (read >= 8 && text.StartsWith("<Binary>"))
             {
                 return new Tuple<string, string>("pilot", "pnm");
             }

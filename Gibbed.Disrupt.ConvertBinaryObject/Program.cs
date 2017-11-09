@@ -169,7 +169,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 else
                 {
                     outputPath = Path.ChangeExtension(inputPath, null);
-                    outputPath += "_converted.fcb";
+                    outputPath += ".fcb";
                 }
 
                 var basePath = Path.ChangeExtension(inputPath, null);
@@ -245,7 +245,6 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 else
                 {
                     outputPath = Path.ChangeExtension(inputPath, null);
-                    outputPath += "_converted";
                     basePath = outputPath;
                     outputPath += ".xml";
                 }
