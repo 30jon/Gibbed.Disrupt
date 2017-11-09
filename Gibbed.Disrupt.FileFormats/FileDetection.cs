@@ -221,6 +221,11 @@ namespace Gibbed.Disrupt.FileFormats
                 {
                     return new Tuple<string, string>("bink", "bik");
                 }
+
+                if (magic == 1414677829)
+                {
+                    return new Tuple<string, string>("tree", "bin");
+                }
             }
 
             string text = Encoding.ASCII.GetString(guess, 0, read);
