@@ -226,6 +226,11 @@ namespace Gibbed.Disrupt.FileFormats
                 {
                     return new Tuple<string, string>("tree", "bin");
                 }
+
+                if (magic == 1714503984)
+                {
+                    return new Tuple<string, string>("dialog", "stimuli.dsc.pack");
+                }
             }
 
             string text = Encoding.ASCII.GetString(guess, 0, read);
