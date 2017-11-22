@@ -70,11 +70,19 @@ namespace Gibbed.Disrupt.FileFormats
         public void Deserialize(Stream input)
         {
             var magic = input.ReadValueU32(Endian.Little);
+            var endian = Endian.Little;
             if (magic != _Signature)
             {
-                throw new FormatException("invalid header magic");
+                magic = input.ReadValueU32(Endian.Big);
+                if (magic == _Signature)
+                {
+                    endian = Endian.Big;
+                } else
+                {
+                    throw new FormatException("invalid header magic");
+                }
             }
-            var endian = Endian.Little;
+            
 
             var version = input.ReadValueU16(endian);
             if (version != 3)
