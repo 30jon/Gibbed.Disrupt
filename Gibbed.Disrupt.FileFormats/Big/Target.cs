@@ -32,7 +32,7 @@ namespace Gibbed.Disrupt.FileFormats.Big
         Win64 = 4,
         // PS4 = ???,
         // XboxOne = ???,
-        // WiiU = ???,
+        WiiU = 8,
         Invalid = 0xFFFFFFFFu,
         // ReSharper restore InconsistentNaming
     }

@@ -164,7 +164,8 @@ namespace Gibbed.Disrupt.FileFormats
                 target != Big.Target.Win32 &&
                 target != Big.Target.Xbox360 &&
                 target != Big.Target.PS3 &&
-                target != Big.Target.Win64)
+                target != Big.Target.Win64 &&
+                target != Big.Target.WiiU)
             {
                 throw new FormatException("unsupported or invalid platform");
             }
@@ -278,6 +279,18 @@ namespace Gibbed.Disrupt.FileFormats
                 }
 
                 if (unknown70 != 0x37)
+                {
+                    return false;
+                }
+            }
+            else if (target == Big.Target.WiiU)
+            {
+                if (platform != (Big.Platform)5)
+                {
+                    return false;
+                }
+
+                if (unknown70 != 0x38)
                 {
                     return false;
                 }
