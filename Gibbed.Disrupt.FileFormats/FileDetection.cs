@@ -100,10 +100,13 @@ namespace Gibbed.Disrupt.FileFormats
                 return new Tuple<string, string>("animations", "dpax");
             }
 
-            if (read >= 20 && guess[16] == 'S' &&
+            if ((read >= 20 && guess[16] == 'S' &&
                 guess[17] == 't' &&
                 guess[18] == 'r' &&
-                guess[19] == 'm')
+                guess[19] == 'm') || (read >= 20 && guess[16] == 'm' &&
+                guess[17] == 'r' &&
+                guess[18] == 't' &&
+                guess[19] == 'S'))
             {
                 return new Tuple<string, string>("strm", "bin");
             }
@@ -162,7 +165,7 @@ namespace Gibbed.Disrupt.FileFormats
                     return new Tuple<string, string>("scripts", "luab");
                 }
 
-                if (magic == 0x47454F4D)
+                if (magic == 0x47454F4D || magic == 1297040711)
                 {
                     return new Tuple<string, string>("gfx", "xbg");
                 }
@@ -177,7 +180,7 @@ namespace Gibbed.Disrupt.FileFormats
                     return new Tuple<string, string>("annotation", "ano");
                 }
 
-                if (magic == 1112818504)
+                if (magic == 1112818504 || magic == 1212372034)
                 {
                     return new Tuple<string, string>("cbatch", "cbatch");
                 }
@@ -202,17 +205,17 @@ namespace Gibbed.Disrupt.FileFormats
                     return new Tuple<string, string>("gfx", "xbgmip");
                 }
 
-                if (magic == 1397901394)
+                if (magic == 1397901394 || magic == 1380471379)
                 {
                     return new Tuple<string, string>("srhr", "bin");
                 }
 
-                if (magic == 1397902418)
+                if (magic == 1397902418 || magic == 1380733523)
                 {
                     return new Tuple<string, string>("srlr", "bin");
                 }
 
-                if (magic == 1396921426)
+                if (magic == 1396921426 || magic == 1381253971)
                 {
                     return new Tuple<string, string>("sctr", "bin");
                 }
@@ -222,14 +225,34 @@ namespace Gibbed.Disrupt.FileFormats
                     return new Tuple<string, string>("bink", "bik");
                 }
 
-                if (magic == 1414677829)
+                if (magic == 1414677829 || magic == 1162170964)
                 {
                     return new Tuple<string, string>("tree", "bin");
+                }
+
+                if (magic == 1397508178 || magic == 1380469843)
+                {
+                    return new Tuple<string, string>("rhls", "bin");
                 }
 
                 if (magic == 1714503984)
                 {
                     return new Tuple<string, string>("dialog", "stimuli.dsc.pack");
+                }
+
+                if (magic == 1346981191)
+                {
+                    return new Tuple<string, string>("pimg", "bin");
+                }
+
+                if (magic == 1163084098)
+                {
+                    return new Tuple<string, string>("wlu", "fcb");
+                }
+
+                if (magic == 14492 || magic == 2620915712)
+                {
+                    return new Tuple<string, string>("eight", "bin");
                 }
             }
 
