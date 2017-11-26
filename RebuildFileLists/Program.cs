@@ -1,21 +1,21 @@
 ﻿/* Copyright (c) 2014 Rick (rick 'at' gibbed 'dot' us)
- * 
+ *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
  * arising from the use of this software.
- * 
+ *
  * Permission is granted to anyone to use this software for any purpose,
  * including commercial applications, and to alter it and redistribute it
  * freely, subject to the following restrictions:
- * 
+ *
  * 1. The origin of this software must not be misrepresented; you must not
  *    claim that you wrote the original software. If you use this software
  *    in a product, an acknowledgment in the product documentation would
  *    be appreciated but is not required.
- * 
+ *
  * 2. Altered source versions must be plainly marked as such, and must not
  *    be misrepresented as being the original software.
- * 
+ *
  * 3. This notice may not be removed or altered from any source
  *    distribution.
  */
@@ -42,7 +42,7 @@ namespace RebuildFileLists
             installPath = installPath.ToLowerInvariant();
             inputPath = inputPath.ToLowerInvariant();
 
-            if (inputPath.StartsWith(installPath) == false)
+            if (!inputPath.StartsWith(installPath))
             {
                 return null;
             }
@@ -80,7 +80,7 @@ namespace RebuildFileLists
                 return;
             }
 
-            if (extras.Count != 0 || showHelp == true)
+            if (extras.Count != 0 || showHelp)
             {
                 Console.WriteLine("Usage: {0} [OPTIONS]+", GetExecutableName());
                 Console.WriteLine();
@@ -117,7 +117,7 @@ namespace RebuildFileLists
                 return;
             }
 
-            Console.WriteLine("Searching for archives...");
+            Console.WriteLine("Searching for .fat archives in game directory...");
             var fatPaths = new List<string>();
             fatPaths.AddRange(Directory.GetFiles(installPath, "*.fat", SearchOption.AllDirectories));
 
@@ -137,17 +137,17 @@ namespace RebuildFileLists
                     throw new InvalidOperationException();
                 }
 
-                Console.WriteLine(outputPath);
+                Console.WriteLine("Found file: " + outputPath);
                 outputPath = Path.Combine(listsPath, outputPath);
 
-                if (outputPaths.Contains(outputPath) == true)
+                if (outputPaths.Contains(outputPath))
                 {
                     throw new InvalidOperationException();
                 }
 
                 outputPaths.Add(outputPath);
 
-                if (File.Exists(fatPath + ".bak") == true)
+                if (File.Exists(fatPath + ".bak"))
                 {
                     fatPath += ".bak";
                 }
@@ -222,7 +222,7 @@ namespace RebuildFileLists
             breakdown.Total += localBreakdown.Total;
 
             var outputParent = Path.GetDirectoryName(outputPath);
-            if (string.IsNullOrEmpty(outputParent) == false)
+            if (!string.IsNullOrEmpty(outputParent))
             {
                 Directory.CreateDirectory(outputParent);
             }

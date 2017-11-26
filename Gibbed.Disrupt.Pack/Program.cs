@@ -1,21 +1,21 @@
 ﻿/* Copyright (c) 2014 Rick (rick 'at' gibbed 'dot' us)
- * 
+ *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
  * arising from the use of this software.
- * 
+ *
  * Permission is granted to anyone to use this software for any purpose,
  * including commercial applications, and to alter it and redistribute it
  * freely, subject to the following restrictions:
- * 
+ *
  * 1. The origin of this software must not be misrepresented; you must not
  *    claim that you wrote the original software. If you use this software
  *    in a product, an acknowledgment in the product documentation would
  *    be appreciated but is not required.
- * 
+ *
  * 2. Altered source versions must be plainly marked as such, and must not
  *    be misrepresented as being the original software.
- * 
+ *
  * 3. This notice may not be removed or altered from any source
  *    distribution.
  */
@@ -42,8 +42,7 @@ namespace Gibbed.Disrupt.Pack
 
         private static int ParsePackageVersion(string text)
         {
-            int value;
-            if (int.TryParse(text, out value) == false)
+            if (!int.TryParse(text, out int value))
             {
                 throw new FormatException("invalid package version");
             }
@@ -52,9 +51,8 @@ namespace Gibbed.Disrupt.Pack
 
         private static Big.Target ParsePackageTarget(string text)
         {
-            Big.Target value;
 
-            if (Enum.TryParse(text, true, out value) == false)
+            if (!Enum.TryParse(text, true, out Big.Target value))
             {
                 throw new FormatException("invalid package target");
             }
@@ -91,7 +89,7 @@ namespace Gibbed.Disrupt.Pack
             var options = new OptionSet()
             {
                 { "v|verbose", "be verbose", v => verbose = v != null },
-                { "c|compress", "compress data with LZO1x", v => compress = v != null },
+                //{ "c|compress", "compress data with LZO1x", v => compress = v != null },
                 { "pv|package-version", "package version (default 8)", v => packageVersion = ParsePackageVersion(v) },
                 { "pt|package-target", "package platform (default Win64)", v => packageTarget = ParsePackageTarget(v) },
                 { "h|help", "show this message and exit", v => showHelp = v != null },
@@ -111,11 +109,11 @@ namespace Gibbed.Disrupt.Pack
                 return;
             }
 
-            if (extras.Count < 1 || showHelp == true)
+            if (extras.Count < 1 || showHelp)
             {
                 Console.WriteLine("Usage: {0} [OPTIONS]+ output_fat input_directory+", GetExecutableName());
                 Console.WriteLine();
-                Console.WriteLine("Pack files from input directories into a Big File (FAT/DAT pair).");
+                Console.WriteLine("Pack files from input (multiple) directories into a Big File (FAT/DAT pair).");
                 Console.WriteLine();
                 Console.WriteLine("Options:");
                 options.WriteOptionDescriptions(Console.Out);
@@ -150,7 +148,7 @@ namespace Gibbed.Disrupt.Pack
 
             var pendingEntries = new SortedDictionary<uint, PendingEntry>();
 
-            if (verbose == true)
+            if (verbose)
             {
                 Console.WriteLine("Finding files...");
             }
@@ -159,7 +157,7 @@ namespace Gibbed.Disrupt.Pack
             {
                 string inputPath = Path.GetFullPath(relativePath);
 
-                if (inputPath.EndsWith(Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture)) == true)
+                if (inputPath.EndsWith(Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture)))
                 {
                     inputPath = inputPath.Substring(0, inputPath.Length - 1);
                 }
@@ -168,10 +166,9 @@ namespace Gibbed.Disrupt.Pack
                 {
                     PendingEntry pendingEntry;
 
-                    string fullPath = Path.GetFullPath(path);
-                    string partPath = fullPath.Substring(inputPath.Length + 1).ToLowerInvariant();
+                    string partPath = path.Substring(inputPath.Length + 1).ToLowerInvariant();
 
-                    pendingEntry.FullPath = fullPath;
+                    pendingEntry.FullPath = path;
                     pendingEntry.PartPath = partPath;
 
                     var pieces = partPath.Split(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
@@ -182,16 +179,11 @@ namespace Gibbed.Disrupt.Pack
                         continue;
                     }
 
-                    if (index >= pieces.Length)
-                    {
-                        continue;
-                    }
-
                     if (pieces[index].ToUpperInvariant() == "__UNKNOWN")
                     {
                         var partName = Path.GetFileNameWithoutExtension(partPath);
 
-                        if (string.IsNullOrEmpty(partName) == true)
+                        if (string.IsNullOrEmpty(partName))
                         {
                             continue;
                         }
@@ -210,11 +202,11 @@ namespace Gibbed.Disrupt.Pack
                         pendingEntry.NameHash = ProjectHelpers.Hasher(ProjectHelpers.Modifier(pendingEntry.Name));
                     }
 
-                    if (pendingEntries.ContainsKey(pendingEntry.NameHash) == true)
+                    if (pendingEntries.ContainsKey(pendingEntry.NameHash))
                     {
                         Console.WriteLine("Ignoring duplicate of {0:X}: {1}", pendingEntry.NameHash, partPath);
 
-                        if (verbose == true)
+                        if (verbose)
                         {
                             Console.WriteLine("  Previously added from: {0}",
                                               pendingEntries[pendingEntry.NameHash].PartPath);
@@ -260,7 +252,7 @@ namespace Gibbed.Disrupt.Pack
                 {
                     current++;
 
-                    if (verbose == true)
+                    if (verbose)
                     {
                         Console.WriteLine("[{0}/{1}] {2}",
                                           current.ToString(CultureInfo.InvariantCulture).PadLeft(padding),
@@ -268,9 +260,11 @@ namespace Gibbed.Disrupt.Pack
                                           pendingEntry.PartPath);
                     }
 
-                    var entry = new Big.Entry();
-                    entry.NameHash = pendingEntry.NameHash;
-                    entry.Offset = output.Position;
+                    var entry = new Big.Entry
+                    {
+                        NameHash = pendingEntry.NameHash,
+                        Offset = output.Position
+                    };
 
                     using (var input = File.OpenRead(pendingEntry.FullPath))
                     {

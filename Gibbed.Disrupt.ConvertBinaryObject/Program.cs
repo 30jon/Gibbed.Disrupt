@@ -1,21 +1,21 @@
 ﻿/* Copyright (c) 2014 Rick (rick 'at' gibbed 'dot' us)
- * 
+ *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
  * arising from the use of this software.
- * 
+ *
  * Permission is granted to anyone to use this software for any purpose,
  * including commercial applications, and to alter it and redistribute it
  * freely, subject to the following restrictions:
- * 
+ *
  * 1. The origin of this software must not be misrepresented; you must not
  *    claim that you wrote the original software. If you use this software
  *    in a product, an acknowledgment in the product documentation would
  *    be appreciated but is not required.
- * 
+ *
  * 2. Altered source versions must be plainly marked as such, and must not
  *    be misrepresented as being the original software.
- * 
+ *
  * 3. This notice may not be removed or altered from any source
  *    distribution.
  */
@@ -23,7 +23,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml.XPath;
 using Gibbed.Disrupt.FileFormats;
 using NDesk.Options;
@@ -72,12 +72,11 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 return;
             }
 
-            if (mode == Mode.Unknown &&
-                extras.Count >= 1)
+            if (mode == Mode.Unknown && extras.Count >= 1)
             {
                 var extension = Path.GetExtension(extras[0]);
 
-                if (string.IsNullOrEmpty(extension) == false)
+                if (!string.IsNullOrEmpty(extension))
                 {
                     extension = extension.ToLowerInvariant();
                 }
@@ -92,10 +91,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 }
             }
 
-            if (showHelp == true ||
-                mode == Mode.Unknown ||
-                extras.Count < 1 ||
-                extras.Count > 2)
+            if (showHelp || mode == Mode.Unknown || extras.Count < 1 || extras.Count > 2)
             {
                 Console.WriteLine("Usage: {0} [OPTIONS]+ input [output]", GetExecutableName());
                 Console.WriteLine();
@@ -104,7 +100,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 return;
             }
 
-            if (verbose == true)
+            if (verbose)
             {
                 Console.WriteLine("Loading project...");
             }
@@ -118,14 +114,14 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
 
             var project = manager.ActiveProject;
 
-            if (verbose == true)
+            if (verbose)
             {
                 Console.WriteLine("Loading binary class and object definitions...");
             }
 
             BinaryObjectInfo.InfoManager infoManager;
 
-            if (System.Diagnostics.Debugger.IsAttached == false)
+            if (!System.Diagnostics.Debugger.IsAttached)
             {
                 try
                 {
@@ -168,11 +164,23 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 }
                 else
                 {
-                    outputPath = Path.ChangeExtension(inputPath, null);
-                    outputPath += ".fcb";
+                    outputPath = RemoveConverted(Path.ChangeExtension(inputPath, null));
+                    if (string.IsNullOrEmpty(Path.GetExtension(outputPath)))
+                    {
+                        var filename = Path.GetFileName(outputPath);
+                        if (new Regex(@".+_[0-9a-fA-F]{8}").IsMatch(filename))
+                        {
+                            outputPath += ".obj";
+                        }
+                        else
+                        {
+                            outputPath += ".lib";
+                        }
+                    }
                 }
 
-                var basePath = Path.ChangeExtension(inputPath, null);
+                // Twice to remove *.lib.xml
+                var basePath = Path.ChangeExtension(Path.ChangeExtension(inputPath, null), null);
 
                 inputPath = Path.GetFullPath(inputPath);
                 outputPath = Path.GetFullPath(outputPath);
@@ -191,10 +199,10 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                         throw new FormatException();
                     }
 
-                    if (string.IsNullOrEmpty(baseName) == true)
+                    if (string.IsNullOrEmpty(baseName))
                     {
                         var baseNameFromObject = root.GetAttribute("def", "");
-                        if (string.IsNullOrEmpty(baseNameFromObject) == false)
+                        if (!string.IsNullOrEmpty(baseNameFromObject))
                         {
                             baseName = baseNameFromObject;
                         }
@@ -204,7 +212,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                         }
                     }
 
-                    if (verbose == true)
+                    if (verbose)
                     {
                         Console.WriteLine("Reading XML...");
                     }
@@ -221,7 +229,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     bof.Root = importing.Import(classDef, basePath, root);
                 }
 
-                if (verbose == true)
+                if (verbose)
                 {
                     Console.WriteLine("Writing FCB...");
                 }
@@ -244,17 +252,16 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 }
                 else
                 {
-                    outputPath = Path.ChangeExtension(inputPath, null);
-                    basePath = outputPath;
-                    outputPath += ".xml";
+                    basePath = Path.ChangeExtension(inputPath, null);
+                    outputPath = inputPath + ".xml";
                 }
 
-                if (string.IsNullOrEmpty(baseName) == true)
+                if (string.IsNullOrEmpty(baseName))
                 {
                     baseName = GetBaseNameFromPath(inputPath);
                 }
 
-                if (string.IsNullOrEmpty(baseName) == true)
+                if (string.IsNullOrEmpty(baseName))
                 {
                     throw new InvalidOperationException();
                 }
@@ -269,7 +276,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     Console.WriteLine("Warning: could not find binary object file definition '{0}'", baseName);
                 }
 
-                if (verbose == true)
+                if (verbose)
                 {
                     Console.WriteLine("Reading FCB...");
                 }
@@ -280,23 +287,20 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     bof.Deserialize(input);
                 }
 
-                if (verbose == true)
+                if (verbose)
                 {
                     Console.WriteLine("Writing XML...");
                 }
 
-                if (useMultiExporting == true &&
-                    Exporting.IsSuitableForEntityLibraryMultiExport(bof) == true)
+                if (useMultiExporting && Exporting.IsSuitableForEntityLibraryMultiExport(bof))
                 {
                     Exporting.MultiExportEntityLibrary(objectFileDef, basePath, outputPath, infoManager, bof);
                 }
-                else if (useMultiExporting == true &&
-                         Exporting.IsSuitableForLibraryMultiExport(bof) == true)
+                else if (useMultiExporting && Exporting.IsSuitableForLibraryMultiExport(bof))
                 {
                     Exporting.MultiExportLibrary(objectFileDef, basePath, outputPath, infoManager, bof);
                 }
-                else if (useMultiExporting == true &&
-                         Exporting.IsSuitableForNomadObjectTemplatesMultiExport(bof) == true)
+                else if (useMultiExporting && Exporting.IsSuitableForNomadObjectTemplatesMultiExport(bof))
                 {
                     Exporting.MultiExportNomadObjectTemplates(objectFileDef, basePath, outputPath, infoManager, bof);
                 }
@@ -305,26 +309,22 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     Exporting.Export(objectFileDef, outputPath, infoManager, bof);
                 }
             }
-            else
-            {
-                throw new InvalidOperationException();
-            }
         }
 
         private static string GetBaseNameFromPath(string inputPath)
         {
             var baseName = Path.GetFileNameWithoutExtension(inputPath);
-            if (string.IsNullOrEmpty(baseName) == false)
-            {
-                if (string.IsNullOrEmpty(baseName) == false &&
-                    baseName.EndsWith("_converted") == true)
-                {
-                    baseName = baseName.Substring(0, baseName.Length - 10);
-                }
-
-                baseName = baseName.Split('.').Last();
-            }
+            baseName = RemoveConverted(baseName);
             return baseName;
+        }
+
+        private static string RemoveConverted(string input)
+        {
+            if (!string.IsNullOrEmpty(input) && input.EndsWith("_converted"))
+            {
+                input = input.Substring(0, input.Length - 10);
+            }
+            return input;
         }
     }
 }
