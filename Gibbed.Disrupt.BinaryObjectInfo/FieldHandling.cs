@@ -1,21 +1,21 @@
 ﻿/* Copyright (c) 2014 Rick (rick 'at' gibbed 'dot' us)
- * 
+ *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
  * arising from the use of this software.
- * 
+ *
  * Permission is granted to anyone to use this software for any purpose,
  * including commercial applications, and to alter it and redistribute it
  * freely, subject to the following restrictions:
- * 
+ *
  * 1. The origin of this software must not be misrepresented; you must not
  *    claim that you wrote the original software. If you use this software
  *    in a product, an acknowledgment in the product documentation would
  *    be appreciated but is not required.
- * 
+ *
  * 2. Altered source versions must be plainly marked as such, and must not
  *    be misrepresented as being the original software.
- * 
+ *
  * 3. This notice may not be removed or altered from any source
  *    distribution.
  */
@@ -43,29 +43,34 @@ namespace Gibbed.Disrupt.BinaryObjectInfo
                 _TypeNames.Add(value, Enum.GetName(typeof(FieldType), value));
             }
 
-            _Handlers = new Dictionary<FieldType, IFieldHandler>();
-            _Handlers[FieldType.BinHex] = new FieldHandlers.BinHexHandler();
-            _Handlers[FieldType.Boolean] = new FieldHandlers.BooleanHandler();
-            _Handlers[FieldType.Int8] = new FieldHandlers.Ints.Int8Handler();
-            _Handlers[FieldType.Int16] = new FieldHandlers.Ints.Int16Handler();
-            _Handlers[FieldType.Int32] = new FieldHandlers.Ints.Int32Handler();
-            _Handlers[FieldType.Int64] = new FieldHandlers.Ints.Int64Handler();
-            _Handlers[FieldType.UInt8] = new FieldHandlers.UInts.UInt8Handler();
-            _Handlers[FieldType.UInt16] = new FieldHandlers.UInts.UInt16Handler();
-            _Handlers[FieldType.UInt32] = new FieldHandlers.UInts.UInt32Handler();
-            _Handlers[FieldType.UInt64] = new FieldHandlers.UInts.UInt64Handler();
-            _Handlers[FieldType.Float] = new FieldHandlers.FloatHandler();
-            _Handlers[FieldType.Vector2] = new FieldHandlers.Vector2Handler();
-            _Handlers[FieldType.Vector3] = new FieldHandlers.Vector3Handler();
-            _Handlers[FieldType.Vector4] = new FieldHandlers.Vector4Handler();
-            _Handlers[FieldType.Quaternion] = new FieldHandlers.Vector4Handler();
-            _Handlers[FieldType.String] = new FieldHandlers.StringHandler();
-            _Handlers[FieldType.Enum] = new FieldHandlers.EnumHandler();
-            _Handlers[FieldType.StringId] = new FieldHandlers.Ids.StringIdHandler();
-            _Handlers[FieldType.NoCaseStringId] = new FieldHandlers.Ids.NoCaseStringIdHandler();
-            _Handlers[FieldType.PathId] = new FieldHandlers.Ids.PathIdHandler();
-            _Handlers[FieldType.Rml] = new FieldHandlers.RmlHandler();
-            _Handlers[FieldType.Array32] = new FieldHandlers.Array32Handler();
+            _Handlers = new Dictionary<FieldType, IFieldHandler>
+            {
+                [FieldType.BinHex] = new FieldHandlers.BinHexHandler(),
+                [FieldType.Boolean] = new FieldHandlers.BooleanHandler(),
+                [FieldType.Int8] = new FieldHandlers.Ints.Int8Handler(),
+                [FieldType.Int16] = new FieldHandlers.Ints.Int16Handler(),
+                [FieldType.Int32] = new FieldHandlers.Ints.Int32Handler(),
+                [FieldType.Int64] = new FieldHandlers.Ints.Int64Handler(),
+                [FieldType.UInt8] = new FieldHandlers.UInts.UInt8Handler(),
+                [FieldType.UInt16] = new FieldHandlers.UInts.UInt16Handler(),
+                [FieldType.UInt32] = new FieldHandlers.UInts.UInt32Handler(),
+                [FieldType.UInt64] = new FieldHandlers.UInts.UInt64Handler(),
+                [FieldType.Float] = new FieldHandlers.FloatHandler(),
+                [FieldType.Vector2] = new FieldHandlers.Vector2Handler(),
+                [FieldType.Vector3] = new FieldHandlers.Vector3Handler(),
+                [FieldType.Vector4] = new FieldHandlers.Vector4Handler(),
+                [FieldType.Vector] = new FieldHandlers.VectorHandler(),
+                [FieldType.VectorColor] = new FieldHandlers.VectorColorHandler(),
+                [FieldType.VectorInt] = new FieldHandlers.VectorIntHandler(),
+                [FieldType.Quaternion] = new FieldHandlers.Vector4Handler(),
+                [FieldType.String] = new FieldHandlers.StringHandler(),
+                [FieldType.Enum] = new FieldHandlers.EnumHandler(),
+                [FieldType.StringId] = new FieldHandlers.Ids.StringIdHandler(),
+                [FieldType.NoCaseStringId] = new FieldHandlers.Ids.NoCaseStringIdHandler(),
+                [FieldType.PathId] = new FieldHandlers.Ids.PathIdHandler(),
+                [FieldType.Rml] = new FieldHandlers.RmlHandler(),
+                [FieldType.Array32] = new FieldHandlers.Array32Handler()
+            };
         }
 
         public static string GetTypeName(FieldType type)

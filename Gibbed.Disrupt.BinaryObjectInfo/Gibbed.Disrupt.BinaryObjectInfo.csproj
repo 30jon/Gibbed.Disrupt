@@ -59,6 +59,9 @@
     <Compile Include="Definitions\Raw\ObjectFileDefinition.cs" />
     <Compile Include="FieldHandlers\BinHexHandler.cs" />
     <Compile Include="FieldHandlers\Ids\BaseHandler.cs" />
+    <Compile Include="FieldHandlers\VectorColorHandler.cs" />
+    <Compile Include="FieldHandlers\VectorHandler.cs" />
+    <Compile Include="FieldHandlers\VectorIntHandler.cs" />
     <Compile Include="IValueHandler.cs" />
     <Compile Include="FieldHandling.cs" />
     <Compile Include="FieldType.cs" />

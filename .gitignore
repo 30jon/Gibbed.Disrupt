@@ -1,0 +1,9 @@
+.vs/
+bin/
+*/bin/Debug/
+*/bin/Release/
+*/obj/Debug/
+*/obj/Release/
+*/obj/x86/
+/Gibbed.IO
+/XCompression
