@@ -295,6 +295,18 @@ namespace Gibbed.Disrupt.FileFormats
                     return false;
                 }
             }
+            else if (target == Big.Target.PS3)
+            {
+                if (platform != (Big.Platform)4)
+                {
+                    return false;
+                }
+
+                if (unknown70 != 0x37)
+                {
+                    return false;
+                }
+            }
             else
             {
                 return false;
