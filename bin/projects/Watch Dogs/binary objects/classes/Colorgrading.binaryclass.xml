@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ColorgradingParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fColorRemapRed" type="Float"/>
+	<field name="bColorRemapRedOverride" type="Boolean"/>
+	<field name="fColorRemapGreen" type="Float"/>
+	<field name="bColorRemapGreenOverride" type="Boolean"/>
+	<field name="fCcolorRemapBlue" type="Float"/>
+	<field name="bCcolorRemapBlueOverride" type="Boolean"/>
+	<field name="fContrast" type="Float"/>
+	<field name="bContrastOverride" type="Boolean"/>
+	<field name="fSaturation" type="Float"/>
+	<field name="bSaturationOverride" type="Boolean"/>
+</class>

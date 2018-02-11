@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemapplicationlayerdatasParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selApplicationLayerType" type="Enum"/>
+	<field name="vectorPosition" type="Vector3"/>
+	<field name="vectorScale" type="Vector3"/>
+	<field name="vectorStartAngle" type="Vector3"/>
+	<field name="vectorMinAngle" type="Vector3"/>
+	<field name="vectorMaxAngle" type="Vector3"/>
+	<field name="fAlpha" type="Float"/>
+	<field name="fLerpFator" type="Float"/>
+</class>

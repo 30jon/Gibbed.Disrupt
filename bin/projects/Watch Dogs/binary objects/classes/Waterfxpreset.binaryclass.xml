@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WaterfxpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Splash">
+		<field name="vectorSplashOffset" type="Vector3"/>
+		<field hash="0F5F0627" type="String"/>
+		<field name="psSplashResource" type="BinHex"/>
+	</object>
+	<object name="ShallowWater">
+		<field name="fMidRangeWaterDepth" type="Float"/>
+		<field name="fMidRangeWaterMargin" type="Float"/>
+	</object>
+</class>

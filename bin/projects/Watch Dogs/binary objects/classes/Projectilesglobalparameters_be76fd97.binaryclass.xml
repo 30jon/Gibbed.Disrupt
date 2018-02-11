@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Projectilesglobalparameters_be76fd97Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="TrajectoryPositionSettings">
+		<field name="vectorMaxAngleProjectileThrowPosition" type="Vector3"/>
+		<field name="vectorMidAngleProjectileThrowPosition" type="Vector3"/>
+		<field name="vectorMinAngleProjectileThrowPosition" type="Vector3"/>
+		<field name="vectorMaxAngleProjectileDropPosition" type="Vector3"/>
+		<field name="vectorMidAngleProjectileDropPosition" type="Vector3"/>
+		<field name="vectorMinAngleProjectileDropPosition" type="Vector3"/>
+		<field name="fMaxAngle" type="Float"/>
+		<field name="fMidAngle" type="Float"/>
+		<field name="fMinAngle" type="Float"/>
+	</object>
+	<object name="TrajectoryGraphicSettings">
+		<field hash="ACD67C07" type="String"/>
+		<field name="filePathTextureResource" type="BinHex"/>
+		<field name="fTextureAnimSpeed" type="Float"/>
+		<field name="fTrajectoryScalePerSquareRootMeter" type="Float"/>
+		<field name="fTrajectoryInitsize" type="Float"/>
+	</object>
+</class>

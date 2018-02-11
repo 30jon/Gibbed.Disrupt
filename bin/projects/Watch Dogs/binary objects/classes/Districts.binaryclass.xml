@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DistrictsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selDistrictEnum" type="Enum"/>
+	<object name="locstridDistrictName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="LivingCityComposition">
+		<object name="Normal">
+			<object name="VehicleCompositions">
+				<object name="VehicleComposition">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="vehiclecompositionVehicles" type="BinHex"/>
+				</object>
+			</object>
+			<object name="CivilianBanks">
+				<object name="CiviliansBank">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="civbankCiviliansBank" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="HighEnd">
+			<object name="VehicleCompositions">
+				<object name="VehicleComposition">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="vehiclecompositionVehicles" type="BinHex"/>
+				</object>
+			</object>
+			<object name="CivilianBanks">
+				<object name="CiviliansBank">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="civbankCiviliansBank" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Density">
+		<object name="Civilians">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="Vehicles">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="TrafficLaneDensityScale">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+	</object>
+	<object name="Monitoring">
+		<field name="monitoringdistrictMonitoringLevelProperties" type="BinHex"/>
+	</object>
+	<object name="EventsManagement">
+		<field name="districteventlimDistrictEventLimitations" type="BinHex"/>
+	</object>
+	<object name="Environment">
+		<field hash="87240DA0" type="String"/>
+		<field name="fileDayReflectionTexture" type="BinHex"/>
+		<field hash="BFC20A48" type="String"/>
+		<field name="fileNightReflectionTexture" type="BinHex"/>
+	</object>
+</class>

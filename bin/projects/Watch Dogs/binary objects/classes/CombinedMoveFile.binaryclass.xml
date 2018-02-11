@@ -1,0 +1,160 @@
+<class name="CombinedMoveFile">
+  <object name="PMSVALUEDESCLIST" />
+  <object hash="1D460FE1">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field hash="1063B98A" type="String" />
+      <field name="AnimID" type="BinHex" />
+    </object>
+  </object>
+  <object hash="848E04B5">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="BlendDurationFrame" type="BinHex" />
+      <field name="BlendDisplacementDurationFrame" type="Enum" />
+      <field name="BlendDisplacementMode" type="BinHex" />
+      <field name="selBlendType" type="Enum" />
+      <field name="BlendFactor" type="BinHex" />
+      <field hash="D87DCB7D" type="Boolean" />
+    </object>
+  </object>
+  <object hash="C14B5DB7">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="ClipStartFrame" type="BinHex" />
+      <field name="ClipLateStartFrame" type="BinHex" />
+      <field name="ClipSafeCutFrame" type="BinHex" />
+      <field name="ClipCutFrame" type="Enum" />
+      <field name="ClipEndFrame" type="Enum" />
+      <field name="Loop" type="Boolean" />
+    </object>
+  </object>
+  <object hash="96ADCA3B">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="selLayerMode" type="BinHex" />
+      <field name="selSetWeight" type="BinHex" />
+      <field name="Root" type="Float" />
+      <field name="LowerBack" type="Float" />
+      <field name="MiddleBack" type="Float" />
+      <field name="UpperBack" type="Float" />
+      <field name="LUpperArm" type="Float" />
+      <field name="LForeArm" type="Float" />
+      <field name="LHand" type="Float" />
+      <field name="RUpperArm" type="Float" />
+      <field name="RForeArm" type="Float" />
+      <field name="RHand" type="Float" />
+      <field name="Neck" type="Float" />
+      <field name="Head" type="Float" />
+      <field name="LThigh" type="Float" />
+      <field name="LCalf" type="Float" />
+      <field name="LFoot" type="Float" />
+      <field name="LToe" type="Float" />
+      <field name="RThigh" type="Float" />
+      <field name="RCalf" type="Float" />
+      <field name="RFoot" type="Float" />
+      <field name="RToe" type="Float" />
+      <field name="HeadRoot" type="Float" />
+      <field name="Displacement" type="BinHex" />
+    </object>
+  </object>
+  <object hash="624EFF32">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="IsLookAtAllowed" type="Boolean" />
+      <field name="DownMax" type="Float" />
+      <field name="UpMax" type="Float" />
+      <field name="LeftMax" type="Float" />
+      <field name="RightMax" type="Float" />
+    </object>
+  </object>
+  <object hash="84D3EEA0">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field hash="641EEF6F" type="String" />
+      <field name="MoveBlendID" type="BinHex" />
+    </object>
+  </object>
+  <object hash="627F475E">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field hash="81D483EF" type="String" />
+      <field name="MoveStateID" type="BinHex" />
+    </object>
+  </object>
+  <object hash="7C7CDD3B">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field hash="33144E70" type="String" />
+      <field name="PMSValue" type="BinHex" />
+    </object>
+  </object>
+  <object hash="B3973220">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="PhysicsStartFrame" type="Enum" />
+      <field name="PhysicsBlend" type="BinHex" />
+      <field name="PhysicsBlendInDelay" type="Float" />
+      <field name="selPhysicsRagdollController" type="BinHex" />
+      <object name="RigidBodyControllerPreset">
+        <field name="Value" type="Float" />
+        <field name="CriteriaValue" type="Float" />
+      </object>
+      <object name="PoweredConstraintPreset">
+        <field name="Value" type="Float" />
+        <field name="CriteriaValue" type="Float" />
+      </object>
+    </object>
+  </object>
+  <object hash="FC9FF3FC">
+    <object hash="09DA31FB">
+      <field name="hash" type="BinHex" />
+      <field name="AnimBlendRatio" type="Float" />
+      <field name="AnimInjectionRatio" type="Float" />
+    </object>
+  </object>
+  <object hash="C62E6067">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="5FE66B33">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="1A233231">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="4DC5A5BD">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="B92690B4">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="5FBB8126">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="B91728D8">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="A714B2BD">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="68FF5DA6">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object hash="27F79C7A">
+    <field name="offsetsArray" type="BinHex" />
+    <field name="hashesArray" type="BinHex" />
+  </object>
+  <object name="PerMoveResourceInfo">
+    <field name="sizes" type="BinHex" />
+    <field name="rootNodeIds" type="BinHex" />
+  </object>
+</class>

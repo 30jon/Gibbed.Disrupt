@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Hackingplayersettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fInstallDownloadDuration" type="Float"/>
+	<field name="fInstallDownloadMaxDistance" type="Float"/>
+	<field name="fDownloadOutOfRangeDuration" type="Float"/>
+	<field name="fFleeWithoutLOSDuration" type="Float"/>
+	<field name="fFleeLosingLOSHysteresis" type="Float"/>
+	<field name="fFleeDelayBeforeLOSWarning" type="Float"/>
+	<field name="fFleeLOSWarningDuration" type="Float"/>
+	<field name="mapicondescChaseDiskIcon" type="BinHex"/>
+	<field name="fHackerTutorialDelay" type="Float"/>
+	<field name="fVictimProfilerDelayBeforeFleeStart" type="Float"/>
+	<field name="fEvadeSuccessDistance" type="Float"/>
+	<field name="fKickOutWarningDuration" type="Float"/>
+	<field name="fKickOutCooldownDuration" type="Float"/>
+	<field name="fMaxXPReward" type="Int32"/>
+	<field name="fMaxCashReward" type="Int32"/>
+	<field name="mapicondescVictimObjectiveIcon" type="BinHex"/>
+	<field hash="E8F93779" type="String"/>
+	<field name="archExclusionZone" type="BinHex"/>
+	<field name="powergatheringsettingsPowerGatheringSettingsForHackingVictim" type="BinHex"/>
+	<field name="iMaxCivilianSelected" type="Int32"/>
+	<field name="fMinDistanceToProposeTeleport" type="Float"/>
+	<field name="fMaxDistanceToDismissProposeTeleport" type="Float"/>
+	<field hash="0AEB5193" type="BinHex"/>
+	<field hash="045F6D9A" type="BinHex"/>
+	<field hash="143E659C" type="BinHex"/>
+	<field hash="1A8A5995" type="BinHex"/>
+	<field name="fNotoriousFixerConstant" type="Float"/>
+	<field hash="7494DD90" type="BinHex"/>
+	<object name="VictimProfileLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="VictimFleeProfileLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DownloadZoneRadius">
+		<object name="DownloadZioneRadiusStep">
+			<field name="fDownloadZoneRadius" type="Float"/>
+			<field name="fTotalDurationRation" type="Float"/>
+		</object>
+	</object>
+	<object name="SearchZoneFeedback">
+		<field name="mapicondescSearchZoneIcon" type="BinHex"/>
+	</object>
+	<object name="CivilianSelectionPMSValuesExcluded">
+		<object name="PMSValue">
+			<field hash="363F5FCE" type="String"/>
+			<field name="pmsPMSName" type="BinHex"/>
+			<field name="selEnumValue" type="Enum"/>
+		</object>
+	</object>
+	<object name="EndRewardConfig">
+		<object name="EndCaseConfigs">
+			<object name="InvaderKillHimselfProfiled">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderTimedOutDuringInstallationAndVictimAware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderKillHimselfNotProfiled">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="DisconnectionBeforeHackAndVictimAware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="VictimKilledHimselfDuringFleeAfterHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderKilledAfterHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderTryToKillTheVictim">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderProfiledBeforeHackAndEvade">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderLeaveTheZone">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderKilledBeforeHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderTimedOutBeforeHackAndVictimAware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="DisconnectionBeforeHackAndVictimUnaware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage"/>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderTimedOutBeforeHackAndVictimUnaware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage"/>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="DisconnectionAfterHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderQuitBeforeHackAndVictimAware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderTimedOutDuringInstallationAndVictimUnaware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage"/>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderCompleteHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderProfiledAfterHackAndEvade">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderQuitAfterHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="VictimKilledHimselfDuringFleeBeforeHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderQuitBeforeHackAndVictimUnaware">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage"/>
+					<object name="locstridEndMessagePart2"/>
+				</object>
+			</object>
+			<object name="InvaderKillHimselfProfiledBeforeHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="InvaderKillHimselfNotProfiledBeforeHack">
+				<object name="Invader">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Victim">
+					<field name="selEndType" type="Enum"/>
+					<field hash="1C48D8A0" type="String"/>
+					<field name="sBarkSoundId" type="BinHex"/>
+					<field name="selRewardType" type="Enum"/>
+					<field name="itemlistsExtraReward" type="BinHex"/>
+					<object name="locstridEndMessage">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridEndMessagePart2">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="curveCashWinRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveCashWLossRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveXPWinRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveXPLossRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveReputationWinRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveReputationLossRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

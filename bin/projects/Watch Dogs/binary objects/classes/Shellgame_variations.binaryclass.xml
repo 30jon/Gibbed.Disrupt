@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Shellgame_variationsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ShellGameMoves">
+		<object name="ShellGameMove">
+			<field name="shellgamemoveShellGameMove" type="BinHex"/>
+		</object>
+	</object>
+</class>

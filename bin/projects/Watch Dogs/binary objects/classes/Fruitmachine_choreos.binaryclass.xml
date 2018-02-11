@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fruitmachine_choreosParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selFruitMachineChoreosTypes" type="Enum"/>
+	<field name="fruitmachinetypesMachineType" type="BinHex"/>
+	<field name="fDuration" type="Float"/>
+	<object name="FruitMachineChoreoState">
+		<object name="State">
+			<field name="fTime" type="Float"/>
+			<object name="FruitMachineLightDb">
+				<object name="fruitmachinelightsFruitMachineLight">
+					<field name="fruitmachinelightsFruitMachineLight" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

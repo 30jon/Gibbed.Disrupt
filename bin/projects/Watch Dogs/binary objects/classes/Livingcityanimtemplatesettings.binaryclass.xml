@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LivingcityanimtemplatesettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="5D9EA6D3" type="String"/>
+	<field name="sAnimTemplateName" type="BinHex"/>
+	<field name="bIsForVigilante" type="Boolean"/>
+	<field name="fileMasterMoveStateId" type="String"/>
+	<field name="fileSlaveMoveStateId" type="String"/>
+</class>

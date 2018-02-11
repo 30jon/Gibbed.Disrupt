@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Genericnpcvehicleconfig_b528a171Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Detection">
+		<field name="fTimer6ThSense" type="Float"/>
+		<field name="fTimeout6ThSense" type="Float"/>
+		<field name="fMinTimeToValidateLOS" type="Float"/>
+		<field name="fEmergencyLightsFOVMaxDepthModifer" type="Float"/>
+		<object name="SixSense">
+			<field name="fOnFootRaycastMinRadius" type="Float"/>
+			<field name="fOnFootRaycastMaxRadius" type="Float"/>
+			<field name="fOnFootRaycastTimeoutDelay" type="Float"/>
+		</object>
+		<object name="Barks">
+			<object name="SearchBehavior">
+				<field name="fRandomSearchBarkCooldown" type="Float"/>
+				<field name="fReinforcementBarkCooldown" type="Float"/>
+				<field name="fGaugeLevelToPlayStartTargetRecognitionBark" type="Float"/>
+				<field name="fGaugeLevelToPlayLostTargetBark" type="Float"/>
+				<object name="PlayerAbandonVehiclePlayConditions">
+					<field name="fMaxNPCDistanceFromVehicle" type="Float"/>
+					<field name="fMinPlayerDistanceFromVehicle" type="Float"/>
+				</object>
+			</object>
+		</object>
+		<object name="TargetInStealthVehicle">
+			<field name="ScanZoneDetectionRateModifier" type="Float"/>
+			<field name="FOVMaxDepthModifier" type="Float"/>
+		</object>
+		<object name="TargetHideInsideVehicle">
+			<field name="selMinDamageForBarkAndVehicleInvestigation" type="Enum"/>
+			<object name="NoDamage">
+				<field name="GaugeModifier" type="Float"/>
+				<field name="FOVMaxDepthModifier" type="Float"/>
+			</object>
+			<object name="MinorDamage">
+				<field name="GaugeModifier" type="Float"/>
+				<field name="FOVMaxDepthModifier" type="Float"/>
+			</object>
+			<object name="MajorDamage">
+				<field name="GaugeModifier" type="Float"/>
+				<field name="FOVMaxDepthModifier" type="Float"/>
+			</object>
+			<object name="Broken">
+				<field name="GaugeModifier" type="Float"/>
+				<field name="FOVMaxDepthModifier" type="Float"/>
+			</object>
+			<object name="Perk">
+				<field name="GaugeModifier" type="Float"/>
+				<field name="FOVMaxDepthModifier" type="Float"/>
+			</object>
+		</object>
+		<object name="PlayerHostileActionInFallback">
+			<object name="ActionOnCivilian">
+				<field name="uiKillWithVehicleNbr" type="Int64"/>
+				<field name="fKillWithVehicleTime" type="Float"/>
+				<field name="uiHitWithVehicleNbr" type="Int64"/>
+				<field name="fHitWithVehicleTime" type="Float"/>
+				<field name="fHitWithVehicleCollisionSpeedKmh" type="Float"/>
+			</object>
+			<object name="ActionOnNPC">
+				<field name="uiKillWithVehicleNbr" type="Int64"/>
+				<field name="fKillWithVehicleTime" type="Float"/>
+				<field name="uiHitWithVehicleNbr" type="Int64"/>
+				<field name="fHitWithVehicleTime" type="Float"/>
+				<field name="fHitWithVehicleCollisionSpeedKmh" type="Float"/>
+			</object>
+			<object name="SpeedInfraction">
+				<field name="fMinSpeedInKmh" type="Float"/>
+				<field name="fMinDist" type="Float"/>
+				<field name="fMaxDist" type="Float"/>
+				<field name="fMinLateralDist" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

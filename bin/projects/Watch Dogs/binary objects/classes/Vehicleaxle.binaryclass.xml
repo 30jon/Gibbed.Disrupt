@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleaxleParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fAntiRollBarDamping" type="Float"/>
+	<field name="fAntiRollBarStrength" type="Float"/>
+	<field name="fLateralFriction" type="Float"/>
+	<field name="fLongitudinalFriction" type="Float"/>
+	<field name="fToe" type="Float"/>
+	<field name="bDriving" type="Boolean"/>
+	<field name="fSteering" type="Float"/>
+	<field name="fSuspNaturalFrequency" type="Float"/>
+	<field name="fCompressionCriticalDampingFraction" type="Float"/>
+	<field name="fRelaxationCriticalDampingFraction" type="Float"/>
+	<field name="fCompressionCriticalDampingFractionFast" type="Float"/>
+	<field name="fRelaxationCriticalDampingFractionFast" type="Float"/>
+	<field name="fSuspDampingFastSpeedThreshold" type="Float"/>
+	<field name="fWheelOffsetZ" type="Float"/>
+	<field name="fPreloadLength" type="Float"/>
+	<field name="fRideHeight" type="Float"/>
+	<field name="bUseSqrtVelocityForCompressionDamping" type="Boolean"/>
+	<field name="fWheelInertia" type="Float"/>
+	<field name="vehicledifferentialDifferential" type="BinHex"/>
+	<field name="vehicletractioncontrolTractionControl" type="BinHex"/>
+	<field name="vehicletyreTyre" type="BinHex"/>
+	<field name="vehiclemillikenMilliken" type="BinHex"/>
+	<field name="fRollingResistanceScale" type="Float"/>
+	<field name="fRollingResistanceScaleNoThrottle" type="Float"/>
+	<field name="fRollingResistanceScaleDeflatedTyre" type="Float"/>
+	<field name="fCamberAngle" type="Float"/>
+	<field name="fRollCenterOffsetLat" type="Float"/>
+	<field name="fRollCenterOffsetLong" type="Float"/>
+</class>

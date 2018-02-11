@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AttractordescriptionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="attactAction" type="BinHex"/>
+			<field name="uiCoefficient" type="Int64"/>
+		</object>
+	</object>
+</class>

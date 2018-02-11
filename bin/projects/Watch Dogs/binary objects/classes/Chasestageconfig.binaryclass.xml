@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasestageconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ChaseLevels">
+		<object name="chaselevelparametersChaseLevelConfig">
+			<field name="chaselevelparametersChaseLevelConfig" type="BinHex"/>
+		</object>
+	</object>
+	<object name="SearchLevels">
+		<object name="chaselevelparametersChaseLevelConfig">
+			<field name="chaselevelparametersChaseLevelConfig" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ScanLevels">
+		<object name="ScanHeatLevel">
+			<field name="bActive" type="Boolean"/>
+			<field name="sndInitiateScanLevelSound" type="BinHex"/>
+			<field name="nMinimumNumberOfPasses" type="Int32"/>
+			<field name="nMaximumNumberOfPasses" type="Int32"/>
+			<field name="nMaximumNumberOfCircles" type="Int32"/>
+			<field name="fDelayBetweenPasses" type="Float"/>
+			<field name="fDetectionRate" type="Float"/>
+			<field name="fDecayRate" type="Float"/>
+			<field name="scanpasslibraryScanPassLibrary" type="BinHex"/>
+			<object name="EmergencyScan">
+				<field name="fPlayerImmobileRadius" type="Float"/>
+				<field name="fPlayerImmobileTime" type="Float"/>
+				<field name="fPlayerOutsideScanTime" type="Float"/>
+				<field name="fEmergencyFollowLowSpeed" type="Float"/>
+				<field name="fEmergencyFollowHighSpeed" type="Float"/>
+				<object name="EmergencyScanPass">
+					<field name="scanpassparametersScanPassConfig" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

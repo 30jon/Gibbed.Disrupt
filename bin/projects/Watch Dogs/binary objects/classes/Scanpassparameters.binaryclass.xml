@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ScanpassparametersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bIsValidForFirstPass" type="Boolean"/>
+	<field name="bIsValidForSubsequentPasses" type="Boolean"/>
+	<object name="ScanZones">
+		<object name="ScanZone">
+			<field name="fStartDelay" type="Float"/>
+			<field name="fDuration" type="Float"/>
+			<object name="Zone">
+				<field name="scanzoneparametersScanZoneConfig" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

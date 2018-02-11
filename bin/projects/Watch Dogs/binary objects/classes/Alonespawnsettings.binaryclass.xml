@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AlonespawnsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fSpawningRadius" type="Float"/>
+	<field name="fUnspawningRadius" type="Float"/>
+	<field name="uiSpawningBudget" type="Int64"/>
+	<field name="fMinSpawnInfluence" type="Float"/>
+	<field name="fMaxSpawnInfluence" type="Float"/>
+	<object name="Archetypes">
+		<field hash="E6655990" type="String"/>
+		<field name="archArchetype" type="BinHex"/>
+		<field name="uiProportion" type="Int64"/>
+		<object name="Archetypes">
+			<field hash="E6655990" type="String"/>
+			<field name="archArchetype" type="BinHex"/>
+			<field name="uiProportion" type="Int64"/>
+		</object>
+	</object>
+</class>

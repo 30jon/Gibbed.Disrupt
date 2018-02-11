@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Gameoverconfig_dcc472f7Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fBlackScreenTransitionDuration" type="Float"/>
+	<field name="fGameOverTimeBeforeRespawn" type="Float"/>
+	<field name="fGameOverTimeBeforeBlackScreen" type="Float"/>
+	<field name="fTimeShiftRatio" type="Float"/>
+	<field name="fTimeShiftTransitionDuration" type="Float"/>
+	<field name="vec2TimeShiftTransitionSCurve" type="Vector2"/>
+</class>

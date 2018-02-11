@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Playerspawninfodb_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="graphickitcollectionModels" type="BinHex"/>
+	<object name="Archetypes">
+		<object name="Archetype">
+			<field hash="3E8C551F" type="String"/>
+			<field name="archPlayerArchetype" type="BinHex"/>
+		</object>
+	</object>
+</class>

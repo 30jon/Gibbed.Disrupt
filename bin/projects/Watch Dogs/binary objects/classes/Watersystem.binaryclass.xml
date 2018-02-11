@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WatersystemParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fCameraOffset" type="Float"/>
+	<field name="fMinFOVCorrection" type="Float"/>
+	<field name="fMaxFOVCorrection" type="Float"/>
+	<object name="BaseWaves">
+		<field name="fSpecularPower" type="Float"/>
+		<field name="fIndexOfRefraction" type="Float"/>
+		<field name="fReflectionIntensity" type="Float"/>
+		<field name="fWaterTransparencyDepth" type="Float"/>
+		<field name="fFoamTextureScale" type="Float"/>
+		<field hash="FC6D9E45" type="String"/>
+		<field name="fileFoamTexture" type="BinHex"/>
+		<field name="fileDebrisTexture" type="BinHex"/>
+	</object>
+	<object name="HeightMin">
+		<field name="fMinHeight" type="Float"/>
+		<field name="fMinZMin" type="Float"/>
+	</object>
+	<object name="HeightMax">
+		<field name="fMaxHeight" type="Float"/>
+		<field name="fMaxZMin" type="Float"/>
+	</object>
+</class>

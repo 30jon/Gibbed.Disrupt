@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Steampipeglobalsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="uTimeInExplosionState" type="Int64"/>
+	<field name="uTimeToSwitchCraterState" type="Int64"/>
+	<field name="uTimeToSwitchRoadworksState" type="Int64"/>
+	<field name="uTimeToSwitchPatchState" type="Int64"/>
+</class>

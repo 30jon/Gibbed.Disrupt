@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Rewardglobalsettings_d4c0486eParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="rewardintervalamountlistsRewardIntervalAmountList" type="BinHex"/>
+	<field name="fRareCoolDown" type="Float"/>
+	<field name="fRareRewardInitPercent" type="Float"/>
+	<field name="fRareRewardMaxPercent" type="Float"/>
+	<field name="fRareRewardIncrementPercent" type="Float"/>
+	<field name="fPanelDelayTimeToShow" type="Float"/>
+	<field name="fNextRewarHudEntryTime" type="Float"/>
+	<object name="ItemTypeCooldowns"/>
+</class>

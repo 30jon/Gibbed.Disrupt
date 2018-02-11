@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LightningflashgeneratorParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fWetnessThreshold" type="Float"/>
+	<field name="fPeriodRange" type="Float"/>
+	<field name="fCalmPeriod" type="Float"/>
+	<field name="fExtraDelayDuringCalm" type="Float"/>
+	<field name="fMinDuration" type="Float"/>
+	<field name="fMaxDuration" type="Float"/>
+	<field name="fMinIntensity" type="Float"/>
+	<field name="fMaxIntensity" type="Float"/>
+	<field name="fIntensityNoiseRatio" type="Float"/>
+	<field name="clrLightColor" type="BinHex"/>
+	<field name="fLightHDRIntensity" type="Float"/>
+	<field name="fIntensityToDelayScale" type="Float"/>
+	<field name="fBigSoundThreshold" type="Float"/>
+	<field name="fMinSoundDelay" type="Float"/>
+	<field name="sndLightingStrikeSound" type="BinHex"/>
+	<field name="sndThunderSound" type="BinHex"/>
+	<object name="curveSkyHDRIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

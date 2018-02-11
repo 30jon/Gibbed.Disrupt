@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Stimulusconfig_2fc4eef2Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="StimulusList">
+		<object name="Stimulus">
+			<field name="selPersistentStimulusType" type="Enum"/>
+			<object name="NotImplentedYet">
+				<field name="bHasLifeTime" type="Boolean"/>
+				<field name="fLifeTime" type="Float"/>
+				<object name="LifeTimeModifier">
+					<field hash="31466DF1" type="BinHex"/>
+					<field name="fRain" type="Float"/>
+				</object>
+				<object name="RadiusModifier">
+					<field name="fNightTime" type="Float"/>
+					<field name="fBlizzard" type="Float"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

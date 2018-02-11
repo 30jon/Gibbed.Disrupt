@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DriverlightpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="colorEmissiveLightColor" type="Vector3"/>
+	<field name="bRandomStartTime" type="Boolean"/>
+	<field name="fBlendInTime" type="Float"/>
+	<field name="fBlendOutTime" type="Float"/>
+	<field name="bSnapDirectionOnPlane" type="Boolean"/>
+	<field name="bUpdateOnMovement" type="Boolean"/>
+	<field name="bForceOrientationUpdate" type="Boolean"/>
+	<object name="LightEffects">
+		<object name="LightEffect">
+			<field name="lighteffectprefabPrefab" type="BinHex"/>
+			<field name="vectorPresetOffset" type="Vector3"/>
+			<field name="fPresetRotationZ" type="Float"/>
+		</object>
+	</object>
+	<object name="DynamicLights">
+		<object name="DynamicLight">
+			<field name="vectorPresetPositionOffset" type="Vector3"/>
+			<field name="PresetRotationOffset" type="BinHex"/>
+			<field name="dynamiclightprefabPrefabDynamicLight" type="BinHex"/>
+		</object>
+	</object>
+	<object name="LightBehavior">
+		<field name="bDisable" type="Boolean"/>
+		<field name="bAlwaysOn" type="Boolean"/>
+		<field name="bFlashing" type="Boolean"/>
+	</object>
+</class>

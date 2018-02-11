@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cinemapostfxdatabase_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="PostFxList">
+		<object name="PostFx">
+			<field hash="F1B1D97B" type="String"/>
+			<field name="sName" type="BinHex"/>
+			<field name="bLoopMainSequence" type="Boolean"/>
+			<field hash="8409F0DB" type="String"/>
+			<field name="fileMainSequencePath" type="BinHex"/>
+			<field hash="261C12F1" type="String"/>
+			<field name="fileFadeInSequencePath" type="BinHex"/>
+			<field hash="E9B28A78" type="String"/>
+			<field name="fileFadeOutSequencePath" type="BinHex"/>
+		</object>
+	</object>
+</class>

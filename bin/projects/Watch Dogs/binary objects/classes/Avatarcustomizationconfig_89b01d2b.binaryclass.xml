@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Avatarcustomizationconfig_89b01d2bParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ClothColors">
+		<object name="Color">
+			<field name="DisplayName" type="String"/>
+			<field name="vectorColor" type="Vector3"/>
+		</object>
+	</object>
+	<object name="HeadDetailTextures">
+		<object name="Texture">
+			<field name="DisplayName" type="String"/>
+			<field hash="1CB97581" type="String"/>
+			<field name="fileTexture" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ClothTextures">
+		<object name="Texture">
+			<field name="DisplayName" type="String"/>
+			<field hash="1CB97581" type="String"/>
+			<field name="fileTexture" type="BinHex"/>
+		</object>
+	</object>
+</class>

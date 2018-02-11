@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MadnessciviliansvariationParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sDebugName" type="String"/>
+	<field hash="2AC1B216" type="String"/>
+	<field name="archCivilianArchetype" type="BinHex"/>
+	<field name="fLifePoints" type="Float"/>
+	<field name="iScorePoints" type="Int32"/>
+	<field name="iSoulsAmount" type="Int32"/>
+	<field name="fProportion" type="Float"/>
+	<field name="fDispersion" type="Float"/>
+	<field name="fWakeupDistance" type="Float"/>
+	<field name="fDodgeDistance" type="Float"/>
+	<field name="fDodgeAnticipationFactor" type="Float"/>
+	<field name="fDodgeAngle" type="Float"/>
+	<field name="fDodgeDuration" type="Float"/>
+	<field name="fDodgeCoolDownDuration" type="Float"/>
+	<field name="fCarSpeedLow" type="Float"/>
+	<field name="fCarSpeedHigh" type="Float"/>
+	<field hash="C433F2C8" type="String"/>
+	<field name="archHeadFX" type="BinHex"/>
+	<field name="archBodyFX" type="BinHex"/>
+	<field name="archHandsFX" type="BinHex"/>
+	<field name="archFeetFX" type="BinHex"/>
+	<field hash="8B4ED9C0" type="String"/>
+	<field name="archImpactFX" type="BinHex"/>
+	<field name="archDisappearanceFX" type="BinHex"/>
+	<field hash="F5B0F8C7" type="String"/>
+	<field name="archExplosionForSoulFX" type="BinHex"/>
+	<field hash="36FA8941" type="String"/>
+	<field name="archSoulFX" type="BinHex"/>
+	<field hash="39F68CF8" type="String"/>
+	<field name="archSoulAbsorptionFX" type="BinHex"/>
+	<field name="peopleinfoPeopleSpawnInfo" type="BinHex"/>
+	<field name="civreactcontextReactionContext" type="BinHex"/>
+	<object name="canDodge">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="BehaviorModifier">
+		<field name="bDontMove" type="Boolean"/>
+		<field name="bPanic" type="Boolean"/>
+		<field name="bExplodeOnDeath" type="Boolean"/>
+		<field name="bRunTowardsPlayer" type="Boolean"/>
+		<field hash="7627846F" type="String"/>
+		<field name="archExplosion" type="BinHex"/>
+		<field name="fCollisionRadius" type="Float"/>
+		<field hash="726377DB" type="BinHex"/>
+		<field name="fLateralLowSpeedFactor" type="Float"/>
+		<field name="fLateralHighSpeedFactor" type="Float"/>
+	</object>
+</class>

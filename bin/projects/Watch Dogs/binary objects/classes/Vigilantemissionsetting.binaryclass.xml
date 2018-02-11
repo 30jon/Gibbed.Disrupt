@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VigilantemissionsettingParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="VigilanteMissionSetting">
+		<field name="selMissionType" type="Enum"/>
+		<field name="uiDifficultyLevel" type="Int64"/>
+		<field name="vtargetMissionTarget" type="BinHex"/>
+		<field name="uiGoonNumber" type="Int64"/>
+		<object name="GoonContainer">
+			<field name="vgoonGoon" type="BinHex"/>
+		</object>
+	</object>
+</class>

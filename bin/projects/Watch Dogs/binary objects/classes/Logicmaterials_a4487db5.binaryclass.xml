@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Logicmaterials_a4487db5Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndswtpMaterialSoundSwitchType" type="BinHex"/>
+	<field name="logmatGrassSurfaceID" type="BinHex"/>
+	<field name="logmatDefaultSurfaceID" type="BinHex"/>
+</class>

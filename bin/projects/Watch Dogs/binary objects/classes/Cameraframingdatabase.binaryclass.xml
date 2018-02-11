@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameraframingdatabaseParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="GameFramingElement">
+		<object name="ReferencePointList">
+			<object name="ReferencePoint">
+				<field name="selReferencePointType" type="Enum"/>
+				<field name="bUsePredefinedBodyBone" type="Boolean"/>
+				<field name="bForceUsingPosition" type="Boolean"/>
+				<field name="bForceUsingRotation" type="Boolean"/>
+				<field name="sBoneName" type="BinHex"/>
+				<field name="selAttachedBone" type="Enum"/>
+			</object>
+		</object>
+		<object name="CameraPlaneSideSelector">
+			<field name="selReferencePointType" type="Enum"/>
+			<field name="bUsePredefinedBodyBone" type="Boolean"/>
+			<field name="bForceUsingPosition" type="Boolean"/>
+			<field name="bForceUsingRotation" type="Boolean"/>
+			<field name="sBoneName" type="BinHex"/>
+		</object>
+		<object name="CameraShake">
+			<field name="fileShakePathId" type="BinHex"/>
+			<field name="fShakeStrenght" type="Float"/>
+			<field name="fShakeAttenuationPower" type="Float"/>
+			<field name="fShakeDuration" type="Float"/>
+			<field name="vectorShakeTranslation" type="Vector3"/>
+			<field name="vectorShakeRotation" type="Vector3"/>
+		</object>
+		<object name="CameraLag">
+			<field name="bUseCurvedBasedLag" type="Boolean"/>
+			<object name="curveFollowRotationLagCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curvePivotPositionLagCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveIdealPositionXCurveLag">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveIdealPositionYCurveLag">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<field name="fFollowRotationLag" type="Float"/>
+			<field name="fPivotPositionLag" type="Float"/>
+			<field name="vec2IdealPositionLagCurve" type="Vector2"/>
+		</object>
+		<object name="CameraFOV">
+			<field name="fFramingFOV" type="Float"/>
+			<field name="fFramingInterpSpeedFOV" type="Float"/>
+		</object>
+		<object name="CameraOffset">
+			<field name="vectorBasePivotOffset" type="Vector3"/>
+			<field name="vectorOrientationOffset" type="Vector3"/>
+			<field name="bFlatOutBaseVerticalValue" type="Boolean"/>
+			<field name="vectorIdealPosition" type="Vector3"/>
+			<field name="bInverseIdealPositionX" type="Boolean"/>
+			<field name="bKeepFirstRefRot" type="Boolean"/>
+			<field name="bKeepFirstRefPos" type="Boolean"/>
+			<field name="bKeepCurrentRefRot" type="Boolean"/>
+			<field name="bKeepCurrentRefPos" type="Boolean"/>
+		</object>
+		<object name="LensDOF">
+			<field name="bLensDOFEnabled" type="Boolean"/>
+			<field name="fLensFstop" type="Float"/>
+			<field name="fFocalLength" type="Float"/>
+			<field name="bNearDOFEnabled" type="Boolean"/>
+			<field name="bFarDOFEnabled" type="Boolean"/>
+			<field name="vec2FocusRange" type="Vector2"/>
+			<field name="fLensFocusLagFar" type="Float"/>
+			<field name="fLensFocusLagNear" type="Float"/>
+			<object name="DofTargetSelector">
+				<field name="selReferencePointType" type="Enum"/>
+				<field name="bUsePredefinedBodyBone" type="Boolean"/>
+				<field name="bForceUsingPosition" type="Boolean"/>
+				<field name="bForceUsingRotation" type="Boolean"/>
+				<field name="selAttachedBone" type="Enum"/>
+				<field name="sBoneName" type="BinHex"/>
+			</object>
+		</object>
+		<object name="OtherOptions">
+			<field name="bBlocktInputs" type="Boolean"/>
+			<field name="fLifeTime" type="Float"/>
+			<field name="bKillAllFramingElement" type="Boolean"/>
+			<field name="bInverseSideSelector" type="Boolean"/>
+			<field name="bDisableVehicleCollision" type="Boolean"/>
+			<field name="bIsAllowedToShake" type="Boolean"/>
+			<field name="bTestCollision" type="Boolean"/>
+			<field name="selForcedOrientationSide" type="Enum"/>
+		</object>
+	</object>
+</class>

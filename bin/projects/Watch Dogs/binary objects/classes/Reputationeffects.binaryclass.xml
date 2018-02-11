@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ReputationeffectsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="5C18CC79" type="String"/>
+	<field name="reputationeffectReputationTypeID" type="BinHex"/>
+	<object name="ReputationRankEffects">
+		<object name="ReputationRankEffects">
+			<object name="ReputationRankEffect">
+				<field name="reputationbarReputationRank" type="BinHex"/>
+				<field name="iReputationPercentModifier" type="Int32"/>
+				<field name="iNegativeReputationPercentModifier" type="Int32"/>
+				<field name="iTypeBehavior" type="Int32"/>
+				<field name="iTypeConversation" type="Int32"/>
+				<field name="iHeatPercentModifier" type="Int32"/>
+				<field name="iHeatPercentSpeedModifier" type="Int32"/>
+				<field name="bShopEnabled" type="Boolean"/>
+				<field name="iPercentPriceModifier" type="Int32"/>
+				<field name="bUseSecondaryGreetingMove" type="Boolean"/>
+				<field name="selTypeBroadcast" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

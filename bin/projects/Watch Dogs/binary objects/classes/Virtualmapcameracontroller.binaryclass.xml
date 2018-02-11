@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VirtualmapcameracontrollerParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidMinDistance" type="BinHex"/>
+	<field name="hidMaxDistance" type="BinHex"/>
+	<field name="bUseTargetViewingAngle" type="Boolean"/>
+	<field name="angle" type="BinHex"/>
+	<field name="fieldofview" type="BinHex"/>
+	<field name="fDistance" type="Float"/>
+</class>

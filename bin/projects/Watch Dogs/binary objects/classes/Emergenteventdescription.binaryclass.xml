@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EmergenteventdescriptionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selActionStartStimType" type="Enum"/>
+	<field name="reputationvigilanteReputationSettings" type="BinHex"/>
+	<object name="ProximityBahaviour">
+		<field name="fDistance" type="Float"/>
+	</object>
+	<object name="ProximityStim">
+		<field name="fDistance" type="Float"/>
+		<field name="selStimType" type="Enum"/>
+	</object>
+</class>

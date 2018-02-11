@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Goldrushgenericinfos_5c4598f0Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fileFireResource" type="String"/>
+	<field hash="FB84895E" type="String"/>
+	<field name="archTrailArchetype" type="BinHex"/>
+	<field name="fTrailSpeed" type="Float"/>
+	<field name="fDistanceFromCoinToStopTrail" type="Float"/>
+	<field name="fCameraSpeed" type="Float"/>
+	<field name="vectorCameraOffset" type="Vector3"/>
+	<field hash="04952257" type="String"/>
+	<field name="archCameraArchetype" type="BinHex"/>
+	<field hash="2BFA7C3B" type="String"/>
+	<field name="archCameraAnchor" type="BinHex"/>
+	<field hash="C392E678" type="String"/>
+	<field name="archStartingCoin" type="BinHex"/>
+	<field hash="78E8820B" type="String"/>
+	<field name="archNormalSolidCoin" type="BinHex"/>
+	<field hash="334BCC04" type="String"/>
+	<field name="archNegativeCoin" type="BinHex"/>
+	<field hash="9AAE8CF6" type="String"/>
+	<field name="archPlatinumSolidCoin" type="BinHex"/>
+	<field hash="8E36CE1E" type="String"/>
+	<field name="archFinishingCoin" type="BinHex"/>
+	<field name="fMinimumLoadingDelay" type="Float"/>
+	<field name="fStartingCoinPickupDistance" type="Float"/>
+	<field name="fNormalCoinPickupDistance" type="Float"/>
+	<field name="fPlatinumCoinPickupDistance" type="Float"/>
+	<field name="fNegativeCoinPickupDistance" type="Float"/>
+	<field name="fStartingCoinPickupDistanceVehicle" type="Float"/>
+	<field name="fNormalCoinPickupDistanceVehicle" type="Float"/>
+	<field name="fPlatinumCoinPickupDistanceVehicle" type="Float"/>
+	<field name="fPlatinumCoinTimeBonus" type="Float"/>
+	<field name="fNegativeCoinTimePenalty" type="Float"/>
+	<field hash="A0096CC6" type="BinHex"/>
+	<field name="fCoinRotationSpeed" type="Float"/>
+	<field name="fNegativeCoinRotationSpeed" type="Float"/>
+	<field name="fCameraOrientationTime" type="Float"/>
+	<field name="fLeavingWarningDistance" type="Float"/>
+	<field name="fLeavingDistance" type="Float"/>
+	<field name="fMaxGameDuration" type="Float"/>
+	<field name="fCoinHeightOffset" type="Float"/>
+	<field name="fWeakPerkBonusPickupRadius" type="Float"/>
+	<field name="fSuperPerkBonusPickupRadius" type="Float"/>
+	<field name="fileIdleMove" type="String"/>
+	<field name="gpctxspecGameplayContextID" type="BinHex"/>
+	<object name="locstridBuyAppText">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="CollectParticles">
+		<object name="CollectParticlesStartingCoin">
+			<field hash="60D2524D" type="String"/>
+			<field name="psResource" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+		</object>
+		<object name="CollectParticlesNormalCoin">
+			<field hash="60D2524D" type="String"/>
+			<field name="psResource" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+		</object>
+		<object name="CollectParticlesPlatinumCoin">
+			<field hash="60D2524D" type="String"/>
+			<field name="psResource" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+		</object>
+		<object name="CollectParticlesNegativeCoin">
+			<field hash="60D2524D" type="String"/>
+			<field name="psResource" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+		</object>
+		<object name="CollectParticlesFinishingCoin">
+			<field hash="60D2524D" type="String"/>
+			<field name="psResource" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+		</object>
+	</object>
+	<object name="TrailParticles">
+		<field hash="60D2524D" type="String"/>
+		<field name="psResource" type="BinHex"/>
+		<field name="vectorOffset" type="Vector3"/>
+	</object>
+	<object name="Sounds">
+		<field name="sndAppStart" type="BinHex"/>
+		<field name="sndAppStop" type="BinHex"/>
+		<field name="sndCollectCoin" type="BinHex"/>
+		<field name="sndCollectCoinPlatinum" type="BinHex"/>
+		<field name="sndCollectCoinNegative" type="BinHex"/>
+		<field name="sndCollectCoinFinish" type="BinHex"/>
+		<field name="sndCountdownGo" type="BinHex"/>
+		<field name="sndCountdownSeconds" type="BinHex"/>
+		<field name="sndCountdownStar" type="BinHex"/>
+		<field name="sndDistanceWarning" type="BinHex"/>
+		<field name="sndMenuHide" type="BinHex"/>
+		<field name="sndMenuNegative" type="BinHex"/>
+		<field name="sndMenuPositive" type="BinHex"/>
+		<field name="sndMenuScroll" type="BinHex"/>
+		<field name="sndMenuShow" type="BinHex"/>
+		<field name="sndProximityPing" type="BinHex"/>
+		<field name="sndTrailComplete" type="BinHex"/>
+		<field name="sndTrailFailed" type="BinHex"/>
+		<field name="sndTrailPersonalBest" type="BinHex"/>
+		<field name="sndInGameMusic" type="BinHex"/>
+	</object>
+	<object name="VfxInformation">
+		<field hash="04E6CC8C" type="String"/>
+		<field name="fileTextureCameraNoise" type="BinHex"/>
+		<field name="fileTextureColorRemap" type="BinHex"/>
+		<field hash="87278278" type="String"/>
+		<field name="fileTextureHitOverlay" type="BinHex"/>
+		<field name="colorGreenChannelPostFxMaskHaloColor" type="Vector3"/>
+		<field name="colorGradingColor" type="Vector3"/>
+		<field name="fGradingColorFalloff" type="Float"/>
+		<field name="fGradingColorStrength" type="Float"/>
+		<field name="fHitFadeTime" type="Float"/>
+		<field name="fHitUVShiftStrength" type="Float"/>
+		<field name="fScrollingLineSteps" type="Float"/>
+		<field name="colorScrollingLineColor" type="Vector3"/>
+		<field name="fScrollingLineFalloff" type="Float"/>
+		<field name="fScrollingLineStrength" type="Float"/>
+		<field name="fScrollingLineSpeed" type="Float"/>
+		<field name="colorMinimapOverlayColor" type="Vector3"/>
+		<field name="fMinimapOverlayAlpha" type="Float"/>
+		<field name="fUGCOffsetStrength" type="Float"/>
+		<field name="fUGCChromaticStrength" type="Float"/>
+		<field name="fUGCMinimapThreshold1" type="Float"/>
+		<field name="fUGCMinimapThreshold2" type="Float"/>
+	</object>
+	<object name="RewardData">
+		<field name="itemsRewardAPSToken" type="BinHex"/>
+		<field name="iNumberOfGoldMedalsToGainReward" type="Int32"/>
+	</object>
+</class>

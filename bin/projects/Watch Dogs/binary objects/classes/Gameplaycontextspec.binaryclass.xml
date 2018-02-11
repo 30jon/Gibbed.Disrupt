@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GameplaycontextspecParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="183467EB" type="String"/>
+	<field name="gctxGameplayContextType" type="BinHex"/>
+	<object name="GameplayContext">
+		<field name="iPriority" type="Int32"/>
+		<field name="fCiviliansDensity" type="Float"/>
+		<field name="fTrafficDensity" type="Float"/>
+		<field name="fParkedCarsDensity" type="Float"/>
+		<object name="GameElements">
+			<field name="bOpenShops" type="Boolean"/>
+			<field name="bEnableActivities" type="Boolean"/>
+			<field name="bActiveEventManager" type="Boolean"/>
+			<field name="selEnableFelony" type="Enum"/>
+			<field name="bAllowProfiling" type="Boolean"/>
+			<field name="bAllowPhoneLayerState" type="Boolean"/>
+			<field name="bEnableMissionDirector" type="Boolean"/>
+			<field name="bEnableHacking" type="Boolean"/>
+			<field name="bAllowFastTravel" type="Boolean"/>
+			<field name="bEnableHideOut" type="Boolean"/>
+			<field name="bXpAllowed" type="Boolean"/>
+			<field name="bEnableStats" type="Boolean"/>
+			<field name="bEnableReputation" type="Boolean"/>
+			<field name="bEnableHotSpots" type="Boolean"/>
+			<field name="bEnablePowerIconDuringBlackout" type="Boolean"/>
+			<field name="bMapCtxDetectorStealth" type="Boolean"/>
+		</object>
+		<object hash="37B529F2">
+			<field name="bShowMinimap" type="Boolean"/>
+			<field name="bEnablePowerComponent" type="Boolean"/>
+			<field name="bShowBattery" type="Boolean"/>
+			<field name="bShowSecondaryItem" type="Boolean"/>
+		</object>
+		<object hash="C24D1F4D">
+			<field name="bNoneType" type="Boolean"/>
+			<field name="bStoryMission" type="Boolean"/>
+			<field name="bOptionalMission" type="Boolean"/>
+			<field name="bApplication" type="Boolean"/>
+			<field name="bHideOut" type="Boolean"/>
+			<field name="bLocation" type="Boolean"/>
+			<field name="bMinigames" type="Boolean"/>
+			<field name="bContact" type="Boolean"/>
+			<field name="bPlayer" type="Boolean"/>
+			<field hash="5270412C" type="BinHex"/>
+			<field name="bATM" type="Boolean"/>
+			<field name="bCompass" type="Boolean"/>
+			<field name="bMediaSystem" type="Boolean"/>
+			<field hash="90DE6233" type="BinHex"/>
+			<field name="bHub" type="Boolean"/>
+			<field name="bStartRace" type="Boolean"/>
+			<field name="bDrivingJob" type="Boolean"/>
+			<field name="bPill" type="Boolean"/>
+		</object>
+		<object name="PillsSpecific">
+			<field name="bEnableFelonyHUD" type="Boolean"/>
+			<field name="bAllowChallenges" type="Boolean"/>
+			<field name="bAllowHideInvehicle" type="Boolean"/>
+			<field name="bUseClassicalHUD" type="Boolean"/>
+			<field name="bIsRewardNotificationEnabled" type="Boolean"/>
+			<field name="bBlackoutSFXEnabled" type="Boolean"/>
+			<object name="Wheel">
+				<field name="bWeapons" type="Boolean"/>
+				<field name="bProjectiles" type="Boolean"/>
+				<field name="bConsumables" type="Boolean"/>
+				<field name="bSchematic" type="Boolean"/>
+			</object>
+			<object name="HackExclusions">
+				<object name="BlockedAccessList">
+					<object name="AccessId">
+						<field name="accessidId" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="curveCiviliansDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveTrafficDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveParkedCarsDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="InTrainDensity">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="curveDaytimeCiviliansCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveDaytimeVehiclesCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveDaytimeParkedCarsCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveCivilinsRainCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

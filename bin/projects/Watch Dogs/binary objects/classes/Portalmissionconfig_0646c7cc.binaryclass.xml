@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Portalmissionconfig_0646c7ccParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndPotentialTargetFoundSound" type="BinHex"/>
+	<field name="sndAcceptPortalPropositionSound" type="BinHex"/>
+	<object name="TailingConfig">
+		<field name="missionlistTailingMission" type="BinHex"/>
+	</object>
+	<object name="HackingConfig">
+		<field name="missionlistHackingMission" type="BinHex"/>
+	</object>
+	<object name="PropositionConfig">
+		<field name="randomeventsPortalPropositionRandomEvent" type="BinHex"/>
+		<field name="accessidMultiplayerUnlockAccessId" type="BinHex"/>
+		<field name="accessidInvasionUnlockAccessId" type="BinHex"/>
+		<field name="accessidRaceUnlockAccessId" type="BinHex"/>
+	</object>
+	<object name="GridConfig">
+		<field name="gridmenuhubMenuHub" type="BinHex"/>
+		<field name="gridmenuhubMenuHubCG" type="BinHex"/>
+		<object name="TransitionSurvivalGuides">
+			<object name="HackingSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="TailingSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="RaceSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="DecryptionSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="CompanionRaceSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="CompanionFreeRideSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="FreeRoamingSurvivalGuides">
+				<field name="itemsIntroRules" type="BinHex"/>
+				<object name="Tips">
+					<object hash="70CEFEAC">
+						<field name="itemsTip" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

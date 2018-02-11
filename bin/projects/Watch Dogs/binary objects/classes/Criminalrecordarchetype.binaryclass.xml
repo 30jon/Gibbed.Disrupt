@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CriminalrecordarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CriminalRecordGenerator">
+		<field name="fWeight" type="Float"/>
+		<object name="CriminalRecordType">
+			<object name="locsectionidCriminalRecordType">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="CriminalRecordType">
+				<object name="locsectionidCriminalRecordType">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="CriminalRecordGenerator">
+			<field name="fWeight" type="Float"/>
+			<object name="CriminalRecordType">
+				<object name="locsectionidCriminalRecordType">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="CriminalRecordType">
+					<object name="locsectionidCriminalRecordType">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

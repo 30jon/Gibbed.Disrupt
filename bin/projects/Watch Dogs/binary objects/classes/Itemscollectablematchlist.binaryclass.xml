@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemscollectablematchlistParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selCollectibleType" type="Enum"/>
+	<field hash="53A3B910" type="String"/>
+	<field name="trackingdataTrackingDataToIncrement" type="BinHex"/>
+	<field name="sIconTextureName" type="BinHex"/>
+	<field name="itemlistsOnCompleteCollectablesReward" type="BinHex"/>
+	<object name="locstridName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="OnAmountItemsAchievedList">
+		<object name="OnAmountItemsAchieved">
+			<field name="iAmountToAchieve" type="Int32"/>
+			<field name="bUseItemList" type="Boolean"/>
+			<field name="itemsItem" type="BinHex"/>
+			<field name="itemlistsRewardList" type="BinHex"/>
+		</object>
+	</object>
+	<object name="CollectableMatchList">
+		<object name="CollectableMatchElement">
+			<field name="itemsItem" type="BinHex"/>
+			<field name="iAmountToAchieve" type="Int32"/>
+		</object>
+	</object>
+</class>

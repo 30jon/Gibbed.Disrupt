@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Citylifeoptimizationsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="fRetrySpawningDelay">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="iCLOWakeUpCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeCloseCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeFarCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeVigilanteCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+</class>

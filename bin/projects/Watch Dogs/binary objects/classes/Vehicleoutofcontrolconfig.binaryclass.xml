@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleoutofcontrolconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMinimumSpeedToUseBhv" type="Float"/>
+	<field name="fCollisionCounterDecayTime" type="Float"/>
+	<object name="Damage">
+		<field name="fHighDamageValue" type="Float"/>
+		<field name="fTimeToAmplifyDamage" type="Float"/>
+		<field name="fDamageRatioModifier" type="Float"/>
+		<field name="fAmplifyCrashRatio" type="Float"/>
+		<field name="fDamageChassisRatio" type="Float"/>
+		<field name="fDamagePartsRatio" type="Float"/>
+		<object name="curveTriggerChanceVsDamage">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveTriggerChanceVsNbrCollision">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Takedown">
+		<field name="fMinDamagePercentForTakedown" type="Float"/>
+		<field name="fMinCollisionDamageForTakedown" type="Float"/>
+	</object>
+	<object name="Behaviours">
+		<object name="BarrelRoll">
+			<field name="fSteerAngle" type="Float"/>
+			<field name="fSteerStopAngle" type="Float"/>
+			<field name="fCenterOfMassZOffset" type="Float"/>
+			<field name="fAmplifyCrashRatio" type="Float"/>
+			<field name="fDamageChassisRatio" type="Float"/>
+			<field name="fDamagePartsRatio" type="Float"/>
+			<object name="curveImpulseForceVsSpeedKmh">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Fishtail">
+			<field name="fSteerAngle" type="Float"/>
+			<field name="fSteerStopAngle" type="Float"/>
+			<field name="fImpulseForce" type="Float"/>
+			<field name="fCenterOfMassZOffset" type="Float"/>
+			<field name="fMinSpeedToStopBhv" type="Float"/>
+			<object name="curveSteerTimeVsSwitchNbr">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveRearGripVsSwitchNbr">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Spinout">
+			<field name="fGripRatio" type="Float"/>
+			<field name="fGripIncRatioBySec" type="Float"/>
+			<field name="fCenterOfMassZOffset" type="Float"/>
+			<field name="fMinSpeedKmh" type="Float"/>
+		</object>
+		<object name="CannonRoll">
+			<field name="fAmplifyCrashRatio" type="Float"/>
+			<field name="fDamageChassisRatio" type="Float"/>
+			<field name="fDamagePartsRatio" type="Float"/>
+			<field name="fMinSpeedKmh" type="Float"/>
+			<object name="curveImpulseForceVsSpeedKmh">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

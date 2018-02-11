@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Gpsconfig_7905f165Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMargin" type="Float"/>
+	<object name="NormalAvatar">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="NormalVehicle">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ScanAvatar">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ScanVehicle">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ChaseAvatar">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ChaseVehicle">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ChaseEscapeAvatar">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="ChaseEscapeVehicle">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="MediaBroadcast">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="DetectorStealth">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="Combat">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="MiniGameMapZoom">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="DominoDefault">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="PillPeopleSonar">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="UGCPlaybackLevel1">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="UGCPlaybackLevel2">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+	<object name="UGCPlaybackLevel3">
+		<field name="fMapDistance_LowerValue" type="Float"/>
+		<field name="fMapDistance_UpperValue" type="Float"/>
+		<field name="MapPitch_LowerValue" type="BinHex"/>
+		<field name="MapPitch_UpperValue" type="BinHex"/>
+		<field name="fMapFieldOfView_LowerValue" type="Float"/>
+		<field name="fMapFieldOfView_UpperValue" type="Float"/>
+		<field name="fMapSpeed_LowerValue" type="Float"/>
+		<field name="fMapSpeed_UpperValue" type="Float"/>
+		<field name="vec2MapIconScale_LowerValue" type="Vector2"/>
+		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
+		<field name="iMapPriority" type="Int32"/>
+	</object>
+</class>

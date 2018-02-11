@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WebtvtconfigsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bUseAI" type="Boolean"/>
+	<field name="iNumberRoundsToWin" type="Int32"/>
+	<field hash="CE2FC75E" type="String"/>
+	<field name="archWebTvTPackageSpawned" type="BinHex"/>
+	<field name="fPedestrianSearchRadius" type="Float"/>
+	<field name="clrPedestrianSearchColor" type="BinHex"/>
+	<field name="fPedestrianSearchAlpha" type="Float"/>
+	<field name="fBetweenRoundSpawnTimer" type="Float"/>
+	<object name="Respawn">
+		<field name="bUseCustomNearDeathSpotStrategy" type="Boolean"/>
+		<object name="CustomRespawnPriorities">
+			<object name="RespawnPriority">
+				<field name="disPriorityValue" type="BinHex"/>
+				<field name="selRespawnStrategyType" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Team">
+		<field name="bHasTeam" type="Boolean"/>
+		<object name="Teams">
+			<field name="bOneTeamByPlayer" type="Boolean"/>
+			<field name="bAreTeamsLethal" type="Boolean"/>
+			<object name="TeamConfigs">
+				<object name="teamconfigTeamConfig">
+					<field name="teamconfigTeamConfig" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Visibility">
+		<field name="bIsStealthMission" type="Boolean"/>
+		<field name="bIsEnemyVisible" type="Boolean"/>
+	</object>
+	<object name="Audio">
+		<field name="sndContractCountdownSoundId" type="BinHex"/>
+		<field name="iContractCountdownSoundThresholdTime" type="Int32"/>
+	</object>
+	<object name="Stations">
+		<field name="fStationBreakInBoostPerPlayer" type="Float"/>
+		<field name="fStationBreakInSpeedPerSecond" type="Float"/>
+		<object name="StationProgressStagesParams">
+			<field name="bUseProgressStages" type="Boolean"/>
+			<object name="ProgressStages">
+				<object name="ProgressStage">
+					<field name="fProgressStageValue" type="Float"/>
+					<object name="locstridProgressStageName"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="IconList"/>
+	<object name="Rewards">
+		<field name="uLossViaTimeout" type="Int64"/>
+		<field name="uLossViaMaxScore" type="Int64"/>
+		<field name="uForDraw" type="Int64"/>
+		<field name="uWinViaTimeout" type="Int64"/>
+		<field name="uWinViaMaxScore" type="Int64"/>
+	</object>
+</class>

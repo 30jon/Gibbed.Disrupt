@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Reputationincidents_32489bdaParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iReputationAwarded" type="Int32"/>
+	<field name="bTrackReputation" type="Boolean"/>
+	<field name="fCoolDown" type="Float"/>
+	<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+	<object name="locstridItemReputationDescriptionId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

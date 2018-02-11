@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Detectionhudconfig_8474b6efParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="3F6E6634" type="String"/>
+	<field name="filePreAlertIcon" type="BinHex"/>
+	<field hash="3CCE316C" type="String"/>
+	<field name="fileAlertIcon" type="BinHex"/>
+	<field hash="47D21074" type="String"/>
+	<field name="fileBackgroundIcon" type="BinHex"/>
+	<field hash="0F6EDBA0" type="String"/>
+	<field name="fileArrowIcon" type="BinHex"/>
+	<field name="fDisplayMaxDistance" type="Float"/>
+	<field hash="374236FA" type="String"/>
+	<field name="fileIntuitionIcon" type="BinHex"/>
+	<object name="Sounds">
+		<field name="sndPreAlert" type="BinHex"/>
+		<field name="sndCombat" type="BinHex"/>
+		<field name="sndIntuitionStart" type="BinHex"/>
+		<field name="sndIntuitionStop" type="BinHex"/>
+		<field name="sndDetectionStart" type="BinHex"/>
+		<field name="sndDetectionStop" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PersonalcontractlayoutsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Layers"/>
+	<object name="Localisation">
+		<object name="UIStrings">
+			<object name="locstridGoToMessage"/>
+			<object name="locstridFullSuccessMessage"/>
+			<object name="locstridPartialSuccessMessage"/>
+			<object name="locstridFailMessage"/>
+		</object>
+	</object>
+</class>

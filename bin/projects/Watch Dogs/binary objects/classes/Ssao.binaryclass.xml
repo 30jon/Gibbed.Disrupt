@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SsaoParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<field name="bEnabledOverride" type="Boolean"/>
+	<field name="bAOAlgorithmOverride" type="Boolean"/>
+	<field name="selAOAlgorithm" type="Enum"/>
+	<field name="fBlurFactor" type="Float"/>
+	<field name="bBlurFactorOverride" type="Boolean"/>
+	<field name="fRadius" type="Float"/>
+	<field name="bRadiusOverride" type="Boolean"/>
+	<field name="bIntensityOverride" type="Boolean"/>
+	<field name="fContrast" type="Float"/>
+	<field name="bContrastOverride" type="Boolean"/>
+	<field name="bHalfResolution" type="Boolean"/>
+	<field name="bHalfResolutionOverride" type="Boolean"/>
+	<object name="curveIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

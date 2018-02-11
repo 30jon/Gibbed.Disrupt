@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChessanimationdataParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fileMoveTriggerAttract" type="String"/>
+	<field name="fileMoveTriggerInGame" type="String"/>
+	<object name="Binding">
+		<field hash="1822265A" type="String"/>
+		<field name="sPickupAttachmentName" type="BinHex"/>
+		<field hash="2C372BB5" type="String"/>
+		<field name="sTakeAttachmentName" type="BinHex"/>
+		<field name="fBlendTime" type="Float"/>
+	</object>
+	<object name="Offsets">
+		<field name="fChessBoardHeight" type="Float"/>
+		<field name="fOffBoardPiecesHeight" type="Float"/>
+		<field name="vectorParticipantLocalOffset" type="Vector3"/>
+		<field name="vectorClockOffset" type="Vector3"/>
+		<field name="vectorClockRotation" type="Vector3"/>
+		<field name="vectorCursorScale" type="Vector3"/>
+		<field name="fAttractEngageRadius" type="Float"/>
+		<field name="fAttractRejectRadius" type="Float"/>
+		<field name="fLookAroundBlendRate" type="Float"/>
+	</object>
+	<object name="Speeds">
+		<field name="fMoveSpeedNormal" type="Float"/>
+		<field name="fMoveSpeedBlitz" type="Float"/>
+	</object>
+	<object name="EventMaps">
+		<object name="Player">
+			<object name="Idles">
+				<object name="EventToPMS">
+					<field hash="88409886" type="String"/>
+					<field name="sEventId" type="BinHex"/>
+					<field name="selChessIdleState" type="Enum"/>
+					<field name="bIsInGame" type="Boolean"/>
+				</object>
+			</object>
+			<object name="Reactions">
+				<object name="EventToPMS">
+					<field name="sEventId" type="BinHex"/>
+					<field name="selChessReactState" type="Enum"/>
+					<field name="bIsInGame" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="A7BB958F">
+			<object name="Idles">
+				<object name="EventToPMS">
+					<field hash="88409886" type="String"/>
+					<field name="sEventId" type="BinHex"/>
+					<field name="selChessIdleState" type="Enum"/>
+					<field name="bIsInGame" type="Boolean"/>
+				</object>
+			</object>
+			<object name="Reactions">
+				<object name="EventToPMS">
+					<field hash="88409886" type="String"/>
+					<field name="sEventId" type="BinHex"/>
+					<field name="selChessReactState" type="Enum"/>
+					<field name="bIsInGame" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

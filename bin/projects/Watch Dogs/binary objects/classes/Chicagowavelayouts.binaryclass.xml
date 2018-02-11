@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChicagowavelayoutsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="MissionLayerName" type="String"/>
+	<object name="Volumes">
+		<object name="Volume">
+			<field name="entVolume" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Columns">
+		<object name="Column">
+			<field name="entColumn" type="BinHex"/>
+		</object>
+	</object>
+</class>

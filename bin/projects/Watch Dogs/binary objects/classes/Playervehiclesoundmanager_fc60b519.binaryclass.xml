@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Playervehiclesoundmanager_fc60b519Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndvarPlayerVehicleSpeedGlobalSoundRtpcVariable" type="BinHex"/>
+	<object name="iLoadingLimit">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="EngineSounds">
+		<object name="EngineSound">
+			<field name="sndSound" type="BinHex"/>
+		</object>
+	</object>
+</class>

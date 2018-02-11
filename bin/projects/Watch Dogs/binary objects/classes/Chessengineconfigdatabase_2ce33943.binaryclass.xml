@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Chessengineconfigdatabase_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Easy">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="Medium">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="Hard">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="Master">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="PuzzleCustomA">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="PuzzleCustomB">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="PuzzleCustomC">
+		<field name="iElo" type="Int32"/>
+		<field name="fTimeLimit" type="Float"/>
+	</object>
+	<object name="Global">
+		<field name="iHashTableSize" type="Int32"/>
+		<field name="iPawnHashTableSize" type="Int32"/>
+		<field name="iEvalCacheSize" type="Int32"/>
+		<field name="iNodesPerStep" type="Int32"/>
+	</object>
+</class>

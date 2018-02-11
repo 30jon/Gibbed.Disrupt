@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MissioneventlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="CountLimitToUnlockTriggerRadius" type="BinHex"/>
+	<field name="vigdescEventDescription" type="BinHex"/>
+	<object name="MissionEventLists">
+		<object name="MissionEventList">
+			<field name="missionlistMission" type="BinHex"/>
+		</object>
+	</object>
+</class>

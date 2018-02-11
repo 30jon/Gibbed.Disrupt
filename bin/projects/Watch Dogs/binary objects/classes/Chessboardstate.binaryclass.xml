@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChessboardstateParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selGameMode" type="Enum"/>
+	<field name="bIsLeftWhiteCastlingPossible" type="Boolean"/>
+	<field name="bIsRightWhiteCastlingPossible" type="Boolean"/>
+	<field name="bIsLeftBlackCastlingPossible" type="Boolean"/>
+	<field name="bIsRightBlackCastlingPossible" type="Boolean"/>
+	<field name="iMoveCountLimit" type="Int32"/>
+	<field name="selPlayerColour" type="Enum"/>
+	<field name="selStartingColour" type="Enum"/>
+	<object name="Pieces">
+		<object name="Piece">
+			<field name="selRow" type="Enum"/>
+			<field name="selCol" type="Enum"/>
+			<field name="selColour" type="Enum"/>
+			<field name="selType" type="Enum"/>
+		</object>
+	</object>
+	<object name="Awards">
+		<field name="iGold" type="Int32"/>
+		<field name="iSilver" type="Int32"/>
+		<field name="iBronze" type="Int32"/>
+	</object>
+</class>

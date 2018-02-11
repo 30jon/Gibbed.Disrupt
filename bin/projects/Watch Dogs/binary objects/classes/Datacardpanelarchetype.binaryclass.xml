@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DatacardpanelarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DataCardPanelGenerator">
+		<field name="fWeight" type="Float"/>
+		<field hash="C1CF27A8" type="String"/>
+		<field name="datacardtypeDataCardType" type="BinHex"/>
+		<object name="DataCardPanelGenerator">
+			<field name="fWeight" type="Float"/>
+			<field hash="C1CF27A8" type="String"/>
+			<field name="datacardtypeDataCardType" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="rewardhudnotificationRewardNotificationData" type="BinHex"/>
+	<field name="bIsNotable" type="Boolean"/>
+	<field name="bDisableCollectibleSave" type="Boolean"/>
+	<object name="Items">
+		<object name="Item">
+			<field name="bUseCandidateRewards" type="Boolean"/>
+			<field name="bSpawnItem" type="Boolean"/>
+			<field name="bIsPersistent" type="Boolean"/>
+			<field name="rewarditemlistsItemFromCandidateList" type="BinHex"/>
+			<field name="itemsItemDBObject" type="BinHex"/>
+		</object>
+	</object>
+</class>

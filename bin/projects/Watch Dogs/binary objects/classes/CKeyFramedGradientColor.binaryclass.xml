@@ -1,0 +1,11 @@
+<class name="CKeyFramedGradientColor">
+	<inherit name="CNomadObject" />
+	<object name="Knots">
+		<object name="Knot">
+			<field name="Position" type="Float" />
+			<object name="Gradient">
+				<inherit name="CGradientColor" />
+			</object>
+		</object>
+	</object>
+</class>

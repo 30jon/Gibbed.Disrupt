@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Avatarconfig_50bcb219Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Locomotion">
+		<field name="curvelibJoystickSpeedCurve" type="BinHex"/>
+		<field name="fPlantAngleThreshold" type="Float"/>
+		<field name="fBankingAngleDeadzone" type="Float"/>
+		<field name="fBankingLagCenter" type="Float"/>
+		<field name="fBankingLagOut" type="Float"/>
+		<field name="bIsObstacleAvoidanceActive" type="Boolean"/>
+		<field name="fAvoidanceWalkForce" type="Float"/>
+		<field name="fAvoidanceJogForce" type="Float"/>
+		<field name="fAvoidanceSprintForce" type="Float"/>
+		<field name="bBlockedByObstacleActivated" type="Boolean"/>
+		<field name="bBlockedByCliffsActivated" type="Boolean"/>
+		<field name="bEdgeSlideActivated" type="Boolean"/>
+		<field name="bSurfacePosAdjustmentActivated" type="Boolean"/>
+		<field name="fHighProfileCooldown" type="Float"/>
+		<object name="CollisionStumbleReaction">
+			<field name="bIsStumbleActive" type="Boolean"/>
+			<field name="fImmunityDelayAfterSmallStumbles" type="Float"/>
+			<field name="fImmunityDelayAfterBigStumbles" type="Float"/>
+			<field name="fMinStressRatioForBigStumbles" type="Float"/>
+			<field name="fFrequentStumbleDelay" type="Float"/>
+			<field name="fObstacleMinHeightForCollisionStumbles" type="Float"/>
+		</object>
+		<object name="Accessories">
+			<field hash="54AC9FDB" type="String"/>
+			<field name="archBaton" type="BinHex"/>
+			<field hash="9E51B378" type="String"/>
+			<field name="archARPhone" type="BinHex"/>
+			<field hash="D3A36E82" type="String"/>
+			<field name="archSniperScope" type="BinHex"/>
+			<field name="nExtractFromPDAOverrideMaterialIndex" type="Enum"/>
+		</object>
+		<object name="IdleCycleBreakers">
+			<field name="fIdleBreakerStartDelay" type="Float"/>
+			<field name="fIdleBreakerWalkInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerJogInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerSprintInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerCoverInterruptDelay" type="Float"/>
+		</object>
+		<object name="FacialAnimations">
+			<field hash="F68F7E4E" type="String"/>
+			<field name="fileFacialAnimationPain" type="BinHex"/>
+			<field hash="66945E53" type="String"/>
+			<field name="fileFacialAnimationPainNPC" type="BinHex"/>
+			<field hash="A4C5E878" type="String"/>
+			<field name="fileFacialAnimationDeath" type="BinHex"/>
+			<field hash="F7604231" type="String"/>
+			<field name="fileFacialAnimationDeathNPC" type="BinHex"/>
+		</object>
+	</object>
+	<object name="GenericActions">
+		<field name="bUseShapeCastSensor" type="Boolean"/>
+		<field name="bIsUsingStepFalling" type="Boolean"/>
+		<field name="bIsPreventingDeadlyDrops" type="Boolean"/>
+		<field name="fAutoInteractMaxHeight" type="Float"/>
+		<field name="bUseJumpOverGaps" type="Boolean"/>
+		<field name="fIdleInteractionMinDist" type="Float"/>
+		<field name="fWalkInteractionMinDist" type="Float"/>
+		<field name="fJogInteractionMinDist" type="Float"/>
+		<field name="fSprintInteractionMinDist" type="Float"/>
+		<field name="fClimbDownWalkStartDist1M" type="Float"/>
+		<field name="fClimbDownWalkStartDist3M" type="Float"/>
+		<field name="fClimbDownJogStartDist1M" type="Float"/>
+		<field name="fClimbDownJogStartDist3M" type="Float"/>
+		<field name="fClimbDownSprintStartDist1M" type="Float"/>
+		<field name="fClimbDownSprintStartDist3M" type="Float"/>
+		<field name="fWallJumpStartDist" type="Float"/>
+		<field name="fClimbOverJogStartDist30_60cm" type="Float"/>
+		<field name="fClimbOverJogStartDist60_80cm" type="Float"/>
+		<field name="fClimbOverSprintStartDist30_60cm" type="Float"/>
+		<field name="fClimbOverSprintStartDist60_80cm" type="Float"/>
+		<field name="fShapecastHitNormalMaxCosAngle" type="Float"/>
+		<field name="fFrontCastHitNormalMaxCosAngle" type="Float"/>
+		<field name="fShapecastFrontHeightOffset" type="Float"/>
+		<field name="fShapecastFrontBaseDist" type="Float"/>
+		<field name="fShapecastFrontSpeedOffset" type="Float"/>
+		<field name="fShapecastDropFrontOffset" type="Float"/>
+		<field name="fRaycastHitMaxDist" type="Float"/>
+		<field name="fClimbUpDistMin" type="Float"/>
+		<field name="fClimbUpDistMax" type="Float"/>
+		<field name="fClimbUpOnVehicleDistMax" type="Float"/>
+		<field name="fClimbDownDistMin" type="Float"/>
+		<field name="fClimbDownDistMax" type="Float"/>
+		<field name="fLadderClimbUpDistMax" type="Float"/>
+		<field name="fLadder4mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder4mEnterHeightHighSpeed" type="Float"/>
+		<field name="fLadder5mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder5mEnterHeightHighSpeed" type="Float"/>
+		<field name="fLadder6mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder6mEnterHeightHighSpeed" type="Float"/>
+		<field name="fSlideOverMinWidth" type="Float"/>
+		<field name="fSlideOverMaxWidth" type="Float"/>
+		<field name="fSlideOverInterruptDist" type="Float"/>
+		<field name="bClimbDownAnchorUseCurrentSight" type="Boolean"/>
+		<field name="fSwimMaxHeightClimbUpReach" type="Float"/>
+		<field name="bDEBUG_UseRagDollHD" type="Boolean"/>
+		<object name="FallDisplacements">
+			<object name="FallDisplacementsWALK">
+				<field name="Index0" type="Vector3"/>
+				<field name="Index1" type="Vector3"/>
+				<field name="Index2" type="Vector3"/>
+				<field name="Index3" type="Vector3"/>
+				<field name="Index4" type="Vector3"/>
+				<field name="Index5" type="Vector3"/>
+			</object>
+			<object name="FallDisplacementsJOG">
+				<field name="Index0" type="Vector3"/>
+				<field name="Index1" type="Vector3"/>
+				<field name="Index2" type="Vector3"/>
+				<field name="Index3" type="Vector3"/>
+				<field name="Index4" type="Vector3"/>
+				<field name="Index5" type="Vector3"/>
+			</object>
+			<object name="FallDisplacementsSPRINT">
+				<field name="Index0" type="Vector3"/>
+				<field name="Index1" type="Vector3"/>
+				<field name="Index2" type="Vector3"/>
+				<field name="Index3" type="Vector3"/>
+				<field name="Index4" type="Vector3"/>
+				<field name="Index5" type="Vector3"/>
+			</object>
+		</object>
+		<object name="LandingReactionStims">
+			<field name="fLandingReactionStimMinDropHeight" type="Float"/>
+			<field name="fLandingReactionStimRadius" type="Float"/>
+		</object>
+		<object name="FacingStiffness">
+			<field name="fFacingStiffnessNoContact" type="Float"/>
+			<field name="fFacingStiffnessClimbUpWithContact" type="Float"/>
+			<field name="fFacingStiffnessClimbOverWithContact" type="Float"/>
+		</object>
+		<object name="TakeDown">
+			<field name="bFrontTakedownAllowed" type="Boolean"/>
+			<field name="fTakedownFrontAngleRadians" type="Float"/>
+			<field name="fTakedownMaxDistanceNormal" type="Float"/>
+			<field name="fTakedownMaxDistanceJog" type="Float"/>
+			<field name="fTakedownMaxDistanceSprint" type="Float"/>
+			<field name="fTakedownMaxDistanceFleeingTarget" type="Float"/>
+			<field name="bUseWallJumpTakeDowns" type="Boolean"/>
+			<field name="bUseTakedownTranout" type="Boolean"/>
+		</object>
+		<object name="InteractionStressReaction">
+			<field name="fSmallReactionStressThreshold" type="Float"/>
+			<field name="fBigReactionStressThreshold" type="Float"/>
+			<field name="fDelayBetweenReactions" type="Float"/>
+		</object>
+	</object>
+	<object name="Profiling">
+		<field name="fProfilingGlanceDelay" type="Float"/>
+		<field name="fProfilingGlanceDelayVariation" type="Float"/>
+	</object>
+</class>

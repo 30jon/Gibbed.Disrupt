@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Conversationmanagersettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="C0BB2BBB" type="String"/>
+	<field name="fileConvTableFile" type="BinHex"/>
+	<object name="EpisodeRanges">
+		<object name="Ranges">
+			<field name="EpisodeName" type="BinHex"/>
+			<field name="nStartChapter" type="Int32"/>
+			<field name="nStartSubChapter" type="Int32"/>
+			<field name="nEndChapter" type="Int32"/>
+			<field name="nEndSubChapter" type="Int32"/>
+		</object>
+	</object>
+	<object name="TestConversation">
+		<field hash="7BEEDA78" type="String"/>
+		<field name="archMasterArchetype" type="BinHex"/>
+		<field hash="11B39233" type="String"/>
+		<field name="archSlaveArchetype" type="BinHex"/>
+		<field hash="41EB37F6" type="String"/>
+		<field name="fileMasterAnimation" type="BinHex"/>
+		<field hash="4C253839" type="String"/>
+		<field name="fileSlaveAnimation" type="BinHex"/>
+		<field hash="0CA6F346" type="String"/>
+		<field name="stridAnimTemplate" type="BinHex"/>
+		<field name="tmplMasterDialogActor" type="String"/>
+		<field name="tmplSlaveDialogActor" type="String"/>
+	</object>
+</class>

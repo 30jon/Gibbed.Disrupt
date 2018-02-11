@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleclutchParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMaxClutchTorque" type="Float"/>
+	<field name="fEngageTime" type="Float"/>
+	<field name="fShiftingTime" type="Float"/>
+	<field name="fDisengageTime" type="Float"/>
+	<field name="fStaticToDynacmicFrictionRatio" type="Float"/>
+	<field name="fLaunchBrakeInputThreshold" type="Float"/>
+	<field name="bUsePerformanceIndex" type="Boolean"/>
+	<field name="selPerformanceIndex" type="Enum"/>
+</class>

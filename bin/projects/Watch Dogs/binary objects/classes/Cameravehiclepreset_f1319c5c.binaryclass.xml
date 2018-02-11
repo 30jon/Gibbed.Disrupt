@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cameravehiclepreset_f1319c5cParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CameraVehicleList">
+		<object name="CameraVehicle">
+			<field name="selVehicleCameraContext" type="Enum"/>
+			<field name="bIsBumperMode" type="Boolean"/>
+			<field name="bIsInsideMode" type="Boolean"/>
+			<field name="bIsFarMode" type="Boolean"/>
+		</object>
+	</object>
+</class>

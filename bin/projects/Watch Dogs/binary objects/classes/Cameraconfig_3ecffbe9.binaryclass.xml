@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cameraconfig_3ecffbe9Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="cameraavatarpresetAvatarCameraPreset" type="BinHex"/>
+	<field name="cameragpipresetGpiCameraPreset" type="BinHex"/>
+	<object name="Reticle">
+		<field hash="68A21378" type="String"/>
+		<field name="fileReticleSingleShotNormal" type="BinHex"/>
+		<field hash="4E8686E1" type="String"/>
+		<field name="fileReticleSingleShotNormalAR" type="BinHex"/>
+		<field hash="7011792D" type="String"/>
+		<field name="fileReticleSingleShotRed" type="BinHex"/>
+		<field hash="242DBF05" type="String"/>
+		<field name="fileReticleSingleShotRedAR" type="BinHex"/>
+		<field hash="23A51394" type="String"/>
+		<field name="fileReticleSingleShotBlocked" type="BinHex"/>
+		<field hash="BC4D7106" type="String"/>
+		<field name="fileReticleSingleShotBlockedAR" type="BinHex"/>
+		<field hash="B3F60472" type="String"/>
+		<field name="fileReticuleSingleShotFriendly" type="BinHex"/>
+		<field hash="37BA30F8" type="String"/>
+		<field name="fileReticuleSingleShotFriendlyAR" type="BinHex"/>
+		<field hash="438F45FE" type="String"/>
+		<field name="fileReticleAutomaticNormal" type="BinHex"/>
+		<field hash="A15766C0" type="String"/>
+		<field name="fileReticleAutomaticNormalAR" type="BinHex"/>
+		<field hash="354669EA" type="String"/>
+		<field name="fileReticleAutomaticRed" type="BinHex"/>
+		<field hash="BD21ABBF" type="String"/>
+		<field name="fileReticleAutomaticRedAR" type="BinHex"/>
+		<field hash="275518D7" type="String"/>
+		<field name="fileReticleAutomaticBlocked" type="BinHex"/>
+		<field hash="F0CBB0B8" type="String"/>
+		<field name="fileReticleAutomaticBlockedAR" type="BinHex"/>
+		<field hash="F73CDBA3" type="String"/>
+		<field name="fileReticleAutomaticFriendly" type="BinHex"/>
+		<field hash="B9F54F29" type="String"/>
+		<field name="fileReticleAutomaticFriendlyAR" type="BinHex"/>
+		<field hash="60E7ED61" type="String"/>
+		<field name="fileReticleShotgunNormal" type="BinHex"/>
+		<field hash="8F83F8A7" type="String"/>
+		<field name="fileReticleShotgunNormalAR" type="BinHex"/>
+		<field hash="9DDFEA13" type="String"/>
+		<field name="fileReticleShotgunRed" type="BinHex"/>
+		<field hash="0CEE8B48" type="String"/>
+		<field name="fileReticleShotgunRedAR" type="BinHex"/>
+		<field hash="47C6FEAA" type="String"/>
+		<field name="fileReticleShotgunBlocked" type="BinHex"/>
+		<field hash="233390DD" type="String"/>
+		<field name="fileReticleShotgunBlockedAR" type="BinHex"/>
+		<field hash="D9E845C4" type="String"/>
+		<field name="fileReticleShotgunFriendly" type="BinHex"/>
+		<field hash="84FE22DE" type="String"/>
+		<field name="fileReticleShotgunFriendlyAR" type="BinHex"/>
+		<field hash="3795FC11" type="String"/>
+		<field name="fileReticleLauncherNormal" type="BinHex"/>
+		<field hash="CA0CF6D1" type="String"/>
+		<field name="fileReticleLauncherNormalAR" type="BinHex"/>
+		<field hash="ADAA431E" type="String"/>
+		<field name="fileReticleLauncherRed" type="BinHex"/>
+		<field hash="164ADE3C" type="String"/>
+		<field name="fileReticleLauncherRedAR" type="BinHex"/>
+		<field hash="1794FD87" type="String"/>
+		<field name="fileReticleLauncherBlocked" type="BinHex"/>
+		<field hash="9A10CBDA" type="String"/>
+		<field name="fileReticleLauncherBlockedAR" type="BinHex"/>
+		<field hash="9C674BB2" type="String"/>
+		<field name="fileReticleLauncherFriendly" type="BinHex"/>
+		<field hash="1A239426" type="String"/>
+		<field name="fileReticleLauncherFriendlyAR" type="BinHex"/>
+		<object name="HitFeedback">
+			<field hash="61B3A4DD" type="String"/>
+			<field name="fileReticleHitFeedback" type="BinHex"/>
+			<field name="fReticleHitFeedbackDuration" type="Float"/>
+		</object>
+		<object name="BounceFeedback">
+			<field name="fReticleAimBounceFeedbackScale" type="Float"/>
+			<field name="fReticleAimBounceFeedbackDuration" type="Float"/>
+			<field name="fReticleAimBounceFeedbackCount" type="Int64"/>
+			<field name="fReticleFocusBounceFeedbackScale" type="Float"/>
+			<field name="fReticleFocusBounceFeedbackDuration" type="Float"/>
+			<field name="fReticleFocusBounceFeedbackCount" type="Int64"/>
+		</object>
+	</object>
+	<object name="Input">
+		<field name="fInputSnapFlat" type="Float"/>
+		<field name="fInputSnapCenter" type="Float"/>
+		<field name="fInputYawTopSpeedBlendTime" type="Float"/>
+	</object>
+	<object name="Assistance">
+		<object name="AssistanceInputParameters">
+			<field name="fSteadyPushingHighDecPerc" type="Float"/>
+			<field name="fSteadyPushingHighIncPerc" type="Float"/>
+			<field name="fSteadyPushingMediumDecPerc" type="Float"/>
+			<field name="fSteadyPushingMediumIncPerc" type="Float"/>
+			<field name="fSteadyPushingNoneDecPerc" type="Float"/>
+			<field name="fSteadyPushingNoneIncPerc" type="Float"/>
+			<field name="fMovingPushingHighDecPerc" type="Float"/>
+			<field name="fMovingPushingHighIncPerc" type="Float"/>
+			<field name="fMovingPushingMediumDecPerc" type="Float"/>
+			<field name="fMovingPushingMediumIncPerc" type="Float"/>
+			<field name="fMovingPushingNoneDecPerc" type="Float"/>
+			<field name="fMovingPushingNoneIncPerc" type="Float"/>
+			<field name="fPushingPercMinimalMultiplier" type="Float"/>
+			<field name="fPushingPercStrongMultiplier" type="Float"/>
+			<field name="fAssistanceDistanceThreshold" type="Float"/>
+			<field name="vec2AssistanceAutoLockRange" type="Vector2"/>
+			<field name="fAssistanceAutoLockRangeMinimalMultiplier" type="Float"/>
+			<field name="fAssistanceAutoLockRangeStrongMultiplier" type="Float"/>
+			<field name="fAssistanceAutoLockDistanceThreshold" type="Float"/>
+			<field name="fAssistanceAutoLockDistanceThresholdMinimalMultiplier" type="Float"/>
+			<field name="fAssistanceAutoLockDistanceThresholdStrongMultiplier" type="Float"/>
+			<field name="fAssistanceConeThreshold" type="Float"/>
+			<field name="vec2AssistanceCushionInnerRange" type="Vector2"/>
+			<field name="vec2AssistanceCushionOuterRange" type="Vector2"/>
+			<field name="fAssistanceCushionRangeMinimalMultiplier" type="Float"/>
+			<field name="fAssistanceCushionRangeStrongMultiplier" type="Float"/>
+			<field name="vec2AssistanceMagnetInnerRange" type="Vector2"/>
+			<field name="vec2AssistanceMagnetOuterRange" type="Vector2"/>
+			<field name="fAssistanceMagnetRangeMinimalMultiplier" type="Float"/>
+			<field name="fAssistanceMagnetRangeStrongMultiplier" type="Float"/>
+		</object>
+	</object>
+	<object name="MiscContext">
+		<object name="Default">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="Fixed">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="FramingCamera">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="Cinema">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="Animated">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="PawnDebug">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="Void">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList"/>
+		</object>
+		<object name="Domino">
+			<field name="cameracontextCameraContext" type="BinHex"/>
+			<object name="ContextBlendList">
+				<object name="ContextBlendElement">
+					<field name="bTranIn" type="Boolean"/>
+					<field name="selTranFromContext" type="Enum"/>
+					<field name="selTranToContext" type="Enum"/>
+					<field name="fBlendTime" type="Float"/>
+					<field name="vec2BlendCurve" type="Vector2"/>
+					<field name="bReticleLock" type="Boolean"/>
+					<field name="fReticleLockMinDistance" type="Float"/>
+					<field name="bFreezePivotXY" type="Boolean"/>
+					<field name="bFreezePivotZ" type="Boolean"/>
+					<field name="bFreezeRotation" type="Boolean"/>
+					<field name="bTransfertFollow" type="Boolean"/>
+					<field name="bTransfertFieldOfView" type="Boolean"/>
+					<field name="bTransfertAcceleration" type="Boolean"/>
+					<field name="bTransfertYawSpeed" type="Boolean"/>
+					<field name="bAlignPitch" type="Boolean"/>
+					<field name="bAlignRoll" type="Boolean"/>
+					<field name="bAlignYaw" type="Boolean"/>
+					<field name="vectorAlignAngles" type="Vector3"/>
+					<field name="bKillAlignOnInput" type="Boolean"/>
+					<field name="bKillAlignOnMovement" type="Boolean"/>
+					<field name="bKillAlignOnPitch" type="Boolean"/>
+					<field name="fAlignMovementSpeedThreshold" type="Float"/>
+					<field name="fAlignPitchThreshold" type="Float"/>
+					<field name="bAllowInput" type="Boolean"/>
+					<object name="MyModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+					</object>
+					<object name="ModifierType">
+						<field name="bNormal" type="Boolean"/>
+						<field name="bAdrenaline" type="Boolean"/>
+						<field name="bProfiling" type="Boolean"/>
+						<field name="bInteract" type="Boolean"/>
+						<field name="bRescuing" type="Boolean"/>
+						<field name="bSniperGun" type="Boolean"/>
+						<field name="bProjectileDropable" type="Boolean"/>
+						<field name="bIsHidingInVehicle" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+			<object name="ModifierList">
+				<object name="Modifier">
+					<field name="selModifierType" type="Enum"/>
+					<field name="bFocusLockOverride" type="Boolean"/>
+					<object name="IdealMid">
+						<field name="vectorValue" type="Vector3"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object hash="D0558B01">
+						<field name="vectorValue" type="Vector3"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="InputYawSpeed">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="InputPitchSpeed">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="LensFocusLag">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="LensFocusLagNear">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="LensFocusLagFar">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="FStop">
+						<field name="fValue" type="Float"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+					<object name="FocusCast">
+						<field name="vec2Value" type="Vector2"/>
+						<field name="selValueType" type="Enum"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="GlobalModifierList">
+		<object name="GlobalModifier">
+			<field name="selModifierType" type="Enum"/>
+			<object name="IdealMin">
+				<field name="vectorValue" type="Vector3"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<field name="bFocusLockOverride" type="Boolean"/>
+			<object name="ReticleDisplay">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="IdealMid">
+				<field name="vectorValue" type="Vector3"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="IdealMax">
+				<field name="vectorValue" type="Vector3"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object hash="D0558B01">
+				<field name="vectorValue" type="Vector3"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="InputYawSpeed">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="InputPitchSpeed">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="InputYawExtraSpeed">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="FocusRange">
+				<field name="vec2Value" type="Vector2"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="LensFocusLag">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="LensFocusLagNear">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="LensFocusLagFar">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="FocalLength">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="FStop">
+				<field name="fValue" type="Float"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+			<object name="FocusCast">
+				<field name="vec2Value" type="Vector2"/>
+				<field name="selValueType" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="SpecificDeathCamParam">
+		<object name="NormalDeathSettings">
+			<field name="fDeathCamOrientationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationDegAngle" type="Float"/>
+			<field name="vectorDeathCamMoveDirection" type="Vector3"/>
+			<field name="fDeathCamMovementStartTime" type="Float"/>
+			<field name="fDeathCamGridModeDeltaTime" type="Float"/>
+			<field name="fDeathCamAlternateGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamOnCollisionSideMovement" type="Float"/>
+			<field name="fBloodFadeOutDuration" type="Float"/>
+			<field name="fileGlitchFilePath" type="String"/>
+			<field name="fileAlternateGlitchFilePath" type="String"/>
+			<object name="curveBackwardMovementCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustOrientationCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustPositionCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="DeathInCarSettings">
+			<field name="fDeathCamOrientationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationDegAngle" type="Float"/>
+			<field name="vectorDeathCamMoveDirection" type="Vector3"/>
+			<field name="fDeathCamMovementStartTime" type="Float"/>
+			<field name="fDeathCamGridModeDeltaTime" type="Float"/>
+			<field name="fDeathCamAlternateGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamOnCollisionSideMovement" type="Float"/>
+			<field name="fBloodFadeOutDuration" type="Float"/>
+			<field name="fileGlitchFilePath" type="String"/>
+			<field name="fileAlternateGlitchFilePath" type="String"/>
+			<object name="curveBackwardMovementCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustOrientationCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustPositionCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="MissionFailSettings">
+			<field name="fDeathCamOrientationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationLag" type="Float"/>
+			<field name="fDeathCamAddedRotatationDegAngle" type="Float"/>
+			<field name="vectorDeathCamMoveDirection" type="Vector3"/>
+			<field name="fDeathCamMovementStartTime" type="Float"/>
+			<field name="fDeathCamGridModeDeltaTime" type="Float"/>
+			<field name="fDeathCamAlternateGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamGlitchBinkTime" type="Float"/>
+			<field name="fDeathCamOnCollisionSideMovement" type="Float"/>
+			<field name="fBloodFadeOutDuration" type="Float"/>
+			<field name="fileGlitchFilePath" type="String"/>
+			<field name="fileAlternateGlitchFilePath" type="String"/>
+			<object name="curveBackwardMovementCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustOrientationCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveReajustPositionCurve">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

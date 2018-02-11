@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Rewardglobalsettings_e7d4efa5Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="RewardSettings">
+		<field name="iMaxActiveRareHackingRewards" type="Int32"/>
+		<field name="iMaxActiveHackingRewards" type="Int32"/>
+		<field name="rewardintervalamountlistsRewardIntervalAmountList" type="BinHex"/>
+		<object name="RewardOverrideNarrativeHacking">
+			<object name="HackingInventoryEntry">
+				<field name="bUseCandidateRewards" type="Boolean"/>
+				<field name="bSpawnItem" type="Boolean"/>
+				<field name="bIsPersistent" type="Boolean"/>
+				<field name="itemsItemDBObject" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ItemTypeCooldowns"/>
+	</object>
+	<object name="RewardSettingsPerkProfilerOptimized">
+		<field name="iMaxActiveRareHackingRewards" type="Int32"/>
+		<field name="iMaxActiveHackingRewards" type="Int32"/>
+		<field name="rewardintervalamountlistsRewardIntervalAmountList" type="BinHex"/>
+		<object name="RewardOverrideNarrativeHacking">
+			<object name="HackingInventoryEntry">
+				<field name="bUseCandidateRewards" type="Boolean"/>
+				<field name="bSpawnItem" type="Boolean"/>
+				<field name="bIsPersistent" type="Boolean"/>
+				<field name="itemsItemDBObject" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ItemTypeCooldowns"/>
+	</object>
+</class>

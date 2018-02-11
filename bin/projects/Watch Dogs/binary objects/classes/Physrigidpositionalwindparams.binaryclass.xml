@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhysrigidpositionalwindparamsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMinSpeed" type="Float"/>
+	<field name="fLinearSpeedFactor" type="Float"/>
+	<field name="fZeroGravitySpeed" type="Float"/>
+	<field name="fMaxAntiGravitySpeed" type="Float"/>
+	<field name="fMaxGravityFactor" type="Float"/>
+	<field name="fMinGravityFactor" type="Float"/>
+	<field name="fLinearAcc" type="Float"/>
+	<field name="fMaxLift" type="Float"/>
+	<field name="fWindSpeedToLift" type="Float"/>
+	<field name="fAngularAcc" type="Float"/>
+	<field name="fLinearSpeedToAngularSpeed" type="Float"/>
+	<field name="fMaxAngularSpeed" type="Float"/>
+</class>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TiledbobjectParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="C73FF759" type="String"/>
+	<field name="tiledbdescriptoridTileDbDescriptorId" type="BinHex"/>
+	<object name="TileDbDescriptor">
+		<field name="sSplash" type="String"/>
+		<field name="sIcon" type="String"/>
+		<field name="sGroupId" type="String"/>
+		<field name="sColor" type="String"/>
+		<field name="uiWidth" type="Int64"/>
+		<field name="uiHeight" type="Int64"/>
+		<field name="uiPosX" type="Int64"/>
+		<field name="uiPosY" type="Int64"/>
+		<field name="layoutdbobjectContainedLayout" type="BinHex"/>
+		<field hash="252FFF7A" type="String"/>
+		<field name="pdatileClassTypeId" type="BinHex"/>
+		<field name="sMovieClipName" type="String"/>
+		<field name="sTileFileName" type="String"/>
+		<field name="uiTileWidth" type="Int64"/>
+		<field name="uiTileHeight" type="Int64"/>
+		<field name="bOverrideOnlineRestrictedTileConditions" type="Boolean"/>
+		<field name="sType" type="String"/>
+		<field name="layoutdbobjectLayoutDbObject" type="BinHex"/>
+		<field name="sClassName" type="String"/>
+		<field hash="21F84854" type="String"/>
+		<field name="applicationclassidentifiertypeidApplication" type="BinHex"/>
+		<object name="CustomDescriptors">
+			<object name="CustomDescriptor">
+				<field name="sKey" type="String"/>
+				<field name="sValue" type="String"/>
+			</object>
+		</object>
+		<object name="TileAvailability">
+			<field name="selRulesOperator" type="Enum"/>
+			<object name="AvailabilityRules">
+				<object name="AvailabilityRule">
+					<field name="availabilityruleRuleType" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="GameplayLockedConditions">
+			<field name="bMission" type="Boolean"/>
+			<field name="bContract" type="Boolean"/>
+			<field name="bCompanion" type="Boolean"/>
+			<field name="bVigilante" type="Boolean"/>
+			<field name="bFelony" type="Boolean"/>
+			<field name="bSearchingForMP" type="Boolean"/>
+			<field name="bMPRace" type="Boolean"/>
+			<field name="bMPDecryption" type="Boolean"/>
+			<field name="bMPFreeroaming" type="Boolean"/>
+			<field name="bMPInvasion" type="Boolean"/>
+			<field name="bVehicle" type="Boolean"/>
+			<field name="bTrain" type="Boolean"/>
+			<field name="bSwimming" type="Boolean"/>
+			<field name="bInvasionsNotUnlocked" type="Boolean"/>
+			<field name="bNoMatchmakingZone" type="Boolean"/>
+			<field name="bPortalInvasionsDisabled" type="Boolean"/>
+			<field name="bSinglePlayer" type="Boolean"/>
+			<field name="bNarrativeEventInProgress" type="Boolean"/>
+			<field name="bFugitiveBroadcast" type="Boolean"/>
+		</object>
+		<object name="locstridTittle">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

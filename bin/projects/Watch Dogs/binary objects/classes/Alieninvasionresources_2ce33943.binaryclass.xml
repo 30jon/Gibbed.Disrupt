@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Alieninvasionresources_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="5B9EB1D4" type="String"/>
+	<field name="archAlienInvasionResource" type="BinHex"/>
+	<field hash="57FA894D" type="String"/>
+	<field name="archParticleFx" type="BinHex"/>
+	<object name="VfxInformation">
+		<field hash="04E6CC8C" type="String"/>
+		<field name="fileTextureCameraNoise" type="BinHex"/>
+		<field hash="517E8832" type="String"/>
+		<field name="fileTextureColorRemap" type="BinHex"/>
+		<field hash="87278278" type="String"/>
+		<field name="fileTextureHitOverlay" type="BinHex"/>
+	</object>
+	<object name="AlienParticleFx">
+		<field hash="40F541AB" type="String"/>
+		<field name="psBabyHitParticle" type="BinHex"/>
+		<field hash="A1A1F78C" type="String"/>
+		<field name="psAdultHitParticle" type="BinHex"/>
+		<field hash="BD17BEAC" type="String"/>
+		<field name="psQueenHitParticle" type="BinHex"/>
+		<field hash="8B595C0C" type="String"/>
+		<field name="psPodHitParticle" type="BinHex"/>
+		<field hash="F0815338" type="String"/>
+		<field name="psHunterBabyHitParticle" type="BinHex"/>
+		<field hash="C8174160" type="String"/>
+		<field name="psHunterAdultHitParticle" type="BinHex"/>
+		<field hash="AEF3BB8C" type="String"/>
+		<field name="psBabyKilledParticle" type="BinHex"/>
+		<field hash="4D6877DB" type="String"/>
+		<field name="psAdultKilledParticle" type="BinHex"/>
+		<field hash="769CD3D2" type="String"/>
+		<field name="psQueenKilledParticle" type="BinHex"/>
+		<field hash="52C8737D" type="String"/>
+		<field name="psPodKilledParticle" type="BinHex"/>
+		<field hash="7E3A7863" type="String"/>
+		<field name="psHunterBabyKilledParticle" type="BinHex"/>
+		<field hash="7D0D41F1" type="String"/>
+		<field name="psHunterAdultKilledParticle" type="BinHex"/>
+		<field hash="04DB9E13" type="String"/>
+		<field name="psSuicideHitParticle" type="BinHex"/>
+		<field hash="70137633" type="String"/>
+		<field name="psEvolveParticle" type="BinHex"/>
+		<field hash="19A97B2C" type="String"/>
+		<field name="psPodLanding" type="BinHex"/>
+		<field hash="EDA182A0" type="String"/>
+		<field name="psPodOpenBurst" type="BinHex"/>
+		<field hash="0CCAF98D" type="String"/>
+		<field name="psHunterBulletExplosion" type="BinHex"/>
+		<field hash="ADDD4A69" type="String"/>
+		<field name="psHunterBulletTrail" type="BinHex"/>
+	</object>
+	<object name="Wormhole">
+		<field hash="A870A984" type="String"/>
+		<field name="archWormholeArchtype" type="BinHex"/>
+		<field hash="4BE2CFD5" type="String"/>
+		<field name="psWormholeOpenParticle" type="BinHex"/>
+		<field hash="899FD212" type="String"/>
+		<field name="psWormholeParticle" type="BinHex"/>
+		<field hash="3A820987" type="String"/>
+		<field name="psWormholeCloseParticle" type="BinHex"/>
+	</object>
+	<object name="Aliens">
+		<field hash="16623915" type="String"/>
+		<field name="archBabyAlienArchetype" type="BinHex"/>
+		<field hash="E0561AD8" type="String"/>
+		<field name="archAdultAlienArchetype" type="BinHex"/>
+		<field hash="DBA2BED1" type="String"/>
+		<field name="archQueenAlienArchetype" type="BinHex"/>
+		<field hash="9F9B22B9" type="String"/>
+		<field name="archPodAlienArchetype" type="BinHex"/>
+		<field hash="B5B8704A" type="String"/>
+		<field name="archPodStemArchetype" type="BinHex"/>
+		<field hash="D3E1646C" type="String"/>
+		<field name="archHunterBabyAlienArchetype" type="BinHex"/>
+		<field hash="C94A501D" type="String"/>
+		<field name="archHunterAdultAlienArchetype" type="BinHex"/>
+		<field hash="00A61760" type="String"/>
+		<field name="archHunterBulletArchetype" type="BinHex"/>
+	</object>
+	<object name="WeaponArchetypes">
+		<field hash="B803FD26" type="String"/>
+		<field name="archShotgunArchetype" type="BinHex"/>
+		<field hash="42F6DA69" type="String"/>
+		<field name="archAssualtRifleArchetype" type="BinHex"/>
+		<field hash="15F28952" type="String"/>
+		<field name="archSingleShotRifleArchetype" type="BinHex"/>
+		<field hash="CDB15D83" type="String"/>
+		<field name="archUziArchetype" type="BinHex"/>
+	</object>
+	<object name="Sounds">
+		<field name="sndInvasionGameOver" type="BinHex"/>
+		<field name="sndOutOfBounds" type="BinHex"/>
+		<field name="sndLoseALife" type="BinHex"/>
+		<field name="sndPreWaveCountdown" type="BinHex"/>
+		<field name="sndTimeTickTock" type="BinHex"/>
+		<field name="sndWaveComplete" type="BinHex"/>
+		<field name="sndWaveStart" type="BinHex"/>
+		<field name="sndPickUpCountdown" type="BinHex"/>
+		<field name="sndPickUpCountdownEnd" type="BinHex"/>
+		<field name="sndPickUpCollection" type="BinHex"/>
+		<field name="sndPickUpSpawn" type="BinHex"/>
+		<field name="sndOpenWormhole" type="BinHex"/>
+		<field name="sndCloseWormhole" type="BinHex"/>
+		<field name="sndInvasion_In" type="BinHex"/>
+		<field name="sndInvasion_Out" type="BinHex"/>
+		<field name="sndWaveMusic" type="BinHex"/>
+		<field name="sndKillScore" type="BinHex"/>
+		<field name="sndBabyHit" type="BinHex"/>
+		<field name="sndAdultHit" type="BinHex"/>
+		<field name="sndQueenHit" type="BinHex"/>
+		<field name="sndPodHit" type="BinHex"/>
+		<field name="sndHunterBabyHit" type="BinHex"/>
+		<field name="sndHunterAdultHit" type="BinHex"/>
+		<field name="sndPodExplode" type="BinHex"/>
+		<field name="sndPodKilled" type="BinHex"/>
+		<field name="sndHealthPickupCollected" type="BinHex"/>
+		<field name="sndBombPickupCollected" type="BinHex"/>
+		<field name="sndTimePickupCollected" type="BinHex"/>
+		<field name="sndBulletImpactSound" type="BinHex"/>
+		<field name="sndBulletFiredSound" type="BinHex"/>
+		<field name="sndNotifyQueenSpawned" type="BinHex"/>
+		<field name="sndNotifyHunterLockedOn" type="BinHex"/>
+		<field name="sndMenuStartGame" type="BinHex"/>
+	</object>
+	<object name="AlienAnimations">
+		<field name="fileAlienMove" type="String"/>
+	</object>
+	<object name="Pickups">
+		<field hash="8EEABD8B" type="String"/>
+		<field name="archShotGunModel" type="BinHex"/>
+		<field hash="4DD87156" type="String"/>
+		<field name="archAssaultRifleModel" type="BinHex"/>
+		<field hash="E8CB0A15" type="String"/>
+		<field name="archSingleShotRifleModel" type="BinHex"/>
+		<field hash="EB2651AE" type="String"/>
+		<field name="archUziModel" type="BinHex"/>
+		<field hash="C4F24C2A" type="String"/>
+		<field name="archExtraLifeModel" type="BinHex"/>
+		<field hash="D1EDF8B9" type="String"/>
+		<field name="archExtraTimeModel" type="BinHex"/>
+		<field hash="4971440D" type="String"/>
+		<field name="archDamageBombModel" type="BinHex"/>
+		<field hash="8197A01C" type="String"/>
+		<field name="psShotGunActiveParticleFx" type="BinHex"/>
+		<field hash="EFDDF979" type="String"/>
+		<field name="psAssaultRifleActiveParticleFx" type="BinHex"/>
+		<field hash="D28599D7" type="String"/>
+		<field name="psSingleShotRifleActiveParticleFx" type="BinHex"/>
+		<field hash="6DA4D36F" type="String"/>
+		<field name="psUziActiveParticleFx" type="BinHex"/>
+		<field hash="0808830A" type="String"/>
+		<field name="psExtraLifeActiveParticleFx" type="BinHex"/>
+		<field hash="88C28DF3" type="String"/>
+		<field name="psExtraTimeActiveParticleFx" type="BinHex"/>
+		<field hash="1A84DAE4" type="String"/>
+		<field name="psDamageBombActiveParticleFx" type="BinHex"/>
+		<field hash="24854B5D" type="String"/>
+		<field name="psShotGunFallingParticleFx" type="BinHex"/>
+		<field hash="193394D3" type="String"/>
+		<field name="psAssaultRifleFallingParticleFx" type="BinHex"/>
+		<field hash="2860425C" type="String"/>
+		<field name="psSingleShotRifleFallingParticleFx" type="BinHex"/>
+		<field hash="ED6558A8" type="String"/>
+		<field name="psUziFallingParticleFx" type="BinHex"/>
+		<field hash="D0D8612F" type="String"/>
+		<field name="psExtraLifeFallingParticleFx" type="BinHex"/>
+		<field hash="1439E199" type="String"/>
+		<field name="psExtraTimeFallingParticleFx" type="BinHex"/>
+		<field hash="97782209" type="String"/>
+		<field name="psDamageBombFallingParticleFx" type="BinHex"/>
+		<field hash="9C83D495" type="String"/>
+		<field name="psDamageBombExplosionParticleFx" type="BinHex"/>
+	</object>
+	<object hash="891542DA">
+		<field name="fileFireResource" type="String"/>
+	</object>
+</class>

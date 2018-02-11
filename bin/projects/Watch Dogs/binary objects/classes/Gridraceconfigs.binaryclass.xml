@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GridraceconfigsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bUseAI" type="Boolean"/>
+	<object name="Respawn">
+		<field name="bUseCustomNearDeathSpotStrategy" type="Boolean"/>
+		<object name="CustomRespawnPriorities"/>
+	</object>
+	<object name="Team">
+		<field name="bHasTeam" type="Boolean"/>
+		<object name="Teams">
+			<field name="bOneTeamByPlayer" type="Boolean"/>
+			<field name="bAreTeamsLethal" type="Boolean"/>
+		</object>
+	</object>
+	<object name="Visibility">
+		<field name="bIsStealthMission" type="Boolean"/>
+		<field name="bIsEnemyVisible" type="Boolean"/>
+	</object>
+	<object name="Audio">
+		<field name="sndContractCountdownSoundId" type="BinHex"/>
+		<field name="iContractCountdownSoundThresholdTime" type="Int32"/>
+	</object>
+	<object name="RaceSettings">
+		<field name="iTimeOfDay" type="Int32"/>
+		<field name="iNbNitro" type="Int32"/>
+		<field name="bFelonyDisabled" type="Boolean"/>
+		<field name="bBoatRace" type="Boolean"/>
+		<field name="selWeather" type="Enum"/>
+		<field name="fDamageFactor" type="Float"/>
+		<field name="bUseHelicopter" type="Boolean"/>
+		<field name="bSinglePointRace" type="Boolean"/>
+		<field name="selRaceType" type="Enum"/>
+		<field hash="67294605" type="String"/>
+		<field name="fileVoteTexture" type="BinHex"/>
+		<field name="disVoteTextureString" type="String"/>
+		<object name="BlockedAccessList">
+			<object name="AccessId">
+				<field name="accessidId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="StartingVehicles">
+			<object name="Vehicle">
+				<field name="archVehicle" type="String"/>
+			</object>
+		</object>
+	</object>
+	<object name="Rewards">
+		<field hash="2B149950" type="BinHex"/>
+		<field hash="04ADD478" type="BinHex"/>
+		<object hash="BB244D9C">
+			<field name="itemlistsFirstPlace" type="BinHex"/>
+			<field name="itemlistsSecondPlace" type="BinHex"/>
+			<field name="itemlistsThirdPlace" type="BinHex"/>
+			<field name="itemlistsCompletion" type="BinHex"/>
+			<field name="itemlistsFastestLap" type="BinHex"/>
+			<field name="itemlistsAheadOf" type="BinHex"/>
+			<field name="itemlistsDidNotFinish" type="BinHex"/>
+		</object>
+	</object>
+	<object name="PhaseTimers">
+		<field name="fResultsLength" type="Float"/>
+		<field name="fOverTimeLength" type="Float"/>
+		<field name="fCountDownLength" type="Float"/>
+		<field name="fLockOutLength" type="Float"/>
+	</object>
+	<object name="RaceAudio">
+		<field name="sndCheckpointCrossedSoundId" type="BinHex"/>
+		<field name="sndTimerWarningSoundId" type="BinHex"/>
+		<field name="sndRespawnSoundId" type="BinHex"/>
+		<field name="sndSplitTimerSoundId" type="BinHex"/>
+	</object>
+</class>

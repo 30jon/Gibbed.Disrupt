@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Faketrafficsettings_8a6876b3Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fFadeInDistance" type="Float"/>
+	<field name="fFadeOutDistance" type="Float"/>
+	<field name="fFadeInLength" type="Float"/>
+	<field name="fFadeOutLength" type="Float"/>
+	<field name="fFadeFovReference" type="Float"/>
+	<field name="fFadeFovDistance" type="Float"/>
+	<field name="fDistanceScale" type="Float"/>
+	<field name="fLightsIntensity" type="Float"/>
+	<field hash="99317073" type="String"/>
+	<field name="fileLightTexture" type="BinHex"/>
+	<object name="CurrentGen">
+		<field name="fFadeInDistance" type="Float"/>
+		<field name="fFadeOutDistance" type="Float"/>
+		<field name="fFadeInLength" type="Float"/>
+		<field name="fFadeOutLength" type="Float"/>
+		<field name="fFadeFovReference" type="Float"/>
+		<field name="fFadeFovDistance" type="Float"/>
+		<field name="fDistanceScale" type="Float"/>
+		<field name="fLightsIntensity" type="Float"/>
+	</object>
+</class>

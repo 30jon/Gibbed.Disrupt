@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vehiclegeometryweight_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DefaultWeight">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="Geometries">
+		<object name="Geometry">
+			<field hash="3182766C" type="String"/>
+			<field name="fileModel" type="BinHex"/>
+			<object name="Weight">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

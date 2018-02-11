@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Texteffectdb_5d325923Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndTextEffectSoundStart" type="BinHex"/>
+	<field name="sndTextEffectSoundStop" type="BinHex"/>
+	<object name="DefaultDuration">
+		<field name="fDefaultOverallDuration" type="Float"/>
+		<field name="fDefaultAnimationInDuration" type="Float"/>
+		<field name="fDefaultAnimationIdleDuration" type="Float"/>
+		<field name="fDefaultAnimationWaitDuration" type="Float"/>
+		<field name="fDefaultAnimationOutDuration" type="Float"/>
+	</object>
+</class>

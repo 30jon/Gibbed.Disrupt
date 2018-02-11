@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AttractoractionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fGotoDistance" type="Float"/>
+	<field name="fMinDistance" type="Float"/>
+	<field name="bTriggerLookAt" type="Boolean"/>
+	<object name="CityLifeActionSettings">
+		<field name="fileMoveStateId" type="String"/>
+		<field name="bHasEntryAnim" type="Boolean"/>
+		<field name="fileEntryMoveStateId" type="String"/>
+		<field name="bHasExitAnim" type="Boolean"/>
+		<field name="fileExitMoveStateId" type="String"/>
+		<field name="bLoopAnim" type="Boolean"/>
+		<field name="bStopLoopOnPlayerProximity" type="Boolean"/>
+		<field name="bConversationBehavior" type="Boolean"/>
+		<field name="bProximityBehavior" type="Boolean"/>
+		<field name="bTriggeredBehavior" type="Boolean"/>
+		<field name="selBhvPriority" type="Enum"/>
+		<field name="bVigilanteReactionBhv" type="Boolean"/>
+		<field name="fileVigilanteReactionMoveStateId" type="String"/>
+		<object name="StartPMSSettings">
+			<object name="PMSValuesOnQuit">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+					<field name="fFloatValue" type="Float"/>
+					<field name="bBoolValue" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="QuitSettings">
+			<object name="PMSValuesOnQuit">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+					<field name="fFloatValue" type="Float"/>
+					<field name="bBoolValue" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="TriggeredBehavior">
+			<field name="fileActionMoveStateId" type="String"/>
+			<field name="fileCycleMoveStateId" type="String"/>
+			<field name="selOnAnimEnd" type="Enum"/>
+		</object>
+		<object name="ProximitySettings">
+			<field name="fileActionMoveStateId" type="String"/>
+			<field name="fileCycleMoveStateId" type="String"/>
+			<field name="selOnAnimEnd" type="Enum"/>
+		</object>
+	</object>
+	<object name="AttractorStartSettingsForCivilian">
+		<field name="selWalkSpeed" type="Enum"/>
+	</object>
+	<object name="AttractorQuitSettingsForCivilian">
+		<object name="NormalQuit">
+			<field name="selWalkSpeed" type="Enum"/>
+			<field name="selThreatState" type="Enum"/>
+			<field name="selState" type="Enum"/>
+			<field name="sBark" type="BinHex"/>
+			<field name="civreactcontextReactionContext" type="BinHex"/>
+		</object>
+		<object name="BeforeTurningPointQuit">
+			<field name="selWalkSpeed" type="Enum"/>
+			<field name="selThreatState" type="Enum"/>
+			<field name="selState" type="Enum"/>
+			<field name="sBark" type="BinHex"/>
+			<field name="civreactcontextReactionContext" type="BinHex"/>
+		</object>
+		<object name="AfterTurningPointQuit">
+			<field name="selWalkSpeed" type="Enum"/>
+			<field name="selThreatState" type="Enum"/>
+			<field name="selState" type="Enum"/>
+			<field name="sBark" type="BinHex"/>
+			<field name="civreactcontextReactionContext" type="BinHex"/>
+			<field name="fDuration" type="Float"/>
+		</object>
+	</object>
+	<object name="AttractorSettingsForNPC">
+		<field name="IsAttractor" type="BinHex"/>
+		<object name="NormalExitState">
+			<field name="selNPCExitState" type="Enum"/>
+			<field name="fleeonfootconfigFleeOnFootConfig" type="BinHex"/>
+			<field name="bCallReinforcements" type="Boolean"/>
+		</object>
+		<object name="BeforeTurningPointExitState">
+			<field name="selNPCExitState" type="Enum"/>
+			<field name="fleeonfootconfigFleeOnFootConfig" type="BinHex"/>
+			<field name="bCallReinforcements" type="Boolean"/>
+		</object>
+		<object name="AfterTruningPointExitState">
+			<field name="selNPCExitState" type="Enum"/>
+			<field name="fleeonfootconfigFleeOnFootConfig" type="BinHex"/>
+			<field name="bCallReinforcements" type="Boolean"/>
+			<field name="selFelonyType" type="Enum"/>
+			<field name="chaselevelparametersChaseLevelParams" type="BinHex"/>
+			<field name="chaselevelparametersSearchLevelParams" type="BinHex"/>
+			<field name="fCallDelayMin" type="Float"/>
+			<field name="fCallDelayMax" type="Float"/>
+			<field name="uiNumRetries" type="Int64"/>
+			<field name="strBark" type="BinHex"/>
+		</object>
+		<object name="NPCReactions">
+			<field name="npcreacNPCBeforeTurningPointReactionSettings" type="BinHex"/>
+			<field name="fileBeforeTurningPointReactionsMoveStateId" type="String"/>
+			<field name="npcreacNPCAfterTurningPointReactionSettings" type="BinHex"/>
+			<field name="fileAfterTurningPointReactionsMoveStateId" type="String"/>
+		</object>
+		<object name="IntuitionBhv">
+			<field name="bForceIntuitionBhv" type="Boolean"/>
+			<field name="vec2NPCIntuitionIntervalMinMax" type="Vector2"/>
+		</object>
+		<object name="TriggerDialogBhv">
+			<field name="TriggerDialogStimuli" type="String"/>
+			<field name="fAfterDialogDelay" type="Float"/>
+		</object>
+	</object>
+	<object name="EntryGoto">
+		<field name="bUseEntryGoto" type="Boolean"/>
+		<field name="fEntryGotoRotationOffset" type="Float"/>
+		<field name="vectorEntryGotoTranslation" type="Vector3"/>
+	</object>
+	<object name="Anchor">
+		<field name="fAnchorRotationOffset" type="Float"/>
+		<field name="vectorAnchorTranslation" type="Vector3"/>
+		<object name="VigilanteAnchor">
+			<field name="fEntryAnchorRotationOffset" type="Float"/>
+			<field name="vectorEntryAnchorTranslation" type="Vector3"/>
+		</object>
+	</object>
+	<object name="ProfilerSettings">
+		<field name="profilerinfofilterProfileFilter" type="BinHex"/>
+		<field name="fileProfilerThumbnailOverride" type="BinHex"/>
+		<field name="vectorProfilerSquareTargetOffset" type="Vector3"/>
+		<field name="fDefaultBehaviorAnalysisPercentage" type="Float"/>
+		<object name="locsectionidProfile"/>
+		<object name="BehaviorAnalysisTitles">
+			<object name="locstridPassive">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridActive">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>

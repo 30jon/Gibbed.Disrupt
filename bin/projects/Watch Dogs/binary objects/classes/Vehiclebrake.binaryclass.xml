@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclebrakeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTotalBrakeTorque" type="Float"/>
+	<field name="fForwardBrakeBalance" type="Float"/>
+	<field name="fHandBrakingTorque" type="Float"/>
+	<field name="fHandBrakingTorqueScaleAtMaxYaw" type="Float"/>
+	<field name="fHandBrakingMaxYawSpeed" type="Float"/>
+	<field name="fHandbrakeNoDriverFadeInTime" type="Float"/>
+	<object name="HardBraking">
+		<field name="bUseHardBrakes" type="Boolean"/>
+	</object>
+</class>

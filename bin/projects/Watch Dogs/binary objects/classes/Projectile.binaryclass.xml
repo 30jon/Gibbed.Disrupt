@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProjectileParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fStopSpeedSquared" type="Float"/>
+	<field name="fMinimalSpeedForCollSound" type="Float"/>
+	<field name="fRateOfFire" type="Float"/>
+	<field name="bIsDroppable" type="Boolean"/>
+	<object name="curveThrowSpeedByAngle">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveQuickThrowSpeedByAngle">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveThrowAngleByReticleAngle">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="CameraAiming">
+		<field name="selAimingContext" type="Enum"/>
+		<field name="selCoverAimingLeft" type="Enum"/>
+		<field name="selCoverAimingRight" type="Enum"/>
+		<field name="selCoverAimingStraightLeft" type="Enum"/>
+		<field name="selCoverAimingStraightRight" type="Enum"/>
+	</object>
+</class>

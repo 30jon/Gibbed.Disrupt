@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChaselevelparametersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sLevelName" type="String"/>
+	<field name="bUseSystemicAgentManagement" type="Boolean"/>
+	<field name="bAllowHeatToChangeLevel" type="Boolean"/>
+	<field name="uiMaxSpawnedUnits" type="Int64"/>
+	<field name="uiMaxSpawnedOnFootUnits" type="Int64"/>
+	<field name="uiMaxSpawnedChopperUnits" type="Int64"/>
+	<field name="uiMaxNumSWATTrucks" type="Int64"/>
+	<field name="uiInitialWaveSize" type="Int64"/>
+	<field name="uiRespawnWaveSize" type="Int64"/>
+	<field name="fQuickRespawnDelayTime" type="Float"/>
+	<field name="bIsSeatedCombatAllowed" type="Boolean"/>
+	<field name="fMaxTargetSpeedForShootingWhileDrivingKPH" type="Float"/>
+	<field name="bIsChopperShooterCombatAllowed" type="Boolean"/>
+	<field name="fFirstIntuitionTimer" type="Float"/>
+	<field name="fSecondIntuitionTimer" type="Float"/>
+	<field name="chaseperfcfgPerformanceConfig" type="BinHex"/>
+	<field name="fCombatRange" type="Float"/>
+	<field name="fChaseRange" type="Float"/>
+	<field name="bAgentsTryArrest" type="Boolean"/>
+	<field name="fTyreShootoutTimeBeforeEnabled" type="Float"/>
+	<field name="fTyreShootoutHitChanceMax" type="Float"/>
+	<field name="fTyreShootoutHitChanceInterpolateTime" type="Float"/>
+	<field name="fTyreShootoutCooldown" type="Float"/>
+	<field name="bUseInfiniteRespawning" type="Boolean"/>
+	<field name="sndInitiateChaseLevelSound" type="BinHex"/>
+	<field name="bAutomaticHeatIncrease" type="Boolean"/>
+	<field name="fAutoHeatAddDelay" type="Float"/>
+	<field name="fAutoHeatAddInterval" type="Float"/>
+	<field name="iAutoHeatAddAmount" type="Int32"/>
+	<field name="iAutoHeatAddTarget" type="Int32"/>
+	<field name="bWaterHeatIncrease" type="Boolean"/>
+	<field name="fWaterHeatAddDelay" type="Float"/>
+	<field name="fWaterHeatAddInterval" type="Float"/>
+	<field name="iWaterHeatAddAmount" type="Int32"/>
+	<field name="iWaterHeatAddTarget" type="Int32"/>
+	<field name="bOffRoadHeatIncrease" type="Boolean"/>
+	<field name="fOffRoadHeatAddDelay" type="Float"/>
+	<field name="fOffRoadHeatAddInterval" type="Float"/>
+	<field name="iOffRoadHeatAddAmount" type="Int32"/>
+	<field name="iOffRoadHeatAddTarget" type="Int32"/>
+	<field name="bShouldOverrideMinHeat" type="Boolean"/>
+	<field name="iMinHeatOverride" type="Int32"/>
+	<field name="gpctxspecGameplayContext" type="BinHex"/>
+	<object name="curveRespawnDelayCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="ManeuverAggression">
+		<field name="fChaserBoost" type="Float"/>
+		<field name="fMuscleBoost" type="Float"/>
+		<field name="fSUVBoost" type="Float"/>
+	</object>
+	<object name="OnFootWaveSpawningParameters">
+		<field name="fOnFootInitialDelay" type="Float"/>
+	</object>
+	<object name="SpawningPoolConfig">
+		<object name="UnifiedPoolConfigs">
+			<object name="Config">
+				<field name="selSpawningPoolType" type="Enum"/>
+				<field name="uiPoolSize" type="Int64"/>
+				<field name="bSpawnWhenOnFoot" type="Boolean"/>
+				<field name="bSpawnWhenInVehicle" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+	<object name="SpawnRules">
+		<field name="uiNbrUnitInInnerCircle" type="Int64"/>
+		<field name="uiNbrUnitInMiddleCircle" type="Int64"/>
+		<field name="uiNbrUnitInOuterCircle" type="Int64"/>
+	</object>
+	<object name="AIChaseBehavior">
+		<field name="fPlayerLocationPredictionTimeInSec" type="Float"/>
+		<field name="fMinDistToStartLocationPrediction" type="Float"/>
+	</object>
+	<object name="Efficiency">
+		<field name="uiResetOnNbrCivilianKilled" type="Int64"/>
+		<field name="fCivilianKilledInTimeRange" type="Float"/>
+		<field name="uiResetOnNbrPolicemanKilled" type="Int64"/>
+		<field name="fPolicemanKilledInTimeRange" type="Float"/>
+	</object>
+	<object name="PassengerCoordination">
+		<object name="PlayerInVehicle">
+			<field name="uiDesiredOnFootNPCs" type="Int64"/>
+		</object>
+		<object name="PlayerOnFoot">
+			<field name="uiDesiredOnFootNPCs" type="Int64"/>
+			<field name="uiDesiredDriverNPCs" type="Int64"/>
+			<field name="fOnFootCombatDurationForFullDriverOffload" type="Float"/>
+		</object>
+	</object>
+	<object name="RoadBlocks">
+		<field name="bRoadBlocksAllowed" type="Boolean"/>
+		<field name="fMinRoadBlockDist" type="Float"/>
+		<field name="fMaxRoadBlockDist" type="Float"/>
+		<field name="fRoadBlockInitialDelay" type="Float"/>
+		<field name="fRoadBlockInterval" type="Float"/>
+		<field name="uiMaxRoadBlockVehicles" type="Int64"/>
+		<field name="uiMaxRoadBlockNPCs" type="Int64"/>
+		<field name="uiMaxRoadBlockSpikeStrips" type="Int64"/>
+		<object name="BlockerVehicle">
+			<field name="selUnitID" type="Enum"/>
+		</object>
+		<object name="BlockerNPC">
+			<field name="selUnitID" type="Enum"/>
+		</object>
+		<object name="RegularLayout">
+			<field name="fSpikeOffsetX" type="Float"/>
+			<field name="fSpikeOffsetXMedian" type="Float"/>
+			<field name="fSpikeOffsetY" type="Float"/>
+			<field name="fSpikeOffsetZ" type="Float"/>
+			<field name="fCarAngleMin" type="Float"/>
+			<field name="fCarAngleMax" type="Float"/>
+			<field name="fNpcOffsetX" type="Float"/>
+			<field name="fNpcOffsetY" type="Float"/>
+		</object>
+		<object name="FreewayLayout">
+			<field name="fSpikeOffsetX" type="Float"/>
+			<field name="fSpikeOffsetXMedian" type="Float"/>
+			<field name="fSpikeOffsetY" type="Float"/>
+			<field name="fCarAngleMin" type="Float"/>
+			<field name="fCarAngleMax" type="Float"/>
+			<field name="fNpcOffsetX" type="Float"/>
+			<field name="fNpcOffsetY" type="Float"/>
+		</object>
+	</object>
+	<object name="PostChaseSearch">
+		<object name="Ranges">
+			<field name="fSearchZoneRadius" type="Float"/>
+			<field name="fNearTargetRadius" type="Float"/>
+			<field name="fDriveToTargetZoneRadius" type="Float"/>
+		</object>
+		<object name="Timers">
+			<field name="fNearTargetStrategyTimer" type="Float"/>
+			<field name="fNeatTargetStrategyCooldown" type="Float"/>
+			<field name="fQuickEscapeTimer" type="Float"/>
+			<field name="fSlowEscapeTimer" type="Float"/>
+			<field name="fMinTimeForInfiniteSearch" type="Float"/>
+		</object>
+		<object name="Strategies">
+			<field name="fResetStrategyCycleTimer" type="Float"/>
+			<field name="uiMaxCarStrategyPredicAhead" type="Int64"/>
+			<field name="uiMaxCarStrategyPredictBack" type="Int64"/>
+			<field name="uiMaxCarStrategyRandom" type="Int64"/>
+			<field name="uiMaxCarStrategyNearTarget" type="Int64"/>
+			<object name="InfiniteSearch">
+				<field name="fResetStrategyCycleTimer" type="Float"/>
+				<field name="uiMaxCarStrategyPredicAhead" type="Int64"/>
+				<field name="uiMaxCarStrategyPredictBack" type="Int64"/>
+				<field name="uiMaxCarStrategyRandom" type="Int64"/>
+				<field name="uiMaxCarStrategyNearTarget" type="Int64"/>
+			</object>
+			<object name="PostStrategySelectionRatio">
+				<field name="fDriveTowardTargetRatio" type="Float"/>
+				<field name="fDriveInTargetDirectionRatio" type="Float"/>
+				<field name="fDriveAwayTargetRatio" type="Float"/>
+			</object>
+		</object>
+		<object name="Speed">
+			<field name="fMaxSpeedOutSearchZone" type="Float"/>
+			<field name="fSpeedLimitRatioInSearchZone" type="Float"/>
+			<field name="fSpeedLimitRatioNearTarget" type="Float"/>
+			<object name="DrivingModeAndSpeedAdjustment">
+				<object name="StandardSearch">
+					<field name="MaxDistForSpeedAdjustment" type="BinHex"/>
+					<field name="MinDistForSpeedAdjustment" type="BinHex"/>
+				</object>
+				<object name="InfiniteSearch">
+					<field name="fResetStrategyCycleTimer" type="Float"/>
+					<field name="uiMaxCarStrategyPredicAhead" type="Int64"/>
+					<field name="uiMaxCarStrategyPredictBack" type="Int64"/>
+					<field name="uiMaxCarStrategyRandom" type="Int64"/>
+					<field name="uiMaxCarStrategyNearTarget" type="Int64"/>
+					<field name="MaxDistForSpeedAdjustment" type="BinHex"/>
+					<field name="MinDistForSpeedAdjustment" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Misc">
+			<field name="bCanUsePartialBlockedLane" type="Boolean"/>
+			<field name="bObeyIntersections" type="Boolean"/>
+			<field name="bUseShortcutLanes" type="Boolean"/>
+		</object>
+		<object name="Alley">
+			<field name="uiMinTimeToStopInFrontNoHide" type="Int64"/>
+			<field name="uiMaxTimeToStopInFrontNoHide" type="Int64"/>
+			<field name="uiMinTimeToStopInFrontHide" type="Int64"/>
+			<field name="uiMaxTimeToStopInFrontHide" type="Int64"/>
+			<field name="fCooldown" type="Float"/>
+		</object>
+		<object name="PlayerZoneSize">
+			<object name="StandardSearch">
+				<field name="MaxDistForSpeedAdjustment" type="BinHex"/>
+				<field name="MinDistForSpeedAdjustment" type="BinHex"/>
+				<field name="fStartSize" type="Float"/>
+				<field name="fStopSize" type="Float"/>
+				<field name="fIncreaseSizeBySec" type="Float"/>
+			</object>
+			<object name="InfiniteSearch">
+				<field name="fResetStrategyCycleTimer" type="Float"/>
+				<field name="uiMaxCarStrategyPredicAhead" type="Int64"/>
+				<field name="uiMaxCarStrategyPredictBack" type="Int64"/>
+				<field name="uiMaxCarStrategyRandom" type="Int64"/>
+				<field name="uiMaxCarStrategyNearTarget" type="Int64"/>
+				<field name="fStartSize" type="Float"/>
+				<field name="fStopSize" type="Float"/>
+				<field name="fIncreaseSizeBySec" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="PlayerZone">
+		<field name="fTimeToReachPlayerZoneOnSpawn" type="Float"/>
+		<field name="fTimeToReachPlayerZone" type="Float"/>
+		<field name="fPlayerZoneInMeter" type="Float"/>
+	</object>
+	<object name="TakedownRespawnDelay">
+		<field name="fTakedownRespawnDelay" type="Float"/>
+	</object>
+	<object name="Chopper">
+		<field hash="E7237599" type="String"/>
+		<field name="sArchetype" type="BinHex"/>
+		<field hash="95B6EC2C" type="String"/>
+		<field name="sSniperArchetype" type="BinHex"/>
+		<field name="fRespawnOverride" type="Float"/>
+		<field name="bAllowCloseCombatFallback" type="Boolean"/>
+		<object name="Overshoot">
+			<field name="fPlayerRange" type="Float"/>
+			<field name="fCooldownTime" type="Float"/>
+			<field name="fOvershootTime" type="Float"/>
+		</object>
+		<object name="Overtake">
+			<field name="fPlayerRange" type="Float"/>
+			<field name="fCooldownTime" type="Float"/>
+			<field name="fInterceptionPointWaitTime" type="Float"/>
+			<field name="fMinTimeAhead" type="Float"/>
+			<field name="fMaxTimeAhead" type="Float"/>
+			<field name="fUpdateTimeout" type="Float"/>
+			<field name="fEarlyRecoverTime" type="Float"/>
+		</object>
+	</object>
+	<object name="RuralSpawning">
+		<field name="fRuralExtendDist" type="Float"/>
+		<field name="fRuralUnrollRadius" type="Float"/>
+		<field name="fRuralOnFootDist" type="Float"/>
+	</object>
+	<object name="LTrain">
+		<field name="bStopTrain" type="Boolean"/>
+		<field name="iMaxTrainHeavies" type="Int32"/>
+		<field name="fTrainHeavyInterval" type="Float"/>
+	</object>
+	<object name="SWAT">
+		<field name="fSWATTruckInitialDelay" type="Float"/>
+		<field name="fSWATTruckInterval" type="Float"/>
+		<field name="uiMaxSWATVehicles" type="Int64"/>
+		<field name="uiMaxSWATNPCs" type="Int64"/>
+	</object>
+</class>

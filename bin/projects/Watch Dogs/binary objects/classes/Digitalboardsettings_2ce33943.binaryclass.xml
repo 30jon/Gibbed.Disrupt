@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Digitalboardsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="BoardTexts">
+		<object name="locsectionidBoardText">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="BoardTexts">
+			<object name="locsectionidBoardText">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+	<object name="TexturePaths">
+		<object name="TexturePaths">
+			<field name="fileTextureName" type="String"/>
+		</object>
+	</object>
+</class>

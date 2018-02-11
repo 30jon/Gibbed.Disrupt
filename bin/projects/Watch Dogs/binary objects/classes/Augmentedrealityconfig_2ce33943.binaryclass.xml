@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Augmentedrealityconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="62BD8D98" type="String"/>
+	<field name="fileCameraNoiseTexturePath" type="BinHex"/>
+	<field name="fileColorRemapTexturePath" type="BinHex"/>
+	<field hash="87278278" type="String"/>
+	<field name="fileTextureHitOverlay" type="BinHex"/>
+	<field name="colorGradingColor" type="Vector3"/>
+	<field name="fGradingColorFalloff" type="Float"/>
+	<field name="fGradingColorStrength" type="Float"/>
+	<field name="fHitFadeTime" type="Float"/>
+	<field name="fHitUVShiftStrength" type="Float"/>
+	<field name="fScrollingLineSteps" type="Float"/>
+	<field name="colorScrollingLineColor" type="Vector3"/>
+	<field name="fScrollingLineFalloff" type="Float"/>
+	<field name="fScrollingLineStrength" type="Float"/>
+	<field name="fScrollingLineSpeed" type="Float"/>
+	<field name="fUGCOffsetStrength" type="Float"/>
+	<field name="fUGCChromaticStrength" type="Float"/>
+</class>

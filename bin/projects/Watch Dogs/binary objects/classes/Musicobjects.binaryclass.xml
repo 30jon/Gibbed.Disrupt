@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MusicobjectsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selMusicType" type="Enum"/>
+	<field name="bStartOnLoad" type="Boolean"/>
+	<field name="playlistsPlaylist" type="BinHex"/>
+	<field name="fFadeTime" type="Float"/>
+	<field name="fSongSneakRadius" type="Float"/>
+	<field name="bUseActivationRadius" type="Boolean"/>
+</class>

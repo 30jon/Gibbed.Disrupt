@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DecryptioncombatlayoutsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="MissionLayerName" type="String"/>
+	<field name="vectorZoneCentrePoint" type="Vector3"/>
+	<field name="entPackageSpawnPointEntity" type="BinHex"/>
+</class>

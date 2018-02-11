@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EnticerdescriptionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bIsSynchronized" type="Boolean"/>
+	<field name="selActionDescription" type="Enum"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="entactAction" type="BinHex"/>
+			<field name="uiCoefficient" type="Int64"/>
+		</object>
+	</object>
+</class>

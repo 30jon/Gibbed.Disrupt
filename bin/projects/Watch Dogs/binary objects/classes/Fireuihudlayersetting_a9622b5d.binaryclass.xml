@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fireuihudlayersetting_a9622b5dParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="GenericProperties">
+		<field name="bGenericProperties" type="Boolean"/>
+	</object>
+	<object name="BehaviorProperties">
+		<field name="bBehaviorProperties" type="Boolean"/>
+		<object name="BehaviorProperties">
+			<field name="selBehaviorType" type="Enum"/>
+		</object>
+	</object>
+	<object name="Properties3D">
+		<field name="bProperties3D" type="Boolean"/>
+		<object name="Properties3D">
+			<field name="hudlayerthreedsettingsSettings3D" type="BinHex"/>
+			<object name="ContextOverrideSettings3D">
+				<field name="hudlayerthreedsettingsVehicle" type="BinHex"/>
+				<field name="hudlayerthreedsettingsCoverStraight" type="BinHex"/>
+				<field name="hudlayerthreedsettingsCoverLeft" type="BinHex"/>
+				<field name="hudlayerthreedsettingsCoverRight" type="BinHex"/>
+				<field name="hudlayerthreedsettingsUsingHidingSpot" type="BinHex"/>
+				<field name="hudlayerthreedsettingsSwimming" type="BinHex"/>
+				<field name="hudlayerthreedsettingsDead" type="BinHex"/>
+				<field name="hudlayerthreedsettingsCameraView" type="BinHex"/>
+				<field name="hudlayerthreedsettingsVehicleClassic" type="BinHex"/>
+				<field name="hudlayerthreedsettingsVehicleBumper" type="BinHex"/>
+				<field name="hudlayerthreedsettingsVehicleInterior" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Properties2D">
+		<field name="bProperties2D" type="Boolean"/>
+	</object>
+	<object name="ParallaxProperties">
+		<field name="bParallaxProperties" type="Boolean"/>
+		<object name="ParallaxProperties">
+			<field name="uLayerCount" type="Int64"/>
+			<object name="ParallaxProperties">
+				<field name="fParallaxScale" type="Float"/>
+				<field name="fParallaxScaleBlendSpeed" type="Float"/>
+				<field name="fParallaxAlpha" type="Float"/>
+				<field name="fParallaxAlphaBlendSpeed" type="Float"/>
+				<field name="vectorParallaxDisplacement" type="Vector3"/>
+				<field name="fParallaxDisplacementBlendSpeed" type="Float"/>
+				<object name="ParallaxProperties">
+					<field name="fParallaxScale" type="Float"/>
+					<field name="fParallaxScaleBlendSpeed" type="Float"/>
+					<field name="fParallaxAlpha" type="Float"/>
+					<field name="fParallaxAlphaBlendSpeed" type="Float"/>
+					<field name="vectorParallaxDisplacement" type="Vector3"/>
+					<field name="fParallaxDisplacementBlendSpeed" type="Float"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="InputProperties">
+		<field name="bInputProperties" type="Boolean"/>
+	</object>
+</class>

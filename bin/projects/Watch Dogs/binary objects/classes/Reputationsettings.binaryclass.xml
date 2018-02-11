@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ReputationsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iRankIndex" type="Int32"/>
+	<field name="iMinReputation" type="Int32"/>
+	<field name="iMaxReputation" type="Int32"/>
+	<object name="locstridTittle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridDesc">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

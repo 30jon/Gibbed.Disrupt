@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DialogactorlistParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bExportForInstallPackage" type="Boolean"/>
+	<object name="DialogActors">
+		<object name="tmplDialogActor">
+			<field hash="D8C7B5B6" type="String"/>
+			<field name="tmplDialogActor" type="BinHex"/>
+		</object>
+	</object>
+</class>

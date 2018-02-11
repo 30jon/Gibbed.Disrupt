@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GridscriptsequenceParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="gridscripteventsEventList" type="BinHex"/>
+	<field name="gridscripteventobjEvent" type="BinHex"/>
+	<field name="bSkipTransition" type="Boolean"/>
+	<field name="bDisableRollOver" type="Boolean"/>
+	<object name="GridScriptEventsSequence">
+		<object name="GridScriptEventSequence">
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="hidKey" type="BinHex"/>
+			<object name="GridScriptEvents">
+				<object name="GridScriptEvent">
+					<field name="gridscripteventobjEvent" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

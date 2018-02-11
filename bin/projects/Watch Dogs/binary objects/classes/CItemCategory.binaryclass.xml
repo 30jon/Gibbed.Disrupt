@@ -1,0 +1,11 @@
+<class name="CItemCategory">
+	<inherit name="CNomadDbObjectNamed" />
+    <field name="bEnable" type="Boolean" />
+    <field hash="C433315A" />
+    <object name="locstridItemCategoryNameId">
+        <field name="LocalizationId" type="UInt32" />
+    </object>
+    <object name="locstridItemCategoryDescriptionId">
+        <field name="LocalizationId" type="UInt32" />
+    </object>
+</class>

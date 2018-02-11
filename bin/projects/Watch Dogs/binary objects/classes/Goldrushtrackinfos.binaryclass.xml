@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GoldrushtrackinfosParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fGoldTime" type="Float"/>
+	<field name="fSilverTime" type="Float"/>
+	<field name="fBronzeTime" type="Float"/>
+	<field name="uiTrackId" type="Int64"/>
+	<field name="imageName" type="String"/>
+	<object name="locstridTrackName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridTrackDesc"/>
+</class>

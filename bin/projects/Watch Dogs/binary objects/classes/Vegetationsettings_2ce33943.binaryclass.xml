@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vegetationsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fShortVegetationThreshold" type="Float"/>
+	<field name="fMediumVegetationThreshold" type="Float"/>
+	<field name="fLongVegetationThreshold" type="Float"/>
+	<field name="fVegetationGridResolution" type="Float"/>
+</class>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HelicopterbhvsetupParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selBhv" type="Enum"/>
+	<object name="Detection">
+		<field name="bUseGaugeDetection" type="Boolean"/>
+		<field name="bOverrideDetectionGauge" type="Boolean"/>
+		<field name="fOverrideDetectionGaugeRaiseTime" type="Float"/>
+		<field name="fOverrideDetectionGaugeFallTime" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackednpcresponsesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selType" type="Enum"/>
+	<object name="Properties">
+		<field name="fleeonfootconfigFleeConfig" type="BinHex"/>
+		<object name="ConfigChange">
+			<field name="npcoverrideconfigConfig" type="BinHex"/>
+			<field name="bResetToPreviousConfig" type="Boolean"/>
+		</object>
+		<object name="Distract">
+			<field name="selType" type="Enum"/>
+			<field name="selEmotion" type="Enum"/>
+		</object>
+	</object>
+</class>

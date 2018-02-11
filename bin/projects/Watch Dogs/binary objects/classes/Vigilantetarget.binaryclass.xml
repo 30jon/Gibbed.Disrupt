@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VigilantetargetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selNPCType" type="Enum"/>
+	<field name="uiDifficultyLevel" type="Int64"/>
+	<field name="selRewardType" type="Enum"/>
+	<object name="locstridLocalisedName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

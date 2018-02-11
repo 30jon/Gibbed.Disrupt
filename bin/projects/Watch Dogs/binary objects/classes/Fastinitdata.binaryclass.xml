@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FastinitdataParameters">
+	<field name="ShaderIDs" type="BinHex"/>
+	<object name="ShaderFamilies">
+		<object name="ShaderFamily">
+			<field name="Name" type="String"/>
+			<field hash="E2145A61" type="String"/>
+			<field name="NameID" type="BinHex"/>
+			<field name="Path" type="String"/>
+			<field name="UsedBits" type="BinHex"/>
+			<field name="TouchedBits" type="BinHex"/>
+			<field name="ValidCommonOptions" type="BinHex"/>
+			<field name="GeometryCompilerOptions" type="BinHex"/>
+			<field name="VertexCompilerOptions" type="BinHex"/>
+			<field name="FragmentCompilerOptions" type="BinHex"/>
+			<field name="LODBitMaskCount" type="BinHex"/>
+			<field name="IsFrameJobState" type="BinHex"/>
+			<field name="IsDeprecated" type="BinHex"/>
+			<field name="PackInterpolators" type="BinHex"/>
+			<object name="ValidBitMask">
+				<field name="Element0" type="BinHex"/>
+				<field name="Element1" type="BinHex"/>
+				<field name="Element2" type="BinHex"/>
+				<field name="Element3" type="BinHex"/>
+				<field name="Element4" type="BinHex"/>
+				<field name="Element5" type="BinHex"/>
+				<field name="Element6" type="BinHex"/>
+				<field name="Element7" type="BinHex"/>
+				<field name="Element8" type="BinHex"/>
+				<field name="Element9" type="BinHex"/>
+				<field name="Element10" type="BinHex"/>
+				<field name="Element11" type="BinHex"/>
+				<field name="Element12" type="BinHex"/>
+				<field name="Element13" type="BinHex"/>
+				<field name="Element14" type="BinHex"/>
+				<field name="Element15" type="BinHex"/>
+				<field name="Element16" type="BinHex"/>
+				<field name="Element17" type="BinHex"/>
+				<field name="Element18" type="BinHex"/>
+				<field name="Element19" type="BinHex"/>
+				<field name="Element20" type="BinHex"/>
+				<field name="Element21" type="BinHex"/>
+				<field name="Element22" type="BinHex"/>
+				<field name="Element23" type="BinHex"/>
+				<field name="Element24" type="BinHex"/>
+				<field name="Element25" type="BinHex"/>
+				<field name="Element26" type="BinHex"/>
+				<field name="Element27" type="BinHex"/>
+				<field name="Element28" type="BinHex"/>
+				<field name="Element29" type="BinHex"/>
+				<field name="Element30" type="BinHex"/>
+				<field name="Element31" type="BinHex"/>
+				<field name="Element32" type="BinHex"/>
+				<field name="Element33" type="BinHex"/>
+				<field name="Element34" type="BinHex"/>
+				<field name="Element35" type="BinHex"/>
+				<field name="Element36" type="BinHex"/>
+				<field name="Element37" type="BinHex"/>
+				<field name="Element38" type="BinHex"/>
+				<field name="Element39" type="BinHex"/>
+				<field name="Element40" type="BinHex"/>
+				<field name="Element41" type="BinHex"/>
+				<field name="Element42" type="BinHex"/>
+				<field name="Element43" type="BinHex"/>
+				<field name="Element44" type="BinHex"/>
+				<field name="Element45" type="BinHex"/>
+				<field name="Element46" type="BinHex"/>
+				<field name="Element47" type="BinHex"/>
+				<field name="Element48" type="BinHex"/>
+				<field name="Element49" type="BinHex"/>
+				<field name="Element50" type="BinHex"/>
+				<field name="Element51" type="BinHex"/>
+				<field name="Element52" type="BinHex"/>
+				<field name="Element53" type="BinHex"/>
+				<field name="Element54" type="BinHex"/>
+				<field name="Element55" type="BinHex"/>
+				<field name="Element56" type="BinHex"/>
+				<field name="Element57" type="BinHex"/>
+				<field name="Element58" type="BinHex"/>
+				<field name="Element59" type="BinHex"/>
+				<field name="Element60" type="BinHex"/>
+				<field name="Element61" type="BinHex"/>
+				<field name="Element62" type="BinHex"/>
+				<field name="Element63" type="BinHex"/>
+			</object>
+			<object name="DefineTable"/>
+			<object name="LODBitMasks">
+				<field name="Element0" type="BinHex"/>
+				<field name="Element1" type="BinHex"/>
+				<field name="Element2" type="BinHex"/>
+				<field name="Element3" type="BinHex"/>
+				<field name="Element4" type="BinHex"/>
+				<field name="Element5" type="BinHex"/>
+				<field name="Element6" type="BinHex"/>
+				<field name="Element7" type="BinHex"/>
+			</object>
+			<object name="ShaderOptions"/>
+			<object name="SamplerInfos"/>
+		</object>
+	</object>
+</class>

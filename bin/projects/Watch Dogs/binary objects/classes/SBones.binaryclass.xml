@@ -1,0 +1,37 @@
+<class name="SBones">
+	<field hash="9FFA39E5" />
+	<field hash="C001A7E9" />
+	<field hash="3884996F" />
+	<object name="Bones">
+		<object name="Elem">
+			<object name="Value">
+				<field name="ChildToParent" type="Vector4" />
+				<field name="LocalOffset" type="Vector3" />
+				<field hash="DF4538F0" />
+				<field name="ParentIdx" />
+				<field name="AnimatedTranslation" />
+				<field name="IsSecondaryMotionDriven" />
+				<field name="BodyPart" />
+				<field name="ProceduralNodeType" />
+				<field name="text_Name" type="String" />
+				<field name="Name" />
+			</object>
+		</object>
+	</object>
+	<object name="CommonBoneIndexes">
+		<object name="Elem">
+			<object name="Value">
+				<field name="ChildToParent" type="Vector4" />
+				<field name="LocalOffset" type="Vector3" />
+				<field hash="DF4538F0" />
+				<field name="ParentIdx" />
+				<field name="AnimatedTranslation" />
+				<field name="IsSecondaryMotionDriven" />
+				<field name="BodyPart" />
+				<field name="ProceduralNodeType" />
+				<field name="text_Name" type="String" />
+				<field name="Name" />
+			</object>
+		</object>
+	</object>
+</class>

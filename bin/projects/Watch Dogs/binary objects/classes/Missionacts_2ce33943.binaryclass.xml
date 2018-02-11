@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Missionacts_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="MissionActs">
+		<object name="MissionAct">
+			<field name="missionlistMission" type="BinHex"/>
+			<field name="nAct" type="Int32"/>
+		</object>
+	</object>
+</class>

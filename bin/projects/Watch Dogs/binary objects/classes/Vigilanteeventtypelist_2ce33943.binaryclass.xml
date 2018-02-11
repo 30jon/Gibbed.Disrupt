@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vigilanteeventtypelist_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="VigilanteEventTypes">
+		<object name="VigilanteEventType">
+			<field hash="76BEED44" type="String"/>
+			<field name="sEventType" type="BinHex"/>
+			<object name="Variations">
+				<field hash="646DFA90" type="String"/>
+				<field name="sVariation" type="BinHex"/>
+				<field name="lcanimtemplAnimTemplate" type="BinHex"/>
+				<object name="Variations">
+					<field hash="646DFA90" type="String"/>
+					<field name="sVariation" type="BinHex"/>
+					<field name="lcanimtemplAnimTemplate" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

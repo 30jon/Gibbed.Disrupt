@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CiviliansbankParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bMigrationDone" type="Boolean"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+			<field name="uiCoefficient" type="Int64"/>
+			<object name="ValidModels">
+				<object hash="7D994BE2">
+					<field hash="7D994BE2" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="AllModels">
+		<object name="Model">
+			<field name="graphickitmodelModel" type="BinHex"/>
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+			<field name="fWeight" type="Float"/>
+		</object>
+	</object>
+</class>

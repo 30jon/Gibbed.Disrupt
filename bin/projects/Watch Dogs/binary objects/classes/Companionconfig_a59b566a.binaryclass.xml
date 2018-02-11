@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Companionconfig_a59b566aParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="GridConfig">
+		<field name="mapicondescMatchmakingGridIconDescription" type="BinHex"/>
+		<field name="mapicondescPlayFriendsGridIconDescription" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RandomeventParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selEventType" type="Enum"/>
+	<object name="Event">
+		<field name="itemeventlistsItemEvent" type="BinHex"/>
+		<field name="enticereventEnticerEvent" type="BinHex"/>
+		<field name="vigilantelistsVigilanteEvent" type="BinHex"/>
+		<field name="missionlistsMissionEvent" type="BinHex"/>
+		<field name="selMissionEventSubType" type="Enum"/>
+		<field name="accessidGiveAccessId" type="BinHex"/>
+		<field name="iMissionCompleteAmountRequired" type="Int32"/>
+	</object>
+	<object name="Params">
+		<field name="fTimer" type="Float"/>
+		<field name="fTimeOut" type="Float"/>
+		<field name="fExpiringTimeInMinutes" type="Float"/>
+		<field name="iPriority" type="Int32"/>
+		<field name="bPreventInMainMission" type="Boolean"/>
+		<field name="bPreventInSideMission" type="Boolean"/>
+		<field name="bPreventInVigilanteEvent" type="Boolean"/>
+		<field name="bPreventInFelony" type="Boolean"/>
+		<field name="bPreventInMulti" type="Boolean"/>
+		<field name="bPreventFromRewardPropose" type="Boolean"/>
+		<field name="bPreventFromAutoPropose" type="Boolean"/>
+		<field name="fRealSpawnRadius" type="Float"/>
+		<field name="fIdealOpportunitySpawnRadius" type="Float"/>
+		<field name="fOpportunitySpawnRadius" type="Float"/>
+		<field name="accessidRequiredAccessId" type="BinHex"/>
+		<field name="accessidCompletedAccessId" type="BinHex"/>
+		<field name="bMandatoryEvent" type="Boolean"/>
+		<field name="bPermanentOnceSpawnedUntilCompletedEvent" type="Boolean"/>
+		<object name="VigilanteOnly">
+			<field name="fMonitoringAlertTimer" type="Float"/>
+			<field name="bMandatory" type="Boolean"/>
+		</object>
+		<object name="locstridOngoingActivity">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

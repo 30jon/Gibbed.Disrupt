@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AttractorsbanksdatabaseobjectParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bCivilian" type="Boolean"/>
+	<field hash="5270412C" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="attactAction" type="BinHex"/>
+			<field name="uiCoefficient" type="Int64"/>
+		</object>
+	</object>
+	<object hash="A7BB958F">
+		<field name="bAIUnaware" type="Boolean"/>
+		<field name="bAIAlertSoft" type="Boolean"/>
+		<field name="bAICombat" type="Boolean"/>
+		<field name="bAIInvestigate" type="Boolean"/>
+		<field name="bAIHunt" type="Boolean"/>
+		<field name="bAIAlertHard" type="Boolean"/>
+		<field name="bAIAware" type="Boolean"/>
+		<field name="bAIUseCurrentRunningSpeed" type="Boolean"/>
+		<field name="fAIRunningSpeed" type="Float"/>
+		<field name="selAIWalkType" type="Enum"/>
+	</object>
+</class>

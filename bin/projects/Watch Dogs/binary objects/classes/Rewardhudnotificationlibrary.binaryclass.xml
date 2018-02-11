@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RewardhudnotificationlibraryParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="colorTextColor" type="Vector3"/>
+	<field name="sItemIconTextureName" type="String"/>
+	<field name="selShortcut" type="Enum"/>
+	<field name="playerprogressionnodeRootNode" type="BinHex"/>
+	<field name="playerprogressionnodeFocusNode" type="BinHex"/>
+	<object name="locstridTitle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridDescription">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

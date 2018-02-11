@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Playervisionsettings_5249a643Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fAIDetectionDurationSP" type="Float"/>
+	<field name="fAIDetectionDurationMP" type="Float"/>
+	<field name="fPlayerDetectionDuration" type="Float"/>
+	<field name="fMinScreenDrawPercentSP" type="Float"/>
+	<field name="fMinScreenDrawPercentMP" type="Float"/>
+	<field name="fCharacterVisibilityPercentSP" type="Float"/>
+	<field name="fCharacterVisibilityPercentMP" type="Float"/>
+	<field name="fProximityInCarDetectPlayerDistance" type="Float"/>
+	<field name="fProximityInCarDetectAIDistanceSP" type="Float"/>
+	<field name="fProximityInCarDetectAIDistanceMP" type="Float"/>
+	<field name="fProximityOnFootDetectPlayerDistance" type="Float"/>
+	<field name="fProximityOnFootDetectAIDistanceSP" type="Float"/>
+	<field name="fProximityOnFootDetectAIDistanceMP" type="Float"/>
+	<field name="fFireBulletDetectPlayerDistance" type="Float"/>
+	<field hash="A06E14DC" type="Float"/>
+	<field hash="742F2B03" type="Float"/>
+	<field name="colorDefaultLKPIndicatorColor" type="VectorColor"/>
+	<field name="mapicondescDefaultLKPMapIcon" type="BinHex"/>
+	<field name="colorVictimLKPIndicatorColor" type="VectorColor"/>
+	<field name="mapicondescVictimLKPMapIcon" type="BinHex"/>
+	<field name="colorHackerLKPIndicatorColor" type="VectorColor"/>
+	<field name="mapicondescHackerLKPMapIcon" type="BinHex"/>
+</class>

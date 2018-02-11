@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Humandetectioncontrollerconfig_95f0c55fParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fPlayerDistanceToZoomGps" type="Float"/>
+	<object name="Zones">
+		<field name="RadiusZone1" type="BinHex"/>
+		<field name="RadiusZone2" type="BinHex"/>
+		<field name="RadiusZone3" type="BinHex"/>
+	</object>
+	<object name="Threat">
+		<field name="LKPCombatStateThreat" type="BinHex"/>
+		<field name="DistanceWeight" type="BinHex"/>
+		<field name="VisibilityThreat" type="BinHex"/>
+		<field name="StickyThreat" type="BinHex"/>
+		<field name="LastDamageThreat" type="BinHex"/>
+		<field name="LastDamageDecay" type="BinHex"/>
+		<field name="LastNearMissThreat" type="BinHex"/>
+		<field name="LastNearMissDecay" type="BinHex"/>
+		<field name="LastFiredGunThreat" type="BinHex"/>
+		<field name="LastFiredGunDecay" type="BinHex"/>
+		<field name="CloseRangeDistance" type="BinHex"/>
+		<field name="CloseRangeThreat" type="BinHex"/>
+		<field name="ExposedThreat" type="BinHex"/>
+		<field name="DrivingVehicleThreat" type="BinHex"/>
+		<field name="PrimaryTargetThreat" type="BinHex"/>
+		<field name="PlayerThreat" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="StimulusnpcParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="StimulusList">
+		<object name="Stimulus">
+			<field name="selStimulusType" type="Enum"/>
+			<field name="bIgnoreStimulus" type="Boolean"/>
+			<field name="fPriority" type="Int64"/>
+			<field name="fRadius" type="Float"/>
+			<object name="IgnoreState">
+				<field name="bIgnoreInDefaultState" type="Boolean"/>
+				<field name="bIgnoreInPreAlerSearchState" type="Boolean"/>
+				<field name="bIgnoreInPreAlertState" type="Boolean"/>
+				<field name="bIgnoreInAlertState" type="Boolean"/>
+				<field name="bIgnoreInAlertSearchState" type="Boolean"/>
+				<field name="bIgnoreInCombatState" type="Boolean"/>
+				<field name="bIgnoreInCombatSearchState" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dynamicnavmeshsetting_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DynamicNavmesh">
+		<object name="Config">
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="selNavmeshType" type="Enum"/>
+			<field hash="E085CDFD" type="String"/>
+			<field name="fileObjectFile" type="BinHex"/>
+			<field name="sSectorFileName" type="String"/>
+			<field name="uiMaxNodes" type="Int64"/>
+		</object>
+	</object>
+</class>

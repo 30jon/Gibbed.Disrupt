@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Rewardglobalsettings_c65ed93fParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="itemsInvalidReward" type="BinHex"/>
+	<field name="rewarditemlistsCarOnDemandDebugRewardList" type="BinHex"/>
+	<field name="sCarOnDemandRewardTextureName" type="String"/>
+	<field name="accessidCarOnDemandAccessIdUnlockAppPDA" type="BinHex"/>
+	<field name="itemlistsOnFailGenerateReward" type="BinHex"/>
+	<field name="itemlistsOnFailGenerateHackingReward" type="BinHex"/>
+	<field name="iRefillAmmoPercentOnReload" type="Int32"/>
+	<object name="BankAccount">
+		<field name="sRewardIconBankAccoundRich" type="String"/>
+		<object name="locstridRewardNameBankAccountRich">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="RandomEvent">
+		<field name="sRewardIconVigilante" type="String"/>
+		<field name="sRewardIconRandomEventFoundItem" type="String"/>
+		<field name="sRewardIconRandomEventMissionDrivingJob" type="String"/>
+		<field name="sRewardIconRandomEventMissionConvoy" type="String"/>
+		<field name="sRewardIconRandomEventMissionIntimidation" type="String"/>
+		<object name="locstridRewardNameRandomEventVigilante">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameRandomEventFoundItem">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameRandomEventMissionDrivingJob">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameRandomEventMissionConvoy">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameRandomEventMissionIntimidation">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="OnlineActivity">
+		<field name="sRewardIconOnlineRacing" type="String"/>
+		<field name="sRewardIconOnlineTailing" type="String"/>
+		<field name="sRewardIconOnlineHacking" type="String"/>
+		<field name="itemsOnlineHackingAccessItem" type="BinHex"/>
+		<field name="itemsOnlineRacingAccessItem" type="BinHex"/>
+		<object name="locstridRewardNameOnlineRacing">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameOnlineTailing">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRewardNameOnlineHacking">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="locstridPickupInventoryFull">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

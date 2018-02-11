@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Reinforcementmanagersettings_7e2358f4Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fCallDuration" type="Float"/>
+	<field name="fInitialDelay" type="Float"/>
+	<field name="fCallSuccessCooldown" type="Float"/>
+	<field name="fCallJammedCooldown" type="Float"/>
+	<field name="fCallJammedIndividualCooldown" type="Float"/>
+	<field name="fCallerKilledCooldown" type="Float"/>
+	<field name="fCallFailTime" type="Float"/>
+	<object name="Sounds">
+		<field name="sndCallStartSound" type="BinHex"/>
+		<field name="sndCallFailSound" type="BinHex"/>
+	</object>
+</class>

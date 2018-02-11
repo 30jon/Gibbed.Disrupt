@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclechassisParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMass" type="Float"/>
+	<field name="fFrontWeightDistribution" type="Float"/>
+	<field name="fCenterOfMassZOffset" type="Float"/>
+	<field name="fChassisInertiaYawCoeff" type="Float"/>
+	<field name="fChassisInertiaRollCoeff" type="Float"/>
+	<field name="fChassisInertiaPitchCoeff" type="Float"/>
+	<field name="fGroundFrictionReduceMinAngle" type="Float"/>
+	<field name="fGroundFrictionReduceMaxAngle" type="Float"/>
+	<field name="fHardSpeedLimit" type="Float"/>
+	<field name="fExtraGravityScale" type="Float"/>
+	<field name="fBumpStopMaxVelocityCounterSpeed" type="Float"/>
+	<field name="fBumpStopMaxPenetrationCounterSpeed" type="Float"/>
+	<field name="fSuspensionMaxDampingVelocity" type="Float"/>
+	<field name="vectorChassisDimensions" type="Vector3"/>
+	<field name="nRammingValue" type="Int32"/>
+	<field name="bAdjustRideHeightWithExtraGravity" type="Boolean"/>
+</class>

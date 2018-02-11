@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OperatormissionlayoutParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="MissionLayerName" type="String"/>
+	<field name="entTargetMarkerEntity" type="BinHex"/>
+	<field name="entNextTargetMarkerEntity" type="BinHex"/>
+	<field hash="3DF5C75B" type="String"/>
+	<field name="archBonusGateTimeMarker" type="BinHex"/>
+	<field name="archBonusGateCashMarker" type="BinHex"/>
+	<field name="entChopperUserTarget" type="BinHex"/>
+	<field name="entChopperActualTarget" type="BinHex"/>
+</class>

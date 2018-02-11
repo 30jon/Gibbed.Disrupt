@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PersonalityParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="stimulusnpcStimulus" type="BinHex"/>
+	<object name="BeingTakenDownBehaviors">
+		<object name="BeingTakenDownPropagation">
+			<field name="fBeingTakenDownPropagationStartDelay" type="Float"/>
+			<field name="fBeingTakenDownPropagationRadiusInStealth" type="Float"/>
+			<field name="fBeingTakenDownPropagationRadiusInCombat" type="Float"/>
+		</object>
+	</object>
+	<object name="AlertBehaviors">
+		<field name="fAlertIdleTimeout" type="Float"/>
+		<field name="fAlertIdleTimeoutAdditionalRandomDelay" type="Float"/>
+		<field name="fAlertCompletedByAIGroupIdleTimeout" type="Float"/>
+		<field name="fAlertCompletedByAIGroupIdleTimeoutAdditionalRandomDelay" type="Float"/>
+	</object>
+	<object name="AlertSoftBehaviors">
+		<field name="bAlertSoftInspectionRequired" type="Boolean"/>
+		<field name="fAlertSoftInvestigationAllowOtherOnIgnoreTimeout" type="Float"/>
+		<field name="fAlertSoftInvestigationIdleTimeout" type="Float"/>
+		<object name="AlertSoftBark">
+			<field name="fAlertSoftBarkSurprisedStartDelay" type="Float"/>
+			<field name="fAlertSoftBarkSurprisedAdditionalRandomDelay" type="Float"/>
+		</object>
+	</object>
+	<object name="AlertHardBehaviours">
+		<field name="bAlertHardInspectionRequired" type="Boolean"/>
+		<field name="fAlertHardInvestigationStartDelay" type="Float"/>
+		<field name="fAlertHardInvestigationAdditionalRandomDelay" type="Float"/>
+		<object name="AlertHardBark">
+			<field name="fAlertHardBarkFirstWarnStartDelay" type="Float"/>
+			<field name="fAlertHardBarkFirstWarnAdditionalRandomDelay" type="Float"/>
+			<field name="fAlertHardBarkSurprisedStartDelay" type="Float"/>
+			<field name="fAlertHardBarkSurprisedAdditionalRandomDelay" type="Float"/>
+			<field name="fAlertHardBarkSearchTargetStartDelay" type="Float"/>
+			<field name="fAlertHardBarkSearchTargetAdditionalRandomDelay" type="Float"/>
+		</object>
+		<object name="AlertHardDeadBody">
+			<object name="AlertHardDeadBodyBark">
+				<field name="fAlertHardDeadBodyBarkSurprisedStartDelay" type="Float"/>
+				<field name="fAlertHardDeadBodyBarkSurprisedAdditionalRandomDelay" type="Float"/>
+				<field name="fAlertHardDeadBodyBarkInspectionStartDelay" type="Float"/>
+				<field name="fAlertHardDeadBodyBarkInspectionAdditionalRandomDelay" type="Float"/>
+				<field name="fAlertHardDeadBodyBarkSearchTargetStartDelay" type="Float"/>
+				<field name="fAlertHardDeadBodyBarkSearchTargetAdditionalRandomDelay" type="Float"/>
+				<field name="fAlertHardMultipleDeadBodiesBarkStartDelay" type="Float"/>
+				<field name="fAlertHardMultipleDeadBodiesBarkAdditionalRandomDelay" type="Float"/>
+				<field name="fAlertHardMultipleDeadBodiesBarkSearchTargetStartDelay" type="Float"/>
+				<field name="fAlertHardMultipleDeadBodiesBarkSearchTargetAdditionalRandomDelay" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="InvestigateLKPBehaviors">
+		<field name="fInvestigateLKPInvestigationStartDelay" type="Float"/>
+		<field name="fInvestigateLKPInvestigationAdditionalRandomDelay" type="Float"/>
+		<object name="InvestigateLKPBark">
+			<field name="fInvestigateLKPBarkLostTargetStartDelay" type="Float"/>
+			<field name="fInvestigateLKPBarkLostTargetAdditionalRandomDelay" type="Float"/>
+			<field name="fInvestigateLKPBarkSearchTargetStartDelay" type="Float"/>
+			<field name="fInvestigateLKPBarkSearchTargetAdditionalRandomDelay" type="Float"/>
+		</object>
+	</object>
+	<object name="SearchBehaviors">
+		<object name="SearchBark">
+			<field name="fSearchBarkBeginSearchStartDelay" type="Float"/>
+			<field name="fSearchBarkBeginSearchAdditionalRandomDelay" type="Float"/>
+			<field name="fSearchBarkAlertSoftInspectionStartDelay" type="Float"/>
+			<field name="fSearchBarkAlertSoftInspectionAdditionalRandomDelay" type="Float"/>
+		</object>
+	</object>
+	<object name="CombatBehaviours">
+		<object name="Generic">
+			<field name="fShootingAccuracyModifier" type="Float"/>
+		</object>
+		<object name="Approach">
+			<field name="bApproachEnabled" type="Boolean"/>
+			<field name="fApproachBehaviorProbability" type="Float"/>
+		</object>
+		<object name="OutOfRange">
+			<field name="fTargetIsOutOfRangeDistanceMin" type="Float"/>
+			<field name="fTargetIsOutOfRangeDistanceMax" type="Float"/>
+			<field name="fTargetDistanceMinToUseVehicle" type="Float"/>
+		</object>
+		<object name="InRange">
+			<field name="fTargetIsInRangeDistance" type="Float"/>
+		</object>
+		<object name="EmergencyShooting">
+			<field name="fEmergencyShootingMinDistanceInCover" type="Float"/>
+			<field name="fEmergencyShootingMinDistanceInStandAndShoot" type="Float"/>
+			<field name="fEmergencyShootingMinDistanceWhenExposedInCover" type="Float"/>
+		</object>
+		<object name="StandAndShoot">
+			<field name="vec2StrafeRepeatTimeout" type="Vector2"/>
+			<field name="fStartCombatWithShootingProbability" type="Float"/>
+		</object>
+		<object name="Grenades">
+			<field name="selGrenadeAnim" type="Enum"/>
+			<field name="vec2GrenadeLandingDistFromTarget" type="Vector2"/>
+			<field name="vec2GrenadeThrowTimeout" type="Vector2"/>
+			<field name="vec2GrenadeThrowRange" type="Vector2"/>
+			<field name="vec2GrenadeRollRange" type="Vector2"/>
+		</object>
+		<object name="Cover">
+			<field name="vec2CoverInitialPeekOutRepeatTimeout" type="Vector2"/>
+			<field name="vec2CoverPeekOutRepeatTimeout" type="Vector2"/>
+			<field name="vec2CoverMovementRepeatTimeout" type="Vector2"/>
+			<field name="vec2CoverShotsCountBeforeMovement" type="Vector2"/>
+			<field name="fCoverLineOfSightTestRepeatTimeout" type="Float"/>
+			<field name="vec2CoverChangeTestTimeout" type="Vector2"/>
+			<field name="fDistanceForLateralCoverSelection" type="Float"/>
+			<field name="fDistanceHysteresisForLateralCoverSelection" type="Float"/>
+			<field name="fMinDistanceForSecondCoverSelection" type="Float"/>
+			<field name="fFinalFlankingCoverAngle" type="Float"/>
+			<field name="fSecondLateralCoverAngleTest" type="Float"/>
+			<field name="fSecondCoverPreShootingTime" type="Float"/>
+			<field name="fSecondLateralCoverDefendAngleLimit" type="Float"/>
+			<field name="fProbabilityOfStandAndShootBeforeMoveToForwardCover" type="Float"/>
+			<field name="fStandAndShootBeforeEnteringForwardCoverProbability" type="Float"/>
+			<field name="fStandAndShootBeforeEnteringLateralCoverProbability" type="Float"/>
+			<object name="curveSecondCoverShootingAgentsCondition">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="Assault">
+				<field name="fAssaultDistToStopMovement" type="Float"/>
+				<field name="vec2AssaultCoverChangeTestTimeout" type="Vector2"/>
+				<field name="fAssaultSecondCoverPreShootingTime" type="Float"/>
+			</object>
+			<object name="Defend">
+				<field name="fDefendMaxDistFromDefendVector" type="Float"/>
+				<field name="fDefendLimitDistForwardCoverSelection" type="Float"/>
+				<field name="fDefendDistToStopMovement" type="Float"/>
+				<field name="vec2DefendCoverChangeTestTimeout" type="Vector2"/>
+				<field name="fDefendSecondCoverPreShootingTime" type="Float"/>
+			</object>
+		</object>
+		<object name="CoverSelections">
+			<object name="Normal">
+				<object name="CoverSelection">
+					<field name="coverselectionparametersCoversNormalFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalHuntCover" type="BinHex"/>
+				</object>
+				<object name="CurrentCoverRevalidation">
+					<field name="coverselectionparametersCoversNormalReservedCover" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Defend">
+				<field name="fDefendMaxDistFromDefendVector" type="Float"/>
+				<field name="fDefendLimitDistForwardCoverSelection" type="Float"/>
+				<field name="fDefendDistToStopMovement" type="Float"/>
+				<field name="vec2DefendCoverChangeTestTimeout" type="Vector2"/>
+				<field name="fDefendSecondCoverPreShootingTime" type="Float"/>
+				<object name="CoverSelection">
+					<field name="coverselectionparametersCoversNormalFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalHuntCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversDefendFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversDefendSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversDefendSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversDefendHuntCover" type="BinHex"/>
+				</object>
+				<object name="CurrentCoverRevalidation">
+					<field name="coverselectionparametersCoversNormalReservedCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversDefendReservedCover" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Assault">
+				<field name="fAssaultDistToStopMovement" type="Float"/>
+				<field name="vec2AssaultCoverChangeTestTimeout" type="Vector2"/>
+				<field name="fAssaultSecondCoverPreShootingTime" type="Float"/>
+				<object name="CoverSelection">
+					<field name="coverselectionparametersCoversNormalFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalHuntCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversAssaultFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversAssaultSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversAssaultSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversAssaultHuntCover" type="BinHex"/>
+				</object>
+				<object name="CurrentCoverRevalidation">
+					<field name="coverselectionparametersCoversNormalReservedCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversAssaultReservedCover" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Jamming">
+				<object name="CoverSelection">
+					<field name="coverselectionparametersCoversNormalFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversNormalHuntCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversJammingFirstCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversJammingSecondCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversJammingSecondForwardCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversJammingHuntCover" type="BinHex"/>
+				</object>
+				<object name="CurrentCoverRevalidation">
+					<field name="coverselectionparametersCoversNormalReservedCover" type="BinHex"/>
+					<field name="coverselectionparametersCoversJammingReservedCover" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Detection">
+		<field name="bCanEnableStealthGpsZoom" type="Boolean"/>
+		<object name="ConeAndRadiusConfig">
+			<field name="fOnDeadBodyDetectionRadius" type="Float"/>
+			<object name="OnFootConfig">
+				<field name="fOnFootIntuitionHeight" type="Float"/>
+				<field name="fOnFootPlayerSprintIntuitionZoneRadius" type="Float"/>
+				<field name="fOnFootPlayerSprintCombatZoneRadius" type="Float"/>
+				<field name="fOnFootPlayerInRunningVehicleIntuitionZoneRadius" type="Float"/>
+				<field name="fOnFootPlayerInRunningVehicleIntuitionZoneRadiusVelocity" type="Float"/>
+				<field name="fOnFootPlayerInRunningVehicleIntuitionMinRadius" type="Float"/>
+				<field name="fOnFootPlayerInRunningVehicleIntuitionMinRadiusVelocity" type="Float"/>
+				<field name="fOnFootDetectionZoneRadius" type="Float"/>
+				<field name="fOnFootCombatDetectionZoneRadius" type="Float"/>
+				<field name="fOnFootPostCombatDetectionZoneRadius" type="Float"/>
+				<field name="fOnFootPlayerInWarningZoneIntuitionZoneRadius" type="Float"/>
+			</object>
+		</object>
+		<object name="WarningZoneConfig">
+			<field name="fWarningZoneDistToPlayer" type="Float"/>
+			<field name="fWarningZoneTimeToAlertHard" type="Float"/>
+		</object>
+		<object name="RangeModifierConfig">
+			<field name="fMediumRange" type="Float"/>
+			<field name="fCloseRange" type="Float"/>
+			<field name="fPersonalRange" type="Float"/>
+		</object>
+		<object name="WalkSpeedConfig">
+			<field name="fPatrolDefaultSpeed" type="Float"/>
+			<field name="fPatrolCombatSpeed" type="Float"/>
+			<field name="fHidingSpotDefaultSpeed" type="Float"/>
+			<field name="fHidingSpotCombatSpeed" type="Float"/>
+		</object>
+		<object name="MiscConfig">
+			<field name="iMaxAlertSoftStimuliCount" type="Int32"/>
+			<field name="fMinDelayBetweenAlertSoftStimuliCount" type="Float"/>
+			<field name="iOnFootCastHitThreshold" type="Int32"/>
+			<field name="iInVehicleCastHitThreshold" type="Int32"/>
+			<field name="fReputationModifier" type="Float"/>
+			<field name="fLKPDistanceForFrontalReacquireBark" type="Float"/>
+			<field name="fDistanceForStimPlayerInWarningZoneInCarMin" type="Float"/>
+			<field name="fDistanceForStimPlayerInWarningZoneInCarMax" type="Float"/>
+			<field name="fVelocityForStimPlayerInWarningZoneInCarMin" type="Float"/>
+			<field name="fVelocityForStimPlayerInWarningZoneInCarMax" type="Float"/>
+		</object>
+		<object name="BlackoutConfig">
+			<field name="fDetectionRadiusRatioOnBlackoutReaction" type="Float"/>
+			<field name="fDetectionRadiusRatioOnBlackout" type="Float"/>
+			<field name="fDetectionRadiusRatioOnBackup" type="Float"/>
+		</object>
+		<object name="GaugeConfig">
+			<field name="fGaugeTimeToReachTopIntuition" type="Float"/>
+			<field name="fGaugeTimeToReachBottomIntuition" type="Float"/>
+			<field name="fGaugeTimeToReachTopAlert" type="Float"/>
+			<field name="fGaugeTimeToReachBottomAlert" type="Float"/>
+			<object name="RangeModifierConfig">
+				<field name="fMediumRange" type="Float"/>
+				<field name="fCloseRange" type="Float"/>
+				<field name="fPersonalRange" type="Float"/>
+				<object name="curveGaugeMaxDepthFOVvsTimeModifierCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveGaugeMaxDepthFOVvsTimeModifierCurveForLongRange">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="AngleModifierConfig">
+				<object name="curveGaugeAngleToTargetvsTimeModifierCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="SpeedModifierConfig">
+				<object name="curveGaugeTargetSpeedvsTimeModifierCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="StateModifierConfig">
+				<object name="Unaware">
+					<field name="bGaugeIsEnabledInUnaware" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopUnawareModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomUnawareModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInUnaware" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInUnaware" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInUnaware" type="Boolean"/>
+				</object>
+				<object name="UnawareAlerted">
+					<field name="bGaugeIsEnabledInUnawareAlerted" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopUnawareAlertedModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomUnawareAlertedModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInUnawareAlerted" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInUnawareAlerted" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInUnawareAlerted" type="Boolean"/>
+				</object>
+				<object name="AlertSoft">
+					<field name="bGaugeIsEnabledInAlertSoft" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopAlertSoftModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomAlertSoftModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInAlertSoft" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInAlertSoft" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInAlertSoft" type="Boolean"/>
+				</object>
+				<object name="AlertHard">
+					<field name="bGaugeIsEnabledInAlertHard" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopAlertHardModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomAlertHardModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInAlertHard" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInAlertHard" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInAlertHard" type="Boolean"/>
+				</object>
+				<object name="Combat">
+					<field name="fCombatDetectionVisibilityRatioTimeout" type="Float"/>
+					<object name="curveCombatDetectionDistanceCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="ValidateLKP">
+					<field name="bGaugeIsEnabledInValidateLKP" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopValidateLKPModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomValidateLKPModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInValidateLKP" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInValidateLKP" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInValidateLKP" type="Boolean"/>
+				</object>
+				<object name="Hunt">
+					<field name="bGaugeIsEnabledInHunt" type="Boolean"/>
+					<field name="fGaugeTimeToReachTopHuntModifier" type="Float"/>
+					<field name="fGaugeTimeToReachBottomHuntModifier" type="Float"/>
+					<field name="bIntuitionGaugeIsVisibleInHunt" type="Boolean"/>
+					<field name="bAlertGaugeIsVisibleInHunt" type="Boolean"/>
+					<field name="bResestGaugeWhenSwitchingInHunt" type="Boolean"/>
+				</object>
+			</object>
+			<object name="StimModifierConfig">
+				<field name="fGaugeTimeoutHeardGunfireModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopHeardGunfireModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomHeardGunfireModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopSeeTakeDownModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomSeeTakeDownModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopPlayerSprintModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomPlayerSprintModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopPlayerBlackoutModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomPlayerBlackoutModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopPlayerBlackoutBackupModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomPlayerBlackoutBackupModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopPlayerInRunningVehicleModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomPlayerInRunningVehicleModifier" type="Float"/>
+				<field name="fGaugeTimeToReachTopSeePlayerAimingModifier" type="Float"/>
+				<field name="fGaugeTimeToReachBottomSeePlayerAimingModifier" type="Float"/>
+			</object>
+		</object>
+		<object name="Flank">
+			<field name="fFlankLowAngle" type="Float"/>
+			<field name="fFlankHighAngle" type="Float"/>
+			<field name="fFlankDetectWhileMovingRadius" type="Float"/>
+		</object>
+	</object>
+	<object name="Barks">
+		<object name="BarksFoundYou">
+			<field name="fBarkFindYouStartDelay" type="Float"/>
+			<field name="fBarkFindYouAdditionalRandomDelay" type="Float"/>
+		</object>
+		<object name="BarksGroupMemberShot">
+			<field name="bBarkGroupMemberShotIgnoreBlind" type="Boolean"/>
+			<field name="bBarkGroupMemberShotIgnoreInVehicle" type="Boolean"/>
+			<field name="bBarkGroupMemberShotUseConeOfVision" type="Boolean"/>
+			<field name="bBarkGroupMemberShotUseRaycast" type="Boolean"/>
+			<field name="fBarkGroupMemberShotRadius" type="Float"/>
+			<field name="fBarkGroupMemberShotTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksGroupMemberShotAnswer">
+			<field name="bBarkGroupMemberShotAnswerIgnoreBlind" type="Boolean"/>
+			<field name="bBarkGroupMemberShotAnswerInVehicle" type="Boolean"/>
+			<field name="bBarkGroupMemberShotAnswerUseConeOfVision" type="Boolean"/>
+			<field name="bBarkGroupMemberShotAnswerUseRaycast" type="Boolean"/>
+			<field name="fBarkGroupMemberShotAnswerRadius" type="Float"/>
+			<field name="fBarkGroupMemberShotAnswerTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksTargetKilled">
+			<field name="fBarkTargetKilledTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksTargetKilledAnswer">
+			<field name="bBarkTargetKilledAnswerIgnoreBlind" type="Boolean"/>
+			<field name="bBarkTargetKilledAnswerInVehicle" type="Boolean"/>
+			<field name="bBarkTargetKilledAnswerUseConeOfVision" type="Boolean"/>
+			<field name="bBarkTargetKilledAnswerUseRaycast" type="Boolean"/>
+			<field name="fBarkTargetKilledAnswerRadius" type="Float"/>
+			<field name="fBarkTargetKilledAnswerTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksSeekingCover">
+			<field name="bBarkSeekingCoverIgnoreBlind" type="Boolean"/>
+			<field name="bBarkSeekingCoverInVehicle" type="Boolean"/>
+			<field name="bBarkSeekingCoverUseConeOfVision" type="Boolean"/>
+			<field name="bBarkSeekingCoverUseRaycast" type="Boolean"/>
+			<field name="fBarkSeekingCoverRadius" type="Float"/>
+			<field name="fBarkSeekingCoverTimeToStart" type="Float"/>
+			<field name="fEventTargetedByPlayerSecondBetweenOccurences" type="Float"/>
+		</object>
+		<object name="BarkCombatTakingFire">
+			<field name="fBarkCombatTakingFireRadius" type="Float"/>
+		</object>
+		<object name="BarkCombatGettingSniped">
+			<field name="fBarkCombatGettingSnipedTestDistance" type="Float"/>
+			<field name="fBarkCombatGettingSnipedMinimalDistance" type="Float"/>
+			<field name="fBarkCombatGettingSnipedTestSilentWeapon" type="Float"/>
+		</object>
+		<object name="BarksThrowGrenade">
+			<field name="bBarkThrowGrenadeIgnoreBlind" type="Boolean"/>
+			<field name="bBarkThrowGrenadeInVehicle" type="Boolean"/>
+			<field name="bBarkThrowGrenadeUseConeOfVision" type="Boolean"/>
+			<field name="bBarkThrowGrenadeUseRaycast" type="Boolean"/>
+			<field name="fBarkThrowGrenadeRadius" type="Float"/>
+			<field name="fBarkThrowGrenadeTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksOrderFlank">
+			<field name="bBarkOrderFlankIgnoreBlind" type="Boolean"/>
+			<field name="bBarkOrderFlankInVehicle" type="Boolean"/>
+			<field name="bBarkOrderFlankUseConeOfVision" type="Boolean"/>
+			<field name="bBarkOrderFlankUseRaycast" type="Boolean"/>
+			<field name="fBarkOrderFlankRadius" type="Float"/>
+			<field name="fBarkOrderFlankTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksBlackout">
+			<field name="fBarkBlackoutTimeToStart" type="Float"/>
+		</object>
+		<object name="BarksTauntOrFear">
+			<field name="fBarkTauntMinimumAllies" type="Float"/>
+		</object>
+	</object>
+	<object name="Choreography">
+		<object name="ShootFromCover">
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="StandAndShoot">
+			<field name="vec2StrafeRepeatTimeout" type="Vector2"/>
+			<field name="fStartCombatWithShootingProbability" type="Float"/>
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="InVehicle">
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Heavy">
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SniperFromCover">
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SniperStandAndShoot">
+			<field name="fShootingPatternCooldown" type="Float"/>
+			<object name="TargetExposed">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="B7AD94E4">
+				<field name="iNumberOfContributingUnits" type="Int32"/>
+				<object name="ChoreographyUnits">
+					<object name="Unit">
+						<field name="choreographyunitprefabsUnitPrefab" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ChoreographyShootingPatterns">
+					<object name="Pattern">
+						<field name="selShootingType" type="Enum"/>
+						<field name="iBurstAmountMin" type="Int32"/>
+						<field name="iBurstAmountMax" type="Int32"/>
+						<field name="fBurstDelayMin" type="Float"/>
+						<field name="fBurstDelayMax" type="Float"/>
+						<field name="iBulletByBurstMin" type="Int32"/>
+						<field name="iBulletByBurstMax" type="Int32"/>
+						<field name="fShotDelayMin" type="Float"/>
+						<field name="fShotDelayMax" type="Float"/>
+						<field name="fMaxLength" type="Float"/>
+						<field hash="8DFC2232" type="String"/>
+						<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="ShootingPattern">
+		<field name="bUseSniperPreShootDelays" type="Boolean"/>
+		<object name="curveExposedPlayerPreShootingTimeModifierCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Sniper">
+		<field name="bEnableOnFootAimingLags" type="Boolean"/>
+		<object name="AimingLags">
+			<field name="fSniperLagJogCooldownTime" type="Float"/>
+			<field name="fSniperLagSprintCooldownTime" type="Float"/>
+			<field name="fSniperLagCoverCooldownTime" type="Float"/>
+			<field name="fSniperLagHistoryTime" type="Float"/>
+			<field name="fSniperLagResetTime" type="Float"/>
+		</object>
+	</object>
+	<object name="MeleePushBack">
+		<field name="bMeleePushBackEnabled" type="Boolean"/>
+	</object>
+	<object name="WeaponSkillTypes">
+		<object name="Default">
+			<object name="Exposed">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Aiming">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Cover">
+				<field name="vec2CoverInitialPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverMovementRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverShotsCountBeforeMovement" type="Vector2"/>
+				<field name="fCoverLineOfSightTestRepeatTimeout" type="Float"/>
+				<field name="vec2CoverChangeTestTimeout" type="Vector2"/>
+				<field name="fDistanceForLateralCoverSelection" type="Float"/>
+				<field name="fDistanceHysteresisForLateralCoverSelection" type="Float"/>
+				<field name="fMinDistanceForSecondCoverSelection" type="Float"/>
+				<field name="fFinalFlankingCoverAngle" type="Float"/>
+				<field name="fSecondLateralCoverAngleTest" type="Float"/>
+				<field name="fSecondCoverPreShootingTime" type="Float"/>
+				<field name="fSecondLateralCoverDefendAngleLimit" type="Float"/>
+				<field name="fProbabilityOfStandAndShootBeforeMoveToForwardCover" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringForwardCoverProbability" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringLateralCoverProbability" type="Float"/>
+				<object name="curveSecondCoverShootingAgentsCondition">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="Assault">
+					<field name="fAssaultDistToStopMovement" type="Float"/>
+					<field name="vec2AssaultCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fAssaultSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<object name="Defend">
+					<field name="fDefendMaxDistFromDefendVector" type="Float"/>
+					<field name="fDefendLimitDistForwardCoverSelection" type="Float"/>
+					<field name="fDefendDistToStopMovement" type="Float"/>
+					<field name="vec2DefendCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fDefendSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object name="Suppress">
+			<object name="Exposed">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Aiming">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Cover">
+				<field name="vec2CoverInitialPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverMovementRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverShotsCountBeforeMovement" type="Vector2"/>
+				<field name="fCoverLineOfSightTestRepeatTimeout" type="Float"/>
+				<field name="vec2CoverChangeTestTimeout" type="Vector2"/>
+				<field name="fDistanceForLateralCoverSelection" type="Float"/>
+				<field name="fDistanceHysteresisForLateralCoverSelection" type="Float"/>
+				<field name="fMinDistanceForSecondCoverSelection" type="Float"/>
+				<field name="fFinalFlankingCoverAngle" type="Float"/>
+				<field name="fSecondLateralCoverAngleTest" type="Float"/>
+				<field name="fSecondCoverPreShootingTime" type="Float"/>
+				<field name="fSecondLateralCoverDefendAngleLimit" type="Float"/>
+				<field name="fProbabilityOfStandAndShootBeforeMoveToForwardCover" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringForwardCoverProbability" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringLateralCoverProbability" type="Float"/>
+				<object name="curveSecondCoverShootingAgentsCondition">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="Assault">
+					<field name="fAssaultDistToStopMovement" type="Float"/>
+					<field name="vec2AssaultCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fAssaultSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<object name="Defend">
+					<field name="fDefendMaxDistFromDefendVector" type="Float"/>
+					<field name="fDefendLimitDistForwardCoverSelection" type="Float"/>
+					<field name="fDefendDistToStopMovement" type="Float"/>
+					<field name="vec2DefendCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fDefendSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object name="Short">
+			<object name="Exposed">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Aiming">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+			<object name="Cover">
+				<field name="vec2CoverInitialPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverPeekOutRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverMovementRepeatTimeout" type="Vector2"/>
+				<field name="vec2CoverShotsCountBeforeMovement" type="Vector2"/>
+				<field name="fCoverLineOfSightTestRepeatTimeout" type="Float"/>
+				<field name="vec2CoverChangeTestTimeout" type="Vector2"/>
+				<field name="fDistanceForLateralCoverSelection" type="Float"/>
+				<field name="fDistanceHysteresisForLateralCoverSelection" type="Float"/>
+				<field name="fMinDistanceForSecondCoverSelection" type="Float"/>
+				<field name="fFinalFlankingCoverAngle" type="Float"/>
+				<field name="fSecondLateralCoverAngleTest" type="Float"/>
+				<field name="fSecondCoverPreShootingTime" type="Float"/>
+				<field name="fSecondLateralCoverDefendAngleLimit" type="Float"/>
+				<field name="fProbabilityOfStandAndShootBeforeMoveToForwardCover" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringForwardCoverProbability" type="Float"/>
+				<field name="fStandAndShootBeforeEnteringLateralCoverProbability" type="Float"/>
+				<object name="curveSecondCoverShootingAgentsCondition">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="Assault">
+					<field name="fAssaultDistToStopMovement" type="Float"/>
+					<field name="vec2AssaultCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fAssaultSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<object name="Defend">
+					<field name="fDefendMaxDistFromDefendVector" type="Float"/>
+					<field name="fDefendLimitDistForwardCoverSelection" type="Float"/>
+					<field name="fDefendDistToStopMovement" type="Float"/>
+					<field name="vec2DefendCoverChangeTestTimeout" type="Vector2"/>
+					<field name="fDefendSecondCoverPreShootingTime" type="Float"/>
+				</object>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fPreShootingAimingTimeMin" type="Float"/>
+				<field name="fPreShootingAimingTimeMax" type="Float"/>
+				<field name="fPostShootingCooldownTimeMin" type="Float"/>
+				<field name="fPostShootingCooldownTimeMax" type="Float"/>
+				<field name="fPeekOutProbability" type="Float"/>
+				<field name="bUseDistanceModifier" type="Boolean"/>
+				<field name="bRandomBurstAmount" type="Boolean"/>
+				<field name="bRandomBurstDelay" type="Boolean"/>
+				<field name="bRandomBulletByBurst" type="Boolean"/>
+				<field name="bRandomShotDelay" type="Boolean"/>
+				<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+				<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+				<object name="DistanceModifier">
+					<object name="CloseDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="fRangeTarget" type="Float"/>
+						<field name="fRangeBurstDelayMultiplier" type="Float"/>
+						<field name="fRangeBurstAmountMultiplier" type="Float"/>
+						<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+						<field name="fRangeShotDelayMultiplier" type="Float"/>
+					</object>
+				</object>
+				<object name="Pattern">
+					<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>
+					<field name="selShootingType" type="Enum"/>
+					<field name="iBurstAmountMin" type="Int32"/>
+					<field name="iBurstAmountMax" type="Int32"/>
+					<field name="fBurstDelayMin" type="Float"/>
+					<field name="fBurstDelayMax" type="Float"/>
+					<field name="iBulletByBurstMin" type="Int32"/>
+					<field name="iBulletByBurstMax" type="Int32"/>
+					<field name="fShotDelayMin" type="Float"/>
+					<field name="fShotDelayMax" type="Float"/>
+					<field name="fMaxLength" type="Float"/>
+					<field hash="8DFC2232" type="String"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FOVDefault">
+		<field name="fLateralBase" type="Float"/>
+		<field name="fLateralMidRatio" type="Float"/>
+		<field name="fLateralMax" type="Float"/>
+		<field name="fHeightBase" type="Float"/>
+		<field name="fHeightMidRatio" type="Float"/>
+		<field name="fHeightMaxDeprecated" type="Float"/>
+		<field name="fDeadZone" type="Float"/>
+		<field name="fZOffset" type="Float"/>
+		<field name="fMinDistToUseBodyDir" type="Float"/>
+		<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+		<object name="curveMaxDepthByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaxHeightByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FOVCombat">
+		<field name="fLateralBase" type="Float"/>
+		<field name="fLateralMidRatio" type="Float"/>
+		<field name="fLateralMax" type="Float"/>
+		<field name="fHeightBase" type="Float"/>
+		<field name="fHeightMidRatio" type="Float"/>
+		<field name="fHeightMaxDeprecated" type="Float"/>
+		<field name="fDeadZone" type="Float"/>
+		<field name="fZOffset" type="Float"/>
+		<field name="fMinDistToUseBodyDir" type="Float"/>
+		<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+		<object name="curveMaxDepthByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaxHeightByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FOVSearchingCover">
+		<field name="fLateralBase" type="Float"/>
+		<field name="fLateralMidRatio" type="Float"/>
+		<field name="fLateralMax" type="Float"/>
+		<field name="fHeightBase" type="Float"/>
+		<field name="fHeightMidRatio" type="Float"/>
+		<field name="fHeightMaxDeprecated" type="Float"/>
+		<field name="fDeadZone" type="Float"/>
+		<field name="fZOffset" type="Float"/>
+		<field name="fMinDistToUseBodyDir" type="Float"/>
+		<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+		<object name="curveMaxDepthByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaxHeightByTimeOfDayCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="NavigationConfig">
+		<field name="bEnableCycleBreaker" type="Boolean"/>
+	</object>
+	<object name="Barks2">
+		<object name="BarkAwareStayAlert">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkAlertHardWarning">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkValidateLKPWarning">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkCombatTauntPlayer">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkCombatReloading">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkCombatTakingFire">
+			<field name="fBarkCombatTakingFireRadius" type="Float"/>
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkSearchThreateningTarget">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkAllyAcceptedGotoCover">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+		<object name="BarkAllyNervous">
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="fStartDelay" type="Float"/>
+			<field name="fProbability" type="Float"/>
+			<field name="fMaxDistance" type="Float"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Feetiksettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="EffectorWeightDamp" type="BinHex"/>
+	<field name="HipsHeightAdjustDamp" type="BinHex"/>
+	<field name="HipsPitchAdjustDamp" type="BinHex"/>
+	<field name="RootSpringOvershoot" type="BinHex"/>
+	<field name="RootSpringDefaultStiffnessUp" type="BinHex"/>
+	<field name="RootSpringDefaultStiffnessDown" type="BinHex"/>
+	<field name="FootOffGroundThreshold" type="BinHex"/>
+	<field name="PlaneNormalDamp" type="BinHex"/>
+	<field name="PlaneTransDamp" type="BinHex"/>
+	<field name="ExtraLegLengthForHipsAdjust" type="BinHex"/>
+	<field name="ExtraLegLengthForClamp" type="BinHex"/>
+	<field name="HipsPitchLeanMultiplier" type="BinHex"/>
+	<field name="HipsPitchMax" type="BinHex"/>
+	<field name="HipsPitchMin" type="BinHex"/>
+	<field name="HipsPitchLeanVelStart" type="BinHex"/>
+	<field name="HipsPitchLeanVelEnd" type="BinHex"/>
+	<field name="FootPitchLimit" type="BinHex"/>
+	<field name="FootRollLimit" type="BinHex"/>
+	<field name="ActivationDamping" type="BinHex"/>
+	<field name="SocketDamping" type="BinHex"/>
+	<field name="SocketUnlockDistanceFwd" type="BinHex"/>
+	<field name="SocketUnlockDistanceSide" type="BinHex"/>
+	<field name="SocketUnlockHeight" type="BinHex"/>
+	<field name="SocketUnlockAngle" type="BinHex"/>
+	<field name="SocketUnlockVelVertical" type="BinHex"/>
+	<field name="SocketLockToeVel2D" type="BinHex"/>
+	<field name="SocketLockMinVel2D" type="BinHex"/>
+	<field name="SocketLockMaxWeight" type="BinHex"/>
+	<object name="FramesPerRaycast">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="MinActivationDistance">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+</class>

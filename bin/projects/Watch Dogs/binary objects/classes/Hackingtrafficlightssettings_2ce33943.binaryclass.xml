@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Hackingtrafficlightssettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="accessidRequiredId" type="BinHex"/>
+	<field name="uiBatteryComsumptionCost" type="Int64"/>
+	<field name="powergatheringsettingsPowerGatheringSettings" type="BinHex"/>
+	<object name="locstridHackingText">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

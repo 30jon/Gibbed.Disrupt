@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclesteeringParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fAckermanFactor" type="Float"/>
+	<field name="fBaseSteerFactor" type="Float"/>
+	<field name="fTurnSteerSpeed" type="Float"/>
+	<field name="fCounterSteerSpeed" type="Float"/>
+	<field name="fMaxAngle" type="Float"/>
+	<field name="fCounterSteerMaxAngle" type="Float"/>
+	<field name="fMaxYawAccFactor" type="Float"/>
+	<field name="selPeakSlipLoadMode" type="Enum"/>
+	<field name="bAckermanAdjustment" type="Boolean"/>
+	<field name="selYawControlMode" type="Enum"/>
+	<field name="fMaxYawAcc" type="Float"/>
+	<field name="fCounterYawControlSteerSpeedAdd" type="Float"/>
+	<field name="bUseCounterSteerAntiSnap" type="Boolean"/>
+	<field name="fMinYawAccMaxSteerControl" type="Float"/>
+	<field name="fMaxYawAccMaxSteerControl" type="Float"/>
+	<field name="bUseYawAccelerationForCountersteerCondition" type="Boolean"/>
+	<object name="MotorcycleMaxSteerAngle">
+		<field name="bUseSpeedForMaxAngle" type="Boolean"/>
+		<field name="fSpeedForMinSteerAngle" type="Float"/>
+		<field name="fSpeedForMaxSteerAngle" type="Float"/>
+		<field name="fSteerAngleAtMinSpeed" type="Float"/>
+		<field name="fSteerAngleAtMaxSpeed" type="Float"/>
+	</object>
+	<object name="SteerMapping">
+		<field name="selSteerCurveMapping" type="Enum"/>
+		<field name="bUseRearSlipForMaxCounterSteerAngle" type="Boolean"/>
+		<field name="bUseCounterSteerSpeedVsYawSpeed" type="Boolean"/>
+		<field name="fCounterSteerSpeedCap" type="Float"/>
+		<object name="curveInputToSteeringCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

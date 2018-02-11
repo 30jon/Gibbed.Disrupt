@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UlccontentdbParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selUlcCode" type="Enum"/>
+	<object name="AccessIds">
+		<object name="accessidAccessIds">
+			<field name="accessidAccessIds" type="BinHex"/>
+		</object>
+	</object>
+</class>

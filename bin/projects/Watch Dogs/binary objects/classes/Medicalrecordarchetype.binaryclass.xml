@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MedicalrecordarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="MedicalRecordGenerator">
+		<field name="fWeight" type="Float"/>
+		<object name="MedicalRecordType">
+			<object name="locsectionidMedicalRecordType"/>
+			<object name="MedicalRecordType">
+				<object name="locsectionidMedicalRecordType"/>
+			</object>
+		</object>
+		<object name="MedicalRecordGenerator">
+			<field name="fWeight" type="Float"/>
+			<object name="MedicalRecordType">
+				<object name="locsectionidMedicalRecordType"/>
+				<object name="MedicalRecordType">
+					<object name="locsectionidMedicalRecordType"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

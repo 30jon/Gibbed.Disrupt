@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_pmstable_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Table">
+		<object name="Entry">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+			<object name="PMSList">
+				<object hash="2448C6A4">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

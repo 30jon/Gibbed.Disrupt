@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CivilianreactioncontextParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="civreactcontextParentContext" type="BinHex"/>
+	<field name="bTryRecoverFromCower" type="Boolean"/>
+	<object name="Incidents">
+		<object name="Incident">
+			<field name="IncidentName" type="String"/>
+			<field name="bIgnoreIncident" type="Boolean"/>
+			<object name="DetectionSettings">
+				<object name="civincDetectionSettings">
+					<field name="civincDetectionSettings" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Curiosity">
+				<object name="Bank">
+					<object name="Entry">
+						<field name="bUseFarCloseReaction" type="Boolean"/>
+						<field name="civanimCloseBehavior" type="BinHex"/>
+						<field name="civanimFarBehavior" type="BinHex"/>
+						<field name="fDistance" type="Float"/>
+						<field name="civanimReactionBehavior" type="BinHex"/>
+						<field hash="711D586B" type="String"/>
+						<field name="sDenunciatorBarkTrigger" type="BinHex"/>
+						<field name="iQuitSitCityLifeObjectProba" type="Int32"/>
+						<field name="iQuitStandCityLifeObjectProba" type="Int32"/>
+						<field name="fShouldFleeThreatProba" type="Float"/>
+						<field name="uiCoefficient" type="Int64"/>
+						<object name="LookAt">
+							<field name="selLookAtType" type="Enum"/>
+							<field name="bUseTimer" type="Boolean"/>
+							<field name="fLookAtDurationMin" type="Float"/>
+							<field name="fLookAtDurationMax" type="Float"/>
+							<field name="bUseMaxAngles" type="Boolean"/>
+							<object name="Angles">
+								<field name="fMaxDown" type="Float"/>
+								<field name="fMaxUp" type="Float"/>
+								<field name="fMaxLeft" type="Float"/>
+								<field name="fMaxRight" type="Float"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Anxiety">
+				<object name="Bank">
+					<object name="Entry">
+						<field name="bUseFarCloseReaction" type="Boolean"/>
+						<field name="civanimCloseBehavior" type="BinHex"/>
+						<field name="civanimFarBehavior" type="BinHex"/>
+						<field name="fDistance" type="Float"/>
+						<field name="civanimReactionBehavior" type="BinHex"/>
+						<field hash="711D586B" type="String"/>
+						<field name="sDenunciatorBarkTrigger" type="BinHex"/>
+						<field name="iQuitSitCityLifeObjectProba" type="Int32"/>
+						<field name="iQuitStandCityLifeObjectProba" type="Int32"/>
+						<field name="fShouldFleeThreatProba" type="Float"/>
+						<field name="uiCoefficient" type="Int64"/>
+						<object name="LookAt">
+							<field name="selLookAtType" type="Enum"/>
+							<field name="bUseTimer" type="Boolean"/>
+							<field name="fLookAtDurationMin" type="Float"/>
+							<field name="fLookAtDurationMax" type="Float"/>
+							<field name="bUseMaxAngles" type="Boolean"/>
+							<object name="Angles">
+								<field name="fMaxDown" type="Float"/>
+								<field name="fMaxUp" type="Float"/>
+								<field name="fMaxLeft" type="Float"/>
+								<field name="fMaxRight" type="Float"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Panic">
+				<object name="Bank">
+					<object name="Entry">
+						<field name="bUseFarCloseReaction" type="Boolean"/>
+						<field name="civanimCloseBehavior" type="BinHex"/>
+						<field name="civanimFarBehavior" type="BinHex"/>
+						<field name="fDistance" type="Float"/>
+						<field name="civanimReactionBehavior" type="BinHex"/>
+						<field hash="711D586B" type="String"/>
+						<field name="sDenunciatorBarkTrigger" type="BinHex"/>
+						<field name="iQuitSitCityLifeObjectProba" type="Int32"/>
+						<field name="iQuitStandCityLifeObjectProba" type="Int32"/>
+						<field name="fShouldFleeThreatProba" type="Float"/>
+						<field name="uiCoefficient" type="Int64"/>
+						<object name="LookAt">
+							<field name="selLookAtType" type="Enum"/>
+							<field name="bUseTimer" type="Boolean"/>
+							<field name="fLookAtDurationMin" type="Float"/>
+							<field name="fLookAtDurationMax" type="Float"/>
+							<field name="bUseMaxAngles" type="Boolean"/>
+							<object name="Angles">
+								<field name="fMaxDown" type="Float"/>
+								<field name="fMaxUp" type="Float"/>
+								<field name="fMaxLeft" type="Float"/>
+								<field name="fMaxRight" type="Float"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="BarksOverride">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

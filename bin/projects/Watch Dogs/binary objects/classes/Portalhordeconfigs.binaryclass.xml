@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PortalhordeconfigsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bUseAI" type="Boolean"/>
+	<field name="fJammerHackedBoost" type="Float"/>
+	<field name="fJammerKilledBoost" type="Float"/>
+	<field name="fJammerDisruptedBoost" type="Float"/>
+	<field name="fJammerHackRate" type="Float"/>
+	<field hash="100E0C50" type="BinHex"/>
+	<field hash="2FC4C90A" type="BinHex"/>
+	<field hash="B9FBA3D1" type="BinHex"/>
+	<field hash="330688BB" type="BinHex"/>
+	<field hash="79B1FB6B" type="BinHex"/>
+	<field name="fJammerAllowSpawnMinPoints" type="Float"/>
+	<field name="fJammerRefillDelay" type="Float"/>
+	<field hash="1FE823E3" type="BinHex"/>
+	<field name="hackingparametersHackerHackingParameters" type="BinHex"/>
+	<object name="Respawn">
+		<field name="bUseCustomNearDeathSpotStrategy" type="Boolean"/>
+		<object name="CustomRespawnPriorities">
+			<object name="RespawnPriority">
+				<field name="disPriorityValue" type="BinHex"/>
+				<field name="selRespawnStrategyType" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Team">
+		<field name="bHasTeam" type="Boolean"/>
+		<object name="Teams">
+			<field name="bOneTeamByPlayer" type="Boolean"/>
+			<field name="bAreTeamsLethal" type="Boolean"/>
+			<object name="TeamConfigs">
+				<object name="teamconfigTeamConfig">
+					<field name="teamconfigTeamConfig" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Visibility">
+		<field name="bIsStealthMission" type="Boolean"/>
+		<field name="bIsEnemyVisible" type="Boolean"/>
+	</object>
+	<object name="Audio">
+		<field name="sndContractCountdownSoundId" type="BinHex"/>
+		<field name="iContractCountdownSoundThresholdTime" type="Int32"/>
+	</object>
+	<object name="curveFirewallHackingModifierCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="locstridJammerIndicatorText"/>
+	<object name="BoostOverrides">
+		<field name="bUseOverrideBoostRadius" type="Boolean"/>
+	</object>
+</class>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PropParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="E6655990" type="String"/>
+	<field name="archArchetype" type="BinHex"/>
+	<field name="selPropSlot" type="Enum"/>
+	<field name="selDefaultActivityType" type="Enum"/>
+	<field name="bUseIncludeTags" type="Boolean"/>
+	<field name="bUseExcludeTags" type="Boolean"/>
+	<field name="fLinkedPropSpawnChance" type="Float"/>
+	<field name="bRestrictByDistrict" type="Boolean"/>
+	<object name="curveSpawnProbability">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="PropGroup">
+		<field name="selGroup" type="Enum"/>
+	</object>
+	<object name="Weather">
+		<field name="MinRainIntensity" type="BinHex"/>
+		<field name="MaxRainIntensity" type="BinHex"/>
+	</object>
+	<object name="LinkedProps">
+		<object name="propPropDBKey">
+			<field name="propPropDBKey" type="BinHex"/>
+		</object>
+	</object>
+</class>

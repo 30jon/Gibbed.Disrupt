@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PoseanimationremapParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="PoseRemapEntries">
+		<object name="PoseRemapEntry">
+			<field hash="A8CF16B4" type="String"/>
+			<field name="InputPose" type="BinHex"/>
+			<field hash="8876123A" type="String"/>
+			<field name="OutputPose" type="BinHex"/>
+		</object>
+	</object>
+</class>

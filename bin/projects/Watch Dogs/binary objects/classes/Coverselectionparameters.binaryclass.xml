@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CoverselectionparametersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="WeightedParams">
+		<field name="vec2Cover2Enemy" type="Vector2"/>
+		<field name="vec2Cover2Friend" type="Vector2"/>
+		<field name="vec2Cover2Agent" type="Vector2"/>
+		<field name="vec2Cover2AgentAngle" type="Vector2"/>
+		<field name="vec2Cover2AgentCenter" type="Vector2"/>
+		<field name="vec2Cover2NeigboringCoverDist" type="Vector2"/>
+		<field name="vec2Cover2DefendPointDist" type="Vector2"/>
+		<field name="vec2Cover2AssaultPointDist" type="Vector2"/>
+		<field name="fCoverAngleWeight" type="Float"/>
+		<field name="fCover2EnemyWeight" type="Float"/>
+		<field name="fCover2AgentWeight" type="Float"/>
+		<field name="fCover2AgentAngleWeight" type="Float"/>
+		<field name="fCover2FriendsWeight" type="Float"/>
+		<field name="fCover2AgentCenterWeight" type="Float"/>
+		<field name="fCover2NeighboringCoverDistWeight" type="Float"/>
+		<field name="fCover2DefendPointAngleWeight" type="Float"/>
+		<field name="fCover2DefendPointDistWeight" type="Float"/>
+		<field name="fCover2AssaultPointDistWeight" type="Float"/>
+		<field name="fLoSIntersectionPenalty" type="Float"/>
+		<field name="fMaxLoSIntersectionPenalty" type="Float"/>
+		<field name="fCover2AgentHeightDiffPenalty" type="Float"/>
+		<field name="fCover2ThreatDistPenalty" type="Float"/>
+		<object name="curveNegativeDistToEnemyPenalty">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CutoffParams">
+		<field name="fCoverAngleCutoff" type="Float"/>
+		<field name="fCoverNeighborNormalAngleThreshold" type="Float"/>
+		<field name="fCover2FriendsCutoff" type="Float"/>
+		<field name="vec2Cover2EnemyCutoff" type="Vector2"/>
+		<field name="vec2Cover2AgentCutoff" type="Vector2"/>
+		<field name="vec2Cover2AgentCenterCutoff" type="Vector2"/>
+		<field name="fCover2AgentHeightDiffCuttoff" type="Float"/>
+		<field name="fCoverNegativeDistCutoff" type="Float"/>
+	</object>
+</class>

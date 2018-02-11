@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Difficultylevels_56e5326aParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="PlayerShieldTime">
+		<field name="fShieldEasy" type="Float"/>
+		<field name="fShieldMedium" type="Float"/>
+		<field name="fShieldHard" type="Float"/>
+		<field name="fShieldInsane" type="Float"/>
+	</object>
+	<object name="DetectionMultiplier">
+		<field name="fDetectionEasy" type="Float"/>
+		<field name="fDetectionMedium" type="Float"/>
+		<field name="fDetectionHard" type="Float"/>
+		<field name="fDetectionInsane" type="Float"/>
+	</object>
+	<object name="BulletDamageCurveMultiplier">
+		<field name="fBulletDamageCurveEasy" type="Float"/>
+		<field name="fBulletDamageCurveMedium" type="Float"/>
+		<field name="fBulletDamageCurveHard" type="Float"/>
+		<field name="fBulletDamageCurveInsane" type="Float"/>
+	</object>
+	<object name="ScanRateModifier">
+		<field name="fScanRateModifierEasy" type="Float"/>
+		<field name="fScanRateModifierMedium" type="Float"/>
+		<field name="fScanRateModifierHard" type="Float"/>
+		<field name="fScanRateModifierInsane" type="Float"/>
+	</object>
+	<object name="ChaseEfficiencyModifier">
+		<field name="fChaseEfficiencyTimeModifierEasy" type="Float"/>
+		<field name="fChaseEfficiencyTimeModifierMedium" type="Float"/>
+		<field name="fChaseEfficiencyTimeModifierHard" type="Float"/>
+		<field name="fChaseEfficiencyTimeModifierInsane" type="Float"/>
+		<field name="fChaseEfficiencyValueModifierEasy" type="Float"/>
+		<field name="fChaseEfficiencyValueModifierMedium" type="Float"/>
+		<field name="fChaseEfficiencyValueModifierHard" type="Float"/>
+		<field name="fChaseEfficiencyValueModifierInsane" type="Float"/>
+	</object>
+</class>

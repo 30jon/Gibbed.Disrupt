@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PerkssingleplayerParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="perkidentifierPerkIdentifier" type="BinHex"/>
+	<field name="sTextureName" type="BinHex"/>
+	<field name="sNotorietyBarIconName" type="String"/>
+	<field name="fileTexture3D" type="BinHex"/>
+	<field name="accessidAccessIdUnlockCondition" type="BinHex"/>
+	<field name="selActivationType" type="Enum"/>
+	<field name="selValidityScope" type="Enum"/>
+	<object name="locstridPerkName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridShortDescription">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridLongDescription">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="Powers">
+		<object name="powerPowers">
+			<field name="powerPowers" type="BinHex"/>
+		</object>
+	</object>
+</class>

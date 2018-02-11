@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Ambientemergencyconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="UnitConfigList">
+		<object name="UnitConfigs">
+			<field hash="C7673122" type="String"/>
+			<field hash="11D3633A" type="BinHex"/>
+			<field name="fSpeed" type="Float"/>
+			<object name="UnitList">
+				<object name="Units">
+					<field name="selUnitID" type="Enum"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

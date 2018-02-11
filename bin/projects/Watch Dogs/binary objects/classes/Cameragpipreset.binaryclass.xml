@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameragpipresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ShellGameDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="DrinkingGameDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="TableGameDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="PokerGameDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="PokerGameTestDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList"/>
+		<object name="ModifierList"/>
+	</object>
+	<object name="NexusmonDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="DrinkingGameHead">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="DrinkingGameLookAtDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="FruitMachineDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="FloatingCameraDefault">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="ShellGameHead">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+	<object name="FruitMachineHead">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="ContextBlendList">
+			<object name="ContextBlendElement">
+				<field name="bTranIn" type="Boolean"/>
+				<field name="selTranFromContext" type="Enum"/>
+				<field name="fBlendTime" type="Float"/>
+				<field name="vec2BlendCurve" type="Vector2"/>
+				<field name="bReticleLock" type="Boolean"/>
+				<field name="fReticleLockMinDistance" type="Float"/>
+				<field name="bFreezePivotXY" type="Boolean"/>
+				<field name="bFreezePivotZ" type="Boolean"/>
+				<field name="bFreezeRotation" type="Boolean"/>
+				<field name="bTransfertFollow" type="Boolean"/>
+				<field name="bTransfertFieldOfView" type="Boolean"/>
+				<field name="bTransfertAcceleration" type="Boolean"/>
+				<field name="bTransfertYawSpeed" type="Boolean"/>
+				<field name="bAlignPitch" type="Boolean"/>
+				<field name="bAlignRoll" type="Boolean"/>
+				<field name="bAlignYaw" type="Boolean"/>
+				<field name="vectorAlignAngles" type="Vector3"/>
+				<field name="bKillAlignOnInput" type="Boolean"/>
+				<field name="bKillAlignOnMovement" type="Boolean"/>
+				<field name="bKillAlignOnPitch" type="Boolean"/>
+				<field name="fAlignMovementSpeedThreshold" type="Float"/>
+				<field name="fAlignPitchThreshold" type="Float"/>
+				<field name="bAllowInput" type="Boolean"/>
+				<object name="MyModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+				</object>
+				<object name="ModifierType">
+					<field name="bNormal" type="Boolean"/>
+					<field name="bAdrenaline" type="Boolean"/>
+					<field name="bProfiling" type="Boolean"/>
+					<field name="bInteract" type="Boolean"/>
+					<field name="bRescuing" type="Boolean"/>
+					<field name="bSniperGun" type="Boolean"/>
+					<field name="bProjectileDropable" type="Boolean"/>
+					<field name="bIsHidingInVehicle" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="ModifierList"/>
+	</object>
+</class>

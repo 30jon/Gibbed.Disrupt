@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Powerglobalsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="accessidRequiredIdForCarUnlockPower" type="BinHex"/>
+	<field name="sndOperatorHackingSound" type="BinHex"/>
+	<object name="PoweredObjectHighLights">
+		<field name="fHighlightSpeed" type="Float"/>
+		<field name="colorAvailabilityHighlightColor" type="Vector3"/>
+		<field name="fAvailabilityHighlightDuration" type="Float"/>
+		<field name="colorActivatedHighlightColor" type="Vector3"/>
+		<field name="fActivatedHighlightDuration" type="Float"/>
+		<object name="curveAvailabilityHighlightCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveActivatedHighlightCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

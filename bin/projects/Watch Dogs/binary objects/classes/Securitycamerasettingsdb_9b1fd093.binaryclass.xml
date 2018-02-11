@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Securitycamerasettingsdb_9b1fd093Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bUseFade" type="Boolean"/>
+	<field name="fFadeTime" type="Float"/>
+	<field name="fMinHideDistance" type="Float"/>
+	<field name="fMaxHideDistance" type="Float"/>
+</class>

@@ -1,0 +1,61 @@
+<class name="CVehicleTrackGroup">
+    <object name="CVehicleTrackGroup">
+        <field name="sName" type="String"/>
+        <field name="disUniqueId"/>
+        <field name="bEnabled" type="Boolean"/>
+        <field hash="22958F3A"/>
+        <field name="disMuted"/>
+        <field name="selEntityProvider" type="Enum"/>
+        <field name="bReleaseEntityFromCinema" type="Boolean"/>
+        <field name="Position" type="Vector3"/>
+        <field name="Angles" type="Vector3"/>
+        <field hash="CA3C3D79" type="String"/>
+        <field name="hidArchetypeName"/>
+        <field name="entityspawnerEntitySpawner" type="String"/>
+        <field name="bDestroyEntityOnStop" type="Boolean"/>
+        <object name="PropertiesContext">
+            <field name="selPhysics" type="Enum"/>
+            <field name="selMotionBlur" type="Enum"/>
+            <field name="bHasDriver" type="Boolean"/>
+        </object>
+        <object name="PropertiesOutputContext">
+            <field name="selPhysics_" type="Enum"/>
+            <field name="selMotionBlur_" type="Enum"/>
+            <field name="selBinding_" type="Enum"/>
+            <field name="selBehavior" type="Enum"/>
+            <field name="bBlockBehavior" type="Boolean"/>
+            <field name="bApplyHandbrake" type="Boolean"/>
+        </object>
+        <object name="Tracks">
+            <object name="CSimpleAnimationSequenceTrack">
+                <field name="sName" type="String"/>
+                <field name="disUniqueId"/>
+                <field name="bEnabled" type="Boolean"/>
+                <field name="disMuted"/>
+                <object name="CSimpleAnimationClip">
+                    <field name="sName" type="String"/>
+                    <field name="disUniqueId"/>
+                    <field name="bEnabled" type="Boolean"/>
+                    <field name="timeStartTime" type="Float"/>
+                    <field name="timeDuration" type="Float"/>
+                    <field name="timeEndTime" type="Float"/>
+                    <field name="hidResizable" type="Boolean"/>
+                    <field name="disMuted" type="Boolean"/>
+                    <field hash="8BA44DA6" type="String"/>
+                    <field name="sAnimation"/>
+                    <field name="timeBlendTime" type="Float"/>
+                    <field name="timeAnimStartTime" type="Float"/>
+                    <field name="timeAnimStopTime" type="Float"/>
+                    <field name="bResizable" type="Boolean"/>
+                    <field name="bLooping" type="Boolean"/>
+                    <field name="bHoldLastFrame" type="Boolean"/>
+                    <field name="hidAnchorName" type="String"/>
+                    <field name="hidHasAnchor" type="Boolean"/>
+                    <field name="hidAnimCRC"/>
+                    <field name="hidAnimDuration" type="Float"/>
+                    <field name="bForceDisableAnchor" type="Boolean"/>
+                </object>
+            </object>
+        </object>
+    </object>
+</class>

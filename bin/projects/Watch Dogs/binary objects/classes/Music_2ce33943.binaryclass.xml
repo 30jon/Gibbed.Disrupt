@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Music_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="AE38A558" type="String"/>
+	<field name="fileAIWorkspace" type="BinHex"/>
+	<field hash="7BD7C5F5" type="BinHex"/>
+	<field name="sBehavior" type="BinHex"/>
+	<field name="sDefaultSet" type="String"/>
+	<field name="sndchMusicObjectsMultitrackChannel" type="BinHex"/>
+	<object name="States">
+		<object name="State">
+			<field name="aName" type="String"/>
+			<field name="fBanishDelay" type="Float"/>
+			<field name="fStayInDelay" type="Float"/>
+			<field name="fMinAvailabilityWaitTime" type="Float"/>
+			<field name="fMaxAvailabilityWaitTime" type="Float"/>
+		</object>
+	</object>
+	<object name="Sets">
+		<object hash="DE59633C">
+			<field name="sName" type="String"/>
+			<object name="States">
+				<object name="State">
+					<field name="disName" type="String"/>
+					<field name="sndStartSoundId" type="BinHex"/>
+					<field name="sndStopSoundId" type="BinHex"/>
+					<object name="CustomTransitions"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Loading">
+		<field name="sndLoadingMusicStart" type="BinHex"/>
+		<field name="sndLoadingMusicStop" type="BinHex"/>
+	</object>
+</class>

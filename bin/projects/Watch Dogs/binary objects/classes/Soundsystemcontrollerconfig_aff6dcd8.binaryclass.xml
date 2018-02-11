@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundsystemcontrollerconfig_aff6dcd8Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SpeedCondition">
+		<object name="Slow">
+			<field name="fSpeed" type="Float"/>
+			<field name="selAudioSystem" type="Enum"/>
+			<field name="selMinimumPriorityOfPlayableDialog" type="Enum"/>
+		</object>
+		<object name="Medium">
+			<field name="fSpeed" type="Float"/>
+			<field name="selAudioSystem" type="Enum"/>
+			<field name="selMinimumPriorityOfPlayableDialog" type="Enum"/>
+		</object>
+		<object name="Fast">
+			<field name="fSpeed" type="Float"/>
+			<field name="selAudioSystem" type="Enum"/>
+			<field name="selMinimumPriorityOfPlayableDialog" type="Enum"/>
+		</object>
+	</object>
+</class>

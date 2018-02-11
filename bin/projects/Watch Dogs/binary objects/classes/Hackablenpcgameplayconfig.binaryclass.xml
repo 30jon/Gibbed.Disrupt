@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackablenpcgameplayconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Categories">
+		<object name="Distract">
+			<field name="fProbability" type="Float"/>
+			<field name="accessidRequiredAccessId" type="BinHex"/>
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Explosive">
+			<field name="fProbability" type="Float"/>
+			<field name="accessidRequiredAccessId" type="BinHex"/>
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="DisruptComm">
+			<field name="fProbability" type="Float"/>
+			<field name="accessidRequiredAccessId" type="BinHex"/>
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="DisableCallReinforcement">
+			<field name="fProbability" type="Float"/>
+			<field name="accessidRequiredAccessId" type="BinHex"/>
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

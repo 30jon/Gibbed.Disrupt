@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicledynamiclightpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vectorDynamicLightPosOffset" type="Vector3"/>
+	<field name="DynamicLightAngleOffset" type="BinHex"/>
+	<field name="bForceOrientationUpdate" type="Boolean"/>
+	<field name="bIsFakeGI" type="Boolean"/>
+	<field name="dynamiclightprefabPrefabDynamicLight" type="BinHex"/>
+	<object name="LightSlotList">
+		<object name="LightSlot">
+			<field name="LightSlot" type="BinHex"/>
+		</object>
+	</object>
+	<object name="HeadLightSettings">
+		<field hash="479D37D5" type="String"/>
+		<field name="fileLeftHeadlightTexture" type="BinHex"/>
+		<field hash="15421626" type="String"/>
+		<field name="fileRightHeadlightTexture" type="BinHex"/>
+		<field name="iLeftLightSlot" type="Int32"/>
+		<field name="iRightLightSlot" type="Int32"/>
+	</object>
+</class>

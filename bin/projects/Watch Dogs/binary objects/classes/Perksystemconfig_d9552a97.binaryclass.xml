@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Perksystemconfig_d9552a97Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="RevealEnemies">
+		<field name="mapicondescImpulseMapIcon" type="BinHex"/>
+		<field name="sndImpulseSound" type="BinHex"/>
+		<field name="fImpulseFrequency" type="Float"/>
+		<field name="fImpulseSpeedPerSecond" type="Float"/>
+		<object name="curveAlphaOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TagEnemy">
+		<field name="mapicondescTagEnemyTargetLocked" type="BinHex"/>
+	</object>
+	<object name="EnemyScan">
+		<field name="mapicondescEnemyScannedIcon" type="BinHex"/>
+	</object>
+	<object name="ElectronicWarfare">
+		<field name="mapicondescElectronicWarfareECMEffect" type="BinHex"/>
+	</object>
+	<object name="BoostDownload">
+		<field name="sndOnTargetDownloadBoostStart" type="BinHex"/>
+		<field name="sndOnTargetDownloadBoostStop" type="BinHex"/>
+	</object>
+	<object name="CorruptCredential">
+		<field name="sndOnTargetCredentialCorruptionStart" type="BinHex"/>
+		<field name="sndOnTargetCredentialCorruptionStop" type="BinHex"/>
+	</object>
+	<object name="AffectedByIllegalApSounds">
+		<field name="sndAffectedByJamComSound" type="BinHex"/>
+		<field name="sndAffectedByJamComStopSound" type="BinHex"/>
+		<field name="sndAffectedByctOsScramble" type="BinHex"/>
+		<field name="sndAffectedByElectronicWarfare" type="BinHex"/>
+		<field name="sndAffectedByTagEnemy" type="BinHex"/>
+		<field name="sndAffectedByEnemyScan" type="BinHex"/>
+	</object>
+	<object name="VehicleExpert">
+		<field name="fVehicleDiscountFactor" type="Float"/>
+	</object>
+</class>

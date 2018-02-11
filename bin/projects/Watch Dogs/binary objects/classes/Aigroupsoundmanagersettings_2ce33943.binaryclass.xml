@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Aigroupsoundmanagersettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndWalkieTalkieCOP" type="BinHex"/>
+	<field name="sndWalkieTalkieCTO" type="BinHex"/>
+	<field name="fTimeIntervalWalkieTalkie" type="Float"/>
+	<field name="fRandomDeltaTimeWalkieTalkie" type="Float"/>
+</class>

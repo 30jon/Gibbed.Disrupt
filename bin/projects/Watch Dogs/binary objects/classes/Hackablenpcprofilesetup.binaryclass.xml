@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackablenpcprofilesetupParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selCategory" type="Enum"/>
+	<field name="bGenericResponse" type="Boolean"/>
+	<field name="BatteryConsumption" type="BinHex"/>
+	<field name="itemsHackingIcon" type="BinHex"/>
+	<object name="EnabledStates">
+		<field name="bAllowStateUnaware" type="Boolean"/>
+		<field name="bAllowStateAware" type="Boolean"/>
+		<field name="bAllowStateAlertSoft" type="Boolean"/>
+		<field name="bAllowStateAlertHard" type="Boolean"/>
+		<field name="bAllowStateFlee" type="Boolean"/>
+		<field name="bAllowStateCombat" type="Boolean"/>
+		<field name="bAllowStateInvestigate" type="Boolean"/>
+		<field name="bAllowStateSearch" type="Boolean"/>
+	</object>
+	<object name="locsectionidNoveltyFactType">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="Response">
+		<field name="itemsReward" type="BinHex"/>
+		<field name="hackednpcresponsehandleResponse" type="BinHex"/>
+		<field name="sndPlaySoundOnEntity" type="BinHex"/>
+	</object>
+</class>

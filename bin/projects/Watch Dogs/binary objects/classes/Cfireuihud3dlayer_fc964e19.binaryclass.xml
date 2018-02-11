@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cfireuihud3dlayer_fc964e19Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fScale" type="Float"/>
+	<field name="fDistanceFromCamera" type="Float"/>
+	<field name="vectorOffset" type="Vector3"/>
+	<object name="AngleProperties">
+		<field name="angvecAngle" type="Vector3"/>
+		<field name="angvecMaxAngle" type="Vector3"/>
+	</object>
+</class>

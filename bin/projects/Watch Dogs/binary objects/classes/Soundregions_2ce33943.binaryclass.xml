@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundregions_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iNumberOfTrackSets" type="Int32"/>
+	<field name="iNumberOfTracksPerSet" type="Int32"/>
+	<field name="iEffectRange" type="Int32"/>
+	<field name="sndswtpRegionSwitchType" type="BinHex"/>
+	<field name="sndvarMicroPitchSoundVar" type="BinHex"/>
+	<field name="sndvarMicroHeightSoundVar" type="BinHex"/>
+	<object name="ExteriorAmbiancePolyphony">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="TrackSetNames">
+		<object name="TrackSetName">
+			<field name="sName" type="BinHex"/>
+		</object>
+	</object>
+	<object name="SoundRegion">
+		<field name="fFadeIn" type="Float"/>
+		<field name="fFadeOut" type="Float"/>
+	</object>
+	<object name="Occlusion">
+		<field name="sndNoReverb" type="BinHex"/>
+	</object>
+	<object name="Wind">
+		<field name="sndvarWindRTPC" type="BinHex"/>
+		<field name="fAltitudeMinForWindPad" type="Float"/>
+		<field name="fAltitudeMaxForWindPad" type="Float"/>
+		<field name="fAltitudeWindPadMaxValue" type="Float"/>
+		<field name="sndvarRainRTPC" type="BinHex"/>
+		<field name="sndvarWetnessRTPC" type="BinHex"/>
+		<field name="sndvarWindSpeedRTPC" type="BinHex"/>
+		<field name="sndvarWindDirectionRTPC" type="BinHex"/>
+		<object name="Gust">
+			<field name="fWindGustThreshold" type="Float"/>
+			<field name="fWindGustInterval" type="Float"/>
+			<field name="fWindGustDuration" type="Float"/>
+		</object>
+	</object>
+	<object name="RandomFx">
+		<field name="fBoxSize" type="Float"/>
+		<field name="fBoxHeight" type="Float"/>
+		<field name="iNumberOfZone" type="Int32"/>
+		<object name="ZoneNames">
+			<object name="ZoneName">
+				<field name="sName" type="String"/>
+			</object>
+		</object>
+	</object>
+	<object name="TimeCurve">
+		<object name="TimeEntry">
+			<field name="fTime" type="Float"/>
+			<object name="Tracks">
+				<object name="Track">
+					<field name="disName" type="BinHex"/>
+					<field name="fIntensity" type="Float"/>
+				</object>
+			</object>
+			<object name="RandomFx">
+				<field name="disName" type="String"/>
+				<field name="fIntensity" type="Float"/>
+				<field name="bLoaded" type="Boolean"/>
+				<object name="RandomFx">
+					<field name="disName" type="String"/>
+					<field name="fIntensity" type="Float"/>
+					<field name="bLoaded" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="SoundRegions">
+		<object name="SoundRegion">
+			<field name="disUniqueId" type="BinHex"/>
+			<field name="sName" type="String"/>
+			<field name="colorColor" type="Vector3"/>
+			<object name="Ambiance">
+				<field name="sndMultitrackSound" type="BinHex"/>
+				<field name="sndchMultitrackChannel" type="BinHex"/>
+				<field name="sndswvlRegionSwitchValue" type="BinHex"/>
+				<field name="fWindGustMinWindSpeed" type="Float"/>
+				<field name="fWindGustMaxWindSpeed" type="Float"/>
+				<object name="WindSounds">
+					<field name="sndNormal" type="BinHex"/>
+					<field name="sndHighEnd" type="BinHex"/>
+				</object>
+				<object name="RainSounds">
+					<field name="sndNormal" type="BinHex"/>
+					<field name="sndHighEnd" type="BinHex"/>
+				</object>
+				<object name="RegionWindGust">
+					<field name="sndNormal" type="BinHex"/>
+					<field name="sndHighEnd" type="BinHex"/>
+				</object>
+				<object name="DelayBetweenGusts">
+					<object name="ForMinWindSpeed">
+						<field name="fMinDelay" type="Float"/>
+						<field name="fMaxDelay" type="Float"/>
+					</object>
+					<object name="ForMaxWindSpeed">
+						<field name="fMinDelay" type="Float"/>
+						<field name="fMaxDelay" type="Float"/>
+					</object>
+				</object>
+				<object name="RandomFx">
+					<field name="disName" type="String"/>
+					<field name="sndSoundId" type="BinHex"/>
+					<object name="RandomFx">
+						<field name="disName" type="String"/>
+						<field name="sndSoundId" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Levels">
+					<object name="Level">
+						<field name="iIntensity" type="Int32"/>
+						<field name="fEchoLenght" type="Float"/>
+						<field name="sndReverb" type="BinHex"/>
+						<object name="Volumes">
+							<object name="Volume">
+								<field name="disName" type="BinHex"/>
+								<field name="fVolume" type="Float"/>
+							</object>
+						</object>
+						<object name="RandomFx">
+							<field name="disName" type="String"/>
+							<field name="fFrequency" type="Float"/>
+							<field name="iPolyphony" type="Int32"/>
+							<field name="fMinRadius" type="Float"/>
+							<field name="fMaxRadius" type="Float"/>
+							<object name="RandomFx">
+								<field name="disName" type="String"/>
+								<field name="fFrequency" type="Float"/>
+								<field name="iPolyphony" type="Int32"/>
+								<field name="fMinRadius" type="Float"/>
+								<field name="fMaxRadius" type="Float"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

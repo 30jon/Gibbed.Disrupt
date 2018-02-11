@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CustombroadcastsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="BroadcastData">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

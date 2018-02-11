@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Gpicharacterreaction_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Contexts">
+		<field name="civreactcontextDefault" type="BinHex"/>
+		<field name="civreactcontextShopKeeper" type="BinHex"/>
+		<field name="civreactcontextMiniGame" type="BinHex"/>
+		<field name="civreactcontextShopKeeperHoldUp" type="BinHex"/>
+		<field name="civreactcontextMiniGameExterior" type="BinHex"/>
+		<field name="civreactcontextShopKeeperNewsstand" type="BinHex"/>
+		<field name="civreactcontextShopKeeperIllegalshop" type="BinHex"/>
+		<field name="civreactcontextDisabled" type="BinHex"/>
+	</object>
+</class>

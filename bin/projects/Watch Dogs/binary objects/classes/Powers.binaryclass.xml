@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PowersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="0C9D0409" type="String"/>
+	<field name="pwrPowerType" type="BinHex"/>
+	<object name="PowerSettings">
+		<field name="powergatheringsettingsPowerGatheringSettings" type="BinHex"/>
+		<field name="fChopperDisruptTime" type="Float"/>
+		<field name="fChopperDisruptTimePlus" type="Float"/>
+		<field name="fChopperDamagePerDisrupt" type="Float"/>
+		<field name="fChopperDamagePerDisruptPlus" type="Float"/>
+		<object name="Anticipation">
+			<field name="fAnticipationRadiusOnFoot" type="Float"/>
+			<field name="fAnticipationRadiusInWheeledVehicle" type="Float"/>
+			<field name="fAnticipationRadiusInFloatingVehicle" type="Float"/>
+			<field name="fAnticipationRadiusSecurityCam" type="Float"/>
+		</object>
+		<object name="Activation">
+			<field name="fActivationDelay" type="Float"/>
+			<field name="fActivationDuration" type="Float"/>
+			<field name="bIsObjectNeededForActivation" type="Boolean"/>
+			<field name="bCanBeReactivatedOnAffectedTarget" type="Boolean"/>
+			<field name="selTargetForActivation" type="Enum"/>
+			<field name="fActivationRadiusOnFoot" type="Float"/>
+			<field name="fActivationRadiusInWheeledVehicle" type="Float"/>
+			<field name="fActivationRadiusInFloatingVehicle" type="Float"/>
+			<field name="fActivationRadiusSecurityCam" type="Float"/>
+			<field name="fZDifferenceUpperLimit" type="Float"/>
+			<field name="fZDifferenceLowerLimit" type="Float"/>
+			<field name="fYawLookAtTolerance" type="Float"/>
+			<field name="fPitchLookAtTolerance" type="Float"/>
+			<field name="bCheckTargetVisibility" type="Boolean"/>
+		</object>
+		<object name="ActivationFeedbacks">
+			<field name="sndAnticipationSound" type="BinHex"/>
+			<field name="sndAvailableForUseSound" type="BinHex"/>
+			<field hash="B7944287" type="String"/>
+			<field name="sActivationPostFX" type="BinHex"/>
+			<field name="sndActivationStartSound" type="BinHex"/>
+			<field name="sndActivationStopSound" type="BinHex"/>
+			<field name="sndSoftwareLinkSound" type="BinHex"/>
+			<field name="sndFailureCooldownSound" type="BinHex"/>
+			<field name="sndFailureBatterySound" type="BinHex"/>
+			<field name="sndFailureNothingAvailableSound" type="BinHex"/>
+			<field name="sndEffectEndSound" type="BinHex"/>
+			<field name="sndCoolDownEndSound" type="BinHex"/>
+			<field name="sndOnTargetStartActivationSound" type="BinHex"/>
+		</object>
+		<object name="Effect">
+			<field name="selAffectedByEffect" type="Enum"/>
+			<field name="fEffectRadius" type="Float"/>
+			<field name="fEffectDuration" type="Float"/>
+		</object>
+		<object name="HudIcon">
+			<field name="bIsHudIconEnabled" type="Boolean"/>
+			<field name="fileUsableIcon" type="BinHex"/>
+			<field name="fileInUseIcon" type="BinHex"/>
+			<field name="fileNotEnoughBatteryIcon" type="BinHex"/>
+			<field name="vectorIconOffset" type="Vector3"/>
+			<field name="sIconText" type="BinHex"/>
+			<field name="vectorIconBottomCoords" type="Vector2"/>
+			<field name="vectorIconCenterCoords" type="Vector2"/>
+			<field name="fIconTransparency" type="Float"/>
+			<field name="fIconSize" type="Float"/>
+			<field name="bIcon3D" type="Boolean"/>
+			<object name="curveHudIconSizeCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="MapIcon">
+			<field name="bRegisterMapIconToStaticData" type="Boolean"/>
+			<field name="mapicondescMapIconDBEntry" type="BinHex"/>
+			<field name="mapicondescLockedMapIconDBEntry" type="BinHex"/>
+		</object>
+		<object name="PerkSonarSpecific">
+			<field name="sndSonarSound" type="BinHex"/>
+			<object name="curveBipSpeedOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="NemesisSpecific">
+			<field name="sndSonarSound" type="BinHex"/>
+			<field name="sndKillingNemesisSound" type="BinHex"/>
+			<object name="curveBipSpeedOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="MedicSpecific">
+			<field name="fRegeneSpeedFactor" type="Float"/>
+			<field name="fRegeneStartTimeReductionRatio" type="Float"/>
+		</object>
+		<object name="ExtendedMagasineSpecific">
+			<field name="itemsBulletType" type="BinHex"/>
+			<field name="uiBulletsCount" type="Int64"/>
+		</object>
+		<object name="AppScavengerSpecific">
+			<object name="ContractRelatedAmmos">
+				<object name="ContractRelatedAmmo">
+					<object name="ContractRelatedAmmo">
+						<field name="selContractContext" type="Enum"/>
+						<object name="ItemsAmmo">
+							<object name="ItemAmmo">
+								<object name="ItemAmmo">
+									<field name="itemsItem" type="BinHex"/>
+									<field name="selType" type="Enum"/>
+									<field name="uiValue" type="Int64"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="EnemyScanSpecific">
+			<field name="fPingFrequency" type="Float"/>
+			<field name="fPingDuration" type="Float"/>
+			<field name="fDetectionDuration" type="Float"/>
+			<field name="mapicondescPulseMapIcon" type="BinHex"/>
+			<field name="sndPulseSound" type="BinHex"/>
+			<field hash="BCDB2562" type="String"/>
+			<field name="psPulseParticleSystem" type="BinHex"/>
+		</object>
+		<object name="ElectronicWarfareSpecific">
+			<field name="fEffectDurationOnTargets" type="Float"/>
+			<field name="fAffectedTargetsFeedbackDuration" type="Float"/>
+		</object>
+		<object name="CtOSScrambleSpecific"/>
+		<object name="HackingSpecific">
+			<field name="sndHackingStartSound" type="BinHex"/>
+			<field name="sndHackingCancelSound" type="BinHex"/>
+			<field name="sndHackingFailSound" type="BinHex"/>
+			<field name="sndHackingFailedByHackSecurityLevelSound" type="BinHex"/>
+			<field name="sndHackingSuccessSound" type="BinHex"/>
+			<field name="sndHackingWarningSound" type="BinHex"/>
+			<field name="sndHackingCompletionStartSound" type="BinHex"/>
+			<field name="sndHackingCompletionStopSound" type="BinHex"/>
+			<field name="sndmlHackingCompletionSoundMultilayer" type="BinHex"/>
+			<field name="sndmlHackingInterferenceSoundMultilayer" type="BinHex"/>
+			<field name="sndvarHackingDistanceSoundVar" type="BinHex"/>
+			<field name="sndRewardSuccessSound" type="BinHex"/>
+			<field name="sndDisconnectPhonecallSound" type="BinHex"/>
+			<field name="sndRewardFailStartSound" type="BinHex"/>
+			<field name="sndRewardFailStopSound" type="BinHex"/>
+			<field name="fRewardFailDuration" type="Float"/>
+		</object>
+		<object name="ShutdownTvSpecific">
+			<field name="fShutdownDuration" type="Float"/>
+		</object>
+		<object name="DisruptScanSpecific">
+			<field name="sndDisruptionSound" type="BinHex"/>
+			<field name="fDisruptionDuration" type="Float"/>
+		</object>
+		<object name="DisruptCommSpecific">
+			<field name="sndDisruptionSound" type="BinHex"/>
+			<field name="sCinemaPostFxName" type="BinHex"/>
+			<field hash="93D2AFB5" type="String"/>
+			<field name="psParticleSystem" type="BinHex"/>
+			<field name="vectorParticleSystemRelativeLocation" type="Vector3"/>
+			<field name="fMediaGlitchDuration" type="Float"/>
+			<field name="fCivilianDisruptionMinDelay" type="Float"/>
+			<field name="fCivilianDisruptionMaxDelay" type="Float"/>
+			<field name="fDisruptDuration" type="Float"/>
+			<field name="fEnemyPlayerSlowDownloadFactor" type="Float"/>
+			<object name="DisruptionIcon">
+				<field hash="33E4567C" type="String"/>
+				<field name="fileIconTexture" type="BinHex"/>
+			</object>
+		</object>
+		<object name="BlackoutSpecific">
+			<field name="fBlackoutRadius" type="Float"/>
+			<field name="fBlackoutPropagationSpeed" type="Float"/>
+			<field name="fBlackoutRecoverySpeed" type="Float"/>
+			<field name="fBlackoutDuration" type="Float"/>
+			<field name="fBlackoutBackupDelay" type="Float"/>
+			<field name="fTrafficChaosDuration" type="Float"/>
+			<field name="fCompanionBlackoutDuration" type="Float"/>
+			<field name="fCompanionBlackoutRadius" type="Float"/>
+		</object>
+		<object name="TakeDown">
+			<field name="fOutsideTakedownRange_InSec" type="Float"/>
+			<field name="fWideTakedownRange_InSec" type="Float"/>
+			<field name="fInnerTakedownRange_InSec" type="Float"/>
+			<field name="fTakedownAngle_InDeg" type="Float"/>
+			<field name="fTakedownSpeedThreshold_InKmh" type="Float"/>
+			<field name="fTakedownRadius" type="Float"/>
+			<field name="fDamageRadius" type="Float"/>
+			<field name="fTakeDownDamageMultiplier" type="Float"/>
+			<field name="fTakeDownActionCamUpdateTime" type="Float"/>
+			<field name="iMaxAIToTakedown" type="Int32"/>
+		</object>
+		<object name="GreenTrafficSpecific">
+			<field name="fDynamicCrashDuration" type="Float"/>
+			<field name="sndPreChaosSound" type="BinHex"/>
+			<field name="mixChaosMixing" type="BinHex"/>
+			<field name="fChaosMixingMinDist" type="Float"/>
+		</object>
+		<object name="ApplyStatusEffectSpecific">
+			<field name="selEffect" type="Enum"/>
+			<field name="fModifierRatio" type="Float"/>
+			<field name="perkidentifierPerkIdentifier" type="BinHex"/>
+			<field name="bReplicateStatusEffect" type="Boolean"/>
+		</object>
+	</object>
+</class>

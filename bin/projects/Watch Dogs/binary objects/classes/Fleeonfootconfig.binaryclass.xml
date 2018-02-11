@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FleeonfootconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="FleeOnFootSetup">
+		<field name="sName" type="BinHex"/>
+		<field name="bSendEvent" type="Boolean"/>
+		<field name="bDisableCivilsCollision" type="Boolean"/>
+		<field name="bShouldEquipWeapon" type="Boolean"/>
+		<field name="bLoopRuberbandSettings" type="Boolean"/>
+		<field name="iLoopStartingIndex" type="Int32"/>
+		<field name="selSystemicInteractiveMode" type="Enum"/>
+		<field name="fleeonfootconfigOnStressFleeOnFootConfig" type="BinHex"/>
+		<object name="Conditions">
+			<field name="fReaquisitionLOSTimeWarning" type="Float"/>
+			<field name="fReaquisitionLOSTimeFailing" type="Float"/>
+			<field name="fWarningDistanceThreshold" type="Float"/>
+			<field hash="D3A11D01" type="BinHex"/>
+			<field hash="73837121" type="BinHex"/>
+			<field name="selSuccessCondition" type="Enum"/>
+		</object>
+		<object name="DodgeBox">
+			<field name="fDodgeBoxSizeX" type="Float"/>
+			<field name="fAvoidBoxSizeX" type="Float"/>
+			<field name="fDodgeBoxSizeY" type="Float"/>
+			<field name="fAvoidBoxSizeY" type="Float"/>
+		</object>
+		<object name="RubberbandingList">
+			<object name="Rubberbanding">
+				<field name="bCanStopAndFire" type="Boolean"/>
+				<field name="fStopAndFireProbability" type="Float"/>
+				<field name="fStopAndFireDelay" type="Float"/>
+				<field name="fStopAndFireStartingDelay" type="Float"/>
+				<field name="bCanBlindFire" type="Boolean"/>
+				<field name="fBlindFireProbability" type="Float"/>
+				<field name="fBlindFireDelay" type="Float"/>
+				<field name="fBlindFireStartingDelay" type="Float"/>
+				<field name="bCanStumble" type="Boolean"/>
+				<field name="fStumbleProbability" type="Float"/>
+				<field name="fStumbleDelay" type="Float"/>
+				<field name="fStumbleStartingDelay" type="Float"/>
+				<field name="fSpeedFactor" type="Float"/>
+				<field name="selSpeedType" type="Enum"/>
+				<field name="bIsTimeBased" type="Boolean"/>
+				<field name="fTimeDelay" type="Float"/>
+				<field name="fMaxDistance" type="Float"/>
+				<field name="fMinDistance" type="Float"/>
+			</object>
+		</object>
+		<object name="GlobalRubberbandingList">
+			<object name="GlobalRubberbanding">
+				<field name="fGlobalDelay" type="Float"/>
+				<field name="iWantedRubberBandingIndex" type="Int32"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vrpuzzlessettings_18893437Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="profilingpathpresetPathOffPreset" type="BinHex"/>
+	<field name="profilingpathpresetPathOnPreset" type="BinHex"/>
+	<field name="profilingpathpresetPathOnAlarmPreset" type="BinHex"/>
+	<field name="colorNodePoweredColor" type="Vector3"/>
+	<field name="colorNodeNotPoweredColor" type="Vector3"/>
+	<field name="fAlarmTime" type="Float"/>
+	<field name="fNodesScale" type="Float"/>
+	<field name="fNodesOffset" type="Float"/>
+	<field name="fAlarmNodesTimeMarkerScale" type="Float"/>
+	<field name="vectorAlarmNodesTimeMarkerOffset" type="Vector3"/>
+	<field name="fAlarmModeTime" type="Float"/>
+	<field name="sndPoweredSound" type="BinHex"/>
+	<field name="sndUnpoweredSound" type="BinHex"/>
+	<field name="sndRotateSound" type="BinHex"/>
+	<field name="sndPuzzleCompletedSound" type="BinHex"/>
+	<field name="sndAlarmCompletedSound" type="BinHex"/>
+	<field name="sndAlarmPoweredSound" type="BinHex"/>
+	<field name="sndAlarmUnpoweredSound" type="BinHex"/>
+	<field name="sndUnlockedSound" type="BinHex"/>
+	<field name="sndOnPuzzleInterruptedSound" type="BinHex"/>
+</class>

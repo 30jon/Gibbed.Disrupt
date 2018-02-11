@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChaseperformanceconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Efficiency">
+		<field name="fMinEfficiencyInCombatRange" type="Float"/>
+		<field name="fMinEfficiencyInChaseRange" type="Float"/>
+		<field name="fMinEfficiencyOutsideChaseRange" type="Float"/>
+		<object name="curveChaseEfficiencyCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpawnEfficiencyCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Reactions">
+		<field name="fReactionCutoffDistance" type="Float"/>
+		<field name="fMaxReactionTime" type="Float"/>
+		<object name="curveChaseReactionTimeCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpawnReactionTimeCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="PlayerDrivingModifiers">
+		<object name="Speed">
+			<field name="fEfficiencyPenaltyPerToken" type="Float"/>
+			<field name="fMaxEfficiencyPenalty" type="Float"/>
+		</object>
+		<object name="Maneuvers">
+			<field name="fReactionTimePenaltyPerToken" type="Float"/>
+			<field name="fMaxReactionTimePenalty" type="Float"/>
+		</object>
+	</object>
+	<object name="Chopper">
+		<object name="Efficiency">
+			<field name="fMinEfficiencyInCombatRange" type="Float"/>
+			<field name="fMinEfficiencyInChaseRange" type="Float"/>
+			<field name="fMinEfficiencyOutsideChaseRange" type="Float"/>
+			<object name="curveChaseEfficiencyCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveSpawnEfficiencyCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<field name="fKmhPenaltyPerTurn" type="Float"/>
+			<field name="fMaxKmhPenaltyByTurns" type="Float"/>
+			<field name="fKmhPenaltyPerSpeedInterval" type="Float"/>
+			<field name="fMaxKmhPenaltyBySpeed" type="Float"/>
+			<field name="fKmhPenaltySpeedIntervalTime" type="Float"/>
+			<field name="fPlayerFastMinSpeedKmh" type="Float"/>
+			<field name="fMaxSpeedKmh" type="Float"/>
+			<field name="fMinSpeedKmh" type="Float"/>
+			<object name="curveKmhPenaltyOverTimeCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Barkconfig_37fd2f17Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="EcoSystem_Aiden">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="EcoSystem_MaleFixer1">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="EcoSystem_MaleFixer2">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="EcoSystem_MaleFixer3">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="EcoSystem_MaleFixer4">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="EcoSystem_FemaleFixer1">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="819714E3">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="DecryptionCombat">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Nexuswalla">
+		<object name="Actors">
+			<object name="Actors">
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="CTOSBreach">
+		<object name="Actors">
+			<object name="Actors">
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Tailing">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="PersonalChallenge">
+		<object name="Actors">
+			<object name="Actors">
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="RaceSprint">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="RaceLoop">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="RaceSinglePoint">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Progression">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="InvasionHacking">
+		<object name="Actors">
+			<field name="archArchetype" type="BinHex"/>
+			<object name="Actors">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="CombatBarkPatameters">
+		<field name="fSecurityCameraDistance" type="Float"/>
+		<field name="fProjectileLandedDistance" type="Float"/>
+		<field name="fVehicleAirborneDistance" type="Float"/>
+		<field name="nSaviourKillTime" type="Int32"/>
+		<field name="nTakingFireEventCount" type="Int32"/>
+		<field name="fTakingFireEventTimeWindow" type="Float"/>
+		<field name="fTakingFireEventDistance" type="Float"/>
+		<field name="fTakingFireBarkTimeout" type="Float"/>
+	</object>
+</class>

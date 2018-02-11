@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MapicondescriptionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+    <field name="disPrimaryIconTextureString" type="String"/>
+    <field name="bDisplayAtInit" type="Boolean"/>
+    <field name="bDisabledInTbonesDlc" type="Boolean"/>
+    <field name="bPlayRevealOnlyOnce" type="Boolean"/>
+    <field name="bIsAvailable" type="Boolean"/>
+    <field name="vec2Position2DOffset" type="Vector2"/>
+    <field name="bIsAvailableDuringTowerUnlock" type="Boolean"/>
+    <field name="bIsAvailableDuringHubUnlock" type="Boolean"/>
+    <field name="bUseDefaultRevealAnimation" type="Boolean"/>
+    <field name="selOrientedMode" type="Enum"/>
+    <field name="selBodyPart" type="Enum"/>
+    <field name="selLayer" type="Enum"/>
+    <field name="selFilter" type="Enum"/>
+    <field name="iZoomFilterVisibility" type="Int32"/>
+    <field name="selDrawDisplayMode" type="Enum"/>
+    <field name="selDrawDisplayOption" type="Enum"/>
+    <field name="bDisplayOnGrid" type="Boolean"/>
+    <field name="bDisplayInCompanionMission" type="Boolean"/>
+    <field name="bIsInUnderground" type="Boolean"/>
+    <field name="bUseUndergroundFeedback" type="Boolean"/>
+    <field name="fUndergroundScaleModifier" type="Float"/>
+    <field name="fUndergroundAlphaModifier" type="Float"/>
+    <field name="bCanBeInOverZone" type="Boolean"/>
+    <field name="bIsStatic" type="Boolean"/>
+    <field name="selFastTravelDisplayOption" type="Enum"/>
+    <field name="itemsSurvivalGuideLink" type="BinHex"/>
+    <field name="itemsSurvivalGuideLinkDlc" type="BinHex"/>
+    <object name="locstridWorldMapTag">
+        <field name="LocalizationId" type="Int64"/>
+    </object>
+    <object name="locstridWorldMapTypeTag">
+        <field name="LocalizationId" type="Int64"/>
+    </object>
+    <object name="PrimaryIconTexture">
+        <field hash="33E4567C" type="String"/>
+        <field name="fileIconTexture" type="BinHex"/>
+    </object>
+    <object name="Animations">
+        <field name="sDefaultAnimationId" type="BinHex"/>
+        <object name="TextureAnimations" />
+        <object name="ShapeAnimations" />
+    </object>
+    <object name="IconModifiers">
+        <field name="bUseRandomRotation" type="Boolean"/>
+        <field name="fScaleFactor" type="Float"/>
+        <field name="fGpsScaleFactor" type="Float"/>
+        <field name="uiFocusPriority" type="UInt32"/>
+        <field name="bUseEntityRotation" type="Boolean"/>
+        <field name="fAddCustomRotation" type="Float"/>
+        <field name="bIsBlended" type="Boolean"/>
+        <field name="fMaxDistanceFromPlayer" type="Float"/>
+        <field name="fMaxDistanceFromCamera" type="Float"/>
+        <field name="colorIconColor" type="VectorColor"/>
+        <field name="fIconAlpha" type="Float"/>
+        <field name="bScaleToMapSize" type="Boolean"/>
+        <field name="bUseUpOrDownSubIcon" type="Boolean"/>
+        <field name="bUseUpOrDownAlpha" type="Boolean"/>
+        <object name="ClampMode">
+            <field name="selEGpsClamp" type="Enum"/>
+            <field name="fClampCloseDistance" type="Float"/>
+            <field name="bFadeInClamp" type="Boolean"/>
+            <field name="bShrinkInClamp" type="Boolean"/>
+            <field name="bGpsZoomOutHide" type="Boolean"/>
+            <field name="bMapZoomOutHide" type="Boolean"/>
+            <field name="bMapZoomOutScale" type="Boolean"/>
+            <field name="bInversedClamp" type="Boolean"/>
+            <field name="bClampOnMainMap" type="Boolean"/>
+            <field name="colorClampOnMainMapColor" type="VectorColor"/>
+        </object>
+    </object>
+    <object name="IconAvailability">
+        <field name="selRulesOperator" type="Enum"/>
+        <object name="AvailabilityRules">
+            <object name="AvailabilityRule">
+                <field hash="94FC20C4" type="String"/>
+                <field name="availabilityruleRuleType" type="BinHex"/>
+                <object name="RuleParameters">
+                    <field name="selRulesOperator" type="Enum"/>
+                    <object name="AvailabilityRules">
+                        <object name="AvailabilityRule">
+                            <field hash="94FC20C4" type="String"/>
+                            <field name="availabilityruleRuleType" type="BinHex"/>
+                            <object name="RuleParameters">
+                                <field name="selGameMode" type="BinHex"/>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object name="MarkerPopup">
+        <field name="selRewardIcon" type="Enum"/>
+        <object name="locstridRewardText">
+        	<field name="LocalizationId" type="Int64"/>
+        </object>
+    </object>
+</class>

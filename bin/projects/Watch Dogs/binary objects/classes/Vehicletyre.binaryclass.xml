@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletyreParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTemperatureHalfTime" type="Float"/>
+	<field name="fHeatCapacity" type="Float"/>
+	<field name="fTemperatureLatForceScale" type="Float"/>
+	<field name="fTemperatureLongForceScale" type="Float"/>
+	<field name="fMaxHeatIncreaseRate" type="Float"/>
+	<field name="fHighLongitudinalSpeedCalculationThreshold" type="Float"/>
+	<field name="fLateralSpeedThresholdForLateralRelaxation" type="Float"/>
+	<object name="MaterialSettings">
+		<object name="Material">
+			<field hash="88E8521E" type="String"/>
+			<field name="disName" type="BinHex"/>
+			<field name="fFriction" type="Float"/>
+			<field name="fRollingResistance" type="Float"/>
+		</object>
+	</object>
+	<object name="DeflatedTyreParams">
+		<field name="fDeflationSpeed" type="Float"/>
+		<field name="fFlatTyreStayDistance" type="Float"/>
+		<field name="fSuspSpringScale" type="Float"/>
+		<field name="fSuspDamperScale" type="Float"/>
+		<field name="bSuspApplyDamperScaleOnDiagonalWheel" type="Boolean"/>
+		<field name="fBumpLengthFactor" type="Float"/>
+		<field name="fBumpAmplitude" type="Float"/>
+		<field name="fMaxBumpToBumpTime" type="Float"/>
+		<field name="fDeflationImpulseSpeed" type="Float"/>
+		<object name="LateralSlipParams">
+			<field name="fPeriod1" type="Float"/>
+			<field name="fPeriod2" type="Float"/>
+			<field name="fAmplitude" type="Float"/>
+			<field name="fOscillationOffset" type="Float"/>
+			<field name="fMinimumSpeed" type="Float"/>
+			<field name="fMaximumSpeed" type="Float"/>
+		</object>
+	</object>
+</class>

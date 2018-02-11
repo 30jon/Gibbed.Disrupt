@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Rewardhudsettings_233502e9Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="RewardChannelNotification">
+		<field name="vec2Location" type="Vector2"/>
+		<field name="fHudChannelDurationTime" type="Float"/>
+		<object name="XPSettings">
+			<field name="rewardhudnotificationNotificationLevelUp" type="BinHex"/>
+		</object>
+		<object hash="703C88AD">
+			<field name="rewardhudnotificationMainHubUnlocked" type="BinHex"/>
+			<field name="rewardhudnotificationSubHubUnlocked" type="BinHex"/>
+		</object>
+		<object name="CraftingSchematic">
+			<field name="rewardhudnotificationNotificationCraftingSchematic" type="BinHex"/>
+		</object>
+		<object name="HackingNetwork">
+			<field name="rewardhudnotificationNotificationHackingNetworkUpgrade" type="BinHex"/>
+		</object>
+		<object name="SkillPoint">
+			<field name="rewardhudnotificationNotificationSkillPointAdded" type="BinHex"/>
+		</object>
+		<object name="TechTree">
+			<field name="rewardhudnotificationTechTreeUpdated" type="BinHex"/>
+		</object>
+	</object>
+	<object name="RewardChannelProgress">
+		<field name="vec2Location" type="Vector2"/>
+		<object name="Collectible">
+			<field name="fCollectibleDelayToHideDuration" type="Float"/>
+			<field name="sndColletibleSoundOnDisplayed" type="BinHex"/>
+			<field name="sndCollectibleSideInvestigationSoundOnDisplayed" type="BinHex"/>
+			<object name="locstridCityHotspotsCollectibleTitle">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Reputation">
+			<field name="colorReputationNeutralColor" type="Vector3"/>
+			<field name="colorReputationPositiveColor" type="Vector3"/>
+			<field name="colorReputationNegativeColor" type="Vector3"/>
+			<field name="fProgressBarSpeed" type="Float"/>
+			<field name="fProgressBarDelayToHideDuration" type="Float"/>
+			<object name="locstridReputationTitle">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="XPSettings">
+			<field name="fProgressBarSpeed" type="Float"/>
+			<field name="fProgressBarDelayToHideDuration" type="Float"/>
+			<field name="uiSoundXPHighThreshold" type="Int64"/>
+			<field name="sndSoundXPSmallGain" type="BinHex"/>
+			<field name="sndSoundXPHighGainStart" type="BinHex"/>
+			<field name="sndSoundXPHighGainStop" type="BinHex"/>
+			<field name="sndSoundXPBarLevelUp" type="BinHex"/>
+			<object name="locstridXPTitle">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridXPGainedDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Money">
+			<field name="fMoneyDelayToHideDuration" type="Float"/>
+			<field name="sndMoneySoundOnDisplayed" type="BinHex"/>
+		</object>
+	</object>
+	<object name="RewardChannelFeed">
+		<field name="vec2Location" type="Vector2"/>
+		<field name="fEntryMargin" type="Vector2"/>
+		<field name="fHudChannelDurationTime" type="Float"/>
+		<field name="colorReputationPositiveIncidentColor" type="Vector3"/>
+		<field name="colorReputationNegativeIncidentColor" type="Vector3"/>
+		<field name="colorRewardEventNeutralColor" type="Vector3"/>
+		<field name="iReputationFeedThresholdNegative" type="Int32"/>
+		<field name="iReputationFeedThresholdPositive" type="Int32"/>
+		<object name="SkillPoints">
+			<object name="locstridSkillPointAddedDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="locstridWeaponUnlocked">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

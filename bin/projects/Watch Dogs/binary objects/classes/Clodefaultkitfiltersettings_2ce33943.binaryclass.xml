@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Clodefaultkitfiltersettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="MandatoryExcludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="DefaultExcludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="SitExcludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="DriversExcludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="AdirondakChair">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Booth">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Couch">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Couch_Back">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Couch_Arm">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Crate_28cm">
+		<object name="ExcludeTags"/>
+	</object>
+	<object name="Edge_1m">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Lean">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Picnic_Table">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Sit_Ground">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Sleep_Bench">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Sleep_Ground">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Stairs">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Stool">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="Table">
+		<object name="ExcludeTags">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

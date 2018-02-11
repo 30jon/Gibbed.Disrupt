@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChoreographyshootingpatternsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fPreShootingAimingTimeMin" type="Float"/>
+	<field name="fPreShootingAimingTimeMax" type="Float"/>
+	<field name="fPostShootingCooldownTimeMin" type="Float"/>
+	<field name="fPostShootingCooldownTimeMax" type="Float"/>
+	<field name="fPeekOutProbability" type="Float"/>
+	<field name="bUseDistanceModifier" type="Boolean"/>
+	<field name="bRandomBurstAmount" type="Boolean"/>
+	<field name="bRandomBurstDelay" type="Boolean"/>
+	<field name="bRandomBulletByBurst" type="Boolean"/>
+	<field name="bRandomShotDelay" type="Boolean"/>
+	<field name="bRandomPreShootingAimingTime" type="Boolean"/>
+	<field name="bRandomPostShootingCooldownTime" type="Boolean"/>
+	<object name="DistanceModifier">
+		<object name="CloseDistance">
+			<field name="fRangeTarget" type="Float"/>
+			<field name="fRangeBurstDelayMultiplier" type="Float"/>
+			<field name="fRangeBurstAmountMultiplier" type="Float"/>
+			<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+			<field name="fRangeShotDelayMultiplier" type="Float"/>
+		</object>
+		<object name="FarDistance">
+			<field name="fRangeTarget" type="Float"/>
+			<field name="fRangeBurstDelayMultiplier" type="Float"/>
+			<field name="fRangeBurstAmountMultiplier" type="Float"/>
+			<field name="fRangeBulletByBurstMultiplier" type="Float"/>
+			<field name="fRangeShotDelayMultiplier" type="Float"/>
+		</object>
+	</object>
+	<object name="Pattern">
+		<field name="selShootingType" type="Enum"/>
+		<field name="iBurstAmountMin" type="Int32"/>
+		<field name="iBurstAmountMax" type="Int32"/>
+		<field name="fBurstDelayMin" type="Float"/>
+		<field name="fBurstDelayMax" type="Float"/>
+		<field name="iBulletByBurstMin" type="Int32"/>
+		<field name="iBulletByBurstMax" type="Int32"/>
+		<field name="fShotDelayMin" type="Float"/>
+		<field name="fShotDelayMax" type="Float"/>
+		<field name="fMaxLength" type="Float"/>
+		<field hash="8DFC2232" type="String"/>
+	</object>
+</class>

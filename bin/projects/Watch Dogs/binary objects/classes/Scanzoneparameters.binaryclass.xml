@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ScanzoneparametersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fRadius" type="Float"/>
+	<field hash="9BCA5697" type="String"/>
+	<field name="archScanningDevice" type="BinHex"/>
+	<object name="Pattern">
+		<field name="selType" type="Enum"/>
+		<object name="CircularPatternConfig">
+			<field name="fStartAngle" type="Float"/>
+			<field name="fRadius" type="Float"/>
+			<field name="fSpeed" type="Float"/>
+			<field name="bClockwise" type="Boolean"/>
+		</object>
+		<object name="LinearPatternConfig">
+			<field name="fStartAngle" type="Float"/>
+			<field name="fLength" type="Float"/>
+			<field name="fSpeed" type="Float"/>
+			<field name="bInvStartDir" type="Boolean"/>
+		</object>
+		<object name="StaticPatternConfig"/>
+	</object>
+	<object name="CenterZone">
+		<field name="selOrigin" type="Enum"/>
+		<object name="OriginRandomization">
+			<field name="fXOffsetMin" type="Float"/>
+			<field name="fXOffsetMax" type="Float"/>
+			<field name="fYOffsetMin" type="Float"/>
+			<field name="fYOffsetMax" type="Float"/>
+			<field name="selQuadrant" type="Enum"/>
+		</object>
+	</object>
+</class>

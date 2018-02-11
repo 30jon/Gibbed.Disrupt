@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PersonalcontractktarewardsconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SuccessConditions">
+		<object name="KillThemAll">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+	<object name="OptionalConditions">
+		<object name="HeadshotsOnly">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="MeleeTakedownOnly">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoGuns">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoTools">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Multikill">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="FastWorker">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoWitnesses">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoCops">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoGetaways">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="NoAlarm">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="SoClose">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="TagThemAll">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="SpeedBump">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="WithoutColateral">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="PistolOnly">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="ShotgunOnly">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Cameraman">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="ExplosivesOnly">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="RoadRage">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Bulletproof">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Accuracy">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="AggressiveDriver">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="Stunner">
+			<field hash="9A208FDD" type="BinHex"/>
+			<field name="iMoney" type="Int32"/>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>

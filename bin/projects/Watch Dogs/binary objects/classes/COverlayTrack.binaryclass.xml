@@ -1,0 +1,111 @@
+<class name="COverlayTrack">
+    <object name="COverlayTrack">
+        <field name="sName" type="String"/>
+        <field name="disUniqueId"/>
+        <field name="bEnabled" type="Boolean"/>
+        <field hash="22958F3A"/>
+        <field name="disMuted"/>
+        <object name="CGenericPostFxClip">
+            <field name="sName" type="String"/>
+            <field name="disUniqueId"/>
+            <field name="bEnabled" type="Boolean"/>
+            <field name="timeStartTime" type="Float"/>
+            <field name="timeDuration" type="Float"/>
+            <field name="timeEndTime" type="Float"/>
+            <field name="hidResizable" type="Boolean"/>
+            <field name="disMuted" type="Boolean"/>
+            <field name="sAnimationTrackCollectionResource"/>
+            <field name="bResizable" type="Boolean"/>
+            <field name="hidAnimationTrackCollectionDuration" type="Float"/>
+            <object name="AnimationTrackCollection">
+                <object name="Tracks">
+                    <object name="Track">
+                        <object name="Track">
+                            <field hash="CF68E402" type="String"/>
+                            <field name="hid_DTCTH_ClassName"/>
+                            <field name="Name" type="String"/>
+                            <field name="Master"/>
+                            <field name="UseCustomAnimation" type="Boolean"/>
+                            <object name="Keys">
+                                <object hash="B2DDED49">
+                                    <field name="TimePrecise" type="Float"/>
+                                    <field name="Value" type="BinHex"/>
+                                    <object name="TangentIn">
+                                        <field name="Time" type="BinHex"/>
+                                        <field name="Value" type="BinHex"/>
+                                    </object>
+                                    <object name="TangentOut">
+                                        <field name="Time" type="BinHex"/>
+                                        <field name="Value" type="BinHex"/>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object name="PostEffect">
+                <field name="PostFxPriority"/>
+            </object>
+            <object name="Generic">
+                <field hash="1CB97581" type="String"/>
+                <field name="fileTexture"/>
+                <field name="UseTexture" type="Boolean"/>
+                <field name="NeedsMask" type="Boolean"/>
+                <field name="NeedsNormal" type="Boolean"/>
+                <field name="TessellationFactor" type="Vector2"/>
+                <field name="selBlendType" type="Enum"/>
+                <field name="ShaderName" type="String"/>
+                <field name="DownsampleDivider" type="Int16"/>
+                <field name="LayerPriority" type="Int32"/>
+            </object>
+        </object>
+        <object name="CCinematicDepthOfFieldPostFxClip">
+            <field name="sName" type="String"/>
+            <field name="disUniqueId"/>
+            <field name="bEnabled" type="Boolean"/>
+            <field name="timeStartTime" type="Float"/>
+            <field name="timeDuration" type="Float"/>
+            <field name="timeEndTime" type="Float"/>
+            <field name="hidResizable" type="Boolean"/>
+            <field name="disMuted" type="Boolean"/>
+            <field name="sAnimationTrackCollectionResource"/>
+            <field name="bResizable" type="Boolean"/>
+            <field name="hidAnimationTrackCollectionDuration" type="Float"/>
+            <object name="AnimationTrackCollection">
+                <object name="Tracks">
+                    <object name="Track">
+                        <object name="Track">
+                            <field hash="CF68E402" type="String"/>
+                            <field name="hid_DTCTH_ClassName"/>
+                            <field name="Name" type="String"/>
+                            <field name="Master"/>
+                            <field name="UseCustomAnimation" type="Boolean"/>
+                            <object name="Keys">
+                                <object hash="B2DDED49">
+                                    <field name="TimePrecise" type="Float"/>
+                                    <field name="Value" type="Float"/>
+                                    <object name="TangentIn">
+                                        <field name="Time" type="Float"/>
+                                        <field name="Value" type="Float"/>
+                                    </object>
+                                    <object name="TangentOut">
+                                        <field name="Time" type="Float"/>
+                                        <field name="Value" type="Float"/>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object name="PostEffect">
+                <field name="PostFxPriority"/>
+            </object>
+            <object name="CinematicDepthOfField">
+                <field name="bNearDOFEnabled" type="Boolean"/>
+                <field name="bFarDOFEnabled" type="Boolean"/>
+            </object>
+        </object>
+    </object>
+</class>

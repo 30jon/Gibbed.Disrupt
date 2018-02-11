@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GunshotrigidbodypresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Pelvis">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftThigh">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftCalf">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftFoot">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightThigh">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightCalf">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightFoot">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="Spine">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="Spine1">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="Spine2">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="Head">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftUpperArm">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftForeArm">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="LeftHand">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightUpperArm">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightForeArm">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+	<object name="RightHand">
+		<field name="fImpulseFactor" type="Float"/>
+		<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+	</object>
+</class>

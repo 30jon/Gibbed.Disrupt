@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletractioncontrolParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selTractionControlType" type="Enum"/>
+	<field name="fMaximumVelocityRatio" type="Float"/>
+	<field name="fMinimumVelocityRatio" type="Float"/>
+	<field name="fMinimumVelocity" type="Float"/>
+</class>

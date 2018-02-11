@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RigidbodyctrlpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Pelvis">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftThigh">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftCalf">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftFoot">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightThigh">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightCalf">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightFoot">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="Spine">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="Spine1">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="Spine2">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="Head">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftUpperArm">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftForeArm">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="LeftHand">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightUpperArm">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightForeArm">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+	<object name="RightHand">
+		<field name="fStiffnessRatio" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+		<field name="bUseKeyFrameMotionType" type="Boolean"/>
+		<field name="bUseAdvancedSettings" type="Boolean"/>
+	</object>
+</class>

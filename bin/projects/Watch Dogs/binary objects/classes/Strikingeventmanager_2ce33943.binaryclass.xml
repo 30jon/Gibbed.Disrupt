@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Strikingeventmanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="TimeScale">
+		<field name="fGlobal" type="Float"/>
+		<field name="fNight" type="Float"/>
+		<field name="fProfiler" type="Float"/>
+		<field name="fVehicle" type="Float"/>
+		<field name="fMission" type="Float"/>
+		<object name="DistrictTimeScale"/>
+	</object>
+	<object name="CoolDown">
+		<field name="fSpawnedCooldownMin" type="Float"/>
+		<field name="fSpawnedCooldownMax" type="Float"/>
+		<field name="fTriggeredCooldownMin" type="Float"/>
+		<field name="fTriggeredCooldownMax" type="Float"/>
+		<field name="fSeenCooldownMin" type="Float"/>
+		<field name="fSeenCooldownMax" type="Float"/>
+		<field name="fGameStartCooldownMin" type="Float"/>
+		<field name="fGameStartCooldownMax" type="Float"/>
+	</object>
+	<object name="UpdateGroups">
+		<object name="UpdateGroup">
+			<field hash="361EE9C1" type="String"/>
+			<field name="sGroupName" type="BinHex"/>
+			<object name="StrikingEventsList">
+				<object name="strikingeventStrikingEvent">
+					<field name="strikingeventStrikingEvent" type="BinHex"/>
+				</object>
+			</object>
+			<object name="CoolDown">
+				<field name="fSpawnedCooldownMin" type="Float"/>
+				<field name="fSpawnedCooldownMax" type="Float"/>
+				<field name="fTriggeredCooldownMin" type="Float"/>
+				<field name="fTriggeredCooldownMax" type="Float"/>
+				<field name="fSeenCooldownMin" type="Float"/>
+				<field name="fSeenCooldownMax" type="Float"/>
+				<field name="fGameStartCooldownMin" type="Float"/>
+				<field name="fGameStartCooldownMax" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

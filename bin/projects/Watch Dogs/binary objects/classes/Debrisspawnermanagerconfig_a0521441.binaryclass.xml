@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Debrisspawnermanagerconfig_a0521441Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="MaxNbSpawnedEntitiesInGame" type="BinHex"/>
+	<field name="MaxNbSpawnedEntities" type="BinHex"/>
+	<field name="MaxNbEntitiesInFluidSimNormalPhysicLoad" type="BinHex"/>
+	<field name="MaxNbEntitiesInFluidSimHeavyPhysicLoad" type="BinHex"/>
+	<field name="fSpawnRadiusInGame" type="Float"/>
+	<field name="fUnspawnRadiusInGame" type="Float"/>
+	<field name="fSpawnRadius" type="Float"/>
+	<field name="fUnspawnRadius" type="Float"/>
+	<field name="fSpawnRatio" type="Float"/>
+	<field name="fStartSimulationRadius" type="Float"/>
+	<field name="fStopSimulationRadius" type="Float"/>
+</class>

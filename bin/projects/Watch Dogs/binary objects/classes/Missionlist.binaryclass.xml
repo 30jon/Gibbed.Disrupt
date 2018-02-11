@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MissionlistParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="MissionDescriptor">
+		<object name="CorePropertiesCategory">
+			<object name="MissionProperties">
+				<field hash="90459FA4" type="String"/>
+				<field name="coreMissionPropertiesType" type="BinHex"/>
+				<object name="Values">
+					<field name="fileMissionActivationDominoScript" type="String"/>
+					<field name="fileMissionDeactivationDominoScript" type="String"/>
+					<field name="bIsSideQuest" type="Boolean"/>
+					<field name="bIsAvailableWithFelony" type="Boolean"/>
+					<field name="itemlistsRewardForCheat" type="BinHex"/>
+					<field name="bIsAvailableDuringInvasion" type="Boolean"/>
+					<field name="bIsAvailableDuringPills" type="Boolean"/>
+					<field name="bIsAvailableDuringCompanionSearch" type="Boolean"/>
+					<object name="HubsUnlockedAtTheEndOfThisMission">
+						<object name="HubEntity">
+							<field name="entHubEntity" type="BinHex"/>
+						</object>
+					</object>
+					<field name="bAutoJoin" type="Boolean"/>
+					<object name="locstridMissionJoinedMessageId"/>
+					<field name="sWorldName" type="String"/>
+					<field name="fileMissionDominoScript" type="String"/>
+					<field name="bAutoStart" type="Boolean"/>
+					<field name="fMaxDuration" type="Float"/>
+					<field name="bSupportsDirector" type="Boolean"/>
+					<object name="locstridMissionName">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="MiscPropertiesCategory">
+			<object name="MissionProperties">
+				<field hash="90459FA4" type="String"/>
+				<field name="coreMissionPropertiesType" type="BinHex"/>
+				<field hash="8E2A82B1" type="String"/>
+				<field name="miscMissionPropertiesType" type="BinHex"/>
+				<object name="Values">
+					<object name="MissionCriteria">
+						<object name="MissionCriteriaGroup">
+							<object name="MissionCriteria">
+								<field hash="DDA15F98" type="String"/>
+								<field name="criteriaMissionCriteriaType" type="BinHex"/>
+								<object name="CriteriaParameters">
+									<field name="missionlistMissionID" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<field name="fileMissionActivationDominoScript" type="BinHex"/>
+					<field name="fileMissionDeactivationDominoScript" type="BinHex"/>
+					<field name="bIsSideQuest" type="Boolean"/>
+					<field name="bIsAvailableWithFelony" type="Boolean"/>
+					<field name="itemlistsRewardForCheat" type="BinHex"/>
+					<field name="bIsAvailableDuringInvasion" type="Boolean"/>
+					<field name="bIsAvailableDuringPills" type="Boolean"/>
+					<field name="bIsAvailableDuringCompanionSearch" type="Boolean"/>
+					<object name="HubsUnlockedAtTheEndOfThisMission"/>
+					<field name="bAutoJoin" type="Boolean"/>
+					<object name="locstridMissionJoinedMessageId"/>
+					<field name="sWorldName" type="String"/>
+					<field name="fileMissionDominoScript" type="String"/>
+					<field name="bAutoStart" type="Boolean"/>
+					<field name="fMaxDuration" type="Float"/>
+					<field name="bSupportsDirector" type="Boolean"/>
+					<object name="locstridMissionName">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<field name="selMissionType" type="Enum"/>
+					<object name="Checkpoints">
+						<object name="Checkpoint">
+							<field name="bDefaultCheckpoint" type="Boolean"/>
+							<field name="sCheckpointName" type="String"/>
+							<field name="entStartSpawnPointId" type="BinHex"/>
+							<field name="bPlayGoReloadable" type="BinHex"/>
+							<field name="bWaitHighResResources" type="BinHex"/>
+						</object>
+					</object>
+					<field name="fDenunciatorProbabilityFactor" type="Float"/>
+					<field hash="DF7777F2" type="String"/>
+					<field name="trackingcontextTrackingContext" type="BinHex"/>
+					<field name="bIsMobAmbush" type="Boolean"/>
+					<field name="entQuitSpawnPointId" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="TypePropertiesCategory">
+			<field hash="24C2BAE6" type="String"/>
+			<field name="typeMissionPropertiesType" type="BinHex"/>
+			<object name="Values">
+				<field name="fileMissionActivationDominoScript" type="BinHex"/>
+				<field name="fileMissionDeactivationDominoScript" type="BinHex"/>
+				<field name="bIsSideQuest" type="Boolean"/>
+				<field name="bIsAvailableWithFelony" type="Boolean"/>
+				<field name="itemlistsRewardForCheat" type="BinHex"/>
+				<field name="bIsAvailableDuringInvasion" type="Boolean"/>
+				<field name="bIsAvailableDuringPills" type="Boolean"/>
+				<field name="bIsAvailableDuringCompanionSearch" type="Boolean"/>
+				<object name="HubsUnlockedAtTheEndOfThisMission"/>
+				<field name="bAutoJoin" type="Boolean"/>
+				<object name="locstridMissionJoinedMessageId"/>
+				<field name="sWorldName" type="String"/>
+				<field name="fileMissionDominoScript" type="String"/>
+				<field name="bAutoStart" type="Boolean"/>
+				<field name="fMaxDuration" type="Float"/>
+				<field name="bSupportsDirector" type="Boolean"/>
+				<object name="locstridMissionName">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WheelfxmaterialParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fFadeOutTime" type="Float"/>
+	<object name="ParticlesSystemRules">
+		<object name="ParticlesSystemRule">
+			<field name="vtwpVehiculeType" type="BinHex"/>
+			<object name="ParticlesSystemsRulesSets">
+				<object name="RulesSetToParticlesSystem">
+					<object name="Rules">
+						<object name="Rule">
+							<field name="selVariable" type="Enum"/>
+							<field name="selComparison" type="Enum"/>
+							<field name="fValue" type="Float"/>
+						</object>
+					</object>
+					<object name="WheelParticlesSystemsParams">
+						<object name="ParticlesSystemsParams">
+							<field hash="93D2AFB5" type="String"/>
+							<field name="psParticleSystem" type="BinHex"/>
+							<field name="selEmissionType" type="Enum"/>
+							<field name="selBehaviour" type="Enum"/>
+							<field name="selAlphaScaleModifier" type="Enum"/>
+							<field name="fAlphaScaleFactor" type="Float"/>
+							<field name="fAlphaScaleBias" type="Float"/>
+							<field name="fAngle" type="Float"/>
+							<field name="fRotatingSpeedScale" type="Float"/>
+							<field name="fAlphaMin" type="Float"/>
+							<field name="fFadeinTime" type="Float"/>
+							<field name="bUseCenterOffset" type="Boolean"/>
+							<field name="fCenterOffset" type="Float"/>
+							<field name="fLateralOffset" type="Float"/>
+							<field name="bRotateEmitter" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

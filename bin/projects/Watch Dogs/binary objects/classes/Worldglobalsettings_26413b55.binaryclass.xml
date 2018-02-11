@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Worldglobalsettings_26413b55Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="LockedByAccessIdEntities">
+		<object name="LockedByAccessIdEntity">
+			<field name="accessidRequiredId" type="BinHex"/>
+			<object name="AssociatedLockedEntities">
+				<object name="Entities">
+					<field name="entAssociatedEntity" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

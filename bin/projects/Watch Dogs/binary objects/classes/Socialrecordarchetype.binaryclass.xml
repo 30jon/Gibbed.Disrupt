@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SocialrecordarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SocialRecordGenerator">
+		<field name="fWeight" type="Float"/>
+		<object name="SocialRecordType">
+			<object name="SocialRecordType">
+				<object name="locsectionidTravelRecordType"/>
+			</object>
+		</object>
+		<object name="SocialRecordGenerator">
+			<field name="fWeight" type="Float"/>
+			<object name="SocialRecordType">
+				<object name="locsectionidTravelRecordType"/>
+				<object name="SocialRecordType">
+					<object name="locsectionidTravelRecordType"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

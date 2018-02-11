@@ -1,7 +1,8 @@
-<file name="GraphicKit_Parts">
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Graphickit_parts">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="CGraphicKitPart" />
+			<inherit name="Graphickit_partsParameters"/>
 		</object>
 	</object>
 </file>

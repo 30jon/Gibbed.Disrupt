@@ -1,7 +1,8 @@
-<file name="ColorGrading">
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Colorgrading">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="CColorGradingSettings" />
+			<inherit name="ColorgradingParameters"/>
 		</object>
 	</object>
 </file>

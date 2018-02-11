@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclebhvsetupParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selDrivingContext" type="Enum"/>
+	<field name="selBhv" type="Enum"/>
+	<field name="bCanUsePartialBlockedLane" type="Boolean"/>
+	<field name="bCanUseShortcutLane" type="Boolean"/>
+	<field name="bCanUnblockGates" type="Boolean"/>
+	<field name="bTargetShouldBePlayer" type="Boolean"/>
+	<field name="selAvoidanceLevel" type="Enum"/>
+	<field name="bStuckTeleportEnabled" type="Boolean"/>
+	<object name="Rubberband">
+		<field name="fEnginePowerMultiplier" type="Float"/>
+		<field name="fPathSpeedBrakingScale" type="Float"/>
+		<field name="fIdealTimeGap" type="Float"/>
+		<field name="fGripMultiplier" type="Float"/>
+		<field name="fTransmissionRatioScaleMultiplier" type="Float"/>
+		<field name="fCenterOfMassZOffset" type="Float"/>
+		<field name="bEnableRubberBand" type="Boolean"/>
+		<object name="curveMaxSpeedGapCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpeedRatioCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveCheatGapCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveIdealTimeGapScalingCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaxSpeedTimeScalingCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpeedRatioTimeScalingCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveCheatLevelTimeScalingCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="CloseRangeCheatScale">
+			<field name="fCheatScale" type="Float"/>
+			<field name="fMaxPathDistanceIn" type="Float"/>
+			<field name="fMaxPathDistanceOut" type="Float"/>
+			<field name="fMaxDurationLowerLimit" type="Float"/>
+			<field name="fMaxDurationUpperLimit" type="Float"/>
+			<field name="fCheatScalingMinInterval" type="Float"/>
+			<field name="fMinChaseTimeBeforeActivation" type="Float"/>
+		</object>
+	</object>
+	<object name="Detection">
+		<field name="fFrontDetectionDepth" type="Float"/>
+		<field name="fRearDetectionDepth" type="Float"/>
+		<field name="fSideDetectionDepth" type="Float"/>
+		<field name="fLateralBase" type="Float"/>
+		<field name="fLateralMax" type="Float"/>
+		<field name="fLOSReaquisitionTime" type="Float"/>
+		<field name="fLOSFailTime" type="Float"/>
+		<field name="bUseGaugeDetection" type="Boolean"/>
+		<field name="fDetectionGaugeRaiseTime" type="Float"/>
+		<field name="fDetectionGaugeFallTime" type="Float"/>
+		<field name="bUseGaugeModifiers" type="Boolean"/>
+		<field name="fDisplayGaugeDistance" type="Float"/>
+	</object>
+	<object name="Combat">
+		<field name="bCanShootFromWindow" type="Boolean"/>
+		<field name="bCanDoCombatManeuver" type="Boolean"/>
+		<field name="bImmobilizeTargetInCombat" type="Boolean"/>
+		<field name="fMaxTargetSpeedForShootingWhileDrivingKPH" type="Float"/>
+	</object>
+	<object name="ChaseSection">
+		<field name="FakeAccelModifierWhenOutOfTargetRange" type="BinHex"/>
+		<field name="MinRangeToApplyFakeAccelModifier" type="BinHex"/>
+		<field name="bCanExitVehicleToFight" type="Boolean"/>
+	</object>
+	<object name="SafeAndStressedDrivingSection">
+		<field name="bObeyIntersections" type="Boolean"/>
+		<field name="fSpeedLimitRatio" type="Float"/>
+		<field name="fMinSpeedKmh" type="Float"/>
+	</object>
+	<object name="Misc">
+		<field name="bExitStuckVehicle" type="Boolean"/>
+		<field name="bExitDestroyedVehicle" type="Boolean"/>
+		<field name="bTrafficGiveAIWay" type="Boolean"/>
+		<field name="bTrafficStopAtIntersection" type="Boolean"/>
+		<field name="bIgnoreStopPointInPath" type="Boolean"/>
+		<field name="bRestoreNPCStateOnStop" type="Boolean"/>
+	</object>
+	<object name="RangeMonitoring">
+		<field name="fWarningDistanceThreshold" type="Float"/>
+		<field name="fMaxDistanceThreshold" type="Float"/>
+		<field name="fTimeOutsideMaxDistanceThreshold" type="Float"/>
+	</object>
+	<object name="ThreatDetection">
+		<field name="bCollision" type="Boolean"/>
+		<field name="bWeaponInHands" type="Boolean"/>
+		<field name="bHearGunFire" type="Boolean"/>
+	</object>
+	<object name="GenericBhvMisc">
+		<field name="selDriverAndPassengerState" type="Enum"/>
+		<field name="selVehicleState" type="Enum"/>
+		<field name="bForceFakeFollow" type="Boolean"/>
+	</object>
+	<object name="IllegalAppsTakedown">
+		<field name="bReactToTrafficLight" type="Boolean"/>
+		<field name="bReactToBollard" type="Boolean"/>
+		<field name="bReactToSteampipe" type="Boolean"/>
+		<field name="bApplyRegularDamage" type="Boolean"/>
+	</object>
+	<object name="OutOfControl">
+		<field name="vehicleoutofcontrolconfigConfig" type="BinHex"/>
+		<field name="fTransferDamageToNPCScale" type="Float"/>
+	</object>
+	<object name="ChasedSystemicBhv">
+		<field name="fUTurnTargetMinDist" type="Float"/>
+		<field name="fUTurnTargetMaxDist" type="Float"/>
+		<field name="fUTurnTargetAheadMinTime" type="Float"/>
+		<field name="fUTurnCooldown" type="Float"/>
+		<field name="fChanceToDoSharpTurn" type="Float"/>
+		<field name="fChanceToDriveInStraightLine" type="Float"/>
+	</object>
+</class>

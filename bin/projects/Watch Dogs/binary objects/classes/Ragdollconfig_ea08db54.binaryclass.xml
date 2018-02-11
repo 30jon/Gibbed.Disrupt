@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Ragdollconfig_ea08db54Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iRigidbodyCtrlConfigKeyCount" type="Int32"/>
+	<field name="iPoweredConstraintConfigKeyCount" type="Int32"/>
+	<field name="fRagdollFlyingImpactAnticipDelay" type="Float"/>
+	<field name="gunshotrigidbodyimpulseconfigGunShotRigidBodyConfig" type="BinHex"/>
+	<field name="fGunShotlDeadRagdolImpulse" type="Float"/>
+	<object name="PresetMapping">
+		<object name="RigidBodyCtrlPresetDBMappings">
+			<object name="PresetMap">
+				<field name="rigidbodyctrlpresetsPresetDbRef" type="BinHex"/>
+				<field name="disPresetEnumID" type="BinHex"/>
+			</object>
+		</object>
+		<object name="PoweredContraintPresetDBMappings">
+			<object name="PresetMap">
+				<field name="poweredconstraintpresetsPresetDbRef" type="BinHex"/>
+				<field name="disPresetEnumID" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveImpulseCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveImpactMotorForceCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

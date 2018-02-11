@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackableobjectinfoParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="9185455A" type="String"/>
+	<field name="sBark" type="BinHex"/>
+	<field name="fBarkDelay" type="Float"/>
+</class>

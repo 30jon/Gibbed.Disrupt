@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Randomeventglobalsettings_9a5f1482Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTimeInReductionforUntriggeredEvents" type="Float"/>
+	<field name="fMintTimeInAfterFilter" type="Float"/>
+	<field name="fIdealRandomEventHackingRewardDistance" type="Float"/>
+	<field name="fMaxRandomEventsTriggerRadius" type="Float"/>
+	<field name="fMinRandomEventsTriggerRadius" type="Float"/>
+	<field name="fMinVigilanteRadius" type="Float"/>
+	<field name="fMaxVigilanteRadius" type="Float"/>
+	<field name="fMinDistanceBetweenEvents" type="Float"/>
+	<field name="MaxEventLockedLocations" type="BinHex"/>
+	<field name="fEventLockDistance" type="Float"/>
+	<field name="fMinDelayBetweenEvents" type="Float"/>
+	<field name="fGridMinDelayBetweenEvents" type="Float"/>
+	<field name="MaxGridEventBurst" type="BinHex"/>
+	<field name="GridEventRefreshCount" type="BinHex"/>
+	<field name="accessidAccessIdToUnlockMissionTriggerRadius" type="BinHex"/>
+	<field name="vigdescFoundBagEventDescription" type="BinHex"/>
+	<field name="vigdescVigilanteEventDescription" type="BinHex"/>
+	<field name="fEventNotificationDuration" type="Float"/>
+	<object name="DefaultSettings">
+		<field name="randomeventlistsDefaultRandomEventList" type="BinHex"/>
+		<field name="randomeventlistsUnlockableEventList" type="BinHex"/>
+	</object>
+	<object name="locstridDefaultNotificationDesccription">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="Icons">
+		<field name="mapicondescDefaultEventMapIcon" type="BinHex"/>
+		<field name="mapicondescDefaultAnalyzableMapIcon" type="BinHex"/>
+		<field name="mapicondescVigilanteEventMapIcon" type="BinHex"/>
+		<field name="mapicondescVigilanteEventZoneMapIcon" type="BinHex"/>
+		<field name="mapicondescVigilanteEventZoneMapZoneIcon" type="BinHex"/>
+		<field name="mapicondescMissionEventMapIcon" type="BinHex"/>
+		<field name="mapicondescEnticerEventMapIcon" type="BinHex"/>
+	</object>
+	<object name="Vigilante">
+		<field name="sndVigilanteSuccessSoundId" type="BinHex"/>
+		<field name="sndVigilanteStartSoundId" type="BinHex"/>
+		<field name="sndVigilanteStopSoundId" type="BinHex"/>
+		<field hash="E515916E" type="String"/>
+		<field name="archVigilanteMissionTargetMarkerArchetype" type="BinHex"/>
+		<field name="fPreventCrimeSuggestionDistance" type="Float"/>
+		<field name="fCatchCriminalSignsDelay" type="Float"/>
+		<field name="collectableitemsVigilanteCollectibleItems" type="BinHex"/>
+		<field name="iVigilanteInnerThoughtFrequency" type="Int32"/>
+		<field name="iVigilanteInnerThoughtSampleSize" type="Int32"/>
+		<object name="locstridCopsNotifiedHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridCopsNotifiedDescription"/>
+		<object name="locstridCopsNotifiedLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridTailCriminalHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridTailCriminalLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridTailVictimHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridTailVictimLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMonitorCriminalHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMonitorCriminalLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMonitorVictimHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMonitorVictimLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPreventCrimeHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPreventCrimeLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteCompletedFirstLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteCompletedSecondLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteSwipeCopsNotifed">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteSwipeLethalForceUsed">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteInterveneLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilanteInterveneHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Atlas">
+		<field name="ItemEventStaticDataAtlasExportType" type="String"/>
+	</object>
+	<object name="Portals">
+		<object name="locstridPortalPropositionHeader">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPortalPropositionDescription"/>
+		<object name="locstridPortalPropositionLine">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="NoveltyFactsTypeIds">
+		<object name="locsectionidMission">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidVigilanteEvent">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidLivingCityEvent"/>
+		<object name="locsectionidItemEvent">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidPortalPropositionEvent">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidEnticer"/>
+	</object>
+</class>

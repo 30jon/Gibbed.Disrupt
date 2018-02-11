@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EnvironmentlightingParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bSunLightColorOverride" type="Boolean"/>
+	<field name="bMoonLightColorOverride" type="Boolean"/>
+	<field name="bSunLightIntensityOverride" type="Boolean"/>
+	<field name="bMoonLightIntensityOverride" type="Boolean"/>
+	<field name="bPaintedGIColorOverride" type="Boolean"/>
+	<field name="bPaintedGIIntensityOverride" type="Boolean"/>
+	<field name="bAmbientDirectionalContrastOverride" type="Boolean"/>
+	<field name="bAmbientSkyColorOverride" type="Boolean"/>
+	<field name="bAmbientSkyIntensityOverride" type="Boolean"/>
+	<field name="bAmbientGroundColorOverride" type="Boolean"/>
+	<field name="bAmbientGroundIntensityOverride" type="Boolean"/>
+	<field name="bAmbientSunFrontColorOverride" type="Boolean"/>
+	<field name="bAmbientSunFrontIntensityOverride" type="Boolean"/>
+	<field name="bAmbientSunBackColorOverride" type="Boolean"/>
+	<field name="bAmbientSunBackIntensityOverride" type="Boolean"/>
+	<field name="bWorldShadowContributionOverride" type="Boolean"/>
+	<field name="bStaticReflectionIntensityDayOverride" type="Boolean"/>
+	<field name="bStaticReflectionIntensityNightOverride" type="Boolean"/>
+	<field name="fStaticReflectionGIDayInfluence" type="Float"/>
+	<field name="bStaticReflectionGIDayInfluenceOverride" type="Boolean"/>
+	<field name="fStaticReflectionGINightInfluence" type="Float"/>
+	<field name="bStaticReflectionGINightInfluenceOverride" type="Boolean"/>
+	<field name="bDynamicReflectionGIInfluenceOverride" type="Boolean"/>
+	<field name="bRimLightIntensityOverride" type="Boolean"/>
+	<field name="bGlobalLightsIntensity0Override" type="Boolean"/>
+	<field name="bGlobalLightsIntensity1Override" type="Boolean"/>
+	<field name="bGlobalLightsIntensity2Override" type="Boolean"/>
+	<field name="bGlobalLightsIntensity3Override" type="Boolean"/>
+	<field name="bProbeSkyBounceMultiplierOverride" type="Boolean"/>
+	<field name="bProbeSkyDirectMultiplierOverride" type="Boolean"/>
+	<field name="bProbeSunBounceMultiplierOverride" type="Boolean"/>
+	<field name="bProbeSkySaturationOverride" type="Boolean"/>
+	<field name="bProbeScaleOverride" type="Boolean"/>
+	<field name="bProbeLocalLightsMultiplierOverride" type="Boolean"/>
+	<field name="bProbeLocalLightsMultiplierInteriorOverride" type="Boolean"/>
+	<field name="bProbeBackgroundAmbientStrengthOverride" type="Boolean"/>
+	<field name="fProbeMinAmbientLimitsMultiplier" type="Float"/>
+	<field name="bProbeMinAmbientLimitsMultiplierOverride" type="Boolean"/>
+	<field name="bExposureValueOverride" type="Boolean"/>
+	<field name="fExposedWhitePoint" type="Float"/>
+	<field name="bExposedWhitePointOverride" type="Boolean"/>
+	<field name="bAutoExposureOverride" type="Boolean"/>
+	<field name="fSunShadowInertiaStartAngle" type="Float"/>
+	<field name="bSunShadowInertiaStartAngleOverride" type="Boolean"/>
+	<field name="fSunShadowInertiaEndAngle" type="Float"/>
+	<field name="bSunShadowInertiaEndAngleOverride" type="Boolean"/>
+	<field name="fSunLensFlareVisibility" type="Float"/>
+	<field name="bSunLensFlareVisibilityOverride" type="Boolean"/>
+	<object name="gradSunLightColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradMoonLightColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveSunLightIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveMoonLightIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradPaintedGIColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curvePaintedGIIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAmbientDirectionalContrast">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradAmbientSkyColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAmbientSkyIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradAmbientGroundColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAmbientGroundIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradAmbientSunFrontColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAmbientSunFrontIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradAmbientSunBackColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAmbientSunBackIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveWorldShadowContribution">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStaticReflectionIntensityDay">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStaticReflectionIntensityNight">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveDynamicReflectionGIInfluence">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRimLightIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveGlobalLightsIntensity0">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveGlobalLightsIntensity1">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveGlobalLightsIntensity2">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveGlobalLightsIntensity3">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeSkyBounceMultiplier">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeSkyDirectMultiplier">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeSunBounceMultiplier">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeSkySaturation">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeScale">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeLocalLightsMultiplier">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeLocalLightsMultiplierInterior">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveProbeBackgroundAmbientStrength">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveExposureValue">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="AutoExposure">
+		<field name="selLuminanceComputationMethod" type="Enum"/>
+		<field name="fScreenPercentX" type="Float"/>
+		<field name="fScreenPercentY" type="Float"/>
+		<object name="curvePercentile">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveTargetLuminance">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpeed">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpeedMultipler">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMinimumExposureValue">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaximumExposureValue">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="AmbientOcclusion">
+		<field name="bWorldAOMultiplyOverride" type="Boolean"/>
+		<field name="bVertexAOMultiplyOverride" type="Boolean"/>
+		<object name="curveWorldAOMultiply">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveVertexAOMultiply">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

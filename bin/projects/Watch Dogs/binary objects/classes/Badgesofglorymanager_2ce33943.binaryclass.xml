@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Badgesofglorymanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="disNextBadgeID" type="BinHex"/>
+	<object name="Badges">
+		<object name="BadgeInfo">
+			<field name="disId" type="BinHex"/>
+			<field hash="33BACEAD" type="String"/>
+			<field name="filePrimaryIconTexture" type="BinHex"/>
+			<field name="disPrimaryIconTextureString" type="String"/>
+			<field name="sDebugName" type="BinHex"/>
+			<field name="sDebugDescripition" type="BinHex"/>
+			<field name="sDebugCompletionMessage" type="BinHex"/>
+			<field name="iUiTargetValue" type="Int32"/>
+			<field name="bShowProgress" type="Boolean"/>
+			<field name="bShowNotificationInPDA" type="Boolean"/>
+			<field name="bNextGenOnly" type="Boolean"/>
+			<object name="locstridLocalisedName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridLocalisedDescripition">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridCompletionMessage">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="ActionType">
+				<field hash="167D5A4A" type="String"/>
+				<field name="nwbgactionBadgeOfGloryActionType" type="BinHex"/>
+				<object name="Values">
+					<field name="bUseValueOverTimeTracking" type="Boolean"/>
+					<object name="Stats">
+						<object name="Stat">
+							<field name="selStatID" type="Enum"/>
+							<object name="Data">
+								<object name="Data">
+									<field name="DataContext" type="BinHex"/>
+									<field name="selDataID" type="Enum"/>
+									<field name="iTargetValue" type="Int32"/>
+									<field name="iUIMinimumValue" type="Int32"/>
+									<field name="iUIUpdateRate" type="Int32"/>
+									<field name="bAlwaysUpdateNextValue" type="Boolean"/>
+									<field name="entTargetLocation" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="locstridBadgeEarnedMessage">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

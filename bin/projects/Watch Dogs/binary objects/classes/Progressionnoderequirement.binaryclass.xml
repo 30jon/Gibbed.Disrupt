@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProgressionnoderequirementParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="7CABFDC5" type="String"/>
+	<field name="progressionrequirementdescriptoridProgressionRequirementDescriptorId" type="BinHex"/>
+	<object name="ProgressionRequirementDescriptor">
+		<field name="uiCharacterNotorietyLevel" type="Int64"/>
+		<field name="uiCharacterLevel" type="Int64"/>
+		<field name="accessidAccessId" type="BinHex"/>
+		<object name="locstridProgressionRequirementName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridProgressionRequirementdescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

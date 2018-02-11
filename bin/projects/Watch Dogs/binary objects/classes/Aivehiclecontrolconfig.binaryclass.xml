@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AivehiclecontrolconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Physics">
+		<field name="fBaseEnginePowerModifier" type="Float"/>
+		<field name="fMaxEnginePowerModifier" type="Float"/>
+		<field name="fBaseGripModifier" type="Float"/>
+		<field name="fMaxGripModifier" type="Float"/>
+		<field name="fBaseTransmissionRatioModifier" type="Float"/>
+		<field name="fMinTransmissionRatioModifier" type="Float"/>
+		<field name="fBaseCenterOfMassZOffset" type="Float"/>
+		<field name="fMinCenterOfMassZOffset" type="Float"/>
+		<field name="fGripMaxDecayRate" type="Float"/>
+		<field name="fGripDecayMaxYawRate" type="Float"/>
+		<field name="bAllowTurnManeuvers" type="Boolean"/>
+		<field name="fRearAxleGripModifierForUTurn" type="Float"/>
+		<field name="fFrontAxleGripModifierForJTurn" type="Float"/>
+		<field name="fEnginePowerModifierForBurnoutSpin" type="Float"/>
+		<field name="fFrontAxleGripModifierForBurnoutSpin" type="Float"/>
+		<field name="fRearAxleGripModifierforBurnoutSpin" type="Float"/>
+		<field name="fSlowTurnHelperMaxSpeedMs" type="Float"/>
+		<field name="fTransmissionModRPMActivationRatio" type="Float"/>
+		<field name="fLateralAccelPessimismFactor" type="Float"/>
+		<field name="fPathSpeedTurnCautionFactor" type="Float"/>
+		<field name="fPathSpeedBrakingScale" type="Float"/>
+		<field name="fPathSpeedDropCautionFactor" type="Float"/>
+		<object name="curveTransmissionRatioEnginePowerCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FakePhysics">
+		<field name="fFakeAccelerationModifier" type="Float"/>
+		<field name="fFakeDecelerationMs" type="Float"/>
+	</object>
+	<object name="Handling">
+		<object name="Steering">
+			<field name="fSteerLookAheadDist" type="Float"/>
+			<field name="fSteerSnap" type="Float"/>
+			<field name="fSteerExtrapolationTime" type="Float"/>
+			<field name="fSteerExtrapolationTime2" type="Float"/>
+			<field name="fSteerAngVelScale" type="Float"/>
+			<field name="fSteerAngVelScalePanic" type="Float"/>
+			<field name="fSteerMaxSlipAngle" type="Float"/>
+			<field name="fSteerMaxLowSpeedSlipAngle" type="Float"/>
+			<field name="fSteerLowSpeedSlipThresholdMs" type="Float"/>
+			<field name="fSteerPidP" type="Float"/>
+			<field name="fSteerPidI" type="Float"/>
+			<field name="fSteerPidD" type="Float"/>
+			<field name="fSteerSafePidP" type="Float"/>
+			<field name="fSteerSafePidI" type="Float"/>
+			<field name="fSteerSafePidD" type="Float"/>
+		</object>
+		<object name="ThrottleBrake">
+			<field name="fThrottleBrakePidP" type="Float"/>
+			<field name="fThrottleBrakePidI" type="Float"/>
+			<field name="fThrottleBrakePidD" type="Float"/>
+			<field name="fThrottleBrakeSafePidP" type="Float"/>
+			<field name="fThrottleBrakeSafePidI" type="Float"/>
+			<field name="fThrottleBrakeSafePidD" type="Float"/>
+			<field name="fThrottleBrakeLowSpeedScale" type="Float"/>
+			<field name="fThrottleBrakeLowSpeedThresholdMs" type="Float"/>
+			<field name="fSafeDrivingSpeedMatchHysteresisMs" type="Float"/>
+		</object>
+		<object name="SituationResponse">
+			<field name="fSlowSpeedThresholdMs" type="Float"/>
+			<field name="fMaxTimeToMatchHeading" type="Float"/>
+			<field name="fOversteerMinRearLatSlip" type="Float"/>
+			<field name="fOversteerMinRearFrontLatSlipRatio" type="Float"/>
+			<field name="fOversteerMaxRearLongLatSlipRatio" type="Float"/>
+			<field name="fOversteerMinSpeedMs" type="Float"/>
+			<field name="fOversteerMinFutureHeadingDiff" type="Float"/>
+			<field name="fOversteerMinYawSpeed" type="Float"/>
+			<field name="fUndersteerMinFrontLatSlip" type="Float"/>
+			<field name="fUndersteerMinFrontRearLatSlipRatio" type="Float"/>
+			<field name="fNormalDrivingMaxFrontLatSlip" type="Float"/>
+			<field name="fNormalDrivingMaxRearLatSlip" type="Float"/>
+			<field name="fHandbrakeMinYawSpeed" type="Float"/>
+			<field name="fHandbrakeMinRearLateralSlip" type="Float"/>
+			<field name="fHandbrakeMaxFootBrake" type="Float"/>
+			<field name="bPanicUseHandbrake" type="Boolean"/>
+		</object>
+	</object>
+	<object name="RacePathModifiers">
+		<field name="fRacelineRiskDistFromSideScale" type="Float"/>
+	</object>
+</class>

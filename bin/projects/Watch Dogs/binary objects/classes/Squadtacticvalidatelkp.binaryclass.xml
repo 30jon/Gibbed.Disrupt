@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SquadtacticvalidatelkpParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Conditions">
+		<field name="fTime" type="Float"/>
+		<field name="fMaxTimeMultiplier" type="Float"/>
+		<field name="fDistance" type="Float"/>
+	</object>
+	<object name="Configurations">
+		<field name="MinNbrValidator" type="BinHex"/>
+		<field name="MaxNbrValidator" type="BinHex"/>
+		<field name="MinNbrProtector" type="BinHex"/>
+		<field name="MaxNbrProtector" type="BinHex"/>
+		<field name="RatioValidatorPerProtector" type="BinHex"/>
+		<object name="Protector">
+			<field name="AimAtAngle" type="BinHex"/>
+			<field name="PeekAtAngle" type="BinHex"/>
+			<object name="Protector">
+				<field name="PeekAtProbability" type="BinHex"/>
+				<field name="PeekAtMaxDelayInterval" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

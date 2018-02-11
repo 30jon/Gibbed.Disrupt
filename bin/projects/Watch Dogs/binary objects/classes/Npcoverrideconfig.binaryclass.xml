@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="NpcoverrideconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Detection">
+		<field name="bDetectThreatPlayer" type="Boolean"/>
+		<field name="bDetectThreatAlly" type="Boolean"/>
+		<field name="bDetectThreatCop" type="Boolean"/>
+		<field name="bDetectThreatMobster" type="Boolean"/>
+		<field name="bDetectThreatInLOSRange" type="Boolean"/>
+		<field name="bDetectThreatInIntuitionRange" type="Boolean"/>
+		<field name="bDetectThreatInForbiddenZones" type="Boolean"/>
+		<field name="bDetectThreatInWarningZones" type="Boolean"/>
+		<field name="bDetectThreatWithWeaponInHands" type="Boolean"/>
+	</object>
+	<object name="DetectionIntuition">
+		<field name="bTestIntuitionOnFootUnaware" type="Boolean"/>
+		<field name="fIntuitionOnFootUnaware" type="Float"/>
+		<field name="bTestIntuitionOnFootCombat" type="Boolean"/>
+		<field name="fIntuitionOnFootCombat" type="Float"/>
+		<field name="bTestIntuitionOnFootSearch" type="Boolean"/>
+		<field name="fIntuitionOnFootSearch" type="Float"/>
+		<field name="bTestIntuitionOnFootThreatSprinting" type="Boolean"/>
+		<field name="fIntuitionOnFootThreatSprinting" type="Float"/>
+		<field name="bTestIntuitionOnFootThreatDrivingVehicle" type="Boolean"/>
+		<field name="fIntuitionOnFootThreatDrivingVehicle" type="Float"/>
+		<field name="bTestIntuitionInVehicleUnaware" type="Boolean"/>
+		<field name="fIntuitionInVehicleUnaware" type="Float"/>
+		<field name="bTestIntuitionInVehicleCombat" type="Boolean"/>
+		<field name="fIntuitionInVehicleCombat" type="Float"/>
+		<field name="bTestIntuitionOnFootThreatInWarningZone" type="Boolean"/>
+		<field name="fIntuitionOnFootThreatInWarningZone" type="Float"/>
+	</object>
+	<object name="State">
+		<field name="bAllowStateUnaware" type="Boolean"/>
+		<field name="bAllowStateAware" type="Boolean"/>
+		<field name="bAllowStateAlertSoft" type="Boolean"/>
+		<field name="bAllowStateAlertHard" type="Boolean"/>
+		<field name="bAllowStateFlee" type="Boolean"/>
+		<field name="bAllowStateCombat" type="Boolean"/>
+		<field name="bAllowStateInvestigate" type="Boolean"/>
+		<field name="bAllowStateSearch" type="Boolean"/>
+	</object>
+	<object name="Capabilities">
+		<field name="bAllowCapabilityToShoot" type="Boolean"/>
+		<field name="bAllowCapabilityToReachOutOfRangeTarget" type="Boolean"/>
+		<field name="bAllowCapabilityToApproachTarget" type="Boolean"/>
+		<field name="bAllowCapabilityToSkipValidateLKP" type="Boolean"/>
+		<field name="bAllowCapabilityToInvestigateDeadBody" type="Boolean"/>
+		<field name="bAllowCapabilityToWatchDeadBody" type="Boolean"/>
+		<field name="bAllowCapabilityToTakeCover" type="Boolean"/>
+	</object>
+	<object hash="7EBF8F6B">
+		<field name="bOverrideFOVDepthMultiplier" type="Boolean"/>
+		<field name="FOVDepthMultiplier" type="BinHex"/>
+	</object>
+	<object name="Reactions">
+		<field name="bAllowReactionToGunshot" type="Boolean"/>
+		<object name="ReactionsToAllyOnly">
+			<field name="bAllowReactions" type="Boolean"/>
+			<field name="bAllowReactionToBulletWhiz" type="Boolean"/>
+			<field name="bAllowReactionToBulletImpact" type="Boolean"/>
+			<field name="bAllowReactionToHackedEntityMoving" type="Boolean"/>
+			<field name="bAllowReactionToHackedEntityMalFunction" type="Boolean"/>
+			<field name="bAllowReactionToHitByProjectile" type="Boolean"/>
+			<field name="bAllowReactionToHitByVehicle" type="Boolean"/>
+			<field name="bAllowReactionToExplosion" type="Boolean"/>
+			<field name="bAllowReactionToFire" type="Boolean"/>
+			<field name="bAllowReactionToSeeGrenade" type="Boolean"/>
+		</object>
+	</object>
+</class>

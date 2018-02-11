@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Largeobjectsoundocclusionmanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMaximumThickness" type="Float"/>
+	<field name="fMaximumAirThickness" type="Float"/>
+	<field name="fAirFactor" type="Float"/>
+	<field name="fFadeInDuration" type="Float"/>
+	<field name="fFadeOutDuration" type="Float"/>
+	<field name="fUpdateRate" type="Float"/>
+	<object name="OcclusionLimiter">
+		<field name="bOccludeSoundsOverLimit" type="Boolean"/>
+		<object name="MaxSoundsOccluded">
+			<field name="Normal" type="Int64"/>
+			<field name="HighEnd" type="Int64"/>
+		</object>
+	</object>
+</class>

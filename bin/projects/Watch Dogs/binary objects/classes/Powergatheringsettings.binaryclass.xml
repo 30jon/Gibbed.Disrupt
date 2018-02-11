@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PowergatheringsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMinActivationRadius" type="Float"/>
+	<object name="Anticipation">
+		<field name="fAnticipationRadiusOnFoot" type="Float"/>
+		<field name="fAnticipationRadiusInSecurityCam" type="Float"/>
+		<field name="fAnticipationRadiusDrivingVehicle" type="Float"/>
+		<field name="fAnticipationRadiusDrivingBoat" type="Float"/>
+	</object>
+	<object name="Activation">
+		<field name="fActivationRadiusOnFoot" type="Float"/>
+		<field name="fActivationRadiusInSecurityCam" type="Float"/>
+		<field name="fActivationRadiusDrivingVehicle" type="Float"/>
+		<field name="fActivationRadiusDrivingBoat" type="Float"/>
+	</object>
+</class>

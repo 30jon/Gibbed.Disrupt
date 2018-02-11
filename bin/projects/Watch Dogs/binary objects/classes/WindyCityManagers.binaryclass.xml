@@ -1,0 +1,604 @@
+<class name="WindyCityManagers">
+    <object name="Entity">
+        <field name="hidName" type="String" />
+        <field name="disEntityId" />
+        <field name="text_hidEntityClass" type="String" />
+        <field name="hidEntityClass" type="BinHex" />
+        <field name="hidResourceCount" type="Int32" />
+        <field name="hidPos" type="Vector3" />
+        <field name="hidAngles" type="Vector3" />
+        <field name="hidPos_precise" type="Vector3" />
+        <field name="hidConstEntity" type="BinHex" />
+        <field name="wlucatLoadingUnitCategory" type="BinHex" />
+        <field name="bPoolable" type="BinHex" />
+        <field name="bEnableLocalProperties" type="BinHex" />
+        <field name="bPoolClearOnUnused" type="Boolean" />
+        <object name="hidGroupIds" />
+        <object name="hidBBox">
+            <field name="vectorBBoxMin" type="Vector3" />
+            <field name="vectorBBoxMax" type="Vector3" />
+        </object>
+        <object name="Components">
+            <object name="CEventComponent">
+                <field name="hidHasAliasName" />
+                <object name="hidLinks" />
+                <object name="hidBatchedLinks" />
+            </object>
+        </object>
+        <object name="Templates">
+            <object name="Template">
+                <field name="text_NameId" type="String" />
+                <field name="NameId" />
+                <field name="text_Template" type="String" />
+                <field name="Template" />
+                <object name="Template">
+                    <field name="text_hid_DTCTH_ClassName" type="String" />
+                    <field name="hid_DTCTH_ClassName" />
+					<object name="kfgradSkyDomeColorSunSide">
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Position" type="Float" />
+								<object name="Gradient">
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Position" type="Float" />
+											<field name="Color" type="BinHex" />
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="kfgradSkyDomeColorSunOppositeSide">
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Position" type="Float" />
+								<object name="Gradient">
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Position" type="Float" />
+											<field name="Color" type="BinHex" />
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+					<field name="bEnabled" type="Boolean" />
+					<field name="fZoomFactor" type="Float" />
+					<field name="fAttenuationStartAngle" type="Float" />
+					<field name="fAttenuationEndAngle" type="Float" />
+					<object name="gradColorTint">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+                    <object name="curveIntensity">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveCloudMaskIntensity">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<field name="fAmbientSkyColorMultiplier" type="Float" />
+					<field name="fAmbientGroundColorMultiplier" type="Float" />
+					<field name="fAmbientSunFrontColorMultiplier" type="Float" />
+					<field name="fAmbientSunBackColorMultiplier" type="Float" />
+					<field name="fExposedWhitePoint" type="Float" />
+					<object name="gradSunLightColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradMoonLightColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradWorldAmbientColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradAmbientLightColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradAmbientGroundColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradAmbientSunFrontColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradAmbientSunBackColor">
+						<object name="Knots">
+                            <object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="curveLightHDRMul">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveWorldShadowContribution">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveStaticReflectionIntensity">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveRimLightIntensity">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveExposureValue">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveGlobalLightsIntensity0">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveGlobalLightsIntensity1">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveGlobalLightsIntensity2">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveGlobalLightsIntensity3">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<field name="fSubsurfacePower" type="Float" />
+					<field name="vectorSunPositionBias" type="Vector3" />
+					<object name="LowerLayer">
+						<field name="text_fileLowerCloudLayer" type="String" />
+						<field name="fileLowerCloudLayer" type="BinHex" />
+						<field name="vectorLowerLayerTiling" type="Vector2" />
+						<field name="fLowerLayerSpeed" type="Float" />
+						<object name="gradSubsurfaceLowerLayerColor">
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Position" type="Float" />
+									<field name="Color" type="BinHex" />
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="UpperLayer">
+						<field name="text_fileUpperCloudLayer" type="String" />
+						<field name="fileUpperCloudLayer" type="BinHex" />
+						<field name="vectorUpperLayerTiling" type="Vector2" />
+						<field name="fUpperLayerSpeed" type="Float" />
+						<object name="gradSubsurfaceUpperLayerColor">
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Position" type="Float" />
+									<field name="Color" type="BinHex" />
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="gradAmbientColor">
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="gradSubsurfaceBorderColor">
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Position" type="Float" />
+								<field name="Color" type="BinHex" />
+							</object>
+						</object>
+					</object>
+					<object name="curveTransition">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<field name="fColorRemapRed" type="Float" />
+					<field name="fColorRemapGreen" type="Float" />
+					<field name="fColorRemapBlue" type="Float" />
+					<field name="fContrast" type="Float" />
+					<field name="fSaturation" type="Float" />
+					<field name="fChromaticAberrationOffset" type="Float" />
+					<field name="fArtifactUVScale" type="Float" />
+					<field name="fArtifactCut" type="Float" />
+					<field name="fArtifactIntensity" type="Float" />
+					<object name="curveCenterBoost">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveLuminanceThreshold">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="AdvancedFiltering">
+						<field name="iDownsamplePower" type="Int32" />
+						<field name="iExtraBlurCount" type="Int32" />
+						<object name="curveScreenCoverage">
+						<field name="hidNumKnots" type="Enum" />
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4" />
+									<field name="Info" type="Vector4" />
+									<field name="Type" />
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="curveDayCycleScale">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<object name="curveWeatherAmplitude">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+					<field name="fWindForce" type="Float" />
+					<field name="fIntensity" type="Float" />
+					<field name="fBlurDistanceFactor" type="Float" />
+                    <object name="curveStart">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveEnd">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveAmount">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveStartHeight">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveStartHeightValue">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveEndHeight">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="curveEndHeightValue">
+                        <field name="hidNumKnots" type="Enum" />
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Value" type="Vector4" />
+                                <field name="Info" type="Vector4" />
+                                <field name="Type" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="gradColorSunSide">
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Position" type="Float" />
+                                <field name="Color" />
+                            </object>
+                        </object>
+                    </object>
+                    <object name="gradColorSunOppositeSide">
+                        <object name="Knots">
+                            <object name="Knot">
+                                <field name="Position" type="Float" />
+                                <field name="Color" />
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+        <object name="Environment">
+            <field name="etLighting" type="String" />
+            <field name="etBloom" type="String" />
+            <field name="etMotionBlur" type="String" />
+            <field name="etCloud" type="String" />
+            <field name="etFog" type="String" />
+            <field name="etSky" type="String" />
+            <field name="etWind" type="String" />
+            <field name="etAtmosphericScattering" type="String" />
+            <field name="bEnableDeferred" type="Boolean" />
+            <object name="GlobalIllumination">
+                <field name="bAOEnable" type="Boolean" />
+                <field name="bDisableAttenuation" type="Boolean" />
+                <field name="fAOAmount" type="Float" />
+                <field name="fAODarkness" type="Float" />
+                <field name="fAOHeight" type="Float" />
+                <field name="fAOHeightBase" type="Float" />
+                <field name="fAOVerticalFadeHeight" type="Float" />
+                <field name="fAmbientColorHeight" type="Float" />
+                <field name="fAmbientColorHeightBase" type="Float" />
+                <field name="fAmbientColorFalloff" type="Float" />
+                <field name="fAOSize" type="Float" />
+                <field name="fAOCenterX" type="Float" />
+                <field name="fAOCenterY" type="Float" />
+                <field name="fileAOTexture" />
+            </object>
+            <object name="GridShading">
+                <field name="fHeightMin" type="Float" />
+                <field name="fHeightMax" type="Float" />
+                <field name="fGridShadindIntensity" type="Float" />
+            </object>
+            <object name="Water">
+                <field name="fWaterDepth" type="Float" />
+            </object>
+            <object name="Blackout">
+                <field name="etLighting" type="String" />
+                <field name="etBloom" type="String" />
+                <field name="etMotionBlur" type="String" />
+                <field name="etFog" type="String" />
+                <field name="etWind" type="String" />
+                <field name="etAtmosphericScattering" type="String" />
+                <field hash="4A47515E" type="Float" />
+            </object>
+            <object name="Storm">
+                <field name="etLighting" type="String" />
+                <field name="etBloom" type="String" />
+                <field name="etMotionBlur" type="String" />
+                <field name="etCloud" type="String" />
+                <field name="etFog" type="String" />
+                <field name="etSky" type="String" />
+                <field name="etWind" type="String" />
+                <field name="etAtmosphericScattering" type="String" />
+                <field name="etIntensity" type="String" />
+                <field name="etLightingTransition" type="String" />
+                <field name="etCloudTransition" type="String" />
+                <field name="etFogTransition" type="String" />
+            </object>
+            <object name="DefaultEnvSettings">
+                <field name="DefaultStormFactor" type="Float" />
+                <field name="DefaultHour" type="Enum" />
+                <field name="DefaultMin" type="Enum" />
+            </object>
+            <object name="CurvedHorizon">
+                <field name="Start" type="Float" />
+                <field name="End" type="Float" />
+                <field name="Height" type="Float" />
+            </object>
+            <object name="DayCycleScale">
+                <field name="etScale" type="String" />
+            </object>
+            <object name="Shadow">
+                <field name="DynamicShadowRadius" type="Float" />
+                <field name="SunShadowZOffset" />
+                <field name="SunShadowZOffsetSlopeScale" type="Float" />
+                <field name="SunStaticShadowThresholdAngle" type="Float" />
+            </object>
+            <object name="Sky">
+                <field name="text_fileSkyColorSun" type="String" />
+                <field name="fileSkyColorSun" />
+                <field name="SunRange" type="Float" />
+                <field name="SunMaxHorizontalScale" type="Float" />
+                <field name="SunMaxVerticalScale" type="Float" />
+                <field name="text_fileSunFlareTexture" type="String" />
+                <field name="fileSunFlareTexture" />
+                <field name="text_fileSunFlareTimeOfDayColorTexture" type="String" />
+                <field name="fileSunFlareTimeOfDayColorTexture" />
+                <field name="SunFlareTextureSize" type="Float" />
+                <field name="SunFlareMaxUniformScale" type="Float" />
+                <field name="SunFlareMaxBottomScale" type="Float" />
+                <field name="text_fileMoonTexture" type="String" />
+                <field name="fileMoonTexture" />
+                <field name="text_fileMoonTimeOfDayColorTexture" type="String" />
+                <field name="fileMoonTimeOfDayColorTexture" />
+                <field name="text_fileMoonFlareTexture" type="String" />
+                <field name="fileMoonFlareTexture" />
+                <field name="MoonTextureSize" type="Float" />
+                <field name="MoonFlareTextureSize" type="Float" />
+                <field name="MoonPitchAtSunrise" type="Float" />
+                <field name="MoonYawAtSunrise" type="Float" />
+                <field name="RotationAxisPitch" type="Float" />
+                <field name="SunElevationNightMin" type="Float" />
+                <field name="SunElevationNightMax" type="Float" />
+                <field name="fileStarSphereGeometry" />
+                <field name="SunRiseTimeHour" type="Enum" />
+                <field name="SunRiseTimeMinute" type="Enum" />
+                <field name="SunRiseYaw" type="Float" />
+                <field name="SunHorizonScaleStartElevation" type="Float" />
+                <field name="TimeScale" type="Float" />
+                <object name="curveTimeScaleMultiplier">
+                    <field name="hidNumKnots" type="Enum" />
+                    <object name="Knots">
+                        <object name="Knot">
+                            <field name="Value" type="Vector4" />
+                            <field name="Info" type="Vector4" />
+                            <field name="Type" type="Enum" />
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object name="Clouds">
+                <field name="Enabled" type="Boolean" />
+                <field name="WindSpeedScaling" type="Float" />
+                <field name="AnimationScale" type="Float" />
+                <object name="Formation">
+                    <field name="Coverage" type="Float" />
+                    <field name="FallOffCurve" type="Float" />
+                    <field name="NormalStrength" type="Float" />
+                </object>
+                <object name="Material">
+                    <field name="DiffuseLightingPower" type="Float" />
+                    <field name="colorDiffuseColor" type="Vector3" />
+                    <field name="SpecularLightingPower" type="Float" />
+                    <field name="colorSpecularColor" type="Vector3" />
+                    <field name="SubsurfaceScatteringPower" type="Float" />
+                    <field name="colorSubsurfaceScatteringColor" type="Vector3" />
+                    <field name="SubsurfaceScatteringBias" type="Float" />
+                </object>
+            </object>
+            <object name="RealTreeCaps">
+                <field name="matMaterial" type="BinHex" />
+            </object>
+        </object>
+    </object>
+</class>

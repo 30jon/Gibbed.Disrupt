@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TravelrecordarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="TravelRecordGenerator">
+		<field name="fWeight" type="Float"/>
+		<object name="TravelRecordType">
+			<object name="TravelRecordType">
+				<object name="locsectionidTravelRecordType"/>
+			</object>
+		</object>
+		<object name="TravelRecordGenerator">
+			<field name="fWeight" type="Float"/>
+			<object name="TravelRecordType">
+				<object name="locsectionidTravelRecordType"/>
+				<object name="TravelRecordType">
+					<object name="locsectionidTravelRecordType"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

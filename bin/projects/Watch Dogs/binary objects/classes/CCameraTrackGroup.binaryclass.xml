@@ -1,0 +1,46 @@
+<class name="CCameraTrackGroup">
+    <object name="CCameraTrackGroup">
+        <field name="sName" type="String"/>
+        <field name="disUniqueId"/>
+        <field name="bEnabled" type="Boolean"/>
+        <field hash="22958F3A"/>
+        <field name="disMuted"/>
+        <field name="bReleaseEntityFromCinema" type="Boolean"/>
+        <field name="Position" type="Vector3"/>
+        <field name="Angles" type="Vector3"/>
+        <field hash="CA3C3D79" type="String"/>
+        <field name="hidArchetypeName"/>
+        <object name="PrepareZone">
+            <field name="selVolumeType" type="Enum"/>
+            <field name="bDisableBlackout" type="Boolean"/>
+        </object>
+        <object name="Tracks">
+            <object name="CCameraTrack">
+                <field name="sName" type="String"/>
+                <field name="disUniqueId"/>
+                <field name="bEnabled" type="Boolean"/>
+                <field name="22958F3A"/>
+                <field name="disMuted"/>
+                <object name="CCameraClip">
+                    <field name="sName" type="String"/>
+                    <field name="disUniqueId"/>
+                    <field name="bEnabled" type="Boolean"/>
+                    <field name="timeStartTime" type="Float"/>
+                    <field name="timeDuration" type="Float"/>
+                    <field name="timeEndTime" type="Float"/>
+                    <field name="hidResizable" type="Boolean"/>
+                    <field name="disMuted"/>
+                    <field hash="63F7D49E" type="String"/>
+                    <field name="sAnimationTrackCollectionResource"/>
+                    <field name="bResizable" type="Boolean"/>
+                    <field name="hidAnimationTrackCollectionDuration" type="Float"/>
+                    <field name="timeBlendInTime" type="Float"/>
+                    <field name="timeBlendOutTime" type="Float"/>
+                    <field name="vector2BlendCurve" type="Vector2"/>
+                    <field name="timeAnimStartTime" type="Float"/>
+                    <field name="timeAnimStopTime" type="Float"/>
+                </object>
+            </object>
+        </object>
+    </object>
+</class>

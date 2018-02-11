@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LogicmaterialsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="disId" type="BinHex"/>
+	<field name="sndswvlSoundSwitchValue" type="BinHex"/>
+	<field name="sndswvlWallMaterialSoundSwitchValue" type="BinHex"/>
+	<field name="physmatPhysicMaterial" type="BinHex"/>
+	<field name="iPiercingResistance" type="Int32"/>
+	<field name="fTransparency" type="Float"/>
+	<field name="wfmWheelFxMaterial" type="BinHex"/>
+	<field name="clrDisplayColor" type="BinHex"/>
+	<field name="bSoundOccluder" type="Boolean"/>
+	<field name="bBlocksExplosions" type="Boolean"/>
+	<object name="curveCameraShakeStrength">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRumbleIntensityCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Reputationsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="HeatDecayDelay" type="BinHex"/>
+	<field name="HeatDecay" type="BinHex"/>
+	<field name="MaxHeat" type="BinHex"/>
+	<field name="fReputationHudDuration" type="Float"/>
+	<field name="sndReputationIncreaseSound" type="BinHex"/>
+	<field name="sndReputationDecreaseSound" type="BinHex"/>
+	<field name="sndReputationRankIncreaseSound" type="BinHex"/>
+	<field name="sndReputationRankDecreaseSound" type="BinHex"/>
+	<object name="HeatLevelSettings">
+		<object name="HeatLevel1">
+			<field name="HeatLevel1End" type="BinHex"/>
+			<field name="fHeatIncreaseModifier" type="Float"/>
+		</object>
+		<object name="HeatLevel2">
+			<field name="HeatLevel2End" type="BinHex"/>
+			<field name="fHeatIncreaseModifier" type="Float"/>
+		</object>
+		<object name="HeatLevel3">
+			<field name="HeatLevel3End" type="BinHex"/>
+			<field name="fHeatIncreaseModifier" type="Float"/>
+		</object>
+		<object name="HeatLevel4">
+			<field name="HeatLevel4End" type="BinHex"/>
+			<field name="fHeatIncreaseModifier" type="Float"/>
+		</object>
+		<object name="HeatLevel5">
+			<field name="HeatLevel5End" type="BinHex"/>
+			<field name="fHeatIncreaseModifier" type="Float"/>
+		</object>
+	</object>
+	<object name="Incidents">
+		<object name="AimedByARGun">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="AimedByGun">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ARGunShot">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="Arrest">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BlackoutStart_Day">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BlackoutStop_Day">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BlackoutStart_Night">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BlackoutStop_Night">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BlumeAgentHacked">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="BulletImpact">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CivilianAnxiety">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CivilianPanic">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CivilianSpiderTankPanic">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CivilianHitByACarButNotDead_ReputationOnly">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarCrash">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarCrashBig">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarCrashPileup">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarHackedAlarm">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarHonk">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarHonkPlayer">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="Carjacking">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarOnOpenBridge">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarSiren">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CarTheft">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CommunicationDisrupted">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CopNonLethalShot">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CopNonLethalTakedown">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="CuriousBhv">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="KilledMobster">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="DeadBody">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="DenunciatorAttacked">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ElectricSpark">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="Fire">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="FleeFromShop">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="GrenadeInEnvironment">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="GrenadeInHand">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="GunShot">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="GunShotAtPolice">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="GunShotInPanic">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="HackedEntityMalfunction">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="HitByVehicle">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="HoldUpShopkeeper">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="IncomingClimber">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="IncomingThreat">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="IncomingRunner">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="KilledCivilian">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="KilledCivilianByCar">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="KilledPolice">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="LargeBump">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="LargeCloseObjectBroken">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="LargeExplosion">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="MyCloseObjectBroken">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="MyCloseObjectBigBroken">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="MyCarJackingFinished">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="MyCarJackingFinishedRunAway">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="MyTakeDownFinished">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="OffRoadDriving">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="OnLeaderQuitCuriosity">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="OnLeaderQuitAnxiety">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="OnLeaderQuitPanic">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="OwnCarStolen">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PanicInside">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PeopleDie">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PersonAttacked">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PlayerPlayingARGame">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PlayerProximity">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ProlongedPlayerProximity">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="PuddleSplash">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="RainStart">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="RainStop">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ReputationGood">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ReputationBad">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="RunningPeopleProximity">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ShutDownMediaBroadcast">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SmallBump">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SmallCloseObjectBroken">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SmallExplosion">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SpecialBroadcast">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SteamPipe">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SteamPipeExplosion">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="SECarAccident">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="ThreatProximity">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="UncommonAction">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="UnholsteredGun">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="XIngredientHack_Audio">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="XIngredientHack_MechanicalBig">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="XIngredientHack_MechanicalSmall">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+		<object name="XIngredientHack_Visual">
+			<field name="iHeatIncrease" type="Int32"/>
+			<field name="iHeatIncreaseMP" type="Int32"/>
+			<field name="iHeatIncreaseCap" type="Int32"/>
+			<field name="fHeatIncreaseInterval" type="Float"/>
+			<field name="fHeatCoolDown" type="Float"/>
+			<field name="reputationeffectsHeatReputationEffect" type="BinHex"/>
+			<field name="reputationincidentsReputationIncident" type="BinHex"/>
+		</object>
+	</object>
+</class>

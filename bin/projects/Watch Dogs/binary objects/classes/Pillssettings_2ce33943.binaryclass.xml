@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Pillssettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="31BC8BD7" type="String"/>
+	<field name="archWakeUpPositionArchetype" type="BinHex"/>
+	<field name="tiledbobjectPDATile" type="BinHex"/>
+	<object name="PillsSettings">
+		<object name="SpiderTank">
+			<field name="bIgnoreMissionList" type="Boolean"/>
+			<field name="sPDAPictureName" type="String"/>
+			<field hash="9CF2EC31" type="String"/>
+			<field name="sReward" type="BinHex"/>
+			<field name="sPDAPictureNameBig" type="String"/>
+			<field name="bAvailableOnLaunch" type="Boolean"/>
+			<field name="skycolorsettingsSkySettings" type="BinHex"/>
+			<field name="cloudssettingsCloudsSettings" type="BinHex"/>
+			<field hash="96008252" type="String"/>
+			<field name="EnvironmentSettings" type="BinHex"/>
+			<field name="unBeginMissionIndex" type="BinHex"/>
+			<field name="selEndMissionAction" type="Enum"/>
+			<field name="gpctxspecGameplayContext" type="BinHex"/>
+			<field name="bMuteAudioSystem" type="Boolean"/>
+			<field name="bEnableFakeTraffic" type="Boolean"/>
+			<object name="AdditonalInfo">
+				<field hash="947CCDF4" type="String"/>
+				<field name="sPillActionMap" type="BinHex"/>
+				<field name="bUseCustomCivilianReactionContext" type="Boolean"/>
+				<field name="civreactcontextDefault" type="BinHex"/>
+				<field name="civreactcontextWalker" type="BinHex"/>
+				<field name="civreactcontextEnticer" type="BinHex"/>
+				<field name="civreactcontextShopKeeper" type="BinHex"/>
+				<field name="civreactcontextDenunciator" type="BinHex"/>
+				<field name="civreactcontextInterior" type="BinHex"/>
+				<field name="civreactcontextDisabled" type="BinHex"/>
+				<field name="civreactcontextCarCrashAttractor" type="BinHex"/>
+				<field name="civreactcontextInTrain" type="BinHex"/>
+				<field name="civreactcontextDriverOutside" type="BinHex"/>
+				<field name="selDefaultCurrency" type="Enum"/>
+				<field name="bUseCustomInventory" type="Boolean"/>
+				<field name="mixMixingPreset" type="BinHex"/>
+				<field name="bCanDisplayDistrictChangeHUD" type="Boolean"/>
+				<field name="entSpawnPoint" type="BinHex"/>
+				<field name="fChopperRespawnTime" type="Float"/>
+				<field name="fExplosionDamageToKillPassengers" type="Float"/>
+				<object name="CPillUnlocks"/>
+				<object name="ExcludedPerks"/>
+				<object name="LoadingScreen">
+					<field name="sndLoadingStartSound" type="BinHex"/>
+					<field name="sndLoadingStopSound" type="BinHex"/>
+				</object>
+				<object name="PillSequences">
+					<field hash="B6EC50EF" type="String"/>
+					<field name="archCinemaEntity" type="BinHex"/>
+					<field hash="07695548" type="String"/>
+					<field name="fileStartPillSequence" type="BinHex"/>
+					<field hash="F41DCB24" type="String"/>
+					<field name="fileStopPillSequence" type="BinHex"/>
+					<field hash="FDA81A55" type="String"/>
+					<field name="filePostFxSequence" type="BinHex"/>
+					<field hash="14ABAF63" type="String"/>
+					<field name="fileIntroPillSequence" type="BinHex"/>
+					<field name="entCinematicHook" type="BinHex"/>
+				</object>
+				<object name="SoundsMenus">
+					<field name="sndMenusActionConfirm" type="BinHex"/>
+					<field name="sndMenusActionRefuse" type="BinHex"/>
+					<field name="sndMenusActionUpAndDown" type="BinHex"/>
+					<field name="sndMenusActionMenuStart" type="BinHex"/>
+					<field name="sndMenusActionMenuStop" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChange" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChangeEmpty" type="BinHex"/>
+				</object>
+				<object name="FOVConfig">
+					<field name="fLateralBase" type="Float"/>
+					<field name="fLateralMidRatio" type="Float"/>
+					<field name="fLateralMax" type="Float"/>
+					<field name="fHeightBase" type="Float"/>
+					<field name="fHeightMidRatio" type="Float"/>
+					<field name="fHeightMaxDeprecated" type="Float"/>
+					<field name="fDeadZone" type="Float"/>
+					<field name="fZOffset" type="Float"/>
+					<field name="fMinDistToUseBodyDir" type="Float"/>
+					<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+					<object name="curveMaxDepthByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="curveMaxHeightByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="Scoring">
+					<object name="Reasons">
+						<field name="iKill" type="Int32"/>
+						<field name="iKillCilian" type="Int32"/>
+						<field name="iVehicleDestroyed" type="Int32"/>
+						<field name="iCopVehicleDestroyed" type="Int32"/>
+						<field name="iBreakable" type="Int32"/>
+						<field name="iVehicleDamaged" type="Int32"/>
+						<field name="iObjectiveDestroyed" type="Int32"/>
+						<field name="iChopperDestroyed" type="Int32"/>
+						<field name="iTrainDestroyed" type="Int32"/>
+						<field name="iMotorcycleDestroyed" type="Int32"/>
+						<field name="iMissionSattelite" type="Int32"/>
+						<field name="iMissionTrain" type="Int32"/>
+						<field name="iMissionArmoredTruck" type="Int32"/>
+						<field name="iMissionGasStation" type="Int32"/>
+						<field name="iMissionDestroyVehicles" type="Int32"/>
+						<field name="iMissionKillCops" type="Int32"/>
+						<field name="iMissionKillCivilians" type="Int32"/>
+						<field name="iMissionDestroyHelicopter" type="Int32"/>
+					</object>
+				</object>
+				<object name="Progression">
+					<object name="Scores">
+						<object name="Score">
+							<field name="score" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="Missions">
+					<field name="fInterMissionDuration" type="Float"/>
+					<field hash="E58AAD3B" type="BinHex"/>
+					<object name="Missions">
+						<object name="Mission">
+							<field name="selType" type="Enum"/>
+							<field hash="E84D5878" type="BinHex"/>
+							<field name="iFelonyIndex" type="Int32"/>
+						</object>
+					</object>
+					<object name="ArmoredTruckSettings">
+						<field name="fDuration" type="Float"/>
+						<field name="fWarningTime" type="Float"/>
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+					<object name="GasStationSettings">
+						<field name="fDuration" type="Float"/>
+						<field name="fWarningTime" type="Float"/>
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+					<object name="DestroyVehiclesSettings">
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+						<object name="Missions">
+							<object name="Mission">
+								<field name="iToDestroyCount" type="Int32"/>
+								<field name="fDuration" type="Float"/>
+								<field name="fWarningTime" type="Float"/>
+								<object name="Count">
+									<field name="Normal" type="Int64"/>
+									<field name="HighEnd" type="Int64"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="KillCopsSettings">
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+						<object name="Missions">
+							<object name="Mission">
+								<field name="iToDestroyCount" type="Int32"/>
+								<field name="fDuration" type="Float"/>
+								<field name="fWarningTime" type="Float"/>
+								<object name="Count">
+									<field name="Normal" type="Int64"/>
+									<field name="HighEnd" type="Int64"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="KillCiviliansSettings">
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+						<object name="Missions">
+							<object name="Mission">
+								<field name="iToDestroyCount" type="Int32"/>
+								<field name="fDuration" type="Float"/>
+								<field name="fWarningTime" type="Float"/>
+								<object name="Count">
+									<field name="Normal" type="Int64"/>
+									<field name="HighEnd" type="Int64"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="DestoyHelicopterSettings">
+						<field name="fDuration" type="Float"/>
+						<field name="fWarningTime" type="Float"/>
+						<object hash="22747CC0">
+							<object name="locstridStart">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+							<object hash="C133FF99">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+					<object name="Sounds">
+						<field name="sndStartMission" type="BinHex"/>
+						<field name="sndFailMission" type="BinHex"/>
+						<field name="sndSuccessMission" type="BinHex"/>
+						<field name="sndWinPill" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Camera">
+					<object name="NearDistance">
+						<field name="Normal" type="Float"/>
+						<field name="HighEnd" type="Float"/>
+					</object>
+					<object name="FarDistance">
+						<field name="Normal" type="Float"/>
+						<field name="HighEnd" type="Float"/>
+					</object>
+				</object>
+				<object name="Breakables">
+					<field name="fDamageScale" type="Float"/>
+				</object>
+				<object name="RaycastIgnoredEntities">
+					<object name="Entity">
+						<field name="entEntity" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Crosshair">
+					<field name="fEnergyWarning" type="Float"/>
+					<field name="uiAmmoWarning" type="Int64"/>
+				</object>
+				<object name="Time">
+					<field name="LapseDuration" type="BinHex"/>
+					<object name="Start">
+						<field name="uiHours" type="Int64"/>
+						<field name="uiMinutes" type="Int64"/>
+						<field name="uiSeconds" type="Int64"/>
+					</object>
+					<object hash="38B17551">
+						<field name="uiHours" type="Int64"/>
+						<field name="uiMinutes" type="Int64"/>
+						<field name="uiSeconds" type="Int64"/>
+					</object>
+				</object>
+				<object name="Voices">
+					<field hash="080CC0D6" type="String"/>
+					<field name="Start" type="BinHex"/>
+					<object name="Level">
+						<object name="Voices">
+							<object name="Voice">
+								<field name="iLevel" type="Int32"/>
+								<field hash="A3CDA49C" type="String"/>
+								<field name="VoiceID" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="Sounds">
+					<field name="sndStartGame" type="BinHex"/>
+					<field name="sndStopGame" type="BinHex"/>
+					<field name="sndStartDebrief" type="BinHex"/>
+					<field name="sndStopDebrief" type="BinHex"/>
+					<field name="sndJingleEndGame" type="BinHex"/>
+				</object>
+				<object name="CurrentGenStage">
+					<field hash="5008242F" type="BinHex"/>
+					<field hash="1479CDE8" type="BinHex"/>
+				</object>
+				<object name="FelonyChopperDonut">
+					<field name="bActivated" type="Boolean"/>
+					<field name="fRadius" type="Float"/>
+					<field name="fHeight" type="Float"/>
+				</object>
+			</object>
+			<object name="locstridPillName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridPillDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="MissionList">
+				<object name="missionlistPillMission">
+					<field name="missionlistPillMission" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PostFx">
+				<field hash="1A6E5ED7" type="String"/>
+				<field name="archPostFxEntity" type="BinHex"/>
+				<field name="sCinemaPostFXName" type="BinHex"/>
+				<object name="CinemaPostFX">
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="hidKey" type="BinHex"/>
+					<object name="PostFxList">
+						<object name="PostFx">
+							<field hash="F1B1D97B" type="String"/>
+							<field name="sName" type="BinHex"/>
+							<field name="bLoopMainSequence" type="Boolean"/>
+							<field hash="8409F0DB" type="String"/>
+							<field name="fileMainSequencePath" type="BinHex"/>
+							<field name="fileFadeInSequencePath" type="BinHex"/>
+							<field name="fileFadeOutSequencePath" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="UnlockConditions"/>
+		</object>
+		<object name="Survive">
+			<field name="bIgnoreMissionList" type="Boolean"/>
+			<field name="sPDAPictureName" type="String"/>
+			<field hash="9CF2EC31" type="String"/>
+			<field name="sReward" type="BinHex"/>
+			<field name="sPDAPictureNameBig" type="String"/>
+			<field name="bAvailableOnLaunch" type="Boolean"/>
+			<field name="skycolorsettingsSkySettings" type="BinHex"/>
+			<field name="cloudssettingsCloudsSettings" type="BinHex"/>
+			<field hash="96008252" type="String"/>
+			<field name="EnvironmentSettings" type="BinHex"/>
+			<field name="unBeginMissionIndex" type="BinHex"/>
+			<field name="selEndMissionAction" type="Enum"/>
+			<field name="gpctxspecGameplayContext" type="BinHex"/>
+			<field name="bMuteAudioSystem" type="Boolean"/>
+			<field name="bEnableFakeTraffic" type="Boolean"/>
+			<field name="iHourOfDayCycle" type="Int32"/>
+			<field name="iMinuteOfDayCycle" type="Int32"/>
+			<field name="fTransitionToDayCycle" type="Float"/>
+			<field name="iHourOfNightCycle" type="Int32"/>
+			<field name="iMinuteOfNightCycle" type="Int32"/>
+			<field name="fTransitionToNightCycle" type="Float"/>
+			<field name="entSpawningPoint" type="BinHex"/>
+			<field name="entCenterOfBlackout" type="BinHex"/>
+			<field name="fBlackoutSize" type="Float"/>
+			<object name="AdditonalInfo">
+				<field hash="947CCDF4" type="String"/>
+				<field name="sPillActionMap" type="BinHex"/>
+				<field name="bUseCustomCivilianReactionContext" type="Boolean"/>
+				<field name="selDefaultCurrency" type="Enum"/>
+				<field name="bUseCustomInventory" type="Boolean"/>
+				<field name="selInitWeaponType" type="Enum"/>
+				<field name="itemsStartupWeaponOneHanded" type="BinHex"/>
+				<field name="itemsStartupWeaponAssault" type="BinHex"/>
+				<field name="itemsStartupWeaponShotGun" type="BinHex"/>
+				<field name="itemsStartupWeaponSniper" type="BinHex"/>
+				<field name="itemsStartupWeaponProjectile" type="BinHex"/>
+				<field name="mixMixingPreset" type="BinHex"/>
+				<field name="bCanDisplayDistrictChangeHUD" type="Boolean"/>
+				<field name="fTimeIdleBeforeSendingHunt" type="Float"/>
+				<field name="uMinNumberOfHunters" type="Int64"/>
+				<field name="fRadiusWhereHunting" type="Float"/>
+				<field name="fRoamingRadiusFromCurrentPos" type="Float"/>
+				<field hash="6B6B9C62" type="String"/>
+				<field name="archAloneArchetype" type="BinHex"/>
+				<field name="fDelayBeforeUnspawningAfterDeath" type="Float"/>
+				<field name="fHuntSoundStartRadius" type="Float"/>
+				<field name="fHuntSoundStopRadius" type="Float"/>
+				<field name="itemsTakedownAmmo" type="BinHex"/>
+				<field name="bResetInventoryOnRespawn" type="Boolean"/>
+				<field name="vectorLootImpulseMin" type="Vector3"/>
+				<field name="vectorLootImpulseMax" type="Vector3"/>
+				<field name="vectorLootOffset" type="Vector3"/>
+				<field hash="81963E3F" type="String"/>
+				<field name="archStartSpawnPointType" type="BinHex"/>
+				<field name="fSafeZoneRadius" type="Float"/>
+				<field hash="CCF15857" type="BinHex"/>
+				<object name="CPillUnlocks"/>
+				<object name="ExcludedPerks"/>
+				<object name="LoadingScreen">
+					<field name="sndLoadingStartSound" type="BinHex"/>
+					<field name="sndLoadingStopSound" type="BinHex"/>
+				</object>
+				<object name="MiscItems">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+				<object name="PillSequences">
+					<field hash="B6EC50EF" type="String"/>
+					<field name="archCinemaEntity" type="BinHex"/>
+					<field hash="07695548" type="String"/>
+					<field name="fileStartPillSequence" type="BinHex"/>
+					<field hash="F41DCB24" type="String"/>
+					<field name="fileStopPillSequence" type="BinHex"/>
+					<field hash="FDA81A55" type="String"/>
+					<field name="filePostFxSequence" type="BinHex"/>
+					<field hash="14ABAF63" type="String"/>
+					<field name="fileIntroPillSequence" type="BinHex"/>
+					<field name="entCinematicHook" type="BinHex"/>
+				</object>
+				<object name="SoundsMenus">
+					<field name="sndMenusActionConfirm" type="BinHex"/>
+					<field name="sndMenusActionRefuse" type="BinHex"/>
+					<field name="sndMenusActionUpAndDown" type="BinHex"/>
+					<field name="sndMenusActionMenuStart" type="BinHex"/>
+					<field name="sndMenusActionMenuStop" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChange" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChangeEmpty" type="BinHex"/>
+				</object>
+				<object name="DifficultySettings">
+					<object name="Difficulty">
+						<field name="alonedifficultysettingDifficultySet" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Districts">
+					<object name="District">
+						<field name="entDistrict" type="BinHex"/>
+					</object>
+				</object>
+				<object name="DistrictBarriers">
+					<object name="Barrier">
+						<field hash="CD5837C7" type="String"/>
+						<field name="archBarrier" type="BinHex"/>
+						<field name="fBarrierLength" type="Float"/>
+					</object>
+				</object>
+				<object name="Rewards">
+					<object name="AloneRewards">
+						<field name="ifreeDistricts" type="BinHex"/>
+						<object name="AloneRewardLists">
+							<field name="fWeight" type="Float"/>
+							<object name="RandomRewards">
+								<object name="RandomRewards">
+									<field name="itemsItem" type="BinHex"/>
+								</object>
+							</object>
+							<object name="AloneRewardLists">
+								<field name="fWeight" type="Float"/>
+								<object name="RandomRewards">
+									<field name="itemsItem" type="BinHex"/>
+									<object name="RandomRewards">
+										<field name="itemsItem" type="BinHex"/>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="MapIconColors">
+					<field name="bUseColoredMapIcons" type="Boolean"/>
+					<field name="colorIdle" type="Vector3"/>
+					<field name="colorHunt" type="Vector3"/>
+					<field name="colorChase" type="Vector3"/>
+					<field name="fIconAlpha" type="Float"/>
+				</object>
+				<object hash="824A23BA">
+					<field hash="04C4E1DD" type="String"/>
+					<field name="psAppearFX" type="BinHex"/>
+					<field hash="A592D6DB" type="String"/>
+					<field name="psDisappearFX" type="BinHex"/>
+					<field hash="AEE8A2C2" type="String"/>
+					<field name="psPlayerDeathFX" type="BinHex"/>
+					<field hash="5C41B0D4" type="String"/>
+					<field name="archDisappearFXDelay" type="BinHex"/>
+					<field hash="8568F7C4" type="String"/>
+					<field name="archTakedownFXDelay" type="BinHex"/>
+					<field name="fDelayBeforeDeathFX" type="Float"/>
+					<field name="fTurnInvisibleDelay" type="Float"/>
+					<field hash="224EFBBC" type="String"/>
+					<field name="archStunFX" type="BinHex"/>
+					<field hash="08BD22E5" type="String"/>
+					<field name="archStunLimbFX" type="BinHex"/>
+					<field name="fEmpZaxisOffset" type="Float"/>
+					<field hash="66D505CD" type="String"/>
+					<field name="psHitFX" type="BinHex"/>
+					<field hash="81E93152" type="String"/>
+					<field name="psRayFX" type="BinHex"/>
+					<field name="fSystemicEnvFxCount" type="BinHex"/>
+					<field hash="D51EEB2A" type="String"/>
+					<field name="psPlayerNearBarrierFX" type="BinHex"/>
+					<field name="fDistanceForNearBarrierFX" type="Float"/>
+					<object name="PlayerEnvironmentFX">
+						<field hash="4830A430" type="String"/>
+						<field name="archFX" type="BinHex"/>
+						<object name="PlayerEnvironmentFX">
+							<field hash="4830A430" type="String"/>
+							<field name="archFX" type="BinHex"/>
+						</object>
+					</object>
+					<object name="SystemicEnvironmentFX">
+						<field hash="D821E6F9" type="String"/>
+						<field name="psFX" type="BinHex"/>
+						<field name="fSpawnRadius" type="Float"/>
+						<field name="iProportion" type="Int32"/>
+						<object name="SystemicEnvironmentFX">
+							<field hash="D821E6F9" type="String"/>
+							<field name="psFX" type="BinHex"/>
+							<field name="fSpawnRadius" type="Float"/>
+							<field name="iProportion" type="Int32"/>
+						</object>
+					</object>
+				</object>
+				<object hash="522878BE">
+					<field hash="E0F6CBFA" type="String"/>
+					<field name="sBarkPlayerIsHurt" type="BinHex"/>
+					<field name="sndPickupOpen" type="BinHex"/>
+					<field name="sndNightToDay" type="BinHex"/>
+					<field name="sndDayToNight" type="BinHex"/>
+					<field name="sndGameover" type="BinHex"/>
+				</object>
+				<object name="Moon">
+					<field name="fDesiredMoonSize" type="Float"/>
+					<field hash="526F877F" type="String"/>
+					<field name="fileDesiredMoonTexture" type="BinHex"/>
+				</object>
+				<object name="Scoring">
+					<field name="fTakedownScoreUnaware" type="BinHex"/>
+					<field name="fTakedownScoreHunt" type="BinHex"/>
+					<field name="fTakedownScoreChase" type="BinHex"/>
+					<field name="fTakedownScoreStunned" type="BinHex"/>
+					<field name="fDistrictScoreBase" type="BinHex"/>
+					<field name="fDistrictScoreMultiplier" type="BinHex"/>
+				</object>
+				<object name="Weapons">
+					<field name="itemsStunGunAmmoArchetype" type="BinHex"/>
+					<field name="itemsStunGunArchetype" type="BinHex"/>
+					<field name="perkdescsingleStunGunPerk" type="BinHex"/>
+					<field name="itemsRockArchetype" type="BinHex"/>
+					<field name="perkdescsingleRockPerk" type="BinHex"/>
+					<field name="itemsEmpArchetype" type="BinHex"/>
+					<field name="perkdescsingleEmpPerk" type="BinHex"/>
+					<field name="bAddAmmoInCrates" type="Boolean"/>
+					<object name="DoubleRewardItems">
+						<object name="Item">
+							<field name="itemsDoubleReward" type="BinHex"/>
+						</object>
+					</object>
+					<object name="AmmoLimiter">
+						<field hash="A6604358" type="String"/>
+						<field name="archWeapon" type="BinHex"/>
+						<field name="uiAmmoCount" type="Int64"/>
+						<object name="AmmoLimiter">
+							<field hash="A6604358" type="String"/>
+							<field name="archWeapon" type="BinHex"/>
+							<field name="uiAmmoCount" type="Int64"/>
+						</object>
+					</object>
+				</object>
+				<object name="Hints">
+					<field name="fHintDisplayDuration" type="Float"/>
+					<field name="fDelayBetweenHints" type="Float"/>
+					<object name="locstridHintHeader">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="HackMessages">
+						<object name="locstridHeader">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridDistrictFreed">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridNumOfGeneratorLeft"/>
+					</object>
+					<object name="OneShot">
+						<field name="uiAmmoLeftInClip" type="Int64"/>
+						<object name="locstridFirstRobotHasPlayerInFov">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstSprintInIntuitionZone">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstChase">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstHunt">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstDetectionFromHunt">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstDistrictFreed">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+						<object name="locstridFirstAmmoGainedOrDepleted">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+					</object>
+					<object name="Repeatable">
+						<object name="ChasedMoreThan">
+							<field name="fDelayBeforeRepeatMoreThan" type="Float"/>
+							<field name="fChasedMoreThanDuration" type="Float"/>
+							<object name="locstridChaseMoreThan">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+						<object name="ChasedTooLong">
+							<field name="fDelayBeforeRepeatTooLong" type="Float"/>
+							<field name="fChasedTooLongDuration" type="Float"/>
+							<object name="locstridChasedTooLong">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+						<object name="NearGenerator">
+							<field name="fDelayBeforeRepeatNearGenerator" type="Float"/>
+							<field name="fNearGeneratorDistance" type="Float"/>
+							<object name="locstridNearGenerator">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="locstridPillName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridPillDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="MissionList">
+				<object name="missionlistPillMission">
+					<field name="missionlistPillMission" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PostFx">
+				<field hash="1A6E5ED7" type="String"/>
+				<field name="archPostFxEntity" type="BinHex"/>
+				<field name="sCinemaPostFXName" type="BinHex"/>
+				<object name="CinemaPostFX">
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="hidKey" type="BinHex"/>
+					<object name="PostFxList">
+						<object name="PostFx">
+							<field name="sName" type="BinHex"/>
+							<field name="bLoopMainSequence" type="Boolean"/>
+							<field name="fileMainSequencePath" type="BinHex"/>
+							<field name="fileFadeInSequencePath" type="BinHex"/>
+							<field name="fileFadeOutSequencePath" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="UnlockConditions"/>
+			<object name="VoicesAndSounds">
+				<field name="sndDayCycle" type="BinHex"/>
+				<field name="sndNightCycle" type="BinHex"/>
+				<field name="sndTowardsDay" type="BinHex"/>
+				<field name="sndTowardsNight" type="BinHex"/>
+				<field name="sndChaseStarted" type="BinHex"/>
+				<field name="sndChaseStopped" type="BinHex"/>
+				<field name="sndStopAll" type="BinHex"/>
+			</object>
+		</object>
+		<object name="People">
+			<field name="bIgnoreMissionList" type="Boolean"/>
+			<field name="sPDAPictureName" type="String"/>
+			<field hash="9CF2EC31" type="String"/>
+			<field name="sReward" type="BinHex"/>
+			<field name="sPDAPictureNameBig" type="String"/>
+			<field name="bAvailableOnLaunch" type="Boolean"/>
+			<field name="skycolorsettingsSkySettings" type="BinHex"/>
+			<field name="cloudssettingsCloudsSettings" type="BinHex"/>
+			<field name="EnvironmentSettings" type="BinHex"/>
+			<field name="unBeginMissionIndex" type="BinHex"/>
+			<field name="selEndMissionAction" type="Enum"/>
+			<field name="gpctxspecGameplayContext" type="BinHex"/>
+			<field name="bMuteAudioSystem" type="Boolean"/>
+			<field name="bEnableFakeTraffic" type="Boolean"/>
+			<field hash="928D7A11" type="String"/>
+			<field name="archBomb" type="BinHex"/>
+			<field hash="D68478C0" type="String"/>
+			<field name="archIndicator" type="BinHex"/>
+			<field name="itemsDefaultWeapon" type="BinHex"/>
+			<field name="fCleanupWindowDuration" type="Float"/>
+			<field hash="37D2141B" type="String"/>
+			<field name="psFogParticleSfx" type="BinHex"/>
+			<object name="AdditonalInfo">
+				<field hash="947CCDF4" type="String"/>
+				<field name="sPillActionMap" type="BinHex"/>
+				<field name="bUseCustomCivilianReactionContext" type="Boolean"/>
+				<field name="civreactcontextDefault" type="BinHex"/>
+				<field name="civreactcontextWalker" type="BinHex"/>
+				<field name="civreactcontextEnticer" type="BinHex"/>
+				<field name="civreactcontextShopKeeper" type="BinHex"/>
+				<field name="civreactcontextDenunciator" type="BinHex"/>
+				<field name="civreactcontextInterior" type="BinHex"/>
+				<field name="civreactcontextDisabled" type="BinHex"/>
+				<field name="civreactcontextCarCrashAttractor" type="BinHex"/>
+				<field name="civreactcontextInTrain" type="BinHex"/>
+				<field name="civreactcontextDriverOutside" type="BinHex"/>
+				<field name="selDefaultCurrency" type="Enum"/>
+				<field name="bUseCustomInventory" type="Boolean"/>
+				<field name="selInitWeaponType" type="Enum"/>
+				<field name="itemsStartupWeaponOneHanded" type="BinHex"/>
+				<field name="itemsStartupWeaponAssault" type="BinHex"/>
+				<field name="itemsStartupWeaponShotGun" type="BinHex"/>
+				<field name="itemsStartupWeaponSniper" type="BinHex"/>
+				<field name="itemsStartupWeaponProjectile" type="BinHex"/>
+				<field name="mixMixingPreset" type="BinHex"/>
+				<field name="bCanDisplayDistrictChangeHUD" type="Boolean"/>
+				<field hash="ADC069FD" type="String"/>
+				<field name="archSpaceship" type="BinHex"/>
+				<field hash="7EF8EEA0" type="String"/>
+				<field name="archDetectiongauge" type="BinHex"/>
+				<field hash="40D6673E" type="String"/>
+				<field name="psWeakpointSfx" type="BinHex"/>
+				<field hash="E7CD8FE7" type="String"/>
+				<field name="psWeakpointTorsoSfx" type="BinHex"/>
+				<field hash="CDE80BBB" type="String"/>
+				<field name="psEyeFlareSfx" type="BinHex"/>
+				<field hash="60140AFD" type="String"/>
+				<field name="archHeadSet" type="BinHex"/>
+				<object name="CPillUnlocks"/>
+				<object name="ExcludedPerks"/>
+				<object name="LoadingScreen">
+					<field name="sndLoadingStartSound" type="BinHex"/>
+					<field name="sndLoadingStopSound" type="BinHex"/>
+				</object>
+				<object name="MiscItems">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+				<object name="PillSequences">
+					<field hash="B6EC50EF" type="String"/>
+					<field name="archCinemaEntity" type="BinHex"/>
+					<field hash="07695548" type="String"/>
+					<field name="fileStartPillSequence" type="BinHex"/>
+					<field hash="F41DCB24" type="String"/>
+					<field name="fileStopPillSequence" type="BinHex"/>
+					<field hash="FDA81A55" type="String"/>
+					<field name="filePostFxSequence" type="BinHex"/>
+					<field name="fileIntroPillSequence" type="BinHex"/>
+					<field name="entCinematicHook" type="BinHex"/>
+				</object>
+				<object name="SoundsMenus">
+					<field name="sndMenusActionConfirm" type="BinHex"/>
+					<field name="sndMenusActionRefuse" type="BinHex"/>
+					<field name="sndMenusActionUpAndDown" type="BinHex"/>
+					<field name="sndMenusActionMenuStart" type="BinHex"/>
+					<field name="sndMenusActionMenuStop" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChange" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChangeEmpty" type="BinHex"/>
+				</object>
+				<object name="Incidents">
+					<object name="AimedByARGun">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="AimedByGun">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ARGunShot">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="Arrest">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BlackoutStart_Day">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BlackoutStop_Day">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BlackoutStart_Night">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BlackoutStop_Night">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BlumeAgentHacked">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="BulletImpact">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CivilianAnxiety">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CivilianPanic">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CivilianSpiderTankPanic">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CivilianHitByACarButNotDead_ReputationOnly">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarCrash">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarCrashBig">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarCrashPileup">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarHackedAlarm">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarHonk">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarHonkPlayer">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="Carjacking">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarOnOpenBridge">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarSiren">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CarTheft">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CommunicationDisrupted">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CopNonLethalShot">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CopNonLethalTakedown">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="CuriousBhv">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="KilledMobster">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="DeadBody">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="DenunciatorAttacked">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ElectricSpark">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="Fire">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="FleeFromShop">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="GrenadeInEnvironment">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="GrenadeInHand">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="GunShot">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="GunShotAtPolice">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="GunShotInPanic">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="HackedEntityMalfunction">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="HitByVehicle">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="HoldUpShopkeeper">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="IncomingClimber">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="IncomingThreat">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="IncomingRunner">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="KilledCivilian">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="KilledCivilianByCar">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="KilledPolice">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="LargeBump">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="LargeCloseObjectBroken">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="LargeExplosion">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="MyCloseObjectBroken">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="MyCloseObjectBigBroken">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="MyCarJackingFinished">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="MyCarJackingFinishedRunAway">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="MyTakeDownFinished">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="OffRoadDriving">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="OnLeaderQuitCuriosity">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="OnLeaderQuitAnxiety">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="OnLeaderQuitPanic">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="OwnCarStolen">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PanicInside">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PeopleDie">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PersonAttacked">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PlayerPlayingARGame">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PlayerProximity">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ProlongedPlayerProximity">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="PuddleSplash">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="RainStart">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="RainStop">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ReputationGood">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ReputationBad">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="RunningPeopleProximity">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ShutDownMediaBroadcast">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SmallBump">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SmallCloseObjectBroken">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SmallExplosion">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SpecialBroadcast">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SteamPipe">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SteamPipeExplosion">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="SECarAccident">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="ThreatProximity">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="UncommonAction">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="UnholsteredGun">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="XIngredientHack_Audio">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="XIngredientHack_MechanicalBig">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="XIngredientHack_MechanicalSmall">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+					<object name="XIngredientHack_Visual">
+						<field name="bTriggerIncident" type="Boolean"/>
+					</object>
+				</object>
+				<object name="Weakpoints">
+					<object name="ListOfBones">
+						<field hash="ED024EFD" type="BinHex"/>
+						<object name="Bones">
+							<field name="bHead" type="Boolean"/>
+							<field name="bShoulder" type="Boolean"/>
+							<field name="bTorso" type="Boolean"/>
+							<field name="bPelvis" type="Boolean"/>
+							<field name="bLeftFoot" type="Boolean"/>
+							<field name="bRightFoot" type="Boolean"/>
+							<field name="bLeftArm" type="Boolean"/>
+							<field name="bRightArm" type="Boolean"/>
+							<field name="bLeftHand" type="Boolean"/>
+							<field name="bRightHand" type="Boolean"/>
+							<field name="bLeftLeg" type="Boolean"/>
+							<field name="bRightLeg" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+				<object name="Cyborgs">
+					<object name="Archetypes">
+						<field hash="ED024EFD" type="BinHex"/>
+						<field hash="F1B1D97B" type="String"/>
+						<field name="sName" type="BinHex"/>
+						<field name="nWeakpoint" type="Int32"/>
+						<field name="nSpeed" type="Int32"/>
+						<field name="bRunner" type="Boolean"/>
+						<field hash="85835AFD" type="String"/>
+						<field name="archMapIcon" type="BinHex"/>
+						<field hash="D68478C0" type="String"/>
+						<field name="archIndicator" type="BinHex"/>
+					</object>
+				</object>
+				<object name="AssistanceInputParameters">
+					<field name="fSteadyPushingHighDecPerc" type="Float"/>
+					<field name="fSteadyPushingHighIncPerc" type="Float"/>
+					<field name="fSteadyPushingMediumDecPerc" type="Float"/>
+					<field name="fSteadyPushingMediumIncPerc" type="Float"/>
+					<field name="fSteadyPushingNoneDecPerc" type="Float"/>
+					<field name="fSteadyPushingNoneIncPerc" type="Float"/>
+					<field name="fMovingPushingHighDecPerc" type="Float"/>
+					<field name="fMovingPushingHighIncPerc" type="Float"/>
+					<field name="fMovingPushingMediumDecPerc" type="Float"/>
+					<field name="fMovingPushingMediumIncPerc" type="Float"/>
+					<field name="fMovingPushingNoneDecPerc" type="Float"/>
+					<field name="fMovingPushingNoneIncPerc" type="Float"/>
+					<field name="fPushingPercMinimalMultiplier" type="Float"/>
+					<field name="fPushingPercStrongMultiplier" type="Float"/>
+					<field name="fAssistanceDistanceThreshold" type="Float"/>
+					<field name="vec2AssistanceAutoLockRange" type="Vector2"/>
+					<field name="fAssistanceAutoLockRangeMinimalMultiplier" type="Float"/>
+					<field name="fAssistanceAutoLockRangeStrongMultiplier" type="Float"/>
+					<field name="fAssistanceAutoLockDistanceThreshold" type="Float"/>
+					<field name="fAssistanceAutoLockDistanceThresholdMinimalMultiplier" type="Float"/>
+					<field name="fAssistanceAutoLockDistanceThresholdStrongMultiplier" type="Float"/>
+					<field name="fAssistanceConeThreshold" type="Float"/>
+					<field name="vec2AssistanceCushionInnerRange" type="Vector2"/>
+					<field name="vec2AssistanceCushionOuterRange" type="Vector2"/>
+					<field name="fAssistanceCushionRangeMinimalMultiplier" type="Float"/>
+					<field name="fAssistanceCushionRangeStrongMultiplier" type="Float"/>
+					<field name="vec2AssistanceMagnetInnerRange" type="Vector2"/>
+					<field name="vec2AssistanceMagnetOuterRange" type="Vector2"/>
+					<field name="fAssistanceMagnetRangeMinimalMultiplier" type="Float"/>
+					<field name="fAssistanceMagnetRangeStrongMultiplier" type="Float"/>
+				</object>
+				<object name="CyborgMaterials">
+					<field hash="BAD3C12A" type="String"/>
+					<field name="matHead" type="BinHex"/>
+					<field hash="9A9A95BE" type="String"/>
+					<field name="matEyelashes" type="BinHex"/>
+					<field hash="8FA2CDCB" type="String"/>
+					<field name="matCornea" type="BinHex"/>
+					<field hash="12BE52AD" type="String"/>
+					<field name="matEyeballs" type="BinHex"/>
+				</object>
+				<object name="LockedWeapons">
+					<field name="itemsLockedWeaponShotGun" type="BinHex"/>
+					<field name="itemsLockedWeaponSniper" type="BinHex"/>
+				</object>
+				<object name="ShootStop">
+					<object name="Slowdown">
+						<field name="fDuration" type="Float"/>
+						<object name="curveAnimationFactor">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<object name="Stop">
+						<field name="fDuration" type="Float"/>
+						<object name="curveAnimationFactor">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="DetectionRange">
+					<field hash="BC3890B6" type="String"/>
+					<field name="archDetectionIconDefault" type="BinHex"/>
+					<field hash="912570BF" type="String"/>
+					<field name="archDetectionIconShort" type="BinHex"/>
+				</object>
+				<object name="EndGame">
+					<field hash="25C51E38" type="String"/>
+					<field name="fileEndGameSequence" type="BinHex"/>
+					<field name="entPointOfView" type="BinHex"/>
+					<field name="sndSequenceBegin" type="BinHex"/>
+					<field name="sndSequenceEnd" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridPillName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridPillDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="MissionList">
+				<object name="missionlistPillMission">
+					<field name="missionlistPillMission" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PostFx">
+				<field hash="1A6E5ED7" type="String"/>
+				<field name="archPostFxEntity" type="BinHex"/>
+				<field name="sCinemaPostFXName" type="BinHex"/>
+				<object name="CinemaPostFX">
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="hidKey" type="BinHex"/>
+					<object name="PostFxList">
+						<object name="PostFx">
+							<field hash="F1B1D97B" type="String"/>
+							<field name="sName" type="BinHex"/>
+							<field name="bLoopMainSequence" type="Boolean"/>
+							<field hash="8409F0DB" type="String"/>
+							<field name="fileMainSequencePath" type="BinHex"/>
+							<field name="fileFadeInSequencePath" type="BinHex"/>
+							<field name="fileFadeOutSequencePath" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="UnlockConditions"/>
+			<object name="TimerGameplay">
+				<field name="nTimerBonus" type="Int32"/>
+				<field name="nMaxCollateralDamages" type="Int32"/>
+				<field name="fCoolDown" type="Float"/>
+				<field name="fNextZoneActivation" type="Float"/>
+				<field name="nTimerPulseTime" type="Int32"/>
+				<field name="fOutOfAreaWarning" type="Float"/>
+			</object>
+			<object name="Scoring">
+				<field name="nBonusCyborgKilled" type="Int32"/>
+				<field name="nMalusCivilianKilled" type="Int32"/>
+				<field name="nBonusCyborgProfiled" type="Int32"/>
+				<field name="nBonusAllProfiled" type="Int32"/>
+				<field name="nBonusWeakpointHit" type="Int32"/>
+			</object>
+			<object name="Cyborg">
+				<object name="Detection">
+					<field name="fCyborgActivationRadius" type="Float"/>
+					<field name="fCyborgVisibilityRadius" type="Float"/>
+					<field name="fCyborgVisibilityAngle" type="Float"/>
+					<field name="fCyborgNoSelectionRadius" type="Float"/>
+					<field name="fCyborgSpawnAheadDistance" type="Float"/>
+				</object>
+				<object name="Active">
+					<field name="nTotalSleepingCyborg" type="Int32"/>
+					<field name="fTriggerExplosionTimer" type="Float"/>
+					<field name="fTriggerBombDistance" type="Float"/>
+				</object>
+				<object name="Locomotion">
+					<field name="fAttackSpeedMaxDistance" type="Float"/>
+					<field name="fAttackSpeedDefDistance" type="Float"/>
+					<field name="fSteeringAngularSpeed" type="Float"/>
+				</object>
+				<object name="Nervosity">
+					<field name="fBeginNervousDistance" type="Float"/>
+					<field name="fAlertModeTime" type="Float"/>
+					<object name="NewSystem">
+						<field name="fDecreaseTimer" type="Float"/>
+						<field hash="167FE6FE" type="BinHex"/>
+						<field hash="BB0A28FD" type="BinHex"/>
+						<field hash="13AA4ADD" type="BinHex"/>
+						<field hash="C86EFA6A" type="BinHex"/>
+						<field hash="D3157F33" type="BinHex"/>
+						<field hash="95B4E915" type="BinHex"/>
+						<field hash="2052BCF3" type="String"/>
+						<field name="ShakeNameFarWalkFill" type="BinHex"/>
+						<field hash="65BE1F2B" type="String"/>
+						<field name="ShakeNameFarJogFill" type="BinHex"/>
+						<field hash="9ED28E0E" type="String"/>
+						<field name="ShakeNameFarRunFill" type="BinHex"/>
+						<field hash="574C6299" type="String"/>
+						<field name="ShakeNameShortFill" type="BinHex"/>
+						<object name="StealthLevel"/>
+					</object>
+				</object>
+				<object name="Graphic">
+					<field name="CyborgModel" type="BinHex"/>
+					<field hash="AD802A27" type="String"/>
+					<field name="archHeadMesh" type="BinHex"/>
+					<field hash="0D9D5711" type="String"/>
+					<field name="psDieParticle" type="BinHex"/>
+					<field hash="BC3C93E4" type="String"/>
+					<field name="psHitParticle" type="BinHex"/>
+					<field hash="1971184F" type="String"/>
+					<field name="psWeakpointParticle" type="BinHex"/>
+				</object>
+				<object name="MapIcon">
+					<field hash="85835AFD" type="String"/>
+					<field name="archMapIcon" type="BinHex"/>
+					<field name="fUpdateTime" type="Float"/>
+					<field name="archSonarIcon" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Zone">
+				<field name="fMinPlayerDistance" type="Float"/>
+				<field name="fMaxPlayerDistance" type="Float"/>
+				<field name="fPhysicalRadius" type="Float"/>
+				<field name="fCyborgSpawnRadius" type="Float"/>
+				<field name="fCyborgSpawnDistance" type="Float"/>
+				<field name="fCyborgSelectionHeight" type="Float"/>
+			</object>
+			<object name="Scanner">
+				<field hash="D3C1E360" type="String"/>
+				<field name="sPostFxName" type="BinHex"/>
+				<field hash="0378BAF3" type="String"/>
+				<field name="sPerkPostFxName" type="BinHex"/>
+				<field name="sndTurnOnSound" type="BinHex"/>
+				<field name="sndTurnOffSound" type="BinHex"/>
+				<field name="sndReadySound" type="BinHex"/>
+				<field name="sndNotReadySound" type="BinHex"/>
+				<field name="sndEmptySound" type="BinHex"/>
+				<field hash="AC26605B" type="String"/>
+				<field name="psSonarStartSfx" type="BinHex"/>
+				<field name="fSonarFullUseDuration" type="Float"/>
+				<field name="fSonarRefillDuration" type="Float"/>
+				<field name="fSonarTurnOnDuration" type="Float"/>
+				<field name="fSonarDisabledDuration" type="Float"/>
+				<field name="fSonarCooldownDuration" type="Float"/>
+				<field name="fMarkingDuration" type="Float"/>
+				<field name="sndMarkingSound" type="BinHex"/>
+				<field name="fScanRangeDistance" type="Float"/>
+			</object>
+			<object name="Audio">
+				<object name="Chrono">
+					<field name="sndSoundChronoStart" type="BinHex"/>
+					<field name="sndSoundChronoTick" type="BinHex"/>
+					<field name="fPlayStartFrequency" type="Float"/>
+					<field name="fPlayEndFrequency" type="Float"/>
+					<object name="curveShiftCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="Background">
+					<field name="sndBackgroundEnter" type="BinHex"/>
+					<field name="sndBackgroundLeave" type="BinHex"/>
+				</object>
+				<object name="Tracking">
+					<field name="sndCyborgKilled" type="BinHex"/>
+					<field name="fSoundTriggerOffset" type="Float"/>
+					<field name="sndTrackingLost" type="BinHex"/>
+					<object name="BackgroundSound">
+						<object name="Trigger">
+							<field name="sndSound" type="BinHex"/>
+							<field name="fDistance" type="Float"/>
+						</object>
+					</object>
+				</object>
+				<object name="CyborgDetection">
+					<field name="sndSoundEvent" type="BinHex"/>
+					<field name="sndvarSoundVariabel" type="BinHex"/>
+				</object>
+				<object name="AttackOfTheCyborgs">
+					<field name="sndCyborgAlerted" type="BinHex"/>
+					<field name="sndCyborgAttackStart" type="BinHex"/>
+					<field name="sndCyborgAttackEnd" type="BinHex"/>
+					<field name="sndCyborgExplodeWarning" type="BinHex"/>
+				</object>
+				<object name="Zone">
+					<field name="sndEnterCyborgZone" type="BinHex"/>
+					<field name="sndLeaveCyborgZone" type="BinHex"/>
+				</object>
+				<object name="Bark">
+					<field hash="C3A2499A" type="String"/>
+					<field name="archDialogArchetype" type="BinHex"/>
+					<field hash="FE79F29E" type="String"/>
+					<field name="sArmingBomb" type="BinHex"/>
+					<field hash="67956482" type="String"/>
+					<field name="sMediaBroadcast" type="BinHex"/>
+					<field hash="25D16468" type="String"/>
+					<field name="sAlerting" type="BinHex"/>
+					<field hash="4B9A60BC" type="String"/>
+					<field name="sInjuredByBullet" type="BinHex"/>
+					<field hash="9BEE12D1" type="String"/>
+					<field name="sKilledByBullet" type="BinHex"/>
+					<field hash="F558F209" type="String"/>
+					<field name="skKilledByExplosion" type="BinHex"/>
+					<object name="RandomizeAlert">
+						<field name="fTimeMin" type="Float"/>
+						<field name="fTimeMax" type="Float"/>
+					</object>
+				</object>
+				<object name="EndScreen">
+					<field name="sndOpenDebrief" type="BinHex"/>
+					<field name="sndCloseDebrief" type="BinHex"/>
+					<field name="sndOpenScore" type="BinHex"/>
+					<field name="sndCloseScore" type="BinHex"/>
+				</object>
+			</object>
+			<object name="ExplosionCameraBehavior">
+				<object name="SlowMotion">
+					<field name="fTimeShiftRatio" type="Float"/>
+					<field name="vec2TimeShiftBlendSCurve" type="Vector2"/>
+				</object>
+				<object name="CameraLock">
+					<field name="fCameraLockBlendInTime" type="Float"/>
+					<field name="fExplosionTriggerTime" type="Float"/>
+					<field name="fCameraLockBlendOutTime" type="Float"/>
+					<field name="fCameraLockReleaseTime" type="Float"/>
+				</object>
+				<object name="Zoom">
+					<field name="fApparentDistance" type="Float"/>
+					<field name="vec2CameraZoomBlendSCurve" type="Vector2"/>
+					<field name="fCameraZoomInStartTime" type="Float"/>
+					<field name="fCameraZoomBlendInTime" type="Float"/>
+					<field name="fCameraZoomOutStartTime" type="Float"/>
+					<field name="fCameraZoomBlendOutTime" type="Float"/>
+				</object>
+			</object>
+			<object name="DifficultySettings">
+				<object name="DifficultyParameters">
+					<field name="fTotalTime" type="Float"/>
+					<field name="fBroadcastActivationTimer" type="Float"/>
+					<field name="fAdrenalineDuration" type="Float"/>
+					<field name="fAdrenalineKillRefill" type="Float"/>
+					<field name="entCyborgZone" type="BinHex"/>
+					<field name="fSpaceshipFlyAltitude" type="Float"/>
+					<field name="fSpaceshipIdleAltitude" type="Float"/>
+					<field name="entSpawnPoint" type="BinHex"/>
+					<object name="ListOfCyborgs">
+						<object name="Settings">
+							<field name="nArchetype" type="Int32"/>
+							<field hash="F1B1D97B" type="String"/>
+							<field name="sName" type="BinHex"/>
+							<field name="nCount" type="Int32"/>
+							<field name="bUpdateStealth" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="MissionProperties">
+				<object name="MissionInfo">
+					<field name="missionlistMission" type="BinHex"/>
+					<field name="LayerName" type="BinHex"/>
+					<field name="entTeleportPoint" type="BinHex"/>
+				</object>
+			</object>
+			<object name="GymMission">
+				<field name="missionlistMission" type="BinHex"/>
+				<field name="LayerName" type="BinHex"/>
+				<field name="entTeleportPoint" type="BinHex"/>
+			</object>
+		</object>
+		<object name="Bouncing">
+			<field name="bIgnoreMissionList" type="Boolean"/>
+			<field name="sPDAPictureName" type="String"/>
+			<field hash="9CF2EC31" type="String"/>
+			<field name="sReward" type="BinHex"/>
+			<field name="sPDAPictureNameBig" type="String"/>
+			<field name="bAvailableOnLaunch" type="Boolean"/>
+			<field name="skycolorsettingsSkySettings" type="BinHex"/>
+			<field name="cloudssettingsCloudsSettings" type="BinHex"/>
+			<field hash="96008252" type="String"/>
+			<field name="EnvironmentSettings" type="BinHex"/>
+			<field name="unBeginMissionIndex" type="BinHex"/>
+			<field name="selEndMissionAction" type="Enum"/>
+			<field name="gpctxspecGameplayContext" type="BinHex"/>
+			<field name="bMuteAudioSystem" type="Boolean"/>
+			<field name="bEnableFakeTraffic" type="Boolean"/>
+			<object name="AdditonalInfo">
+				<field hash="947CCDF4" type="String"/>
+				<field name="sPillActionMap" type="BinHex"/>
+				<field name="bUseCustomCivilianReactionContext" type="Boolean"/>
+				<field name="selDefaultCurrency" type="Enum"/>
+				<field name="bUseCustomInventory" type="Boolean"/>
+				<field name="selInitWeaponType" type="Enum"/>
+				<field name="itemsStartupWeaponOneHanded" type="BinHex"/>
+				<field name="itemsStartupWeaponAssault" type="BinHex"/>
+				<field name="itemsStartupWeaponShotGun" type="BinHex"/>
+				<field name="itemsStartupWeaponSniper" type="BinHex"/>
+				<field name="itemsStartupWeaponProjectile" type="BinHex"/>
+				<field name="mixMixingPreset" type="BinHex"/>
+				<field name="bCanDisplayDistrictChangeHUD" type="Boolean"/>
+				<field name="bDrawDebug" type="Boolean"/>
+				<object name="CPillUnlocks"/>
+				<object name="ExcludedPerks"/>
+				<object name="LoadingScreen">
+					<field name="sndLoadingStartSound" type="BinHex"/>
+					<field name="sndLoadingStopSound" type="BinHex"/>
+				</object>
+				<object name="MiscItems">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+				<object name="PillSequences">
+					<field hash="B6EC50EF" type="String"/>
+					<field name="archCinemaEntity" type="BinHex"/>
+					<field hash="07695548" type="String"/>
+					<field name="fileStartPillSequence" type="BinHex"/>
+					<field hash="F41DCB24" type="String"/>
+					<field name="fileStopPillSequence" type="BinHex"/>
+					<field hash="FDA81A55" type="String"/>
+					<field name="filePostFxSequence" type="BinHex"/>
+					<field hash="14ABAF63" type="String"/>
+					<field name="fileIntroPillSequence" type="BinHex"/>
+					<field name="entCinematicHook" type="BinHex"/>
+				</object>
+				<object name="SoundsMenus">
+					<field name="sndMenusActionConfirm" type="BinHex"/>
+					<field name="sndMenusActionRefuse" type="BinHex"/>
+					<field name="sndMenusActionUpAndDown" type="BinHex"/>
+					<field name="sndMenusActionMenuStart" type="BinHex"/>
+					<field name="sndMenusActionMenuStop" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChange" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChangeEmpty" type="BinHex"/>
+				</object>
+				<object name="Camera">
+					<field name="fPitchRatio" type="Float"/>
+					<field name="fYawAngle" type="Float"/>
+					<field name="fPitchAngleThreshold" type="Float"/>
+					<field name="fTargetHeightOffset" type="Float"/>
+				</object>
+				<object hash="A5BCFB18">
+					<field hash="7454DB19" type="String"/>
+					<field name="psHandsFX" type="BinHex"/>
+					<field hash="084DF81B" type="String"/>
+					<field name="psEndOfTrackFX" type="BinHex"/>
+					<field hash="19D37FD2" type="String"/>
+					<field name="psEndOfGameFX" type="BinHex"/>
+					<field hash="BFC3A490" type="String"/>
+					<field name="psAidenPerfectFX" type="BinHex"/>
+					<field name="fEndOfTrackFXOffset" type="Float"/>
+				</object>
+				<object name="Sounds">
+					<field name="sndAirControlSound" type="BinHex"/>
+					<field name="sndAirControlSoundEnd" type="BinHex"/>
+					<field name="sndAidenFall" type="BinHex"/>
+					<field name="sndAidenImpact" type="BinHex"/>
+					<field name="sndAidenImpactGround" type="BinHex"/>
+					<field name="sndAidenLongFly" type="BinHex"/>
+					<field name="sndAidenRebound" type="BinHex"/>
+					<field name="sndAidenReboundAngle" type="BinHex"/>
+					<field name="sndAidenReboundHigh" type="BinHex"/>
+					<field name="sndPerfectRebound" type="BinHex"/>
+					<field name="sndGreatRebound" type="BinHex"/>
+					<field name="sndGoodRebound" type="BinHex"/>
+					<field name="sndEndOfTrackStart" type="BinHex"/>
+					<field name="sndEndOfTrackStop" type="BinHex"/>
+					<field name="sndMusicStart" type="BinHex"/>
+					<field name="sndMusicStop" type="BinHex"/>
+					<field name="sndvarAirControlRTPC" type="BinHex"/>
+					<field name="sndvarAirControlPadXAxe" type="BinHex"/>
+					<field name="sndvarAirControlPadYAxe" type="BinHex"/>
+					<field name="sndvarTrackProgressionRTPC" type="BinHex"/>
+					<field name="sndvarComboProgressionRTPC" type="BinHex"/>
+				</object>
+				<object name="Collectibles">
+					<field hash="C96DAC1C" type="String"/>
+					<field name="archCollectible" type="BinHex"/>
+				</object>
+				<object name="AirControl">
+					<field name="fAirControlMin" type="Float"/>
+					<field name="fAirControlMax" type="Float"/>
+					<field name="fAirControlDistanceThreshold" type="Float"/>
+					<field name="fAirControlTimer" type="Float"/>
+				</object>
+				<object name="ComboSettings">
+					<object name="ListOfComboScores">
+						<object name="Score">
+							<field name="Score" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="EvolvingPostFx">
+					<field name="fComboMaxRatio" type="Float"/>
+					<field name="fProgressMaxRatio" type="Float"/>
+					<field name="fComboWeight" type="Float"/>
+					<field name="fProgressWeight" type="Float"/>
+					<object name="PostFxLevels">
+						<object name="PostFxLevel">
+							<field hash="9F0408F9" type="String"/>
+							<field name="PostFxLevel" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="Timers">
+					<object name="StartOfTracksTimers">
+						<field name="fMessageStartTimer" type="Float"/>
+						<field name="fMessageStartDuration" type="Float"/>
+					</object>
+					<object name="EndOfTracksTimers">
+						<field name="fMessageSuccessTimer" type="Float"/>
+						<field name="fMessageSuccessDuration" type="Float"/>
+						<field hash="DE3FBFB9" type="BinHex"/>
+						<field name="fStopPlayerTimer" type="Float"/>
+						<field name="fDebriefTimer" type="Float"/>
+					</object>
+				</object>
+				<object name="ScoreReplacements">
+					<object name="ScoreReplacement">
+						<field name="scoreToReplace" type="BinHex"/>
+						<field name="replacementValue" type="BinHex"/>
+					</object>
+				</object>
+				<object name="TrackSettingsList">
+					<object name="Track">
+						<field name="fScoreFirstStep" type="Float"/>
+						<field name="fScoreMiddleStep" type="Float"/>
+						<field name="fScoreLastStep" type="Float"/>
+						<field name="uiMaxScore" type="Int64"/>
+						<object name="locsectionidTrackName">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+					</object>
+				</object>
+				<object name="BouncingRumbles">
+					<object name="BouncingRumble">
+						<field name="sRumble" type="BinHex"/>
+						<field name="fMinAidenSpeed" type="Float"/>
+						<field name="fMaxAidenSpeed" type="Float"/>
+					</object>
+				</object>
+			</object>
+			<object name="locstridPillName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridPillDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="MissionList">
+				<object name="missionlistPillMission">
+					<field name="missionlistPillMission" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PostFx">
+				<field hash="1A6E5ED7" type="String"/>
+				<field name="archPostFxEntity" type="BinHex"/>
+				<field hash="29A24447" type="String"/>
+				<field name="sCinemaPostFXName" type="BinHex"/>
+				<object name="CinemaPostFX">
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="hidKey" type="BinHex"/>
+					<object name="PostFxList">
+						<object name="PostFx">
+							<field hash="F1B1D97B" type="String"/>
+							<field name="sName" type="BinHex"/>
+							<field name="bLoopMainSequence" type="Boolean"/>
+							<field hash="8409F0DB" type="String"/>
+							<field name="fileMainSequencePath" type="BinHex"/>
+							<field hash="261C12F1" type="String"/>
+							<field name="fileFadeInSequencePath" type="BinHex"/>
+							<field name="fileFadeOutSequencePath" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="UnlockConditions"/>
+			<object name="ListOfTracks">
+				<object name="Track">
+					<field name="LayerName" type="String"/>
+					<field name="entStartFlower" type="BinHex"/>
+					<field name="entSpawningPoint" type="BinHex"/>
+					<field name="uiTimeHours" type="Int64"/>
+					<field name="uiTimeMinutes" type="Int64"/>
+				</object>
+			</object>
+			<object name="GymListOfTracks">
+				<object name="GymTrack">
+					<field name="LayerName" type="String"/>
+					<field name="entStartFlower" type="BinHex"/>
+					<field name="entSpawningPoint" type="BinHex"/>
+					<field name="uiTimeHours" type="Int64"/>
+					<field name="uiTimeMinutes" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="Madness">
+			<field name="bIgnoreMissionList" type="Boolean"/>
+			<field name="sPDAPictureName" type="String"/>
+			<field hash="9CF2EC31" type="String"/>
+			<field name="sReward" type="BinHex"/>
+			<field name="sPDAPictureNameBig" type="String"/>
+			<field name="bAvailableOnLaunch" type="Boolean"/>
+			<field name="skycolorsettingsSkySettings" type="BinHex"/>
+			<field name="cloudssettingsCloudsSettings" type="BinHex"/>
+			<field hash="96008252" type="String"/>
+			<field name="EnvironmentSettings" type="BinHex"/>
+			<field name="unBeginMissionIndex" type="BinHex"/>
+			<field name="selEndMissionAction" type="Enum"/>
+			<field name="gpctxspecGameplayContext" type="BinHex"/>
+			<field name="bMuteAudioSystem" type="Boolean"/>
+			<field name="bEnableFakeTraffic" type="Boolean"/>
+			<field hash="86EF049E" type="String"/>
+			<field name="archVehicleArchetype" type="BinHex"/>
+			<object name="AdditonalInfo">
+				<field hash="947CCDF4" type="String"/>
+				<field name="sPillActionMap" type="BinHex"/>
+				<field name="bUseCustomCivilianReactionContext" type="Boolean"/>
+				<field name="selDefaultCurrency" type="Enum"/>
+				<field name="bUseCustomInventory" type="Boolean"/>
+				<field name="selInitWeaponType" type="Enum"/>
+				<field name="itemsStartupWeaponOneHanded" type="BinHex"/>
+				<field name="itemsStartupWeaponAssault" type="BinHex"/>
+				<field name="itemsStartupWeaponShotGun" type="BinHex"/>
+				<field name="itemsStartupWeaponSniper" type="BinHex"/>
+				<field name="itemsStartupWeaponProjectile" type="BinHex"/>
+				<field name="mixMixingPreset" type="BinHex"/>
+				<field name="bCanDisplayDistrictChangeHUD" type="Boolean"/>
+				<field name="bDrawDebug" type="Boolean"/>
+				<field name="gpctxspecGameplayContext" type="BinHex"/>
+				<field name="fSteamPipeCost" type="Float"/>
+				<field name="fShurikenCost" type="Float"/>
+				<field name="fSoulBladeCost" type="Float"/>
+				<field name="fSoulsMaxLevel" type="Float"/>
+				<field name="fSpawnBudgetCurrentGen" type="Float"/>
+				<field name="fSpawnBudgetHighEnd" type="Float"/>
+				<object name="CPillUnlocks"/>
+				<object name="ExcludedPerks"/>
+				<object name="LoadingScreen">
+					<field name="sndLoadingStartSound" type="BinHex"/>
+					<field name="sndLoadingStopSound" type="BinHex"/>
+				</object>
+				<object name="MiscItems">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+				<object name="PillSequences">
+					<field hash="B6EC50EF" type="String"/>
+					<field name="archCinemaEntity" type="BinHex"/>
+					<field hash="07695548" type="String"/>
+					<field name="fileStartPillSequence" type="BinHex"/>
+					<field hash="F41DCB24" type="String"/>
+					<field name="fileStopPillSequence" type="BinHex"/>
+					<field hash="FDA81A55" type="String"/>
+					<field name="filePostFxSequence" type="BinHex"/>
+					<field hash="14ABAF63" type="String"/>
+					<field name="fileIntroPillSequence" type="BinHex"/>
+					<field name="entCinematicHook" type="BinHex"/>
+				</object>
+				<object name="SoundsMenus">
+					<field name="sndMenusActionConfirm" type="BinHex"/>
+					<field name="sndMenusActionRefuse" type="BinHex"/>
+					<field name="sndMenusActionUpAndDown" type="BinHex"/>
+					<field name="sndMenusActionMenuStart" type="BinHex"/>
+					<field name="sndMenusActionMenuStop" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChange" type="BinHex"/>
+					<field name="sndMenusActionMenuWheelIndexChangeEmpty" type="BinHex"/>
+				</object>
+				<object name="ScoreLevels">
+					<object name="Level">
+						<field name="Level" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="locstridPillName">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridPillDescription">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="MissionList">
+				<object name="missionlistPillMission">
+					<field name="missionlistPillMission" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PostFx">
+				<field hash="1A6E5ED7" type="String"/>
+				<field name="archPostFxEntity" type="BinHex"/>
+				<field name="sCinemaPostFXName" type="BinHex"/>
+				<object name="CinemaPostFX">
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="hidKey" type="BinHex"/>
+					<object name="PostFxList">
+						<object name="PostFx">
+							<field name="sName" type="BinHex"/>
+							<field name="bLoopMainSequence" type="Boolean"/>
+							<field name="fileMainSequencePath" type="BinHex"/>
+							<field name="fileFadeInSequencePath" type="BinHex"/>
+							<field name="fileFadeOutSequencePath" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="UnlockConditions"/>
+			<object hash="4F70A07D">
+				<field hash="EC9D4EF4" type="String"/>
+				<field name="archVehicleExpertArchetype" type="BinHex"/>
+				<field hash="4B542D0D" type="String"/>
+				<field name="archVehicleMasterArchetype" type="BinHex"/>
+				<field hash="D0EE1D5F" type="String"/>
+				<field name="archEnvCarFxArchetype" type="BinHex"/>
+				<field hash="DFBE05E0" type="String"/>
+				<field name="archEnvCameraFxArchetype" type="BinHex"/>
+				<field hash="23B1AD9D" type="String"/>
+				<field name="archShurikenEjectionFxArchetype" type="BinHex"/>
+				<field hash="D61CE59E" type="String"/>
+				<field name="archShurikenProjectileFxArchetype" type="BinHex"/>
+				<field hash="C37C9EEC" type="String"/>
+				<field name="archShurikenProjectileXXLFxArchetype" type="BinHex"/>
+				<field hash="FB9DE1C3" type="String"/>
+				<field name="archSoulBladeInFxArchetype" type="BinHex"/>
+				<field hash="DE1276FF" type="String"/>
+				<field name="archSoulBladeOutFxArchetype" type="BinHex"/>
+			</object>
+			<object name="SpawnPoints">
+				<object name="SpawnPoint">
+					<field name="entSpawnPoint" type="BinHex"/>
+				</object>
+			</object>
+			<object name="AvailableArchetypes">
+				<object name="MadnessAvailableArchetypes">
+					<field name="iDominoId" type="Int32"/>
+					<field name="madnessciviliansvariationMadnessAvailableVariation" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="995F2D98">
+				<field name="uiMaxReputationLevel" type="Int64"/>
+			</object>
+			<object name="GameEventsAndSounds">
+				<object name="Events">
+					<object name="MadnessGameEvent">
+						<field name="iDominoId" type="Int32"/>
+						<field name="iVoicePriority" type="Int32"/>
+						<field name="sndFirstVoiceEvent" type="BinHex"/>
+						<field name="sndSecondVoiceEvent" type="BinHex"/>
+						<field hash="78A88656" type="String"/>
+						<field name="OasisStimuliName" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="SharedHUD">
+		<object name="SoundsDebriefMenu">
+			<field name="sndDebriefMenuBigDisplay" type="BinHex"/>
+			<field name="sndDebriefMenuSmallDisplay" type="BinHex"/>
+			<field name="sndDebriefMenuGridDisplay" type="BinHex"/>
+			<field name="sndDebriefMenuProgressBarStart" type="BinHex"/>
+			<field name="sndDebriefMenuProgressBarStop" type="BinHex"/>
+		</object>
+	</object>
+</class>

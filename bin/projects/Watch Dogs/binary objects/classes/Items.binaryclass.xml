@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="text_itemdescriptorItemDescriptor" type="String"/>
+	<field name="itemdescriptorItemDescriptor" type="BinHex"/>
+	<field name="itemsBaseItem" type="BinHex"/>
+	<object name="ItemDescriptor">
+		<field name="text_SpecificItemFor" type="String"/>
+		<field name="SpecificItemFor" type="BinHex"/>
+		<field name="sImageName" type="String"/>
+		<field name="sVideoName" type="BinHex"/>
+		<field name="bForceDisplay" type="Boolean"/>
+		<field name="bIsPausingGame" type="Boolean"/>
+		<field name="sMission_id" type="BinHex"/>
+		<field hash="FF7E0BE4" type="String"/>
+		<field name="sTagMission" type="BinHex"/>
+		<field name="uiPrescriptionPrice" type="Int64"/>
+		<field name="progressionnoderequirementFelonyStage" type="BinHex"/>
+		<field name="uPower" type="Int64"/>
+		<field name="fRange" type="Float"/>
+		<field name="fAccuracy" type="Float"/>
+		<field name="weaponWeaponParam" type="BinHex"/>
+		<field name="itemsBulletItem" type="BinHex"/>
+		<field name="itemsCraftedItem" type="BinHex"/>
+		<field name="uiCraftedItemNbToAdd" type="Int64"/>
+		<field name="bRemoveAfterBeingCrafted" type="Boolean"/>
+		<field name="selCraftingPlace" type="Enum"/>
+		<field name="selDesiredOnlineActivityType" type="Enum"/>
+		<field name="sndConsumedSuccess" type="BinHex"/>
+		<field name="sndConsumedFailure" type="BinHex"/>
+		<field name="bRemoveItemWhenComsumed" type="Boolean"/>
+		<field name="bImmediateConsumption" type="Boolean"/>
+		<field name="bPlayAnimationOnConsume" type="Boolean"/>
+		<field name="fCooldownDuration" type="Float"/>
+		<field name="fEffectAreaRadius" type="Float"/>
+		<field name="selDrugEffecType" type="Enum"/>
+		<field hash="6D720471" type="BinHex"/>
+		<field name="selType" type="Enum"/>
+		<field name="fEnergy" type="Float"/>
+		<field name="fHealth" type="Float"/>
+		<field name="fAlcohol" type="Float"/>
+		<field name="selConsumingAdrenalineAnimationType" type="Enum"/>
+		<field name="perkdescsinglePower" type="BinHex"/>
+		<field name="randomeventsRandomEvent" type="BinHex"/>
+		<field name="graphickitmodelModel" type="BinHex"/>
+		<field name="avatarbodypartHeadAccessoryPart" type="BinHex"/>
+		<field name="avatarbodypartLowerBodyPart" type="BinHex"/>
+		<field name="avatarbodypartUpperBodyPart" type="BinHex"/>
+		<field name="avatarbodypartHandsPart" type="BinHex"/>
+		<field name="bIsCompleteSet" type="Boolean"/>
+		<field name="bIsDefaultMPMale" type="Boolean"/>
+		<field name="bIsDefaultMPFemale" type="Boolean"/>
+		<field name="bIsOnePiece" type="Boolean"/>
+		<field name="bIsGoingOverHead" type="Boolean"/>
+		<field name="fTopSpeed" type="Float"/>
+		<field name="fAcceleration" type="Float"/>
+		<field name="fToughness" type="Float"/>
+		<field name="fHandling" type="Float"/>
+		<field name="bIsOffroad" type="Boolean"/>
+		<field name="bUnlockableOnEnter" type="Boolean"/>
+		<field name="bLockedByDefault" type="Boolean"/>
+		<field name="iMin" type="Int32"/>
+		<field name="iMax" type="Int32"/>
+		<field name="selCurrencyType" type="Enum"/>
+		<field name="bIsSoundFeedbackMuted" type="Boolean"/>
+		<field name="bAffectedByContractBonusPerk" type="Boolean"/>
+		<field name="bAffectedByOnlineContractBonusPerk" type="Boolean"/>
+		<field name="selActivityType" type="Enum"/>
+		<field name="musiclibraryRewardSpecificSong" type="BinHex"/>
+		<field name="accessidAccessId" type="BinHex"/>
+		<field name="bBlockAccessId" type="Boolean"/>
+		<object name="GenericProperties">
+			<field name="selEquippableType" type="Enum"/>
+			<field name="uiItemMaxNbToOwn" type="Int64"/>
+			<field name="uiItemNbToAdd" type="Int64"/>
+			<field name="hackingparametersHackingConfigOverride" type="BinHex"/>
+			<field name="selQualityLevelType" type="Enum"/>
+			<field name="accessidAccessIdToGiveItem" type="BinHex"/>
+			<field name="bAutoGiveItemFromAccessId" type="Boolean"/>
+			<object name="ItemAvailability">
+				<field name="selRulesOperator" type="Enum"/>
+				<object name="AvailabilityRules">
+					<object name="AvailabilityRule">
+						<field hash="94FC20C4" type="String"/>
+						<field name="availabilityruleRuleType" type="BinHex"/>
+						<object name="RuleParameters">
+							<field name="accessidAccessId" type="BinHex"/>
+							<field name="selMissionMode" type="Enum"/>
+							<field name="selGameMode" type="Enum"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="locstridItemNameId">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridItemDescriptionId">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridItemLongDescriptionId">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="RewardProperties">
+			<field name="selLootingFeedbackType" type="Enum"/>
+			<field name="sItemTextureName" type="String"/>
+			<field name="bIsItemInterest" type="Boolean"/>
+			<object name="locstridTitleRewardMessage">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridDescriptionRewardMessage">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="ShopProperties">
+			<field name="uiItemPrice" type="Int32"/>
+			<field name="itemcategoryItemCategory" type="BinHex"/>
+			<field name="accessidAccessIdToLockItemInShop" type="BinHex"/>
+			<field name="bAllowTrade" type="Boolean"/>
+			<field name="bPromotionalItem" type="Boolean"/>
+		</object>
+		<object name="AssetsProperties">
+			<field name="sItemIconTextureName" type="String"/>
+			<field name="sItemDescriptionTextureName" type="String"/>
+			<field name="text_archItemArchetype" type="String"/>
+			<field name="archItemArchetype" type="BinHex"/>
+			<field name="tiledbobjectPDATileDbObject" type="BinHex"/>
+		</object>
+		<object name="RespawnProperties">
+			<field name="uiMpSpawningAmmoCount" type="Int64"/>
+		</object>
+		<object name="RegenerationProperties">
+			<field name="uiRegenerationFrequency" type="Int64"/>
+			<field name="uiRegenerationCount" type="Int64"/>
+		</object>
+		<object name="ProgressionProperties">
+			<object name="ProgressionNodeRequirements"/>
+		</object>
+		<object name="VideoReward">
+			<field name="fileBink" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<object name="locstridVideoTitle">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="VideoSounds">
+				<object name="Sound">
+					<field name="sndSoundIds" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="GroupReward">
+			<field name="accessidGroupId" type="BinHex"/>
+			<field name="sndGroupSoundId" type="BinHex"/>
+		</object>
+		<object name="ActivityConversation">
+			<field hash="1AFF3D7C" type="String"/>
+			<field name="ConversationBark" type="BinHex"/>
+			<field hash="D2F37DB2" type="String"/>
+			<field name="ConversationTrigger" type="BinHex"/>
+		</object>
+		<object name="CraftingComponentItems">
+			<object name="Components">
+				<field name="itemsItem" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ActivityEmail">
+			<object name="locsectionidMail">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="locstridConsumedDescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="AdrenalineBoostList">
+			<object name="AdrenaLineBoostValue">
+				<field name="fDuration" type="Float"/>
+				<field name="fBoost" type="Float"/>
+			</object>
+		</object>
+		<object name="RelatedConversationLists">
+			<object name="locstridRelatedConversation">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="locstridOngoingActivity">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="ActivityChat">
+			<object name="locsectionidChat">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+		<object name="ClothingParts">
+			<object name="Parts">
+				<field name="itemsItem" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ConditionBankAccountValueList">
+			<object name="ConditionBankAccountValueList">
+				<field name="iCondition" type="Int32"/>
+				<field name="iMin" type="Int32"/>
+				<field name="iMax" type="Int32"/>
+			</object>
+		</object>
+		<object name="ItemList">
+			<object name="Item">
+				<field name="bUseCandidateRewards" type="Boolean"/>
+				<field name="bSpawnItem" type="Boolean"/>
+				<field name="bIsPersistent" type="Boolean"/>
+				<field name="itemsItemDBObject" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ApplicationConfig">
+			<field name="fileApplicationFile" type="String"/>
+			<field hash="CB4DF00D" type="String"/>
+			<field name="applayerconfigTypeId" type="BinHex"/>
+			<field name="applayersettingHudLayerSetting" type="BinHex"/>
+			<field name="bUseNewLoading" type="Boolean"/>
+			<field name="sApplicationName" type="String"/>
+			<field hash="740099B3" type="String"/>
+			<field name="gpiappGPIApplicationType" type="BinHex"/>
+			<field name="selApplicationType" type="Enum"/>
+			<field hash="FC780B40" type="String"/>
+			<field name="gpiGPIApplicationContentProviderType" type="BinHex"/>
+			<object name="ApplicationLayerDataContainer">
+				<object name="BaseApplicationLayerDataContainer">
+					<field name="uiApplicationLayerCount" type="Int64"/>
+					<object name="ApplicationLayerContainer">
+						<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+					</object>
+				</object>
+				<object name="ContextApplicationLayerDataContainer">
+					<object name="Vehicle">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+								<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="CoverStraight">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="CoverLeft">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="CoverRight">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="UsingHidingSpot">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="Swimming">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="Dead">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+						</object>
+					</object>
+					<object name="CameraView">
+						<object name="BaseApplicationLayerDataContainer">
+							<field name="uiApplicationLayerCount" type="Int64"/>
+							<object name="ApplicationLayerContainer">
+								<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="BaseApplicationLayerDataContainer">
+						<field name="uiApplicationLayerCount" type="Int64"/>
+						<object name="ApplicationLayerContainer">
+							<field name="applicationlayerdataApplicationLayerContainer" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="GPIProperties">
+				<field name="hidfileApplicationFile" type="String"/>
+			</object>
+			<field hash="25CAA6E8" type="String"/>
+			<field name="applicationApplicationClassTypeId" type="BinHex"/>
+		</object>
+	</object>
+</class>

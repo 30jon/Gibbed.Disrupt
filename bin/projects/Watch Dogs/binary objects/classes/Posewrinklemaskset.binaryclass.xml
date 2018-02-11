@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PosewrinklemasksetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="WrinkleMaskSet">
+		<object name="WrinkleMask">
+			<field hash="A14DADC6" type="String"/>
+			<field name="fileMaskTextureFileName" type="BinHex"/>
+			<field name="selMaskType" type="Enum"/>
+			<object name="BoneIntensityInput">
+				<field name="sBoneName" type="String"/>
+				<field name="selIntensityInputMode" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Districts_0e97fb69Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fHudDisplayDuration" type="Float"/>
+	<field name="fHudFastDisplayDuration" type="Float"/>
+	<object name="locstridInsideDistrictConnected">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridInsideDistrictDisconnected">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridInsideMainHubDisconnectedTittle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridInsideMainHubDisconnectedDescription">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridInsideBlackoutTitle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridStartDisruptCommTitle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridStartCtOSScanTitle">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

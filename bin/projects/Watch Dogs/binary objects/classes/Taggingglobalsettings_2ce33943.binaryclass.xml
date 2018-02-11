@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Taggingglobalsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMaxDistance" type="Float"/>
+	<field name="fReticleTaggingDuration" type="Float"/>
+	<field hash="FE36D512" type="String"/>
+	<field name="sTagHighLightPostFXName" type="BinHex"/>
+	<object name="TagSounds">
+		<field name="sndOnGenericTagAddedSound" type="BinHex"/>
+		<field name="sndOnEnemyTagAddedSound" type="BinHex"/>
+		<field name="sndOnPoliceTagAddedSound" type="BinHex"/>
+	</object>
+	<object name="TagEntityTypes">
+		<object name="NpcEnemy">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+		<object name="ObjectiveTarget">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+		<object name="MultiPlayer_PlayerEnemy">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+		<object name="MultiPlayer_PlayerNeutral">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+		<object name="MultiPlayer_PlayerAlly">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+		<object name="Heavy">
+			<field name="selTagColor" type="Enum"/>
+			<field name="colorTagSquareColor" type="Vector3"/>
+			<field name="fTagSquareAlpha" type="Float"/>
+			<field name="sndOnEntityTaggedSound" type="BinHex"/>
+		</object>
+	</object>
+	<object name="AutoTagSpecialEffects">
+		<field name="sndSound" type="BinHex"/>
+		<field hash="93D2AFB5" type="String"/>
+		<field name="psParticleSystem" type="BinHex"/>
+		<field name="vectorParticleSystemRelativeLocation" type="Vector3"/>
+	</object>
+</class>

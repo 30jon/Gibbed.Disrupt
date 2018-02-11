@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fruitmachine_lightsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="uiSlotId" type="Int64"/>
+	<field name="fruitmachinetypesMachineType" type="BinHex"/>
+	<object name="Group">
+		<field name="selLightsGroupType" type="Enum"/>
+		<object name="FruitMachineLightDb">
+			<object name="Lights">
+				<field name="fruitmachinelightsLight" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

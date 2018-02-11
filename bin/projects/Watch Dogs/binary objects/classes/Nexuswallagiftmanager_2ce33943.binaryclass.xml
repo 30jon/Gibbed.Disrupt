@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Nexuswallagiftmanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="LocalGiftGeneration">
+		<field name="iMaxOfflineLocalGifts" type="Int32"/>
+		<field name="iMaxOnlineLocalGifts" type="Int32"/>
+		<field name="uiGiftServerLifetimeDays" type="Int64"/>
+		<field name="LocalGiftCooldownSeconds" type="BinHex"/>
+		<field name="fRareGiftChance" type="Float"/>
+		<field name="fRareGiftCooldownSeconds" type="Float"/>
+		<object name="LocalBasicCashGift">
+			<field name="itemsItem" type="BinHex"/>
+			<field name="iMaxGiftQuantity" type="Int32"/>
+			<field name="iMinGiftQuantity" type="Int32"/>
+			<field name="bRareGift" type="Boolean"/>
+			<field name="fHighPriorityGiftPercentageItemQty" type="Float"/>
+		</object>
+		<object name="LocalGiftInfo">
+			<object name="GiftInfo">
+				<field name="itemsItem" type="BinHex"/>
+				<field name="iMaxGiftQuantity" type="Int32"/>
+				<field name="iMinGiftQuantity" type="Int32"/>
+				<field name="bRareGift" type="Boolean"/>
+				<field name="fHighPriorityGiftPercentageItemQty" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

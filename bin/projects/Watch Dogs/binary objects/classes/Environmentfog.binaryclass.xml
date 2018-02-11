@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EnvironmentfogParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bStartOverride" type="Boolean"/>
+	<field name="bStartOpacityOverride" type="Boolean"/>
+	<field name="bEndOverride" type="Boolean"/>
+	<field name="bEndOpacityOverride" type="Boolean"/>
+	<field name="bStartHeightOverride" type="Boolean"/>
+	<field name="bStartHeightOpacityOverride" type="Boolean"/>
+	<field name="bEndHeightOverride" type="Boolean"/>
+	<field name="bEndHeightOpacityOverride" type="Boolean"/>
+	<field name="bColorSunSideIntensityOverride" type="Boolean"/>
+	<field name="bColorSunOppositeSideIntensityOverride" type="Boolean"/>
+	<field name="bColorSidesIntensityOverride" type="Boolean"/>
+	<field name="bColorSunSideOverride" type="Boolean"/>
+	<field name="bColorSunOppositeSideOverride" type="Boolean"/>
+	<field name="bColorSidesOverride" type="Boolean"/>
+	<object name="curveStart">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStartOpacity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveEnd">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveEndOpacity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStartHeight">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStartHeightOpacity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveEndHeight">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveEndHeightOpacity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveColorSunSideIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveColorSunOppositeSideIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveColorSidesIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradColorSunSide">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradColorSunOppositeSide">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradColorSides">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="Float"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="FogNextGen">
+		<field name="bColorOverride" type="Boolean"/>
+		<field name="fGamma" type="Float"/>
+		<field name="bGammaOverride" type="Boolean"/>
+		<field name="bFogMaxOverride" type="Boolean"/>
+		<object name="FogBottom">
+			<field name="bDensityOverride" type="Boolean"/>
+			<field name="bHeightFalloffOverride" type="Boolean"/>
+			<field name="fHeightBase" type="Float"/>
+			<field name="bHeightBaseOverride" type="Boolean"/>
+			<object name="curveDensity">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveHeightFalloff">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="FogTop">
+			<field name="bDensityOverride" type="Boolean"/>
+			<field name="bHeightFalloffOverride" type="Boolean"/>
+			<field name="fHeightBase" type="Float"/>
+			<field name="bHeightBaseOverride" type="Boolean"/>
+			<object name="curveDensity">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveHeightFalloff">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="gradColor">
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+					<field name="Position" type="Float"/>
+					<field name="Color" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveFogMax">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

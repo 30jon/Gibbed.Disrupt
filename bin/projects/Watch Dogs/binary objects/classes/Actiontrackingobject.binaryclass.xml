@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ActiontrackingobjectParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="1ED81C8C" type="String"/>
+	<field name="actiontrackeridActionTrackerId" type="BinHex"/>
+	<object name="ActionTrackerDatabase">
+		<field name="bAddOnGameStart" type="Boolean"/>
+		<field hash="1ED81C8C" type="String"/>
+		<field name="actiontrackeridActionTrackerId" type="BinHex"/>
+		<field name="uiCount" type="Int64"/>
+		<field name="uiExecuteCount" type="Int64"/>
+		<field name="vec3Location" type="Vector3"/>
+		<field name="fGameTime" type="Float"/>
+		<field name="ActionMaximumExecuteCount" type="BinHex"/>
+		<field name="ActionMinimumDistanceFromLastLocation" type="BinHex"/>
+		<field name="ActionCoolDown" type="BinHex"/>
+		<field name="fActionGameTimeDelay" type="Float"/>
+		<field name="bCanBeSave" type="Boolean"/>
+		<field name="fDisplayDuration" type="Float"/>
+		<field name="hidTrackingCount" type="BinHex"/>
+		<field name="TimerOnFirstTime" type="BinHex"/>
+		<field name="TimerAfterFirstTime" type="BinHex"/>
+		<field name="sPressShortcutActionMap" type="String"/>
+		<field name="itemlistsItemList" type="BinHex"/>
+		<field name="sBuyGarageDoorActionMap" type="String"/>
+		<field name="playerprogressionnodeRootNode" type="BinHex"/>
+		<field name="playerprogressionnodeFocusNode" type="BinHex"/>
+		<field name="selType" type="Enum"/>
+		<object name="locstridSurvivalGuideDescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<field name="itemsSurvivalGuideItem" type="BinHex"/>
+	</object>
+</class>

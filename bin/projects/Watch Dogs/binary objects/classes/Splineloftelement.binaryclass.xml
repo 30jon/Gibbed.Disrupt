@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SplineloftelementParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bLegacy" type="Boolean"/>
+	<field name="fileLoftShape" type="String"/>
+	<field name="fileCornerMaterial" type="BinHex"/>
+	<field name="selAlign" type="Enum"/>
+	<field name="vectorOffset" type="Vector"/>
+	<field name="bMirrorShape" type="Boolean"/>
+	<field name="bIsRoad" type="Boolean"/>
+	<field name="bIsRoadBottom" type="Boolean"/>
+	<field name="bIsSidewalk" type="Boolean"/>
+	<field name="bHasPhysics" type="Boolean"/>
+	<field name="selMedianType" type="Enum"/>
+	<field name="bIsDecal" type="Boolean"/>
+	<field name="bIsProjectedOnRoad" type="Boolean"/>
+	<field name="bIsCutByCrossWalk" type="Boolean"/>
+	<field name="bIsCutByCorner" type="Boolean"/>
+	<field name="logmatLogicMaterial" type="BinHex"/>
+	<field name="bDriveable" type="Boolean"/>
+	<field name="bFillet" type="Boolean"/>
+	<field name="fLengthOn" type="Float"/>
+	<field name="fLengthOff" type="Float"/>
+	<field name="bCapStart" type="Boolean"/>
+	<field name="bCapEnd" type="Boolean"/>
+	<field name="bResetTexCoordCycleStart" type="Boolean"/>
+	<field name="bCanModifyTerrain" type="Boolean"/>
+	<field name="bCastsShadows" type="Boolean"/>
+	<field name="bCastsShadowsCurrentGen" type="Boolean"/>
+	<field name="bIsOccludingRain" type="Boolean"/>
+	<field name="bShowInReflection" type="Boolean"/>
+	<field name="bShowInReflectionCurrentGen" type="Boolean"/>
+	<field name="bIsCovered" type="Boolean"/>
+	<field name="bIsWorldZOrientedMapping" type="Boolean"/>
+	<field name="bUseShapeTexCoordOffset" type="Boolean"/>
+	<field name="roadProfileSubdivErrorTolerance" type="BinHex"/>
+	<object name="curveRoadProfile">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

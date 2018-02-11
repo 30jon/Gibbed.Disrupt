@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Musiclibraryglobalsettings_ced50a4eParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="itemsMusicCollectibleToken" type="BinHex"/>
+	<field name="itemsDummyMusicReward" type="BinHex"/>
+	<field name="musicobjectdataMusicPlayerConfig" type="BinHex"/>
+	<field name="fPlaylistPreviewDelay" type="Float"/>
+	<field name="fMusicFadeOutOnMissionStart" type="Float"/>
+	<object name="locstridProfilerSong">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridProfilerArtist">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="DefaultMusicDBObjects">
+		<field name="musicobjectdataScoredAmb" type="BinHex"/>
+		<field name="musicobjectdataDiagetic3d" type="BinHex"/>
+		<field name="musicobjectdataDiagetig3dCar" type="BinHex"/>
+		<field name="musicobjectdataMusicPlayer" type="BinHex"/>
+		<field name="musicobjectdataMissionMusic" type="BinHex"/>
+	</object>
+	<object name="DefaultStore"/>
+	<object name="DefaultPlayerMusicLibrary">
+		<object name="Song">
+			<field name="musiclibrarySong" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DefaultPlayerPlaylist">
+		<object name="Song">
+			<field name="musiclibrarySong" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DPadRightControl">
+		<field name="sndSkipSongBip" type="BinHex"/>
+		<field name="fFeedBackDuration" type="Float"/>
+		<object name="locstridSkipActionName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPlayActionName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridStopActionName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAutoplayActionName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRadioBlogPlay">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRadioBlogStop">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="MediaPlayerLocalization">
+		<object name="locstridPlaylistOpenBio">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPlaylistAddAllSongs">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridPlaylistRemoveAllSongs">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="AudioFiles">
+		<field name="fAudioFileIntroductionDelay" type="Float"/>
+		<field name="fMusicVolumeOnAudioFilePlaying" type="Float"/>
+		<field name="sndAudioFileInSoundId" type="BinHex"/>
+		<field name="sndAudioFileOutSoundId" type="BinHex"/>
+		<field name="itemsMusicCollectibleToken" type="BinHex"/>
+		<object name="locstridAudioFileTitle">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAudiofileSkip">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAudiofileOpenMusicPlayer">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAudiofileUnlockMultipleFiles">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

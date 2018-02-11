@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Pawnersdatabase_4a5a693aParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="pawnerssettingsPlayerSettings" type="BinHex"/>
+	<field name="pawnerssettingsNPCSettings" type="BinHex"/>
+</class>

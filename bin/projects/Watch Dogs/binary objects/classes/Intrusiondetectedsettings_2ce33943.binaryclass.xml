@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Intrusiondetectedsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fSearchZoneRadius" type="Float"/>
+	<field name="fSearchZoneCenterMinOffsetPercent" type="Float"/>
+	<field name="fSearchZoneCenterMaxOffsetPercent" type="Float"/>
+	<field name="fUpdateSearchZoneCenterInvaderExitZonePercent" type="Float"/>
+	<field name="fSearchZoneDistanceToDisplayPath" type="Float"/>
+	<field name="gpctxspecGameplayContext" type="BinHex"/>
+</class>

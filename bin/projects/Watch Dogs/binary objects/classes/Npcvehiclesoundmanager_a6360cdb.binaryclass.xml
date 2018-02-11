@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Npcvehiclesoundmanager_a6360cdbParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<field name="fPlayerHighSpeed" type="Float"/>
+	<field name="fSoundBlendDurationIn" type="Float"/>
+	<field name="fBlendDurationHighSpeedIn" type="Float"/>
+	<field name="fSoundBlendDurationOut" type="Float"/>
+	<field name="fBlendDurationHighSpeedOut" type="Float"/>
+	<field name="fPriorityCenterOffset" type="Float"/>
+	<field name="nMaxHornSounds" type="Int32"/>
+	<field name="vec2RadioVehicleDistances" type="Vector2"/>
+	<field name="sndPlayerGotInRadioCar" type="BinHex"/>
+	<field name="sndPlayerLeftRadioCar" type="BinHex"/>
+	<field name="sndPlayerGotInCar" type="BinHex"/>
+	<field name="sndPlayerLeftCar" type="BinHex"/>
+	<field name="vec2SwitchDelayMinMax" type="Vector2"/>
+	<field name="sndvarVehicleSpeedLocalSoundRtpcVariable" type="BinHex"/>
+	<object name="MaxVehiclesToPlay">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="NPCSampledEngine">
+		<field name="fThrottleToIdleMaxSpeed" type="Float"/>
+		<field name="fThrottleToDecelerateMaxSpeed" type="Float"/>
+		<field name="fMinBrakeToStop" type="Float"/>
+		<field name="fIdleToThrottleMinSpeed" type="Float"/>
+		<field name="fMaxSpeedDrivingSlowly" type="Float"/>
+		<field name="fCooldownDrivingSlowly" type="Float"/>
+	</object>
+</class>

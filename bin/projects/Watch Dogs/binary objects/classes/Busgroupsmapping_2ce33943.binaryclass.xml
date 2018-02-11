@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Busgroupsmapping_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="5C682F91" type="String"/>
+	<field name="MusicGroupName" type="BinHex"/>
+	<field hash="4F938A36" type="String"/>
+	<field name="LicencedMusicGroupName" type="BinHex"/>
+	<field hash="CBAD27FC" type="BinHex"/>
+	<field name="SfxGroupName" type="BinHex"/>
+	<field hash="F224C5B2" type="String"/>
+	<field name="VoiceGroupName" type="BinHex"/>
+</class>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclefxParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SpeedRandomNoise">
+		<field name="bUseSpeedRandomNoise" type="Boolean"/>
+		<field name="fForceNoiseMaxSpeed" type="Float"/>
+		<field name="fSpeedNoiseLag" type="Float"/>
+		<field name="fRNStartingSpeedPourcentage" type="Float"/>
+		<field name="fSpeedNoiseDuration" type="Float"/>
+		<field name="vectorSpeedNoiseXYZminRange" type="Vector3"/>
+		<field name="vectorSpeedNoiseXYZmaxRange" type="Vector3"/>
+		<field name="vectorSpeedNoisePRYminRange" type="Vector3"/>
+		<field name="vectorSpeedNoisePRYmaxRange" type="Vector3"/>
+		<object name="curveSpeedRandomNoiseCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMaxSpeedRandomNoiseCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="WheelSpinNoise">
+		<field name="bUseWheelSpinNoise" type="Boolean"/>
+		<field name="vec2MaxWheelSpin" type="Vector2"/>
+		<field name="vec2MinWheelSpin" type="Vector2"/>
+		<field name="vec2WheelSpinNoisePow" type="Vector2"/>
+		<field name="vec2WheelSpinNoiseFreq" type="Vector2"/>
+		<field name="vec2WheelSpinNoiseAmplForward" type="Vector2"/>
+		<field name="vec2WheelSpinNoiseAmplBackward" type="Vector2"/>
+		<field name="vec2WheelSpinLag" type="Vector2"/>
+	</object>
+	<object name="CollisionShake">
+		<field name="fCollisionVehicleSideContactFactor" type="Float"/>
+		<field name="fCollisionVelocityFactor" type="Float"/>
+		<field name="fCollisionShakeAttenuation" type="Float"/>
+		<field name="fCollisionShakeDuration" type="Float"/>
+		<field name="fCollisionMinDeltaVelocity" type="Float"/>
+		<field name="fCollisionMaxItensity" type="Float"/>
+		<field name="fCollisionPitchFactor" type="Float"/>
+		<field name="fCollisionPitchFactorTime" type="Float"/>
+		<field name="vectorCollisionShakeXYZRange" type="Vector3"/>
+		<field name="vectorCollisionShakePRYRange" type="Vector3"/>
+		<field name="vectorCollisionPRYRangeStrInfluenced" type="Vector3"/>
+	</object>
+	<object name="RoadBumps">
+		<field name="bUseRoadBumps" type="Boolean"/>
+		<field hash="49153D13" type="String"/>
+		<field name="fileRoadBumpsShakeAnimation" type="BinHex"/>
+		<field name="fStrengthMin" type="Float"/>
+		<field name="fStrengthMax" type="Float"/>
+		<field name="fStrengthRndMax" type="Float"/>
+		<field name="fStrengthChangeSpeed" type="Float"/>
+		<field name="fStrengthWaveSpeed" type="Float"/>
+		<field name="fSpeedMax" type="Float"/>
+		<field name="fAnimSpeedAtMax" type="Float"/>
+		<field name="fMinSpeed" type="Float"/>
+	</object>
+	<object name="LandingShake">
+		<field hash="DF47B71F" type="String"/>
+		<field name="fileLandingShakeAnimation" type="BinHex"/>
+		<object name="curveLandingShakeIntensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="RoadMaterialShake">
+		<field hash="9B3A1636" type="String"/>
+		<field name="fileRoadShakeAnimationPathID" type="BinHex"/>
+	</object>
+	<object name="LaunchHelperCamEffect">
+		<field name="bLaunchHelperShakeEnabled" type="Boolean"/>
+		<field name="fLaunchHelperShakeMinSpeed" type="Float"/>
+		<field name="fLaunchHelperShakeIntensity" type="Float"/>
+		<field name="fLaunchHelperShakeDuration" type="Float"/>
+		<field name="fLaunchHelperShakeFadeDuration" type="Float"/>
+		<field name="vectorLaunchHelperShakeXYZminRange" type="Vector3"/>
+		<field name="vectorLaunchHelperShakeXYZmaxRange" type="Vector3"/>
+		<field name="vectorLaunchHelperShakePRYminRange" type="Vector3"/>
+		<field name="vectorLaunchHelperShakePRYmaxRange" type="Vector3"/>
+	</object>
+	<object name="TurningCameraEffect">
+		<field name="bUseTurningCamera" type="Boolean"/>
+		<field name="fTurningYawMult" type="Float"/>
+		<field name="fTurningYawMaxValue" type="Float"/>
+		<field name="fTurningRollMult" type="Float"/>
+		<field name="fTurningRollMaxValue" type="Float"/>
+		<field name="fTurningTranslationMult" type="Float"/>
+		<field name="fTurningTranslationMultMaxValue" type="Float"/>
+		<field name="fTurningBigRotLag" type="Float"/>
+		<field name="fTurningBigRotReturnLag" type="Float"/>
+		<field name="fTurningSmallRotLag" type="Float"/>
+		<field name="fTurningSmallRotReturnLag" type="Float"/>
+		<field name="fTurningBigRollLag" type="Float"/>
+		<field name="fTurningBigRollReturnLag" type="Float"/>
+		<field name="fTurningSmallRollLag" type="Float"/>
+		<field name="fTurningSmallRollReturnLag" type="Float"/>
+		<field name="fTurningTranslationLag" type="Float"/>
+		<field name="fTurningTranslationSlowLag" type="Float"/>
+		<field name="fTurningAngularRotationLag" type="Float"/>
+		<field name="fMinimumRawAngularVel" type="Float"/>
+	</object>
+	<object name="GearShifting">
+		<field name="bUseGearShiftingCam" type="Boolean"/>
+		<field name="fGearShiftingTime" type="Float"/>
+		<field name="fGearShiftFrontTranslation" type="Float"/>
+		<field name="fGearShiftFrontTransSlowingDownLag" type="Float"/>
+		<field name="fGearShiftFrontTransAccelLag" type="Float"/>
+		<field name="fGearShiftDownTranslation" type="Float"/>
+		<field name="fGearShiftDownTransSlowingDownLag" type="Float"/>
+		<field name="fGearShiftDownTransAccelRotLag" type="Float"/>
+	</object>
+	<object name="FakeGearShifting">
+		<field name="bUseFakeGearShiftingCam" type="Boolean"/>
+		<field name="fFakeGearShiftingTime" type="Float"/>
+		<field name="fFakeGearShiftFrontTranslation" type="Float"/>
+		<field name="fFakeGearShiftFrontTransSlowingDownLag" type="Float"/>
+		<field name="fFakeGearShiftFrontTransAccelLag" type="Float"/>
+		<field name="fFakeGearShiftDownTranslation" type="Float"/>
+		<field name="fFakeGearShiftDownTransSlowingDownLag" type="Float"/>
+		<field name="fFakeGearShiftDownTransAccelRotLag" type="Float"/>
+	</object>
+	<object name="TempCameraOrientation">
+		<field name="fMin_speedOrientation" type="Float"/>
+		<field name="fMax_speedOrientation" type="Float"/>
+	</object>
+	<object name="BrakeEffect">
+		<field name="bUseBrakingCam" type="Boolean"/>
+		<field name="fBrakeCamPitchValue" type="Float"/>
+		<field name="fBrakeCamBlendInLag" type="Float"/>
+		<field name="fBrakeCamBlendOutLag" type="Float"/>
+		<field name="fBrakeMinValue" type="Float"/>
+		<field name="fBrakeDelayBeforeEffectStarts" type="Float"/>
+	</object>
+</class>

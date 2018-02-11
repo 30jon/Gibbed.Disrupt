@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EnticercontextParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Time">
+		<object name="TimeOfDay">
+			<field name="selTimeOfDay" type="Enum"/>
+		</object>
+	</object>
+	<object name="Rain">
+		<object name="RainIntensity">
+			<field name="selRainIntensity" type="Enum"/>
+		</object>
+	</object>
+</class>

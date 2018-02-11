@@ -1,0 +1,5 @@
+<file name="skeleton">
+	<object name="CSkeletonResource">
+		<inherit name="SBones" />
+	</object>
+</file>

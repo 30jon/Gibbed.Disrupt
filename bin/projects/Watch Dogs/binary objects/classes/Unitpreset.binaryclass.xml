@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UnitpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selFelonyType" type="Enum"/>
+	<field name="bValid" type="Boolean"/>
+	<field name="bDisabled" type="Boolean"/>
+	<field name="bIsMPPreset" type="Boolean"/>
+	<field name="bSpawnInChase" type="Boolean"/>
+	<field name="bSpawnInSearch" type="Boolean"/>
+	<field name="iMinRepThreshold" type="Int32"/>
+	<field name="iMaxRepThreshold" type="Int32"/>
+	<field name="sBark" type="BinHex"/>
+	<object name="ValidBehaviors">
+		<field name="bEasy" type="Boolean"/>
+		<field name="bMedium" type="Boolean"/>
+		<field name="bHard" type="Boolean"/>
+		<field name="bUltimate" type="Boolean"/>
+		<field name="bOnFoot" type="Boolean"/>
+		<field name="bSwatTruck" type="Boolean"/>
+		<field name="bSwatTruckNPC" type="Boolean"/>
+		<field name="bTrainHeavy" type="Boolean"/>
+		<field name="bCompanion" type="Boolean"/>
+	</object>
+	<object name="UnitList">
+		<object name="Units">
+			<field name="selUnitID" type="Enum"/>
+		</object>
+	</object>
+</class>

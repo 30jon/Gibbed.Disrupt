@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasemaneuvervalidationconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="RamSide">
+		<field name="fMaxReadyTime" type="Float"/>
+		<object name="Enter">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Ready">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Abort">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+	</object>
+	<object name="RamHeadOn">
+		<field name="fMaxReadyTime" type="Float"/>
+		<object name="Enter">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Ready">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Abort">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+	</object>
+	<object name="BrakeAhead">
+		<field name="fMaxReadyTime" type="Float"/>
+		<object name="Enter">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Ready">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Abort">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+	</object>
+	<object name="HandbrakeBlock">
+		<field name="fMaxReadyTime" type="Float"/>
+		<object name="Enter">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Ready">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Abort">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+	</object>
+	<object name="HandbrakeBlockHeadOn">
+		<field name="fMaxReadyTime" type="Float"/>
+		<object name="Enter">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Ready">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+		<object name="Abort">
+			<field name="fSideDistMin" type="Float"/>
+			<field name="fSideDistMax" type="Float"/>
+			<field name="fFrontBackDistMin" type="Float"/>
+			<field name="fFrontBackDistMax" type="Float"/>
+			<field name="fTimeToMeetMax" type="Float"/>
+			<field name="fRelativeSpeedMin" type="Float"/>
+			<field name="fAgentSpeedMax" type="Float"/>
+			<field name="bNeedClearPath" type="Boolean"/>
+			<field name="bNeedStraightRoad" type="Boolean"/>
+		</object>
+	</object>
+</class>

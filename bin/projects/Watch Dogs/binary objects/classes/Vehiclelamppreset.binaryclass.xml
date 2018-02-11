@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclelamppresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="colorEmissiveLightColor" type="Vector3"/>
+	<field name="bRandomStartTime" type="Boolean"/>
+	<field name="fFlashingPeriod" type="Float"/>
+	<field name="fBlendInTime" type="Float"/>
+	<field name="fBlendOutTime" type="Float"/>
+	<object name="curveFlashingIntensityCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="LightEffectList">
+		<object name="LightEffect">
+			<field name="lighteffectprefabPrefab" type="BinHex"/>
+			<field name="vectorOffset" type="Vector3"/>
+			<field name="fRotationZ" type="Float"/>
+			<field name="bForceOrientationUpdate" type="Boolean"/>
+		</object>
+	</object>
+	<object name="LampBehavior">
+		<field name="bDisable" type="Boolean"/>
+		<field name="bEmergency" type="Boolean"/>
+		<field name="bHeadLamp_HighBeam" type="Boolean"/>
+		<field name="bHeadLamp_LowBeam" type="Boolean"/>
+		<field name="bTurnSignal" type="Boolean"/>
+		<field name="bReverse" type="Boolean"/>
+		<field name="bBrake" type="Boolean"/>
+		<field name="bDayTime_Running" type="Boolean"/>
+		<field name="bPosition" type="Boolean"/>
+		<field name="bConveniance" type="Boolean"/>
+		<field name="bSpotLight" type="Boolean"/>
+	</object>
+</class>

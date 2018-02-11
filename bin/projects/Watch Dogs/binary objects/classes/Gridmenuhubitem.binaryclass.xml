@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GridmenuhubitemParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vector2Position" type="Vector2"/>
+	<field name="mapicondescIconDescription" type="BinHex"/>
+	<field name="bShowSurvivalGuide" type="Boolean"/>
+	<field name="selGameMode" type="Enum"/>
+	<object name="locstridNumPlayersLocId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="CameraData">
+		<field name="vector2Target" type="Vector2"/>
+		<field name="angvecAngles" type="Vector3"/>
+		<field name="fDistance" type="Float"/>
+	</object>
+	<object name="MenuItems">
+		<object name="MenuItem">
+			<field hash="66D8D09A" type="String"/>
+			<field name="gmiGridMenuItemType" type="BinHex"/>
+			<object name="GridMenuItemSettings">
+				<field name="mapicondescIconDescription" type="BinHex"/>
+				<field name="gridmenuhubTargetHubItem" type="BinHex"/>
+				<field name="vector2Position" type="Vector2"/>
+				<field name="selActionType" type="Enum"/>
+			</object>
+			<object name="LinePath">
+				<object name="PathPoint">
+					<field name="vector2PathPoint" type="Vector2"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DrinkingchallengeprogressionlevelParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Elements">
+		<object name="drinkingchallengeprogressionelementElement">
+			<field name="drinkingchallengeprogressionelementElement" type="BinHex"/>
+		</object>
+	</object>
+	<object name="GameplayParameters">
+		<field name="uiOpponentEarliestFailRound" type="Int64"/>
+		<field name="uiOpponentLatestFailRound" type="Int64"/>
+		<field name="uiBetAmount" type="Int64"/>
+		<field name="bAwardAPSTokenOnFirstComplete" type="Boolean"/>
+		<field name="bExtreme" type="Boolean"/>
+		<field name="uiStartLevel" type="Int64"/>
+		<field name="uiEndLevel" type="Int64"/>
+	</object>
+</class>

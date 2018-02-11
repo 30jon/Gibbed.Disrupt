@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Trafficreaction_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fDefaultThreatDecreaseRate" type="Float"/>
+	<field name="fTrafficAnxiousThreatLevel" type="Float"/>
+	<field name="fTrafficDuckChaserProximityDist" type="Float"/>
+	<field name="fTrafficPanicThreatLevel" type="Float"/>
+	<field name="vec2TrafficAnimationSpeedMinMax" type="Vector2"/>
+	<field name="fThreatBasedBehaviorsMinTime" type="Float"/>
+	<object name="BehaviorsSettings">
+		<object name="ImpactSettings">
+			<field name="fMinStrengthForAnimation" type="Float"/>
+			<field name="fMinStrengthToExit" type="Float"/>
+			<field name="fReactChance" type="Float"/>
+			<field name="fReactInsideChance" type="Float"/>
+			<field hash="AC5CD011" type="String"/>
+			<field name="BarkId" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+			<field name="fCollisionCylinderRadiusOverride" type="Float"/>
+		</object>
+		<object name="GunShotSettings">
+			<field name="fCloseRangeDistance" type="Float"/>
+			<field name="vec2ShooterMinDotToDuck" type="Vector2"/>
+			<field name="vec2DuckDotDistances" type="Vector2"/>
+		</object>
+		<object name="CarjackingSettings">
+			<field hash="56FDDEDA" type="String"/>
+			<field name="sPlayerNoGunBarkId" type="BinHex"/>
+			<field hash="AAFAAF29" type="String"/>
+			<field name="sPlayerGunBarkId" type="BinHex"/>
+			<field hash="D37B3EC3" type="String"/>
+			<field name="sPlayerAsAFixerBarkId" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="EmergencyBrakeSettings">
+			<field name="vec2AngleFromSpeed" type="Vector2"/>
+			<field name="bAngleFromSpeed" type="Boolean"/>
+			<object name="curveAngleFromSpeed">
+				<field name="hidNumKnots" type="Int64"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="FleeSettings">
+			<field name="fMinTimeBeforeZeroSpeedReaction" type="Float"/>
+			<field name="fExitReactionChanceOnStop" type="Float"/>
+		</object>
+		<object name="DriveAwaySettings">
+			<field name="fMinTimeBeforeZeroSpeedReaction" type="Float"/>
+			<field name="fExitReactionChanceOnStop" type="Float"/>
+		</object>
+		<object name="FakeCrashSettings">
+			<field name="fReactChance" type="Float"/>
+			<field name="fReactInsideChance" type="Float"/>
+			<field name="vec2StartMovingTime" type="Vector2"/>
+			<field name="fMandatoryPoolTime" type="Float"/>
+			<field name="fExitThreatInstantAdd" type="Float"/>
+			<field name="fAgentsToLanesLeaveSceneRatio" type="Float"/>
+			<field name="fReactionTimeout" type="Float"/>
+			<field name="vec2CollisionReactionAngleDistances" type="Vector2"/>
+			<field name="vec2CollisionReactionAngles" type="Vector2"/>
+			<field name="fCollisionStimPeriod" type="Float"/>
+			<field name="fGatherDistanceCff" type="Float"/>
+			<field name="fUnitRadius" type="Float"/>
+			<field name="fGatherDistanceAdd" type="Float"/>
+			<field name="fGatherMinDistanceFromVehicle" type="Float"/>
+			<field name="fMinAttractDistance" type="Float"/>
+			<field name="fMaxAttractDistance" type="Float"/>
+			<field name="fAttractDelaySpread" type="Float"/>
+			<field name="fMinAttractToGatherDistance" type="Float"/>
+			<field name="fAttractTimeout" type="Float"/>
+			<field name="fAttractorsDelay" type="Float"/>
+			<field name="fPostStimDelay" type="Float"/>
+			<field name="nPostStimMinCars" type="Int32"/>
+		</object>
+		<object name="DriverDeadSettings">
+			<field name="fBrakeChance" type="Float"/>
+			<field name="vec2BrakeMinMax" type="Vector2"/>
+			<field name="vec2SteeringMinMax" type="Vector2"/>
+			<field name="fHandBrakeChance" type="Float"/>
+			<field name="fHornChance" type="Float"/>
+			<field name="fGoDeadcarDamage" type="Float"/>
+		</object>
+		<object name="ThreatZoneSettings">
+			<field name="vec2ThreatZoneBrakeDistances" type="Vector2"/>
+			<field name="vec2ThreatZoneExitChance" type="Float"/>
+		</object>
+		<object name="RescueSettings">
+			<field hash="959D42CA" type="String"/>
+			<field name="LoopBarkId" type="BinHex"/>
+			<field name="selLoopBarkPriority" type="Enum"/>
+			<field name="vec2LoopBarkPeriod" type="Vector2"/>
+			<field hash="66D9430E" type="String"/>
+			<field name="PlayerBarkId" type="BinHex"/>
+			<field name="selPlayerBarkPriority" type="Enum"/>
+			<field hash="AE5A3DCD" type="String"/>
+			<field name="ThanksBarkId" type="BinHex"/>
+			<field name="selThanksBarkPriority" type="Enum"/>
+			<field name="fThanksBarkDelay" type="Float"/>
+			<field name="nMaxNumRescueCars" type="Int32"/>
+			<field name="fRescueNoShootTimeout" type="Float"/>
+			<field name="fRescuePlayerShotDowntime" type="Float"/>
+		</object>
+		<object name="OutsideReactionSettings">
+			<field name="fStimRadius" type="Float"/>
+		</object>
+		<object name="HelpableSettings">
+			<field name="fMaxDistanceToWalkL" type="Float"/>
+			<field name="fHelpChance" type="Float"/>
+			<field name="fMinDistToHelpable" type="Float"/>
+			<field name="fMinAttractorDistance" type="Float"/>
+			<field name="fAttractorDistanceFromExit" type="Float"/>
+			<field name="fStateTimeout" type="Float"/>
+			<field name="fStimRadius" type="Float"/>
+			<field name="fStimAngleCos" type="Float"/>
+			<field name="fCylinderRadius" type="Float"/>
+		</object>
+	</object>
+	<object name="ThreatLevels">
+		<field name="fDuckReactionThreatLevel" type="Float"/>
+		<field name="fDriveAwayReactionThreatLevel" type="Float"/>
+		<field hash="897D2D5A" type="BinHex"/>
+	</object>
+	<object name="ThreatReactionsSettings">
+		<object name="Gunshot">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="AimedByGun">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="UnholsteredGun">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="HitByAnotherVehicle">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="ForcedOutOfVehicle">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="FakeCrash">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="FakeCrashCollision">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="SpiderTank">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="HitByBullet">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+		<object name="DeadBody">
+			<field name="nThreatPriority" type="Int32"/>
+			<field name="bGeneratesThreat" type="Boolean"/>
+			<field name="fThreatSetMinLevel" type="Float"/>
+			<field name="fThreatInstantAdd" type="Float"/>
+			<field name="vec2ThreatInstantAddDist" type="Vector2"/>
+			<field name="vectorThreatChangeDistances" type="Vector3"/>
+			<field name="vec2ThreatChangeRate" type="Vector2"/>
+			<field name="fMaxThreat" type="Float"/>
+			<field name="fThreatTimeout" type="Float"/>
+			<field name="fThreatMinDropRate" type="Float"/>
+			<field name="fMinBarkTimeout" type="Float"/>
+			<field name="vec2VsibleAngle" type="Vector2"/>
+			<field name="fMaxZDiff" type="Float"/>
+			<field name="vec2VisibleAnglesDistances" type="Vector2"/>
+			<field name="fMmaxVisibleRange" type="Float"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="fBarkDelay" type="Float"/>
+			<field name="selBarkPriority" type="Enum"/>
+		</object>
+	</object>
+	<object name="RepeatBarksSettings">
+		<object name="Scared">
+			<field name="InitialBark" type="BinHex"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+			<field name="vec2InitialDelay" type="Vector2"/>
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="nMaxIterations" type="Int32"/>
+		</object>
+		<object name="Annoyed">
+			<field name="InitialBark" type="BinHex"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+			<field name="vec2InitialDelay" type="Vector2"/>
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="nMaxIterations" type="Int32"/>
+		</object>
+		<object name="CollisionInsideReaction">
+			<field hash="FF155703" type="String"/>
+			<field name="InitialBark" type="BinHex"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+			<field name="vec2InitialDelay" type="Vector2"/>
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="nMaxIterations" type="Int32"/>
+		</object>
+		<object name="CollisionOutsideReaction">
+			<field name="InitialBark" type="BinHex"/>
+			<field hash="995B332C" type="String"/>
+			<field name="Bark" type="BinHex"/>
+			<field name="selBarkPriority" type="Enum"/>
+			<field name="vec2InitialDelay" type="Vector2"/>
+			<field name="vec2Delay" type="Vector2"/>
+			<field name="nMaxIterations" type="Int32"/>
+		</object>
+	</object>
+	<object name="OasisStateNames">
+		<field hash="05C172E7" type="String"/>
+		<field name="Curiosity" type="BinHex"/>
+		<field hash="CA558F80" type="String"/>
+		<field name="Anxiety" type="BinHex"/>
+		<field hash="09D214CB" type="String"/>
+		<field name="Panic" type="BinHex"/>
+	</object>
+</class>

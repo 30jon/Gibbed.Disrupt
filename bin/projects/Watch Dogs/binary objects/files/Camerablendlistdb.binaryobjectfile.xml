@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Camerablendlistdb">
+	<object name="lib">
+		<object hash="72DE4948">
+			<inherit name="CamerablendlistdbParameters"/>
+		</object>
+	</object>
+</file>

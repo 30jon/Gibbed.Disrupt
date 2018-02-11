@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vehiclechassisChassis" type="BinHex"/>
+	<field name="vehicletweaksTweaks" type="BinHex"/>
+	<field name="vehicletransmissionTransmission" type="BinHex"/>
+	<field name="vehicleengineEngine" type="BinHex"/>
+	<field name="vehicleclutchClutch" type="BinHex"/>
+	<field name="vehiclesteeringSteering" type="BinHex"/>
+	<field name="vehiclebrakeBrake" type="BinHex"/>
+	<field name="vehicleaerodynamicsAerodynamics" type="BinHex"/>
+	<object name="Axles">
+		<object name="Axle">
+			<field name="vehicleaxleAxle" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ShiftPoints">
+		<object name="ShiftPoint">
+			<field name="disGearDownShiftRpm" type="BinHex"/>
+			<field name="disGearUpShiftRpm" type="BinHex"/>
+		</object>
+	</object>
+</class>

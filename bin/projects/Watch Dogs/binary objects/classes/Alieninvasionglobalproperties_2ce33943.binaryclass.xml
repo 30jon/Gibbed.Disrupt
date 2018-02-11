@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Alieninvasionglobalproperties_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="gpctxspecGameplayContextID" type="BinHex"/>
+	<object name="PodSpawnLocations">
+		<field name="fMinPodHeight" type="Float"/>
+	</object>
+	<object name="VfxInformation">
+		<field name="fHitFadeTime" type="Float"/>
+		<field name="fHitUVShiftStrength" type="Float"/>
+		<field name="colorGreenChannelPostFxMaskHaloColor" type="Vector3"/>
+		<field name="colorBombFlashColor" type="Vector3"/>
+		<field name="colorGradingColor" type="Vector3"/>
+		<field name="fGradingColorFalloff" type="Float"/>
+		<field name="fGradingColorStrength" type="Float"/>
+		<field name="fScrollingLineSteps" type="Float"/>
+		<field name="colorScrollingLineColor" type="Vector3"/>
+		<field name="fScrollingLineFalloff" type="Float"/>
+		<field name="fScrollingLineStrength" type="Float"/>
+		<field name="fScrollingLineSpeed" type="Float"/>
+	</object>
+	<object name="DefaultProperties">
+		<field name="fArenaRadius" type="Float"/>
+		<field name="fQuitGameBufferZone" type="Float"/>
+		<field hash="57C6D5F6" type="String"/>
+		<field name="WeaponHudBoneName" type="BinHex"/>
+		<field name="uiInitalPlayerHealth" type="Int64"/>
+		<field name="fTimeOutLength" type="Float"/>
+		<field name="uiTotalAliens" type="Int64"/>
+		<field name="fWaveBonusPerSecond" type="Int16"/>
+		<field hash="C112CB10" type="String"/>
+		<field name="AlienParticleBone" type="BinHex"/>
+	</object>
+	<object name="AudioSettings">
+		<field name="fTimeLeftForCountDownSound" type="Float"/>
+	</object>
+	<object name="AlienProperties">
+		<field hash="FFBFC844" type="String"/>
+		<field name="HumanBoneToAttachTo" type="BinHex"/>
+		<field name="PodBoneToSpawnFrom" type="BinHex"/>
+		<field name="fTimeBetweenDirectionChanges" type="Float"/>
+		<field name="fMaxFloatHeight" type="Float"/>
+		<field name="fMinFloatHeight" type="Float"/>
+		<field name="uiBabyScore" type="Int64"/>
+		<field name="fAdultChaseRadius" type="Float"/>
+		<field name="uiNumBabiesFollowInFormation" type="Int64"/>
+		<field name="uiNumHunterBabiesFollowInFormation" type="Int64"/>
+		<field name="uiAdultScore" type="Int64"/>
+		<field name="uiQueenScore" type="Int64"/>
+		<field name="uiHunterBabyScore" type="Int64"/>
+		<field name="uiHunterAdultScore" type="Int64"/>
+		<field name="fPodScore" type="Int16"/>
+		<field name="fAlienVisibiltyWhenCollidingWithObject" type="Float"/>
+	</object>
+	<object name="ChallengeRounds">
+		<field name="fBombPickupSpawnCooldown" type="Float"/>
+		<field name="uiChallengeRoundFrequency" type="Int64"/>
+		<object name="ShotgunPickupChallengeRound">
+			<field name="uiMinLevelBeforeUse" type="Int64"/>
+			<field name="fChallengeCompleteWeight" type="Float"/>
+			<field name="iChallengScoreMultiplyer" type="Int32"/>
+			<field name="iChallengeTargetScore" type="Int32"/>
+			<field name="selChallengeReward" type="Enum"/>
+			<object name="CurrentWaveData">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fWaveTime" type="Float"/>
+				<field name="fMaxWaveTime" type="Float"/>
+				<field name="fWormholeHeight" type="Float"/>
+				<field name="fIntervalTime" type="Float"/>
+				<field name="fWaveDifficulty" type="Float"/>
+				<object name="WaveWormholes">
+					<object name="Wormholes">
+						<field name="WormholePositionOffset" type="Vector3"/>
+						<object name="SpawnRequests">
+							<object name="NewSpawnRequest">
+								<field name="fSpawnTime" type="Float"/>
+								<field name="fNumberOfBabies" type="Int16"/>
+								<field name="fNumberOfAdults" type="Int16"/>
+								<field name="fNumberOfHunterBabies" type="Int16"/>
+								<field name="fNumberOfHunterAdults" type="Int16"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="AlienAttributes">
+					<field name="fAlienSpeedBaby" type="Float"/>
+					<field name="fAlienSpeedAdult" type="Float"/>
+					<field name="fAlienSpeedHunterBaby" type="Float"/>
+					<field name="fAlienSpeedHunterAdult" type="Float"/>
+					<field name="fPodBabiesEjectionSpeed" type="Float"/>
+					<field name="fPodExplosionRadius" type="Float"/>
+					<field name="fPodDamageToAliens" type="Float"/>
+					<field name="fHealthBaby" type="Float"/>
+					<field name="fHealthBabyToAdult" type="Float"/>
+					<field name="fHealthAdultToQueen" type="Float"/>
+					<field name="fHealthHunterBaby" type="Float"/>
+					<field name="fHealthHunterBabyToHunterAdult" type="Float"/>
+					<field name="fMassBaby" type="Float"/>
+					<field name="fMassAdult" type="Float"/>
+					<field name="fMassHunterBaby" type="Float"/>
+					<field name="fMassHunterAdult" type="Float"/>
+					<field name="fTimeToBabyRespawn" type="Float"/>
+					<field name="fTimeToBabyRespawnAfterFirstSpawn" type="Float"/>
+					<field name="fPodGestationTime" type="Float"/>
+					<field name="uiPodMinaliensSpawned" type="Int64"/>
+					<field name="uiPodMaxaliensSpawned" type="Int64"/>
+					<field name="fShootingCooldown" type="Float"/>
+					<field name="fBulletExplosionRadius" type="Float"/>
+					<field name="fEvolveTimeBabyToAdult" type="Float"/>
+					<field name="fEvolveCooldownBabyToAdultAfterFormation" type="Float"/>
+					<field name="fEvolveCooldownHunterBabyToHunterAdultAfterFormation" type="Float"/>
+					<field name="fEvolveTimeAdultWander" type="Float"/>
+					<field name="fEvolveTimeHunterAdultWander" type="Float"/>
+					<field name="fAttackAdultCooldown" type="Float"/>
+					<field name="uiMaxAdultPopulation" type="Int64"/>
+					<field name="uiMaxSpawningAlienTypePopulation" type="Int64"/>
+				</object>
+				<object name="PickupSpawning">
+					<field name="fPercentagePickupChanceFromBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromAdult" type="Float"/>
+					<field name="fPercentagePickupChanceFromQueen" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterAdult" type="Float"/>
+					<field name="uiPickupChanceForShotgun" type="Int64"/>
+					<field name="uiPickupChanceForAssaultRifle" type="Int64"/>
+					<field name="uiPickupChanceForSingleShotRifle" type="Int64"/>
+					<field name="uiPickupChanceForUzi" type="Int64"/>
+					<field name="uiPickupChanceForExtraLife" type="Int64"/>
+					<field name="uiPickupChanceForExtraTime" type="Int64"/>
+					<field name="uiPickupChanceForDamageBomb" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="AssualtRiflePickupChallengeRound">
+			<field name="uiMinLevelBeforeUse" type="Int64"/>
+			<field name="fChallengeCompleteWeight" type="Float"/>
+			<field name="iChallengScoreMultiplyer" type="Int32"/>
+			<field name="iChallengeTargetScore" type="Int32"/>
+			<field name="selChallengeReward" type="Enum"/>
+			<object name="CurrentWaveData">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fWaveTime" type="Float"/>
+				<field name="fMaxWaveTime" type="Float"/>
+				<field name="fWormholeHeight" type="Float"/>
+				<field name="fIntervalTime" type="Float"/>
+				<field name="fWaveDifficulty" type="Float"/>
+				<object name="WaveWormholes">
+					<object name="Wormholes">
+						<field name="WormholePositionOffset" type="Vector3"/>
+						<object name="SpawnRequests">
+							<object name="NewSpawnRequest">
+								<field name="fSpawnTime" type="Float"/>
+								<field name="fNumberOfBabies" type="Int16"/>
+								<field name="fNumberOfAdults" type="Int16"/>
+								<field name="fNumberOfHunterBabies" type="Int16"/>
+								<field name="fNumberOfHunterAdults" type="Int16"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="AlienAttributes">
+					<field name="fAlienSpeedBaby" type="Float"/>
+					<field name="fAlienSpeedAdult" type="Float"/>
+					<field name="fAlienSpeedHunterBaby" type="Float"/>
+					<field name="fAlienSpeedHunterAdult" type="Float"/>
+					<field name="fPodBabiesEjectionSpeed" type="Float"/>
+					<field name="fPodExplosionRadius" type="Float"/>
+					<field name="fPodDamageToAliens" type="Float"/>
+					<field name="fHealthBaby" type="Float"/>
+					<field name="fHealthBabyToAdult" type="Float"/>
+					<field name="fHealthAdultToQueen" type="Float"/>
+					<field name="fHealthHunterBaby" type="Float"/>
+					<field name="fHealthHunterBabyToHunterAdult" type="Float"/>
+					<field name="fMassBaby" type="Float"/>
+					<field name="fMassAdult" type="Float"/>
+					<field name="fMassHunterBaby" type="Float"/>
+					<field name="fMassHunterAdult" type="Float"/>
+					<field name="fTimeToBabyRespawn" type="Float"/>
+					<field name="fTimeToBabyRespawnAfterFirstSpawn" type="Float"/>
+					<field name="fPodGestationTime" type="Float"/>
+					<field name="uiPodMinaliensSpawned" type="Int64"/>
+					<field name="uiPodMaxaliensSpawned" type="Int64"/>
+					<field name="fShootingCooldown" type="Float"/>
+					<field name="fBulletExplosionRadius" type="Float"/>
+					<field name="fEvolveTimeBabyToAdult" type="Float"/>
+					<field name="fEvolveCooldownBabyToAdultAfterFormation" type="Float"/>
+					<field name="fEvolveCooldownHunterBabyToHunterAdultAfterFormation" type="Float"/>
+					<field name="fEvolveTimeAdultWander" type="Float"/>
+					<field name="fEvolveTimeHunterAdultWander" type="Float"/>
+					<field name="fAttackAdultCooldown" type="Float"/>
+					<field name="uiMaxAdultPopulation" type="Int64"/>
+					<field name="uiMaxSpawningAlienTypePopulation" type="Int64"/>
+				</object>
+				<object name="PickupSpawning">
+					<field name="fPercentagePickupChanceFromBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromAdult" type="Float"/>
+					<field name="fPercentagePickupChanceFromQueen" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterAdult" type="Float"/>
+					<field name="uiPickupChanceForShotgun" type="Int64"/>
+					<field name="uiPickupChanceForAssaultRifle" type="Int64"/>
+					<field name="uiPickupChanceForSingleShotRifle" type="Int64"/>
+					<field name="uiPickupChanceForUzi" type="Int64"/>
+					<field name="uiPickupChanceForExtraLife" type="Int64"/>
+					<field name="uiPickupChanceForExtraTime" type="Int64"/>
+					<field name="uiPickupChanceForDamageBomb" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="SingleShotPickupChallengeRound">
+			<field name="uiMinLevelBeforeUse" type="Int64"/>
+			<field name="fChallengeCompleteWeight" type="Float"/>
+			<field name="iChallengScoreMultiplyer" type="Int32"/>
+			<field name="iChallengeTargetScore" type="Int32"/>
+			<field name="selChallengeReward" type="Enum"/>
+			<object name="CurrentWaveData">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fWaveTime" type="Float"/>
+				<field name="fMaxWaveTime" type="Float"/>
+				<field name="fWormholeHeight" type="Float"/>
+				<field name="fIntervalTime" type="Float"/>
+				<field name="fWaveDifficulty" type="Float"/>
+				<object name="WaveWormholes">
+					<object name="Wormholes">
+						<field name="WormholePositionOffset" type="Vector3"/>
+						<object name="SpawnRequests">
+							<object name="NewSpawnRequest">
+								<field name="fSpawnTime" type="Float"/>
+								<field name="fNumberOfBabies" type="Int16"/>
+								<field name="fNumberOfAdults" type="Int16"/>
+								<field name="fNumberOfHunterBabies" type="Int16"/>
+								<field name="fNumberOfHunterAdults" type="Int16"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="AlienAttributes">
+					<field name="fAlienSpeedBaby" type="Float"/>
+					<field name="fAlienSpeedAdult" type="Float"/>
+					<field name="fAlienSpeedHunterBaby" type="Float"/>
+					<field name="fAlienSpeedHunterAdult" type="Float"/>
+					<field name="fPodBabiesEjectionSpeed" type="Float"/>
+					<field name="fPodExplosionRadius" type="Float"/>
+					<field name="fPodDamageToAliens" type="Float"/>
+					<field name="fHealthBaby" type="Float"/>
+					<field name="fHealthBabyToAdult" type="Float"/>
+					<field name="fHealthAdultToQueen" type="Float"/>
+					<field name="fHealthHunterBaby" type="Float"/>
+					<field name="fHealthHunterBabyToHunterAdult" type="Float"/>
+					<field name="fMassBaby" type="Float"/>
+					<field name="fMassAdult" type="Float"/>
+					<field name="fMassHunterBaby" type="Float"/>
+					<field name="fMassHunterAdult" type="Float"/>
+					<field name="fTimeToBabyRespawn" type="Float"/>
+					<field name="fTimeToBabyRespawnAfterFirstSpawn" type="Float"/>
+					<field name="fPodGestationTime" type="Float"/>
+					<field name="uiPodMinaliensSpawned" type="Int64"/>
+					<field name="uiPodMaxaliensSpawned" type="Int64"/>
+					<field name="fShootingCooldown" type="Float"/>
+					<field name="fBulletExplosionRadius" type="Float"/>
+					<field name="fEvolveTimeBabyToAdult" type="Float"/>
+					<field name="fEvolveCooldownBabyToAdultAfterFormation" type="Float"/>
+					<field name="fEvolveCooldownHunterBabyToHunterAdultAfterFormation" type="Float"/>
+					<field name="fEvolveTimeAdultWander" type="Float"/>
+					<field name="fEvolveTimeHunterAdultWander" type="Float"/>
+					<field name="fAttackAdultCooldown" type="Float"/>
+					<field name="uiMaxAdultPopulation" type="Int64"/>
+					<field name="uiMaxSpawningAlienTypePopulation" type="Int64"/>
+				</object>
+				<object name="PickupSpawning">
+					<field name="fPercentagePickupChanceFromBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromAdult" type="Float"/>
+					<field name="fPercentagePickupChanceFromQueen" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterAdult" type="Float"/>
+					<field name="uiPickupChanceForShotgun" type="Int64"/>
+					<field name="uiPickupChanceForAssaultRifle" type="Int64"/>
+					<field name="uiPickupChanceForSingleShotRifle" type="Int64"/>
+					<field name="uiPickupChanceForUzi" type="Int64"/>
+					<field name="uiPickupChanceForExtraLife" type="Int64"/>
+					<field name="uiPickupChanceForExtraTime" type="Int64"/>
+					<field name="uiPickupChanceForDamageBomb" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="BonusTimePickupChallengeRound">
+			<field name="uiMinLevelBeforeUse" type="Int64"/>
+			<field name="fChallengeCompleteWeight" type="Float"/>
+			<field name="iChallengScoreMultiplyer" type="Int32"/>
+			<field name="iChallengeTargetScore" type="Int32"/>
+			<field name="selChallengeReward" type="Enum"/>
+			<object name="CurrentWaveData">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fWaveTime" type="Float"/>
+				<field name="fMaxWaveTime" type="Float"/>
+				<field name="fWormholeHeight" type="Float"/>
+				<field name="fIntervalTime" type="Float"/>
+				<field name="fWaveDifficulty" type="Float"/>
+				<object name="WaveWormholes">
+					<object name="Wormholes">
+						<field name="WormholePositionOffset" type="Vector3"/>
+						<object name="SpawnRequests">
+							<object name="NewSpawnRequest">
+								<field name="fSpawnTime" type="Float"/>
+								<field name="fNumberOfBabies" type="Int16"/>
+								<field name="fNumberOfAdults" type="Int16"/>
+								<field name="fNumberOfHunterBabies" type="Int16"/>
+								<field name="fNumberOfHunterAdults" type="Int16"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="AlienAttributes">
+					<field name="fAlienSpeedBaby" type="Float"/>
+					<field name="fAlienSpeedAdult" type="Float"/>
+					<field name="fAlienSpeedHunterBaby" type="Float"/>
+					<field name="fAlienSpeedHunterAdult" type="Float"/>
+					<field name="fPodBabiesEjectionSpeed" type="Float"/>
+					<field name="fPodExplosionRadius" type="Float"/>
+					<field name="fPodDamageToAliens" type="Float"/>
+					<field name="fHealthBaby" type="Float"/>
+					<field name="fHealthBabyToAdult" type="Float"/>
+					<field name="fHealthAdultToQueen" type="Float"/>
+					<field name="fHealthHunterBaby" type="Float"/>
+					<field name="fHealthHunterBabyToHunterAdult" type="Float"/>
+					<field name="fMassBaby" type="Float"/>
+					<field name="fMassAdult" type="Float"/>
+					<field name="fMassHunterBaby" type="Float"/>
+					<field name="fMassHunterAdult" type="Float"/>
+					<field name="fTimeToBabyRespawn" type="Float"/>
+					<field name="fTimeToBabyRespawnAfterFirstSpawn" type="Float"/>
+					<field name="fPodGestationTime" type="Float"/>
+					<field name="uiPodMinaliensSpawned" type="Int64"/>
+					<field name="uiPodMaxaliensSpawned" type="Int64"/>
+					<field name="fShootingCooldown" type="Float"/>
+					<field name="fBulletExplosionRadius" type="Float"/>
+					<field name="fEvolveTimeBabyToAdult" type="Float"/>
+					<field name="fEvolveCooldownBabyToAdultAfterFormation" type="Float"/>
+					<field name="fEvolveCooldownHunterBabyToHunterAdultAfterFormation" type="Float"/>
+					<field name="fEvolveTimeAdultWander" type="Float"/>
+					<field name="fEvolveTimeHunterAdultWander" type="Float"/>
+					<field name="fAttackAdultCooldown" type="Float"/>
+					<field name="uiMaxAdultPopulation" type="Int64"/>
+					<field name="uiMaxSpawningAlienTypePopulation" type="Int64"/>
+				</object>
+				<object name="PickupSpawning">
+					<field name="fPercentagePickupChanceFromBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromAdult" type="Float"/>
+					<field name="fPercentagePickupChanceFromQueen" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterAdult" type="Float"/>
+					<field name="uiPickupChanceForShotgun" type="Int64"/>
+					<field name="uiPickupChanceForAssaultRifle" type="Int64"/>
+					<field name="uiPickupChanceForSingleShotRifle" type="Int64"/>
+					<field name="uiPickupChanceForUzi" type="Int64"/>
+					<field name="uiPickupChanceForExtraLife" type="Int64"/>
+					<field name="uiPickupChanceForExtraTime" type="Int64"/>
+					<field name="uiPickupChanceForDamageBomb" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="BombPickupChallengeRound">
+			<field name="uiMinLevelBeforeUse" type="Int64"/>
+			<field name="fChallengeCompleteWeight" type="Float"/>
+			<field name="iChallengScoreMultiplyer" type="Int32"/>
+			<field name="iChallengeTargetScore" type="Int32"/>
+			<field name="selChallengeReward" type="Enum"/>
+			<object name="CurrentWaveData">
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="fWaveTime" type="Float"/>
+				<field name="fMaxWaveTime" type="Float"/>
+				<field name="fWormholeHeight" type="Float"/>
+				<field name="fIntervalTime" type="Float"/>
+				<field name="fWaveDifficulty" type="Float"/>
+				<object name="WaveWormholes">
+					<object name="Wormholes">
+						<field name="WormholePositionOffset" type="Vector3"/>
+						<object name="SpawnRequests">
+							<object name="NewSpawnRequest">
+								<field name="fSpawnTime" type="Float"/>
+								<field name="fNumberOfBabies" type="Int16"/>
+								<field name="fNumberOfAdults" type="Int16"/>
+								<field name="fNumberOfHunterBabies" type="Int16"/>
+								<field name="fNumberOfHunterAdults" type="Int16"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="AlienAttributes">
+					<field name="fAlienSpeedBaby" type="Float"/>
+					<field name="fAlienSpeedAdult" type="Float"/>
+					<field name="fAlienSpeedHunterBaby" type="Float"/>
+					<field name="fAlienSpeedHunterAdult" type="Float"/>
+					<field name="fPodBabiesEjectionSpeed" type="Float"/>
+					<field name="fPodExplosionRadius" type="Float"/>
+					<field name="fPodDamageToAliens" type="Float"/>
+					<field name="fHealthBaby" type="Float"/>
+					<field name="fHealthBabyToAdult" type="Float"/>
+					<field name="fHealthAdultToQueen" type="Float"/>
+					<field name="fHealthHunterBaby" type="Float"/>
+					<field name="fHealthHunterBabyToHunterAdult" type="Float"/>
+					<field name="fMassBaby" type="Float"/>
+					<field name="fMassAdult" type="Float"/>
+					<field name="fMassHunterBaby" type="Float"/>
+					<field name="fMassHunterAdult" type="Float"/>
+					<field name="fTimeToBabyRespawn" type="Float"/>
+					<field name="fTimeToBabyRespawnAfterFirstSpawn" type="Float"/>
+					<field name="fPodGestationTime" type="Float"/>
+					<field name="uiPodMinaliensSpawned" type="Int64"/>
+					<field name="uiPodMaxaliensSpawned" type="Int64"/>
+					<field name="fShootingCooldown" type="Float"/>
+					<field name="fBulletExplosionRadius" type="Float"/>
+					<field name="fEvolveTimeBabyToAdult" type="Float"/>
+					<field name="fEvolveCooldownBabyToAdultAfterFormation" type="Float"/>
+					<field name="fEvolveCooldownHunterBabyToHunterAdultAfterFormation" type="Float"/>
+					<field name="fEvolveTimeAdultWander" type="Float"/>
+					<field name="fEvolveTimeHunterAdultWander" type="Float"/>
+					<field name="fAttackAdultCooldown" type="Float"/>
+					<field name="uiMaxAdultPopulation" type="Int64"/>
+					<field name="uiMaxSpawningAlienTypePopulation" type="Int64"/>
+				</object>
+				<object name="PickupSpawning">
+					<field name="fPercentagePickupChanceFromBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromAdult" type="Float"/>
+					<field name="fPercentagePickupChanceFromQueen" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterBaby" type="Float"/>
+					<field name="fPercentagePickupChanceFromHunterAdult" type="Float"/>
+					<field name="uiPickupChanceForShotgun" type="Int64"/>
+					<field name="uiPickupChanceForAssaultRifle" type="Int64"/>
+					<field name="uiPickupChanceForSingleShotRifle" type="Int64"/>
+					<field name="uiPickupChanceForUzi" type="Int64"/>
+					<field name="uiPickupChanceForExtraLife" type="Int64"/>
+					<field name="uiPickupChanceForExtraTime" type="Int64"/>
+					<field name="uiPickupChanceForDamageBomb" type="Int64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="AlienBehaviours">
+		<object name="BabySwarmBehaviourProperties">
+			<field name="fOrbitDistance" type="Float"/>
+			<field name="fOrbitBuffer" type="Float"/>
+			<field name="fOrbitTargetDistance" type="Float"/>
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+		</object>
+		<object name="BabyFormationBehaviourProperties">
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+		</object>
+		<object name="AdultWanderBehaviourProperties">
+			<field name="fWanderDistanceToSeekNewTarget" type="Float"/>
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+		</object>
+		<object name="AdultSeekCivBehaviourProperties">
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+			<field name="fSearchRadius" type="Float"/>
+			<field hash="13B56313" type="BinHex"/>
+			<field name="fSearchTime" type="Float"/>
+			<field name="fAttachDistance" type="Float"/>
+			<field name="fAttachHeightOffset" type="Float"/>
+			<field name="fSpeedWhenSeekingCiv" type="Float"/>
+		</object>
+		<object name="AdultSeekPodLocationProperties">
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+			<field name="fPodFallingAcceleration" type="Float"/>
+			<field hash="2EB27CDF" type="BinHex"/>
+		</object>
+		<object name="AdultAttackBehaviourProperties">
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+			<field name="fAttackDistance" type="Float"/>
+			<field name="fAttackSpeed" type="Float"/>
+			<field name="fAttackHeight" type="Float"/>
+			<field name="fAttackOffset" type="Float"/>
+			<field name="fDistanceToSwitchToSting" type="Float"/>
+			<field name="fRecoveryBufferDistance" type="Float"/>
+			<field name="fAttackMaxDuration" type="Float"/>
+			<field hash="C531C6A7" type="String"/>
+			<field name="StingBone" type="BinHex"/>
+		</object>
+		<object name="AdultHunterAttackBehaviourProperties">
+			<field name="fSeperationWeight" type="Float"/>
+			<field name="fSeperationDistance" type="Float"/>
+			<field name="fMaxRaiseHeight" type="Float"/>
+			<field name="fAlienRaiseSpeed" type="Float"/>
+			<field name="fShootingSpeed" type="Float"/>
+			<field name="fAttackSpeed" type="Float"/>
+			<field name="fmaxDistanceFromPlayer" type="BinHex"/>
+			<field hash="108BF2D6" type="String"/>
+			<field name="ShootingBone" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Pickups">
+		<field name="fDamageBombRadius" type="Float"/>
+		<object name="ShotgunData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="AssaultRifleData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="SingleShotData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="UziData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="ExtraLifeData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="ExtraTimeData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+		<object name="DamageBombData">
+			<field name="fPickUpCooldown" type="Float"/>
+			<field name="vectorPickUpCollisionBox" type="Vector3"/>
+			<field name="vectorFallingCollisionBox" type="Vector3"/>
+			<field name="fPowerActiveTime" type="Float"/>
+			<field name="iPickUpValue" type="Int32"/>
+			<field name="bUnlockedFromStart" type="Boolean"/>
+		</object>
+	</object>
+	<object hash="891542DA">
+		<field name="uiLowAmmoAnimation_value_shotgun" type="Int64"/>
+		<field name="uiLowAmmoAnimation_value_assaultRifle" type="Int64"/>
+		<field name="uiLowAmmoAnimation_value_uzi" type="Int64"/>
+		<field name="uiLowAmmoAnimation_value_singleShotRifle" type="Int64"/>
+	</object>
+	<object name="RewardSystem">
+		<field name="itemsRewardAPSToken" type="BinHex"/>
+		<field name="RewardTarget" type="BinHex"/>
+		<field name="WaveTargetForRewards" type="BinHex"/>
+	</object>
+</class>

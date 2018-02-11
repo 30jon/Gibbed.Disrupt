@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Nexuswallaspotdatabase_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SpotData">
+		<field name="disNextSpotID" type="BinHex"/>
+		<object name="Spots">
+			<object name="NexusWallaSpot">
+				<field name="entSpotEntity" type="BinHex"/>
+				<field name="disSpotID" type="BinHex"/>
+				<field name="disWorldPosition" type="BinHex"/>
+				<object name="LocalisedInfo">
+					<object name="locstridLocalisedName">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+					<object name="locstridLocalisedDescripition">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="DebugInfo">
+					<field name="sDebugName" type="BinHex"/>
+					<field name="sDebugDescripition" type="BinHex"/>
+				</object>
+				<object name="TextureInfo">
+					<field name="text_filePrimaryImageTexture" type="String"/>
+					<field name="filePrimaryImageTexture" type="BinHex"/>
+					<field name="disPrimaryImageTextureString" type="String"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Spawning">
+		<field name="text_archDefaultArchetype" type="String"/>
+		<field name="archDefaultArchetype" type="BinHex"/>
+	</object>
+	<object name="Localisation">
+		<object name="locstridSpotCheckInDescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMayorShipEarned">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMayorShipAceived">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMayorReward">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridCityTraveller">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridGiftReturned">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Token">
+		<field name="itemsToken" type="BinHex"/>
+	</object>
+	<object name="PDA">
+		<field name="fPdaAutoCloseSquareDistance" type="Float"/>
+	</object>
+</class>

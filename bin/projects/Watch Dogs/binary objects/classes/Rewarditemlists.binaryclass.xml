@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RewarditemlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CommonRewards">
+		<object name="Reward">
+			<field name="fProbability" type="Float"/>
+			<field name="bUseItemList" type="Boolean"/>
+			<field name="itemlistsItemList" type="BinHex"/>
+			<field name="itemsItem" type="BinHex"/>
+		</object>
+	</object>
+	<object name="RareRewards">
+		<object name="Reward">
+			<field name="fProbability" type="Float"/>
+			<field name="bUseItemList" type="Boolean"/>
+			<field name="itemlistsItemList" type="BinHex"/>
+			<field name="itemsItem" type="BinHex"/>
+		</object>
+	</object>
+</class>

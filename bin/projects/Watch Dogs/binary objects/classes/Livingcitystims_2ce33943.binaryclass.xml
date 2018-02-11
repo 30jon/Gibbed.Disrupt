@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Livingcitystims_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="InstantStims">
+		<object name="ARGunShot">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarCrash">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarCrashBig">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarHonk">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarHonkPlayer">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="Carjacking">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarTheft">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarTireDeflate">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CarTakeDownBollard">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="CuriousBhv">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="DenunciatorAttacked">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="ElectricSpark">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="GunShot">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HackedEntityMalfunction">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HearGrenadeLanding">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HearStickyProjectile">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HitByProjectile">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HitByVehicle">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="IncomingClimber">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="MyCloseObjectBroken">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="MyCloseObjectBigBroken">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="OnLeaderQuit">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="OwnCarStolen">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="PeopleDie">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="PersonAttacked">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="PuddleSplash">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="ShutDownMediaBroadcast">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="SteamPipeExplosion">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="TakeDownFinished">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="MyCarJackingFinished">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="HitByGrenade">
+			<field name="stims" type="BinHex"/>
+		</object>
+		<object name="SECarAccident">
+			<field name="stims" type="BinHex"/>
+		</object>
+	</object>
+	<object name="PersistentStims">
+		<object name="AimingWithGun">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="Arrest">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CarCrashBigPersistant">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CarCrashPileup">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CarOnOpenBridge">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CivilianPanic">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CivilianAnxiety">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CivilianSpiderTankPanic">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="DeadBody">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="GrenadeInEnvironment">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="GrenadeInHand">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="InCameraRecticle">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="OffRoadDriving">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="PanicInside">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="PlayerPlayingARGame">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="PlayerReputation">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="RunningPeopleProximity">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="SteamPipe">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="StickyBombInEnvironment">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="SpecialBroadcast">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="UncommonAction">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="UnholsteredGun">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+		<object name="CarSiren">
+			<field name="stims" type="BinHex"/>
+			<field name="fPersistenceInterval" type="Float"/>
+		</object>
+	</object>
+	<object name="UnholsteredGun">
+		<field name="fMinVisibilityFactor" type="Float"/>
+	</object>
+</class>

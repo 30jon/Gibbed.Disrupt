@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Playericondb_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="colorLocalPlayerColor" type="Vector4"/>
+	<field name="colorObjectivePlayerColor" type="Vector4"/>
+	<field name="colorNeutralPlayerColor" type="Vector4"/>
+	<field name="colorTeammatePlayerColor" type="Vector4"/>
+	<field name="colorEnemyPlayerColor" type="Vector4"/>
+	<field name="mapicondescDefaultPlayerMapIcon" type="BinHex"/>
+	<field name="mapicondescFriendlyPlayerMapIcon" type="BinHex"/>
+	<field name="mapicondescDefaultPlayerRedMapIcon" type="BinHex"/>
+	<field name="mapicondescDefaultPlayerGreenMapIcon" type="BinHex"/>
+	<object name="locstridNeutralPlayerMapTypeTag">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridEnemyPlayerMapTypeTag">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridTeammatePlayerMapTypeTag">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

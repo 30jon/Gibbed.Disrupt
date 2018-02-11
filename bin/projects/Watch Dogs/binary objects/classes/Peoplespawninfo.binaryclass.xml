@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PeoplespawninfoParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" />
+	<field name="hidKey" />
+    <field name="archCustomArchetype" />
+    <field name="bUseDialogActor" type="Boolean" />
+    <field name="dialactorlistDialogActorsList" />
+    <field name="dialactorlistDialogActorsListLowQuality" />
+    <object name="ModelInfo">
+        <field name="selGender" type="Enum" />
+        <field name="selSocialClass" type="Enum" />
+    </object>
+    <object name="GraphicKit">
+        <field name="hidSingleObject" type="Boolean" />
+        <field name="hidName" />
+        <field name="hidKey" />
+        <field name="graphickitmodelModel" />
+        <field name="graphickitcollectionCollection" />
+        <object name="IncludeTags">
+            <object name="Tag">
+                <field name="selTag" />
+            </object>
+        </object>
+        <object name="ExcludeTags" />
+        <object name="ValidModels">
+            <object name="graphickitmodelModel">
+                <field name="graphickitmodelModel" />
+            </object>
+        </object>
+    </object>
+    <object name="ProfilerSettings">
+        <field name="profilerinfofilterProfileFilter" />
+        <field name="fileProfilerThumbnailOverride" />
+        <field name="vectorProfilerSquareTargetOffset" type="Vector3" />
+        <field name="fDefaultBehaviorAnalysisPercentage" type="Float" />
+        <object name="locsectionidProfile" />
+        <object name="BehaviorAnalysisTitles">
+            <object name="locstridPassive" />
+            <object name="locstridActive" />
+        </object>
+    </object>
+</class>

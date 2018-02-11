@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Shellgame_progressionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ShellGameProgressionSteps">
+		<object name="Steps">
+			<object name="ShellGameDifficulties">
+				<object name="ShellGameDifficulty">
+					<object name="ShellGameDifficulty">
+						<field name="shellgamedifficultyShellGameDifficulty" type="BinHex"/>
+						<field name="uiBet" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

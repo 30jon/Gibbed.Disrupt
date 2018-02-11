@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OperatormissionconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iDetectionRadiusSquared" type="Int32"/>
+	<field hash="F4435A5F" type="String"/>
+	<field name="psFxCollectBonusCash" type="BinHex"/>
+	<field hash="9D6E27A3" type="String"/>
+	<field name="psFxCollectBonusTime" type="BinHex"/>
+	<field name="iNotorietyBonus" type="Int32"/>
+	<field hash="2EF39ECE" type="BinHex"/>
+	<field hash="7826374C" type="BinHex"/>
+	<field hash="5EB48EBD" type="BinHex"/>
+	<object name="Respawn">
+		<field name="bUseCustomNearDeathSpotStrategy" type="Boolean"/>
+		<object name="CustomRespawnPriorities"/>
+	</object>
+	<object name="OperatorAudio">
+		<field name="sndBonusCheckpointReachedSoundId" type="BinHex"/>
+		<field name="sndCheckpointReachedSoundId" type="BinHex"/>
+		<field name="sndMainGoalSoundId" type="BinHex"/>
+		<field name="sndMissionFailureSoundId" type="BinHex"/>
+		<field name="sndMissionSuccessSoundId" type="BinHex"/>
+		<field name="sndOperatorAddedHeatSoundId" type="BinHex"/>
+		<field name="sndOperatorDispatchSoundId" type="BinHex"/>
+		<field name="sndOperatorHackedBroadcastSoundId" type="BinHex"/>
+		<field name="sndOperatorMarkedAppSoundId" type="BinHex"/>
+		<field name="sndOperatorUsedConsumableSoundId" type="BinHex"/>
+		<field name="sndTimerRefilledSoundId" type="BinHex"/>
+		<field name="sndTimerWarningSoundId" type="BinHex"/>
+	</object>
+	<object name="ChopperSniperList">
+		<object name="ChopperSniper">
+			<field name="selUnitID" type="Enum"/>
+		</object>
+	</object>
+	<object name="DispatchCops">
+		<object name="DispatchCop">
+			<field name="unitpresetDispatchCop" type="BinHex"/>
+		</object>
+	</object>
+	<object name="PlayerCars">
+		<object name="PlayerCar">
+			<field name="vehicleinfoPlayerCar" type="BinHex"/>
+		</object>
+	</object>
+</class>

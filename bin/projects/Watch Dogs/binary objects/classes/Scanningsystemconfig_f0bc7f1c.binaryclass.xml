@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Scanningsystemconfig_f0bc7f1cParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="mapicondescRimMapIcon" type="BinHex"/>
+	<field name="mapicondescRimEffectMapIcon" type="BinHex"/>
+	<field name="mapicondescBeamMapIcon" type="BinHex"/>
+	<field name="mapicondescHeliMapIcon" type="BinHex"/>
+	<field name="mapicondescDiskMapIcon" type="BinHex"/>
+	<object name="Sounds">
+		<field name="sndShowScanningSound" type="BinHex"/>
+		<field name="sndHideScanningSound" type="BinHex"/>
+		<field name="sndNotifyScanLevelSound" type="BinHex"/>
+		<field name="sndNotifyScanEscapeSound" type="BinHex"/>
+		<field name="sndNotifyScannedSound" type="BinHex"/>
+		<field name="sndPlayerInsideScanSound" type="BinHex"/>
+		<field name="sndPlayerOutsideScanSound" type="BinHex"/>
+		<field name="sndScanLevelStartSound" type="BinHex"/>
+		<field name="sndScanLevelStopSound" type="BinHex"/>
+		<field name="sndScanCancelledSound" type="BinHex"/>
+		<field name="sndPlayerScannedSound" type="BinHex"/>
+		<field name="sndNotifyHeatLevelUpSound" type="BinHex"/>
+		<field name="sndNotifyHeatLevelDownSound" type="BinHex"/>
+		<field name="sndmlScanLevelMultilayer" type="BinHex"/>
+	</object>
+	<object name="CustomScans">
+		<object name="CustomScan">
+			<field name="bActive" type="Boolean"/>
+			<field name="sndInitiateScanLevelSound" type="BinHex"/>
+			<field name="nMinimumNumberOfPasses" type="Int32"/>
+			<field name="nMaximumNumberOfPasses" type="Int32"/>
+			<field name="nMaximumNumberOfCircles" type="Int32"/>
+			<field name="fDelayBetweenPasses" type="Float"/>
+			<field name="fDetectionRate" type="Float"/>
+			<field name="fDecayRate" type="Float"/>
+			<field name="scanpasslibraryScanPassLibrary" type="BinHex"/>
+			<object name="EmergencyScan">
+				<field name="fPlayerImmobileRadius" type="Float"/>
+				<field name="fPlayerImmobileTime" type="Float"/>
+				<field name="fPlayerOutsideScanTime" type="Float"/>
+				<field name="fEmergencyFollowLowSpeed" type="Float"/>
+				<field name="fEmergencyFollowHighSpeed" type="Float"/>
+				<object name="EmergencyScanPass">
+					<field name="scanpassparametersScanPassConfig" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

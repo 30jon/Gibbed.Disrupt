@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ScanpasslibraryParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fInsideScanSpeedFactor" type="Float"/>
+	<field hash="F9B7D54B" type="BinHex"/>
+	<field hash="13779512" type="BinHex"/>
+	<object name="ScanPassLibrary">
+		<object name="ScanPass">
+			<field name="scanpassparametersScanPassConfig" type="BinHex"/>
+		</object>
+	</object>
+</class>

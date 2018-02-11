@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PawnerssettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fStressDecaySpeed" type="Float"/>
+	<field name="fDelayBeforeStressDecay" type="Float"/>
+	<field name="fShortTermStressDecaySpeed" type="Float"/>
+	<field name="fDelayBeforeShortTermStressDecay" type="Float"/>
+	<object name="Stims">
+		<object name="Stim">
+			<field name="selStimType" type="Enum"/>
+			<field name="fRadius" type="Float"/>
+			<field name="fStressValue" type="Float"/>
+			<field name="bLayeredResponse" type="Boolean"/>
+			<field name="fLayeredTimeToLive" type="Float"/>
+			<field name="bFullResponse" type="Boolean"/>
+			<field name="vec2InsaneDistanceRange" type="Vector2"/>
+			<field name="vec2VeryHighDistanceRange" type="Vector2"/>
+			<field name="vec2HighDistanceRange" type="Vector2"/>
+			<field name="vec2ModerateDistanceRange" type="Vector2"/>
+			<field name="vec2LightDistanceRange" type="Vector2"/>
+			<field name="selLayeredIfIntensityUnder" type="Enum"/>
+			<field name="bLayeredIfInCover" type="Boolean"/>
+			<field name="bLayeredIfAiming" type="Boolean"/>
+			<object name="curveDistanceFactor">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fruitmachine_machinesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="F1B1D97B" type="String"/>
+	<field name="sName" type="BinHex"/>
+	<field name="bIsMultiline" type="Boolean"/>
+	<field name="bIsNudgeAndHold" type="Boolean"/>
+	<field name="bIsNexusmonBranded" type="Boolean"/>
+</class>

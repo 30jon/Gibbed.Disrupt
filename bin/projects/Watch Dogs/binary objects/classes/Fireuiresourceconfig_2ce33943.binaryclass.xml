@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fireuiresourceconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Languages">
+		<object name="Language">
+			<field hash="94A714F0" type="String"/>
+			<field name="sLanguage" type="BinHex"/>
+			<object name="Resources">
+				<object name="Resource">
+					<field hash="F3A51A52" type="String"/>
+					<field name="Resource" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

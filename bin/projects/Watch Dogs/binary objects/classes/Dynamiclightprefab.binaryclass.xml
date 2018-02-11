@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DynamiclightprefabParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selLightType" type="Enum"/>
+	<field hash="ACCA3298" type="BinHex"/>
+	<field name="bSpecular" type="Boolean"/>
+	<field hash="F532908C" type="BinHex"/>
+	<field name="bNeedsElectricPower" type="Boolean"/>
+	<field name="bHasElectricBackup" type="Boolean"/>
+	<field name="bAffectedByTimeOfDay" type="Boolean"/>
+	<field name="bDisabledInCinematics" type="Boolean"/>
+	<field name="bEnabledInEditor" type="Boolean"/>
+	<field name="vectorPositionOffset" type="Vector3"/>
+	<field name="clrColor" type="BinHex"/>
+	<field name="fIntensity" type="Float"/>
+	<field name="fRadius" type="Float"/>
+	<field hash="2FC2C113" type="BinHex"/>
+	<field name="bCastShadow" type="Boolean"/>
+	<field name="fCastShadowMaxDistance" type="Float"/>
+	<field name="fCastShadowFadeDistance" type="Float"/>
+	<field name="iShadowFadeFactorCurveIndex" type="Int32"/>
+	<field hash="304CE24D" type="BinHex"/>
+	<field name="fShadowDepthBiasScale" type="Float"/>
+	<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
+	<field name="fileProjectedTexture" type="BinHex"/>
+	<field name="fOuterAngle" type="Float"/>
+	<field hash="788F7BDA" type="BinHex"/>
+	<field hash="CB7FE2AF" type="BinHex"/>
+	<field hash="E1C6E92F" type="BinHex"/>
+	<field hash="583B3275" type="BinHex"/>
+	<field hash="AD6D22CA" type="BinHex"/>
+	<field name="selPriority" type="Enum"/>
+	<field hash="232B2FEF" type="BinHex"/>
+	<field name="uiShadowGroup" type="Int64"/>
+	<field name="fTurnOffFallOff" type="Float"/>
+	<field name="fTurnOffDistance" type="Float"/>
+	<field name="fFlickeringFrequency" type="Float"/>
+	<field name="fFlickeringAmplitude" type="Float"/>
+	<field name="fFlickeringNoise" type="Float"/>
+	<object name="Affects">
+		<field name="bGeometry" type="Boolean"/>
+		<field name="bParticles" type="Boolean"/>
+		<field name="fParticlesLightIntensityMultiplier" type="Float"/>
+		<field name="bParticlesShadow" type="Boolean"/>
+		<field name="bParticlesProjectedTexture" type="Boolean"/>
+		<field name="bWater" type="Boolean"/>
+		<field name="bGlobalIllumination" type="Boolean"/>
+		<field name="bBakedDirectLighting" type="Boolean"/>
+	</object>
+	<object name="ProjectedVideo">
+		<field name="fileProjectedVideo" type="BinHex"/>
+		<field name="bPlayOnLoad" type="Boolean"/>
+		<field name="iShareChannel" type="Int32"/>
+	</object>
+	<object name="ClipPlanes">
+		<object name="ClipPlane">
+			<field name="angYaw" type="Float"/>
+			<field name="angPitch" type="Float"/>
+			<field name="fDistance" type="Float"/>
+			<field name="fFadeDistance" type="Float"/>
+			<field hash="789DC7B7" type="BinHex"/>
+			<field name="bShowInEditorIfSelected" type="Boolean"/>
+		</object>
+	</object>
+</class>

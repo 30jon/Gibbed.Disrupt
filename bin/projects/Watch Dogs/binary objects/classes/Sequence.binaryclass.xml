@@ -1,0 +1,47 @@
+<class name="SequenceParameters">
+    <object name="CCinematicSequence">
+        <field name="sName" type="String"/>
+        <field name="disUniqueId"/>
+        <field name="hidIncremental"/>
+        <field name="bUseTimeNoSlowmo" type="Boolean"/>
+        <field name="bLoop" type="Boolean"/>
+        <field name="bResetEventOnLoop" type="Boolean"/>
+        <field hash="AEA7E7C7" type="String"/>
+        <field name="hidVersion" type="Enum"/>
+        <field name="bFramerateControl" type="Boolean"/>
+        <field name="bSkipable" type="Boolean"/>
+        <field name="bDisableMotionBlur" type="Boolean"/>
+        <field name="bFreezeEntityForPrepare" type="Boolean"/>
+        <object name="CSequenceTrackGroup">
+            <field name="sName" type="String"/>
+            <field name="disUniqueId"/>
+            <field name="bEnabled" type="Boolean"/>
+            <field hash="22958F3A"/>
+            <field name="disMuted"/>
+            <object name="Tracks">
+                <inherit name="CCameraTrack"/>
+                <inherit name="CCameraTrackGroup"/>
+                <inherit name="CCharacterTrackGroup"/>
+                <inherit name="CEntityTrackGroup"/>
+                <inherit name="COverlayTrack"/>
+                <inherit name="CPlayerTrackGroup"/>
+                <inherit name="CVehicleTrackGroup"/>
+                <inherit name="CSequenceTrackGroup"/>
+            </object>
+        </object>
+        <object name="SyncPoints">
+            <object name="CSequenceSyncPoint">
+                <field name="sName" type="String"/>
+                <field name="disUniqueId"/>
+                <field name="timeTime" type="Float"/>
+                <field name="selSyncPointType" type="Enum"/>
+                <field name="bPauseWhenReached" type="Boolean"/>
+                <field name="bPreloadAnimsAtThisPoint" type="Boolean"/>
+            </object>
+        </object>
+        <object name="Transition">
+            <field name="bToTransition" type="Boolean"/>
+            <field name="FromTransition"/>
+        </object>
+    </object>
+</class>

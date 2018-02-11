@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Detection">
+		<object name="ConeAndRadiusConfig">
+			<object name="Default">
+				<field name="fAutoDetectionRadiusDeprecated" type="Float"/>
+				<field hash="568658D5" type="BinHex"/>
+				<field name="fBackAngleLOS" type="Float"/>
+				<object name="curveAutoDetectionRadius">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="InCombat">
+				<field name="fAutoDetectionRadiusInCombatDeprecated" type="Float"/>
+				<field hash="923B641C" type="BinHex"/>
+				<field name="fBackAngleLOSInCombat" type="Float"/>
+				<object name="curveAutoDetectionRadiusInCombat">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="RangeModifierConfig">
+			<field name="fMediumRange" type="Float"/>
+			<field name="fCloseRange" type="Float"/>
+			<field name="fPersonalRange" type="Float"/>
+			<field name="fDetectionRadiusRatioOnBackup" type="Float"/>
+			<field name="fDetectionRadiusRatioOnBlackout" type="Float"/>
+			<field name="fReputationModifer" type="Float"/>
+		</object>
+		<object name="FOVDetection">
+			<object name="FOVFront">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVFrontCombat">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVRear">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVRearCombat">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVSpotlight">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVSpotlightCombat">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVSides">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVSidesCombat">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Chopper">
+				<object name="FOVDown">
+					<field name="fLateralBase" type="Float"/>
+					<field name="fLateralMidRatio" type="Float"/>
+					<field name="fLateralMax" type="Float"/>
+					<field name="fHeightBase" type="Float"/>
+					<field name="fHeightMidRatio" type="Float"/>
+					<field name="fHeightMaxDeprecated" type="Float"/>
+					<field name="fDeadZone" type="Float"/>
+					<field name="fZOffset" type="Float"/>
+					<field name="fMinDistToUseBodyDir" type="Float"/>
+					<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+					<object name="curveMaxDepthByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="curveMaxHeightByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="FOVDownCombat">
+					<field name="fLateralBase" type="Float"/>
+					<field name="fLateralMidRatio" type="Float"/>
+					<field name="fLateralMax" type="Float"/>
+					<field name="fHeightBase" type="Float"/>
+					<field name="fHeightMidRatio" type="Float"/>
+					<field name="fHeightMaxDeprecated" type="Float"/>
+					<field name="fDeadZone" type="Float"/>
+					<field name="fZOffset" type="Float"/>
+					<field name="fMinDistToUseBodyDir" type="Float"/>
+					<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+					<object name="curveMaxDepthByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="curveMaxHeightByTimeOfDayCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="curveTargetSpeedVsMaxDepthModifierCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Chopper">
+			<object name="FOVDown">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="FOVDownCombat">
+				<field name="fLateralBase" type="Float"/>
+				<field name="fLateralMidRatio" type="Float"/>
+				<field name="fLateralMax" type="Float"/>
+				<field name="fHeightBase" type="Float"/>
+				<field name="fHeightMidRatio" type="Float"/>
+				<field name="fHeightMaxDeprecated" type="Float"/>
+				<field name="fDeadZone" type="Float"/>
+				<field name="fZOffset" type="Float"/>
+				<field name="fMinDistToUseBodyDir" type="Float"/>
+				<field name="fMaxDistToUseMobileElementDir" type="Float"/>
+				<object name="curveMaxDepthByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveMaxHeightByTimeOfDayCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<field name="EnableFOVDownDetection" type="BinHex"/>
+			<field name="FOVDownPitchDegrees" type="BinHex"/>
+			<field name="FOVFrontPitchDegrees" type="BinHex"/>
+			<field name="EnableFOVRearDetection" type="BinHex"/>
+			<field name="EnableFOVFrontTracking" type="BinHex"/>
+			<field name="EnableFOVRearTracking" type="BinHex"/>
+			<field name="bUseHelicopterVision" type="Boolean"/>
+		</object>
+	</object>
+	<object name="SafeDriving">
+		<field name="vehiclesafedrivingcfgNormal" type="BinHex"/>
+		<field name="vehiclesafedrivingcfgStressed" type="BinHex"/>
+	</object>
+	<object name="GaugeModifier">
+		<field name="fGaugeTimeToReachTopAlert" type="Float"/>
+		<field name="fGaugeTimeToReachBottomAlert" type="Float"/>
+		<field name="fGaugeTimeToReachTopPlayerBlackoutModifier" type="Float"/>
+		<field name="fGaugeTimeToReachBottomPlayerBlackoutModifier" type="Float"/>
+		<field name="fGaugeTimeToReachTopPlayerBackupModifier" type="Float"/>
+		<object name="curveGaugeMaxDepthFOVvsTimeModifierCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveGaugeAngleToTargetvsTimeModifierCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Stimulus">
+			<field name="fGaugeTimeToReachTopGunFireModifier" type="Float"/>
+			<field name="fGaugeTimeToReachTopWeaponInHandsModifier" type="Float"/>
+			<field name="fGaugeTimeToReachTopCollisionModifier" type="Float"/>
+		</object>
+	</object>
+	<object name="TireBlowoutBhv">
+		<field name="bAmplifyDamage" type="Boolean"/>
+		<field name="fEnginePowerBoostFactor" type="Float"/>
+		<object name="Swerve">
+			<field name="fMinSpeedToSwerve_kmh" type="Float"/>
+			<object name="curveGripRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveCenterOfMassZOffsetOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveBreakRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveAccelerationRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveSteerTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveSteeringAngleDegOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SpintOut">
+			<field name="fMinSpeedToSpinOut_kmh" type="Float"/>
+			<field name="fTireGripRatio" type="Float"/>
+			<field name="fCenterMassZOffset" type="Float"/>
+		</object>
+		<object name="DrivingWithDeflatedTire">
+			<field name="fImmobilizedDriveTime" type="Float"/>
+			<field name="fSlowSpeedDriveTime" type="Float"/>
+			<field name="fSlowSpeedKmh" type="Float"/>
+		</object>
+	</object>
+	<object name="OutOfControl">
+		<field name="vehicleoutofcontrolconfigConfig" type="BinHex"/>
+	</object>
+	<object name="AmplifiedDamage">
+		<object name="curveBollardAmplifiedDamageVSWeight">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="HardCollision">
+		<field name="fCooldown" type="Float"/>
+		<field name="fMinRealtiveCollisionSpeedInKmh" type="Float"/>
+		<field name="fSpeedLostRatio" type="Float"/>
+	</object>
+</class>

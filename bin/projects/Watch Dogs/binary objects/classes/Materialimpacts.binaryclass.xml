@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MaterialimpactsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sndSwitchSound" type="BinHex"/>
+	<field name="bUseObjectDirectionForParticles" type="Boolean"/>
+	<object name="ParticlesSystems">
+		<object name="ParticlesSystem">
+			<field name="disName" type="String"/>
+			<field name="disMatId" type="BinHex"/>
+			<object name="ParticleFXs">
+				<object name="ParticleFX">
+					<field hash="31491B5F" type="String"/>
+					<field name="psParticlesSystem" type="BinHex"/>
+					<field name="fWeight" type="Float"/>
+				</object>
+			</object>
+			<object name="SpecParticleFXs">
+				<object name="SpecParticleFX">
+					<field hash="31491B5F" type="String"/>
+					<field name="psParticlesSystem" type="BinHex"/>
+					<field name="fWeight" type="Float"/>
+					<field name="SpecializationId" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Decals">
+		<object name="Decal">
+			<field name="disName" type="String"/>
+			<field name="disMatId" type="BinHex"/>
+			<field name="decalDecal" type="BinHex"/>
+			<field name="decalLargeAngleDecal" type="BinHex"/>
+			<field name="fLargeDecalMaxAngleImpact" type="Float"/>
+			<object name="AngleDecals">
+				<object name="AngleDecal">
+					<field name="fAngle" type="Float"/>
+					<field name="decalDecal" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

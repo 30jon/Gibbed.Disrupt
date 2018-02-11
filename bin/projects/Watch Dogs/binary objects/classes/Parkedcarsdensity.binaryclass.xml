@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ParkedcarsdensityParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bZeroDensity" type="Boolean"/>
+	<field name="fDistanceMin" type="Float"/>
+	<field name="fDistanceMax" type="Float"/>
+	<field name="hidMigrated" type="BinHex"/>
+</class>

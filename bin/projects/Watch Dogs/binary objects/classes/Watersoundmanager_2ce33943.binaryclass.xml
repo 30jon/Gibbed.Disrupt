@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Watersoundmanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="matimpObjectSplash" type="BinHex"/>
+	<object name="WaterDeepnessSwitch">
+		<field name="sndswtpWaterDeepSoundSwitchType" type="BinHex"/>
+		<field name="sndswvlSoundSwitchSolidGround" type="BinHex"/>
+		<field name="sndswvlSoundSwitchMud" type="BinHex"/>
+		<field name="sndswvlSoundSwitchWaterLow" type="BinHex"/>
+		<field name="sndswvlSoundSwitchWaterDeep" type="BinHex"/>
+	</object>
+	<object name="PerspectiveSwitch">
+		<field name="sndswtpPerspectiveSoundSwitchType" type="BinHex"/>
+		<field name="sndswvlSoundSwitchOutOfWater" type="BinHex"/>
+		<field name="sndswvlSoundSwitchUnderwater" type="BinHex"/>
+	</object>
+	<object name="ObjectSizeSwitch">
+		<field name="sndswtpObjectSizeSoundSwitchType" type="BinHex"/>
+		<field name="sndswvlSoundSwitchLargeObject" type="BinHex"/>
+		<field name="sndswvlSoundSwitchMediumObject" type="BinHex"/>
+		<field name="sndswvlSoundSwitchSmallObject" type="BinHex"/>
+	</object>
+	<object name="ObjectSpeedSwitch">
+		<field name="sndswtpObjectSpeedSoundSwitchType" type="BinHex"/>
+		<field name="sndswvlSoundSwitchVeryFastObject" type="BinHex"/>
+		<field name="sndswvlSoundSwitchFastObject" type="BinHex"/>
+		<field name="sndswvlSoundSwitchSlowObject" type="BinHex"/>
+	</object>
+	<object name="WaterDeepnessLimit">
+		<field name="fMudLimit" type="Float"/>
+		<field name="fLowWaterLimit" type="Float"/>
+	</object>
+	<object name="ObjectSizeLimit">
+		<field name="fSmallObjectLimitt" type="Float"/>
+		<field name="fMediumObjectLimit" type="Float"/>
+	</object>
+	<object name="ObjectSpeedLimit">
+		<field name="fSlowObjectLimitt" type="Float"/>
+		<field name="fFastObjectLimit" type="Float"/>
+	</object>
+	<object name="WaterMaterialID">
+		<field name="iMudMaterialID" type="Int32"/>
+		<field name="iLowWaterMaterialID" type="Int32"/>
+		<field name="iDeepWaterMaterialID" type="Int32"/>
+	</object>
+</class>

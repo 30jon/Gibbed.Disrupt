@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="NpcreactionssettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ReactionSettings">
+		<object name="Reaction">
+			<field name="npcreacsettingsStimSettings" type="BinHex"/>
+			<field name="selNPCExitState" type="Enum"/>
+			<field name="fleeonfootconfigFleeOnFootConfig" type="BinHex"/>
+			<field name="bCallReinforcements" type="Boolean"/>
+			<field name="selFelonyType" type="Enum"/>
+			<field name="chaselevelparametersChaseLevelParams" type="BinHex"/>
+			<field name="chaselevelparametersSearchLevelParams" type="BinHex"/>
+			<field name="fCallDelayMin" type="Float"/>
+			<field name="fCallDelayMax" type="Float"/>
+			<field name="uiNumRetries" type="Int64"/>
+			<field name="strBark" type="BinHex"/>
+		</object>
+	</object>
+</class>

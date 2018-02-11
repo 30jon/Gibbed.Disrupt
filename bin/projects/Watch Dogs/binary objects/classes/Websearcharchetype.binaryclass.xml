@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WebsearcharchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="WebSearchGenerator">
+		<field name="fWeight" type="Float"/>
+		<object name="WebSearchType">
+			<object name="WebSearchType">
+				<object name="locsectionidCriminalRecordType"/>
+			</object>
+		</object>
+		<object name="WebSearchGenerator">
+			<field name="fWeight" type="Float"/>
+			<object name="WebSearchType">
+				<object name="locsectionidCriminalRecordType"/>
+				<object name="WebSearchType">
+					<object name="locsectionidCriminalRecordType"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Globalsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fActivationMaxPlayerSpeed" type="Float"/>
+	<field name="fActivationDelayMin" type="Float"/>
+	<field name="fActivationDelayMax" type="Float"/>
+	<field name="fSpecialReportBroadcastDuration" type="Float"/>
+	<field hash="AE34801E" type="Float"/>
+	<field name="fIconAnimationTime" type="Float"/>
+	<field name="iIconsOnMinimap" type="Int32"/>
+	<field name="fMaxDistanceForIconsOnMinimap" type="Float"/>
+	<field name="fSubtitleDisplayTime" type="Float"/>
+	<field name="bUseMinDistanceBetweenIcons" type="Boolean"/>
+	<field name="fm_delayAfterMission" type="Float"/>
+	<field name="fSubtitleRangeMax" type="Float"/>
+	<field name="fMinimumRequiredTimePlayerOnFoot" type="Float"/>
+	<field name="fMaximumRequiredTimePlayerOnFoot" type="Float"/>
+	<field name="fMinDistanceBetweenIcons" type="Float"/>
+	<field name="fDeadsecBroadcastDuration" type="Float"/>
+	<object name="locstridBroadcastInProgressId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridBroadcastCompanionInProgressId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="ReputationDependantSettings">
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="VeryBadReputationSettings">
+			<field name="fSpecialBroadcastInterval" type="Float"/>
+			<field name="iFugitiveBroadcastMaxCount" type="Int32"/>
+			<field name="iNonFugitiveBroadcastMaxCount" type="Int32"/>
+			<object name="ShopMediaBroadcastIntervals">
+				<object name="MediaBroadcastInterval">
+					<field name="iInterval" type="Int32"/>
+				</object>
+			</object>
+		</object>
+		<object name="BadReputationSettings">
+			<field name="fSpecialBroadcastInterval" type="Float"/>
+			<field name="iFugitiveBroadcastMaxCount" type="Int32"/>
+			<field name="iNonFugitiveBroadcastMaxCount" type="Int32"/>
+			<object name="ShopMediaBroadcastIntervals">
+				<object name="MediaBroadcastInterval">
+					<field name="iInterval" type="Int32"/>
+				</object>
+			</object>
+		</object>
+		<object name="NeutralReputationSettings">
+			<field name="fSpecialBroadcastInterval" type="Float"/>
+			<field name="iFugitiveBroadcastMaxCount" type="Int32"/>
+			<field name="iNonFugitiveBroadcastMaxCount" type="Int32"/>
+			<object name="ShopMediaBroadcastIntervals"/>
+		</object>
+		<object name="GoodReputationSettings">
+			<field name="fSpecialBroadcastInterval" type="Float"/>
+			<field name="iFugitiveBroadcastMaxCount" type="Int32"/>
+			<field name="iNonFugitiveBroadcastMaxCount" type="Int32"/>
+			<object name="ShopMediaBroadcastIntervals"/>
+		</object>
+		<object name="VeryGoodReputationSettings">
+			<field name="fSpecialBroadcastInterval" type="Float"/>
+			<field name="iFugitiveBroadcastMaxCount" type="Int32"/>
+			<field name="iNonFugitiveBroadcastMaxCount" type="Int32"/>
+			<object name="ShopMediaBroadcastIntervals"/>
+		</object>
+	</object>
+	<object name="NarrativeManagerSettings">
+		<field name="fRespawnGlobalDelay" type="Float"/>
+		<field name="fDelayMinimum" type="Float"/>
+		<field name="fDelayMaximum" type="Float"/>
+	</object>
+	<object name="GenericBroadcastPrograms">
+		<object name="GenericBroadcastProgram">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds"/>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="ShopBroadcastPrograms">
+		<object name="ShopBroadcastProgram">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds"/>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="BarBroadcastPrograms">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds"/>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="BarBroadcastPrograms">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds"/>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="FugitiveBumper">
+		<field name="sndStartSound" type="BinHex"/>
+		<object name="LocalizationIdLocalizationId"/>
+	</object>
+	<object name="DeadsecBumper">
+		<field name="sndStartSound" type="BinHex"/>
+		<object name="LocalizationIdLocalizationId"/>
+	</object>
+	<object name="DeadsecBroadcasts"/>
+	<object name="FugitivePositiveBroadcasts">
+		<object name="FugitivePositiveBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="FugitiveNegativeBroadcasts">
+		<object name="FugitiveNegativeBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="FugitivePositiveBroadcastsAct2">
+		<object name="FugitivePositiveBroadcastAct2">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="FugitiveNegativeBroadcastsAct2">
+		<object name="FugitiveNegativeBroadcastAct2">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="Act1SpecialBroadcast">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="Act1SpecialBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="Act2SpecialBroadcast">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="Act2SpecialBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="Act3SpecialBroadcast">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="Act3SpecialBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="Act4SpecialBroadcast">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="Act4SpecialBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="Act5SpecialBroadcast">
+		<field name="fileBink" type="String"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field name="sndSoundId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID"/>
+		<object name="Act5SpecialBroadcast">
+			<field name="fileBink" type="String"/>
+			<field name="fSubtitleDisplayTime" type="Float"/>
+			<field name="bIsBinkStreamed" type="Boolean"/>
+			<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+			<object name="Sounds">
+				<object name="Sound">
+					<field name="sndSoundId" type="BinHex"/>
+				</object>
+			</object>
+			<object name="locstridDefaultLocalizationID"/>
+		</object>
+	</object>
+	<object name="MANDATORY_DEFAULT_TEXTURES">
+		<field hash="83626177" type="String"/>
+		<field name="matNoSignalMaterial" type="BinHex"/>
+		<field hash="B0A36321" type="String"/>
+		<field name="matGenericChannelMaterial" type="BinHex"/>
+		<field hash="CDD667A3" type="String"/>
+		<field name="matShopChannelMaterial" type="BinHex"/>
+		<field hash="E76ACBCC" type="String"/>
+		<field name="matBarChannelMaterial" type="BinHex"/>
+	</object>
+</class>

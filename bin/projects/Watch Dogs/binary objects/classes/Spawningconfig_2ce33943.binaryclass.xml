@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Spawningconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fNbVhclPerPatternTexel" type="Float"/>
+	<object name="SpawnTypes">
+		<object name="NPCs">
+			<object hash="D02B34A6">
+				<field hash="F1B1D97B" type="String"/>
+				<field name="sName" type="BinHex"/>
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+				<field name="bUseInFelony" type="Boolean"/>
+			</object>
+		</object>
+		<object name="AIVehicles">
+			<object name="AIVehicle">
+				<field hash="F1B1D97B" type="String"/>
+				<field name="sName" type="BinHex"/>
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+				<field name="bUseInFelony" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+</class>

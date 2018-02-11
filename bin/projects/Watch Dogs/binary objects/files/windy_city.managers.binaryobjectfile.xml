@@ -1,0 +1,5 @@
+<file name="windy_city.managers">
+	<object hash="503F8250">
+		<inherit name="WindyCityManagers" />
+	</object>
+</file>

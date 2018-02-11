@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletransmissionParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fFinalGearRatio" type="Float"/>
+	<field name="fReverseGearRatio" type="Float"/>
+	<field name="vehicledifferentialCenterDifferential" type="BinHex"/>
+	<field name="fShiftHysteresis" type="Float"/>
+	<field name="bUseAutomaticGearPoints" type="Boolean"/>
+	<field name="fReverseDelay" type="Float"/>
+	<object name="Gears">
+		<object name="Gear">
+			<field name="disGearNumber" type="BinHex"/>
+			<field name="fRatio" type="Float"/>
+			<field name="fDownshiftRPM" type="Float"/>
+			<field name="fUpshiftRPM" type="Float"/>
+		</object>
+	</object>
+</class>

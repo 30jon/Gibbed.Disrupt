@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CivilianincidentdetectionsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selIncidentType" type="Enum"/>
+	<field name="bIsAThreat" type="Boolean"/>
+	<field name="fThreatLevelMin" type="Float"/>
+	<field name="fThreatLevelMax" type="Float"/>
+	<field name="fMaxThreatLevelToApply" type="Float"/>
+	<field name="selIgnoreIncidentIfThreatLevelAbove" type="Enum"/>
+	<field name="fMaxLatency" type="Float"/>
+	<field name="fMotivation" type="Float"/>
+	<field name="bLoopReactionForever" type="Boolean"/>
+	<field name="bIgnoreIncidentWhenHacked" type="Boolean"/>
+	<object name="curveDistanceFactor">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="OcclusionCheck">
+		<field name="iVisionAngle" type="Int32"/>
+		<field name="bCheckVisibility" type="Boolean"/>
+		<field name="bCheckAudio" type="Boolean"/>
+		<field name="fIgnoreDistanceForInterior" type="Float"/>
+		<field name="fIgnoreAltitudeForTunnel" type="Float"/>
+	</object>
+</class>

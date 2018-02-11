@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleaerodynamicsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fDragCdaFront" type="Float"/>
+	<field name="fDragCdaSide" type="Float"/>
+	<field name="fDragCdaUp" type="Float"/>
+	<field name="fLiftCdaFront" type="Float"/>
+	<field name="fLiftCdaSide" type="Float"/>
+	<field name="fAerodynamicsDistribution" type="Float"/>
+</class>

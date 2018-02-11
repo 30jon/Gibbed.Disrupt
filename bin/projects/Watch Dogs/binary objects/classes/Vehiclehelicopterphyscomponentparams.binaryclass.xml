@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclehelicopterphyscomponentparamsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMainRotorSpeed" type="Float"/>
+	<field name="fTailRotorSpeed" type="Float"/>
+	<object name="Reliability">
+		<field name="MinorDamageLevel" type="BinHex"/>
+		<field name="MajorDamageLevel" type="BinHex"/>
+		<field name="sndswtpReliabilitySoundSwitchType" type="BinHex"/>
+		<field name="sndswvlNoDamageSoundSwitchValue" type="BinHex"/>
+		<field name="sndswvlMinorDamageSoundSwitchValue" type="BinHex"/>
+		<field name="sndswvlMajorDamageSoundSwitchValue" type="BinHex"/>
+		<field name="sndswvlBrokenSoundSwitchValue" type="BinHex"/>
+		<field name="curvelibDamageVelVsReliFromVehicle" type="BinHex"/>
+		<field name="curvelibDamageVelVsReliFromEnvironment" type="BinHex"/>
+		<field name="fMaximumHealth" type="Float"/>
+	</object>
+	<object name="FakeAccRotation">
+		<field name="fForwardAccToAngle" type="Float"/>
+		<field name="fBackwardAccToAngle" type="Float"/>
+		<field name="fBrakeToAngle" type="Float"/>
+		<field name="fSideAccToAngle" type="Float"/>
+		<field name="fMaxAngleDir" type="Float"/>
+		<field name="fMaxAngleSide" type="Float"/>
+		<field name="fChangeSpeed" type="Float"/>
+		<field name="fMinAcc" type="Float"/>
+		<field name="fSteeringToAngleScale" type="Float"/>
+		<field name="fMinimumSpeedForExtraAngleFromSteer" type="Float"/>
+		<field name="fMaximumSpeedForExtraAngleFromSteer" type="Float"/>
+		<field name="fThrottleToPitchAngleScale" type="Float"/>
+		<field name="fMinimumSpeedForExtraAngleFromThrottle" type="Float"/>
+		<field name="fMaximumSpeedForExtraAngleFromThrottle" type="Float"/>
+		<object name="ChassisNoiseFromRpm">
+			<field name="fNoiseAmplitudeAtMinRpm" type="Float"/>
+			<field name="fNoiseAmplitudeAtMaxRpm" type="Float"/>
+			<field name="fNoiseFrequencyMinRpm" type="Float"/>
+			<field name="fNoiseFrequencyMaxRpm" type="Float"/>
+			<field name="fNoiseFadeoutBeginSpeed" type="Float"/>
+			<field name="fNoiseFadeoutEndSpeed" type="Float"/>
+		</object>
+	</object>
+	<object name="DamageScale">
+		<field name="fVehicleCollision" type="Float"/>
+		<field name="fDynamicCollision" type="Float"/>
+		<field name="fStaticCollision" type="Float"/>
+		<field name="fBullet" type="Float"/>
+		<field name="fExplosion" type="Float"/>
+		<field name="fBurn" type="Float"/>
+	</object>
+	<object name="CollisionStims">
+		<field name="fMinFactor" type="Float"/>
+		<field name="fBigStimCollisionFactor" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dialogmanagersettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="dialactorlistDefaultFemaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistDefaultMaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistDefaultFemaleDialogActorLowQuality" type="BinHex"/>
+	<field name="dialactorlistDefaultMaleDialogActorLowQuality" type="BinHex"/>
+	<field name="dialactorlistAllFemaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistAllFemaleDialogActorLowQuality" type="BinHex"/>
+	<field name="dialactorlistInstallPackageDialogActor" type="BinHex"/>
+	<object name="nConcurrentDialogsMax">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="OneSideConvo">
+		<field name="dialactorlistMaleDialogActor" type="BinHex"/>
+		<field name="dialactorlistFemaleDialogActor" type="BinHex"/>
+		<field hash="39699C12" type="String"/>
+		<field name="bark" type="BinHex"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="fMaxDistToPlayer" type="Float"/>
+		<field name="fAverageDuration" type="Float"/>
+		<field name="fRestrictionRadius" type="Float"/>
+		<field name="iMaxTwoSidedConvoInRadius" type="Int32"/>
+		<field name="iMaxOneSidedConvoInRadius" type="Int32"/>
+	</object>
+</class>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DebrisspawnerdbobjectParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DebrisPseudoPrefab">
+		<object name="pseudoprefabElementList">
+			<object name="Element">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+				<field name="vectorRelativeOffset" type="Vector3"/>
+				<field name="angvecRelativeAngle" type="Vector3"/>
+			</object>
+		</object>
+	</object>
+</class>

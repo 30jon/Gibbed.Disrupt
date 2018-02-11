@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PoseanimationmaskParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selMaskType" type="Enum"/>
+	<object name="Poses">
+		<object name="Pose">
+			<field hash="97769D74" type="String"/>
+			<field name="Pose" type="BinHex"/>
+		</object>
+	</object>
+</class>

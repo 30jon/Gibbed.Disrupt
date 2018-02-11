@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BloomParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<field name="bEnabledOverride" type="Boolean"/>
+	<field name="bIntensityOverride" type="Boolean"/>
+	<field name="bCenterBoostOverride" type="Boolean"/>
+	<field name="bLuminanceThresholdOverride" type="Boolean"/>
+	<field name="fChromaticAberrationOffset" type="Float"/>
+	<field name="bChromaticAberrationOffsetOverride" type="Boolean"/>
+	<field name="fArtifactUVScale" type="Float"/>
+	<field name="bArtifactUVScaleOverride" type="Boolean"/>
+	<field name="fArtifactCut" type="Float"/>
+	<field name="bArtifactCutOverride" type="Boolean"/>
+	<field name="fArtifactIntensity" type="Float"/>
+	<field name="bArtifactIntensityOverride" type="Boolean"/>
+	<object name="curveIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveCenterBoost">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveLuminanceThreshold">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="AdvancedFiltering">
+		<field name="bScreenCoverageOverride" type="Boolean"/>
+		<field name="iDownsamplePower" type="Int32"/>
+		<field name="bDownsamplePowerOverride" type="Boolean"/>
+		<field name="iExtraBlurCount" type="Int32"/>
+		<field name="bExtraBlurCountOverride" type="Boolean"/>
+		<object name="curveScreenCoverage">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

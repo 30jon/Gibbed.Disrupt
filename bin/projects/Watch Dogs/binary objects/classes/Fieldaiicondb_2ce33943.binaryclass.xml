@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fieldaiicondb_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="mapicondescMobsterMapIcon" type="BinHex"/>
+	<field name="mapicondescCopMapIcon" type="BinHex"/>
+</class>

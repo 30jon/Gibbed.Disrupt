@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VigilanteeventdescriptionslistParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vigdescInheritedDescription" type="BinHex"/>
+	<object name="Titles">
+		<object name="Title">
+			<object name="locstridTitle">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+	<object name="Descriptions">
+		<object name="locstridDescription"/>
+		<object name="Descriptions">
+			<object name="locstridDescription"/>
+		</object>
+	</object>
+	<object name="Activities">
+		<object name="Activity">
+			<object name="locstridActivity">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>

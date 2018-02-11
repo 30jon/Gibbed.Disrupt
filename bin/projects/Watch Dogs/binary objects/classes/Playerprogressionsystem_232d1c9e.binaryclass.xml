@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Playerprogressionsystem_232d1c9eParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="SinglePlayer">
+		<field name="Money" type="Int64"/>
+		<field name="SkillPoint" type="Int64"/>
+		<field name="TechPoint" type="Int64"/>
+		<field hash="58D09457" type="Int64"/>
+		<field name="Prescription" type="Int64"/>
+		<field name="sPerkRewardIconName" type="String"/>
+		<object name="XPSettings">
+			<object name="XPSettings">
+				<object name="Level">
+					<field name="nLevelXP" type="Int32"/>
+					<field name="SkillPointToGiveOnReach" type="Int64"/>
+					<field name="TechPointToGiveOnReach" type="Int64"/>
+					<object name="locstridLevelName"/>
+					<object name="locstridLevelDescription"/>
+				</object>
+				<object name="XPSettings">
+					<object name="Level">
+						<field name="nLevelXP" type="Int32"/>
+						<field name="SkillPointToGiveOnReach" type="Int64"/>
+						<field name="TechPointToGiveOnReach" type="Int64"/>
+						<object name="locstridLevelName"/>
+						<object name="locstridLevelDescription"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="DefaultNodes">
+			<field name="playerprogressionnodeIllegalApsSingleDefaultProgressionNode" type="BinHex"/>
+			<field name="playerprogressionnodePerksSingleDefaultProgressionNode" type="BinHex"/>
+			<object name="StatisticDefaultProgressionNode">
+				<object name="playerprogressionnodeStatisticDefaultProgressionNode">
+					<field name="playerprogressionnodeStatisticDefaultProgressionNode" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Felony">
+			<field name="chasestageconfigInitialCopStage" type="BinHex"/>
+			<field name="chasestageconfigInitialClubStage" type="BinHex"/>
+			<field name="chasestageconfigInitialViceroyStage" type="BinHex"/>
+			<field name="chasestageconfigInitialFixerStage" type="BinHex"/>
+			<field name="chasestageconfigInitialPawneeStage" type="BinHex"/>
+			<field name="chasestageconfigInitialCTOSStage" type="BinHex"/>
+			<field name="chasestageconfigInitialMadnessStage" type="BinHex"/>
+			<field name="chasestageconfigInitialSpiderStage" type="BinHex"/>
+			<object name="CopProgressionSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="ClubProgressonSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="ViceroyProgressonSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="FixerProgressonSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="PawneeProgressonSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="CTOSProgressonSP">
+				<field hash="B372FD2C" type="String"/>
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+				<object name="ProgressionDescriptor">
+					<object name="NodeDisplay">
+						<field name="colorNodeColor" type="VectorColor"/>
+						<field name="sNodeMovieClipName" type="BinHex"/>
+						<field name="sNodeVideoName" type="BinHex"/>
+						<field name="sNodeTextureName" type="BinHex"/>
+					</object>
+					<object name="CurrentNode">
+						<field hash="CDF77E92" type="String"/>
+						<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+						<object name="ProgressionDescriptor">
+							<field name="chasestageconfigStage" type="BinHex"/>
+							<object name="ProgressionNodeRequirements">
+								<object name="ProgressionNodeRequirements">
+									<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+								</object>
+							</object>
+							<object name="DisplayRequirements"/>
+							<object name="NodeCurrency">
+								<field name="selCurrencyType" type="Enum"/>
+								<field name="uCurrencyAmount" type="Int64"/>
+							</object>
+							<object name="NodeDisplay">
+								<field name="colorNodeColor" type="VectorColor"/>
+								<field name="sNodeMovieClipName" type="BinHex"/>
+								<field name="sNodeVideoName" type="BinHex"/>
+								<field name="sNodeTextureName" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+					<object name="TreeNodes">
+						<object name="TreeNode">
+							<field hash="B372FD2C" type="String"/>
+							<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+							<object name="ProgressionDescriptor">
+								<object name="NodeDisplay">
+									<field name="colorNodeColor" type="VectorColor"/>
+									<field name="sNodeMovieClipName" type="BinHex"/>
+									<field name="sNodeVideoName" type="BinHex"/>
+									<field name="sNodeTextureName" type="BinHex"/>
+								</object>
+								<object name="CurrentNode">
+									<field hash="CDF77E92" type="String"/>
+									<field name="progressionbasicdescriptoridProgressionDescriptorId" type="BinHex"/>
+									<object name="ProgressionDescriptor">
+										<field name="chasestageconfigStage" type="BinHex"/>
+										<object name="ProgressionNodeRequirements">
+											<object name="ProgressionNodeRequirements">
+												<field name="progressionnoderequirementProgressionNodeRequirement" type="BinHex"/>
+											</object>
+										</object>
+										<object name="DisplayRequirements"/>
+										<object name="NodeCurrency">
+											<field name="selCurrencyType" type="Enum"/>
+											<field name="uCurrencyAmount" type="Int64"/>
+										</object>
+										<object name="NodeDisplay">
+											<field name="colorNodeColor" type="VectorColor"/>
+											<field name="sNodeMovieClipName" type="BinHex"/>
+											<field name="sNodeVideoName" type="BinHex"/>
+											<field name="sNodeTextureName" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="TreeNodes"/>
+							</object>
+						</object>
+					</object>
+					<object name="WheelNodes"/>
+				</object>
+			</object>
+			<object name="MadnessProgressonSP">
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+			</object>
+			<object name="SpiderProgressonSP">
+				<field name="progressiondescriptoridProgressionDescriptorId" type="BinHex"/>
+			</object>
+		</object>
+		<object name="XPIncidents">
+			<object name="AimedByARGun">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="AimedByGun">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="ARGunShot">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="Arrest">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BlackoutStart_Day">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BlackoutStop_Day">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BlackoutStart_Night">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BlackoutStop_Night">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BlumeAgentHacked">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="BulletImpact">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CivilianAnxiety">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CivilianPanic">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CivilianSpiderTankPanic">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CivilianHitByACarButNotDead_ReputationOnly">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CarCrash">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CarCrashBig">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CarCrashPileup">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CarHackedAlarm">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CarHonk">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CarHonkPlayer">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="Carjacking">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CarOnOpenBridge">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CarSiren">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CarTheft">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="CommunicationDisrupted">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CopNonLethalShot">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CopNonLethalTakedown">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="CuriousBhv">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="KilledMobster">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="DeadBody">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="DenunciatorAttacked">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="ElectricSpark">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="Fire">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="FleeFromShop">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="GrenadeInEnvironment">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="GrenadeInHand">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="GunShot">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="GunShotAtPolice">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="GunShotInPanic">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="HackedEntityMalfunction">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="HitByVehicle">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="HoldUpShopkeeper">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="IncomingClimber">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="IncomingThreat">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="IncomingRunner">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="KilledCivilian">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="KilledCivilianByCar">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="KilledPolice">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="LargeBump">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="LargeCloseObjectBroken">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="LargeExplosion">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="MyCloseObjectBroken">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="MyCloseObjectBigBroken">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="MyCarJackingFinished">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="MyCarJackingFinishedRunAway">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="MyTakeDownFinished">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="OffRoadDriving">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="OnLeaderQuitCuriosity">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="OnLeaderQuitAnxiety">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="OnLeaderQuitPanic">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="OwnCarStolen">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="PanicInside">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="PeopleDie">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="PersonAttacked">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="PlayerPlayingARGame">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="PlayerProximity">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="ProlongedPlayerProximity">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="PuddleSplash">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="RainStart">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="RainStop">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="ReputationGood">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="ReputationBad">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="RunningPeopleProximity">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="ShutDownMediaBroadcast">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SmallBump">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SmallCloseObjectBroken">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SmallExplosion">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SpecialBroadcast">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SteamPipe">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SteamPipeExplosion">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="SECarAccident">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="ThreatProximity">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="UncommonAction">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="UnholsteredGun">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription"/>
+			</object>
+			<object name="XIngredientHack_Audio">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="XIngredientHack_MechanicalBig">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="XIngredientHack_MechanicalSmall">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+			<object name="XIngredientHack_Visual">
+				<field name="iAmountExperience" type="Int32"/>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+		</object>
+		<object name="MeaningfulActionsRewards">
+			<object name="MeaningfulActionsReward">
+				<field hash="95EF12F0" type="String"/>
+				<field name="sAction" type="BinHex"/>
+				<field name="iCharacterLevelRewardPoints" type="Int32"/>
+				<object name="locstridDisplayedMessage">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="OverrideModifiers">
+					<object name="OverrideModifier">
+						<object name="OverrideModifier">
+							<field hash="3D9C0F44" type="String"/>
+							<field name="sModifierName" type="BinHex"/>
+							<field name="uiRewardPoints" type="Int64"/>
+							<object name="locstridDisplayedMessage">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="PercentageModifiers">
+					<object name="PercentageModifier">
+						<object name="PercentageModifier">
+							<field hash="3D9C0F44" type="String"/>
+							<field name="sModifierName" type="BinHex"/>
+							<field name="uiPriority" type="Int64"/>
+							<field name="fModifierRatio" type="Float"/>
+							<object name="locstridDisplayedMessage">
+								<field name="LocalizationId" type="Int64"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="ArmoryDefaultLoadOut">
+			<object name="itemsItem">
+				<field name="itemsItem" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="MultiPlayer">
+		<field name="uiMaxLevelCap" type="Int64"/>
+		<object name="CharacterLevelDefinition">
+			<field name="Points" type="BinHex"/>
+			<object name="CharacterLevelDefinition">
+				<field name="Points" type="BinHex"/>
+			</object>
+		</object>
+		<object name="Notoriety">
+			<field name="uiMaxNotorietyLevelCap" type="Int64"/>
+			<object name="NotorietyGlobalSettings">
+				<field name="fPlayerContributionMinLimit" type="Float"/>
+				<field name="fPlayerContributionSharpness" type="Float"/>
+				<field name="fPlayerContributionScale" type="Float"/>
+				<field name="fMissionContributionFactor" type="Float"/>
+				<field name="fMeaningfulActionFactor" type="Float"/>
+				<object name="curveRelativeScaleFactorCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="NotorietyPerks">
+				<object name="NotorietyPerk">
+					<object name="NotorietyPerk">
+						<field name="uiRequiredPoints" type="Int64"/>
+						<field name="perkdescsinglePerk" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="NotorietyLevelDefinitions">
+				<object name="NotorietyLevelDefinition">
+					<object name="NotorietyLevelDefinition">
+						<field name="uiNotorietyPoints" type="Int64"/>
+						<field name="sDebugNotorietyDescrition" type="BinHex"/>
+						<object name="locstridNotorietyDescrition">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="LoadOut">
+			<field name="uiLoadOutCount" type="Int64"/>
+			<object name="IllegalApsDefaultLoadOut">
+				<object name="itemsIllegalApItem">
+					<field name="itemsIllegalApItem" type="BinHex"/>
+				</object>
+			</object>
+			<object name="MPDefaultLoadOut">
+				<object name="LoadOut">
+					<object name="LoadOut">
+						<field name="itemsPrimaryWeapon" type="BinHex"/>
+						<field name="itemsSecondaryWeapon" type="BinHex"/>
+						<field name="itemsExplosiveWeapon" type="BinHex"/>
+						<field name="accessidAccessId" type="BinHex"/>
+						<object name="locstridLoadoutName">
+							<field name="LocalizationId" type="Int64"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="ContractRelatedAmmos">
+				<object name="ContractRelatedAmmo">
+					<object name="ContractRelatedAmmo">
+						<field name="selContractContext" type="Enum"/>
+						<object name="ItemsAmmo">
+							<object name="ItemAmmo">
+								<object name="ItemAmmo">
+									<field name="itemsItem" type="BinHex"/>
+									<field name="selType" type="Enum"/>
+									<field name="uiValue" type="Int64"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="PopUpFeedbackSounds">
+			<field name="sndIllegalApUnlockedSound" type="BinHex"/>
+			<field name="sndPerkUnlockedSound" type="BinHex"/>
+			<field name="sndWeaponUnlockedSound" type="BinHex"/>
+			<field name="sndNotorietyGainedSound" type="BinHex"/>
+			<field name="sndNotorietyLostSound" type="BinHex"/>
+			<field name="sndNotorietyPointStepSound" type="BinHex"/>
+			<field name="sndNotorietyLevelUpSound" type="BinHex"/>
+			<field name="sndNotorietyLevelDownSound" type="BinHex"/>
+			<field name="sndProgressionCookedSound" type="BinHex"/>
+		</object>
+		<object name="PopUpFeedbackDurations">
+			<field name="fCurrencyPopUpDuration" type="Float"/>
+			<field name="fCollectibleMessageDuration" type="Float"/>
+			<field name="fPersonalChallengeMessageDuration" type="Float"/>
+		</object>
+	</object>
+	<object name="Pills">
+		<object name="DefaultNodes">
+			<field name="playerprogressionnodePillsAloneProgressionNode" type="BinHex"/>
+			<field name="playerprogressionnodePillsPeopleProgressionNode" type="BinHex"/>
+			<field name="playerprogressionnodePillsSpiderTankProgressionNode" type="BinHex"/>
+			<field name="playerprogressionnodePillsMadnessProgressionNode" type="BinHex"/>
+			<field name="playerprogressionnodePillsBouncingProgressionNode" type="BinHex"/>
+		</object>
+	</object>
+</class>

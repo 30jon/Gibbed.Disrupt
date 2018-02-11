@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AccessidParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="text_sAccessId" type="String"/>
+	<field name="sAccessId" type="BinHex"/>
+	<field name="bIsNotPowerCollectedIfLocked" type="Boolean"/>
+</class>

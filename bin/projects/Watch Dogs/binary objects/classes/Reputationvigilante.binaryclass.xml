@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ReputationvigilanteParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Alive">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="iReputationAwarded" type="Int32"/>
+		<field name="bTrackReputation" type="Boolean"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="locstridItemReputationDescriptionId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Dead">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="iReputationAwarded" type="Int32"/>
+		<field name="bTrackReputation" type="Boolean"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="locstridItemReputationDescriptionId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Fled">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="iReputationAwarded" type="Int32"/>
+		<field name="bTrackReputation" type="Boolean"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="locstridItemReputationDescriptionId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Down">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="iReputationAwarded" type="Int32"/>
+		<field name="bTrackReputation" type="Boolean"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="locstridItemReputationDescriptionId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="DeadOrDownBeforeCriticalPoint">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="iReputationAwarded" type="Int32"/>
+		<field name="bTrackReputation" type="Boolean"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="reputationeffectsReputationEffectDependency" type="BinHex"/>
+		<object name="locstridItemReputationDescriptionId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

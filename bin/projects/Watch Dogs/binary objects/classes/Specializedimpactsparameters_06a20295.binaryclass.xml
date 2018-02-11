@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Specializedimpactsparameters_06a20295Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CharacterBulletImpact">
+		<field name="ImpactHealthy" type="BinHex"/>
+		<field hash="3204D1F7" type="String"/>
+		<field name="ImpactDiedNormal" type="BinHex"/>
+		<field hash="49A904CB" type="String"/>
+		<field name="ImpactDiedHeadshot" type="BinHex"/>
+		<field hash="633CDF00" type="String"/>
+		<field name="ImpactAlreadyDead" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SoundocclusionholeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fOcclusionVolume" type="Float"/>
+	<field name="fOcclusionFilter" type="Float"/>
+	<field name="fOcclusionVolumeClosed" type="Float"/>
+	<field name="fOcclusionFilterClosed" type="Float"/>
+	<field name="fRadius" type="Float"/>
+	<object name="AmbianceSplitter">
+		<field name="fOutsideRadius" type="Float"/>
+		<field name="fInsideRadius" type="Float"/>
+	</object>
+</class>

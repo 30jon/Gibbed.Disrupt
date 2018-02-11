@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclemillikenParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fLateralStiffness" type="Float"/>
+	<field name="fLongitudinalStiffness" type="Float"/>
+	<field hash="EAACFE62" type="BinHex"/>
+	<field hash="9DABCEF4" type="BinHex"/>
+	<field hash="03CF5B57" type="BinHex"/>
+	<field hash="74C86BC1" type="BinHex"/>
+	<field name="fLongitudinalFriction" type="Float"/>
+	<field name="fLateralFriction" type="Float"/>
+	<field name="bUseTyreStiffnessLoadDependency" type="Boolean"/>
+	<field name="fFrictionLoadDependencyFactor" type="Float"/>
+	<field name="fStiffnessLoadDependencyFactor" type="Float"/>
+	<field name="fCamberStiffness" type="Float"/>
+	<field name="fMaximumLongSlipForLateralForce" type="Float"/>
+	<field name="bBypassLongSlipCappingWithHandbrake" type="Boolean"/>
+	<object name="curveFrictionScaleVsLoadLongitudinal">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveFrictionScaleVsLoadLateral">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStiffnessScaleVsLoadLongitudinalNormalized">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveStiffnessScaleVsLoadLateralNormalized">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="DynamicLongSlipCapping">
+		<field name="bUseDynamicMaxLongSlipForLateralForce" type="Boolean"/>
+		<field name="fMinimumSlipAngle" type="Float"/>
+		<field name="fMaximumSlipAngle" type="Float"/>
+		<field name="fMinimumSpeed" type="Float"/>
+		<field name="fMaximumSpeed" type="Float"/>
+	</object>
+</class>

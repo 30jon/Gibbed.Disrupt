@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DatacardcyclingarchetypeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DataCardCyclingGenerator">
+		<field name="fWeight" type="Float"/>
+		<field name="uNumberOfDataCards" type="Int64"/>
+		<object name="DataCardCyclingGenerator">
+			<field name="fWeight" type="Float"/>
+			<field name="uNumberOfDataCards" type="Int64"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RoaddestructionholeParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="archHoleShape" type="BinHex"/>
+	<field name="archVisualSigns" type="BinHex"/>
+	<field name="vectorHoleSize" type="Vector"/>
+	<field name="sMistPostEffectRadius" type="BinHex"/>
+	<object name="ParticlesSystems">
+		<field name="psSteamLeakParticlesSystem" type="BinHex"/>
+		<field name="psExplosionParticlesSystem" type="BinHex"/>
+	</object>
+	<object name="Sounds">
+		<field name="sndSteamLeakSound" type="BinHex"/>
+		<field name="sndSteamLeakSoundStop" type="BinHex"/>
+		<field name="sndSteamExpulsionSound" type="BinHex"/>
+		<field name="sndSteamExpulsionSoundStop" type="BinHex"/>
+		<field name="sndExplosionSound" type="BinHex"/>
+	</object>
+	<object name="Physics">
+		<field name="fExplosionPushForce" type="Float"/>
+		<field name="fSteamEjectionMaxPushForce" type="Float"/>
+		<field name="vectorSteamEjectionPushBoxSize" type="Vector"/>
+		<object name="curveSteamEjectionPushForceOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curvePushForceRatioOverDistance">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CameraShakes">
+		<object name="Explosion">
+			<field name="fMaxStrength" type="Float"/>
+			<field name="fAttenuation" type="Float"/>
+			<field name="fDuration" type="Float"/>
+			<field name="vectorXYZRange" type="Vector"/>
+			<field name="angvecPRYRange" type="Vector"/>
+			<field name="fMaxDistance" type="Float"/>
+			<object name="curveStrengthOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SteamEjection">
+			<field name="fMaxStrength" type="Float"/>
+			<field name="fPeriod" type="Float"/>
+			<field name="vectorXYZRange" type="Vector"/>
+			<field name="angvecPRYRange" type="Vector"/>
+			<field name="fMaxDistance" type="Float"/>
+			<object name="curveStrengthOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveStrengthOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Aftermath">
+		<field name="archRoadworks" type="BinHex"/>
+		<field name="archRoadworksVehicles" type="BinHex"/>
+		<field name="fDelayForRoadworks" type="Float"/>
+		<field name="fDelayForReset" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclepartsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bBulletHitAffectVehicleTotalDamage" type="Boolean"/>
+	<field name="bBreakFromDeform" type="Boolean"/>
+	<field name="bCanHang" type="Boolean"/>
+	<field name="bCanDetach" type="Boolean"/>
+	<field name="bCanDestroy" type="Boolean"/>
+	<field name="bIsChangingSoundOcclusion" type="Boolean"/>
+	<field name="bPartIsDamagable" type="Boolean"/>
+	<field name="selGameplayType" type="Enum"/>
+	<field name="vehiclepartsdamageDamageParams" type="BinHex"/>
+	<field name="logmatDefaultEffectMaterial" type="BinHex"/>
+	<object name="HangParams">
+		<field name="sndHangSound" type="BinHex"/>
+		<field hash="6C454459" type="String"/>
+		<field name="psHangParticle" type="BinHex"/>
+		<field name="fHealthPercentageThreshold" type="Float"/>
+		<field name="bHangParticleUseVelocity" type="Boolean"/>
+		<field hash="5E5C1ADE" type="String"/>
+		<field name="sHangParticleBoneName" type="BinHex"/>
+		<field name="sndHangingVelocitySound" type="BinHex"/>
+		<field name="fHangingVelocitySoundThreshold" type="Float"/>
+		<field name="sndHangingVelocitySignChangeSound" type="BinHex"/>
+		<field name="fHangingVelocitySoundCooldown" type="Float"/>
+		<field name="fConstraintFrictionFactor" type="Float"/>
+		<field name="fConstraintBreachImpulseFactor" type="Float"/>
+		<field name="bCanCreateMirroredConstraint" type="Boolean"/>
+		<field name="bBreakAssociatedLight" type="Boolean"/>
+		<object name="MotorParams">
+			<field name="bUseConstraintMotorWhileHanging" type="Boolean"/>
+			<object name="EnabledMotorParams">
+				<field name="fMotorTargetAngleAlpha" type="Float"/>
+				<field name="fMotorDamping" type="Float"/>
+				<field name="fMotorForce" type="Float"/>
+				<field name="fMotorStrength" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="DetachParams">
+		<field name="sndDetachSound" type="BinHex"/>
+		<field hash="6207F45F" type="String"/>
+		<field name="psDetachParticle" type="BinHex"/>
+		<field name="bDetachParticleUseVelocity" type="Boolean"/>
+		<field hash="95692E8B" type="String"/>
+		<field name="sDetachParticleBoneName" type="BinHex"/>
+		<field name="fFloatingScale" type="Float"/>
+		<field name="fWaterFriction" type="Float"/>
+		<field name="fPushAwaySpeedOnDetach" type="Float"/>
+	</object>
+	<object name="TextureStateChanges">
+		<object name="TextureStateChange">
+			<field hash="8A6739BA" type="String"/>
+			<field name="psParticle" type="BinHex"/>
+			<field name="sndSound" type="BinHex"/>
+			<field name="fHealthPercentageThreshold" type="Float"/>
+			<field name="bParticleUseVelocity" type="Boolean"/>
+			<field name="sParticleBoneName" type="BinHex"/>
+			<field name="bBreakAssociatedLight" type="Boolean"/>
+		</object>
+	</object>
+	<object name="TextureStateSwitchParams">
+		<field name="nTextureStateIndexForRemovingCollision" type="Int32"/>
+	</object>
+	<object name="DamageParams">
+		<field name="fCollisionExtraRadius" type="Float"/>
+		<field name="bAlwaysBreakFromDebrisCollision" type="Boolean"/>
+		<field name="fMaximumHealth" type="Float"/>
+		<field name="fCollisionDamageScale" type="Float"/>
+		<field name="fBulletDamageScale" type="Float"/>
+		<field name="fExplosionDamageScale" type="Float"/>
+		<field name="fRandomDamageScaleAmplitude" type="Float"/>
+	</object>
+	<object name="PhysicsParams">
+		<field name="fMass" type="Float"/>
+	</object>
+	<object name="VehicleSelfExplosion">
+		<field name="fNoStateChangeChance" type="Float"/>
+		<field name="fNoHangingChance" type="Float"/>
+		<field name="fMinImpulse" type="Float"/>
+		<field name="fMaxImpulse" type="Float"/>
+		<field name="bDetachOnEngineBurn" type="Boolean"/>
+	</object>
+</class>

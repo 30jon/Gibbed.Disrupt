@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Physconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTyreFriction" type="Float"/>
+	<field name="fAirDensity" type="Float"/>
+	<field name="fRagdollExplosionImpulseScale" type="Float"/>
+	<field name="fRagdollBulletImpulseScale" type="Float"/>
+	<field name="fCollisionMaxRadius" type="Float"/>
+	<field name="logmatWaterRaySurfaceIdx" type="BinHex"/>
+	<field name="fVehicleSoftDampingTargetFrequency" type="Float"/>
+	<field name="fVehicleSelfExplosionImpulse" type="Float"/>
+	<field name="fVehicleSelfExplosionMinMass" type="Float"/>
+	<field name="fVehicleDamageVelRotationVelocityFactor" type="Float"/>
+	<field name="fVehicleDamageVelRotationVelocityMax" type="Float"/>
+	<object name="VehicleToVehicleCollision">
+		<field name="fRammingDiffScale" type="Float"/>
+		<field name="fVehicleVehicleRestitution" type="Float"/>
+		<field name="fVehicleVehicleFriction" type="Float"/>
+		<field name="vectorDisplaceFactorHumanAttacker" type="Vector3"/>
+		<field name="vectorDisplaceFactorOtherAttacker" type="Vector3"/>
+		<field name="vectorDisplaceFactorHumanDefender" type="Vector3"/>
+		<field name="vectorDisplaceFactorOtherDefender" type="Vector3"/>
+		<field name="fVehicleVehicleSideRestitutionFactor" type="Float"/>
+		<field name="fVehicleVehicleSideFactorMinSpeed" type="Float"/>
+		<field name="fVehicleVehicleSideFactorMaxSpeed" type="Float"/>
+		<field name="fHumanDamageScale" type="Float"/>
+		<field name="fAiDamageScale" type="Float"/>
+		<field name="fTrafficDamageScale" type="Float"/>
+		<field name="fExtraSideDamageVelFactor" type="Float"/>
+		<field name="fExtraSideDamageVelMax" type="Float"/>
+		<field name="fLateralZDisplacementAttacker" type="Float"/>
+		<field name="fLateralZDisplacementDefender" type="Float"/>
+		<field name="fLongitudinalZDisplacementAttacker" type="Float"/>
+		<field name="fLongitudinalZDisplacementDefender" type="Float"/>
+		<field name="fDisplacementMinDamageVel" type="Float"/>
+		<field name="fDisplacementMaxDamageVel" type="Float"/>
+		<field name="fDisplacementMaxDamageVelFactor" type="Float"/>
+		<field name="fPlayerYawInertiaHelpScale" type="Float"/>
+		<field name="fPlayerGoingStraightTimeLateral" type="Float"/>
+		<field name="fPlayerGoingStraightTimeLongitudinal" type="Float"/>
+		<field name="fAttackerDamageScale" type="Float"/>
+		<field name="fPvpWeaponVehicleDamageScale" type="Float"/>
+		<field name="fPvpVehicleVehicleDamageScale" type="Float"/>
+		<object name="VehicleAttackerMassScale">
+			<object name="HumanAttacker">
+				<field name="fScaleVsHuman" type="Float"/>
+				<field name="fScaleVsAi" type="Float"/>
+				<field name="fScaleVsTraffic" type="Float"/>
+			</object>
+			<object name="AiAttacker">
+				<field name="fScaleVsHuman" type="Float"/>
+				<field name="fScaleVsAi" type="Float"/>
+				<field name="fScaleVsTraffic" type="Float"/>
+			</object>
+			<object name="TrafficAttacker">
+				<field name="fScaleVsHuman" type="Float"/>
+				<field name="fScaleVsAi" type="Float"/>
+				<field name="fScaleVsTraffic" type="Float"/>
+			</object>
+		</object>
+		<object name="VehicleSideAttackerMassScale">
+			<field name="fHuman" type="Float"/>
+			<field hash="6E17C938" type="BinHex"/>
+			<field name="fTraffic" type="Float"/>
+		</object>
+		<object name="VehicleMassNormalize">
+			<field name="fHumanVsAiNormalize" type="Float"/>
+			<field name="fHumanVsTrafficNormalize" type="Float"/>
+			<field name="fAiVsTrafficNormalize" type="Float"/>
+		</object>
+		<object name="DriverTypeDamageScales">
+			<object name="HumanDamageReceiver">
+				<field name="fScaleWhenHitByHuman" type="Float"/>
+				<field name="fScaleWhenHitByHumanAi" type="Float"/>
+				<field name="fScaleWhenHitByHumanTraffic" type="Float"/>
+			</object>
+			<object name="AiDamageReceiver">
+				<field name="fScaleWhenHitByHuman" type="Float"/>
+				<field name="fScaleWhenHitByHumanAi" type="Float"/>
+				<field name="fScaleWhenHitByHumanTraffic" type="Float"/>
+			</object>
+			<object name="TrafficeDamageReceiver">
+				<field name="fScaleWhenHitByHuman" type="Float"/>
+				<field name="fScaleWhenHitByHumanAi" type="Float"/>
+				<field name="fScaleWhenHitByHumanTraffic" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="VehicleToWorldCollision">
+		<field name="fVehicleDrivingRestitution" type="Float"/>
+		<field name="fVehicleDrivingFriction" type="Float"/>
+		<field name="fVehicleCrashingRestitution" type="Float"/>
+		<field name="fVehicleCrashingFriction" type="Float"/>
+		<field name="vectorMaxAngularVelChangeHorizontal" type="Vector3"/>
+		<field name="vectorMaxAngularVelChangeVertical" type="Vector3"/>
+		<field name="fBreakablesStaticToRigidMassScale" type="Float"/>
+		<field name="fStaticZDisplacement" type="Float"/>
+		<field name="fStaticZDisplacementMinSpeed" type="Float"/>
+		<field name="fStaticZDisplacementMaxSpeed" type="Float"/>
+		<field name="fStaticZDisplacementMaxSpeedFactor" type="Float"/>
+		<field name="fStaticZDisplacementMinOffsetBelowCoM" type="Float"/>
+	</object>
+	<object name="FakeVehiclePhysFakeRotation">
+		<field name="fForwardAccToAngle" type="Float"/>
+		<field name="fBackwardAccToAngle" type="Float"/>
+		<field name="fBrakeToAngle" type="Float"/>
+		<field name="fSideAccToAngle" type="Float"/>
+		<field name="fMaxAngleDir" type="Float"/>
+		<field name="fMaxAngleSide" type="Float"/>
+		<field name="fChangeSpeed" type="Float"/>
+		<field name="fMinAcc" type="Float"/>
+		<field name="fSteeringToAngleScale" type="Float"/>
+		<field name="fMinimumSpeedForExtraAngleFromSteer" type="Float"/>
+		<field name="fMaximumSpeedForExtraAngleFromSteer" type="Float"/>
+		<field name="fThrottleToPitchAngleScale" type="Float"/>
+		<field name="fMinimumSpeedForExtraAngleFromThrottle" type="Float"/>
+		<field name="fMaximumSpeedForExtraAngleFromThrottle" type="Float"/>
+		<object name="ChassisNoiseFromRpm">
+			<field name="fNoiseAmplitudeAtMinRpm" type="Float"/>
+			<field name="fNoiseAmplitudeAtMaxRpm" type="Float"/>
+			<field name="fNoiseFrequencyMinRpm" type="Float"/>
+			<field name="fNoiseFrequencyMaxRpm" type="Float"/>
+			<field name="fNoiseFadeoutBeginSpeed" type="Float"/>
+			<field name="fNoiseFadeoutEndSpeed" type="Float"/>
+		</object>
+	</object>
+	<object name="FakeRearDeformation">
+		<field name="bUseRearDeformation" type="Boolean"/>
+		<field name="fStartDeformationAtHealthRatio" type="Float"/>
+		<field name="fNoDeformationPlaneDamageRatio" type="Float"/>
+		<field name="fDamageRatioLoss" type="Float"/>
+	</object>
+	<object name="AmplifiedCrash">
+		<field name="fStaticMaxAngle" type="Float"/>
+		<field name="fStaticMinSpeed" type="Float"/>
+		<field name="fStaticSpeedForMaxEffect" type="Float"/>
+		<field name="fStaticMaxRotSpeed" type="Float"/>
+		<field name="fVehicleVsStaticChassisDamageScale" type="Float"/>
+		<field name="fVehicleVsStaticPartsDamageScale" type="Float"/>
+		<field name="fVehicleVsVehicleChassisDamageScale" type="Float"/>
+		<field name="fVehicleVsVehiclePartsDamageScale" type="Float"/>
+		<field name="fVehicleVsVehicleRestitution" type="Float"/>
+		<field name="fVehicleVsVehicleCenterOfMassDisplacement" type="Float"/>
+		<field name="fTyreHeatIncreaseRateCrashScale" type="Float"/>
+	</object>
+	<object name="VehiclePartBulletSetttings">
+		<field name="fVehiclePartBulletDamageRangeMin" type="Float"/>
+		<field name="fVehiclePartBulletDamageRangeMax" type="Float"/>
+		<field name="fVehiclePartBulletDamageChanceScaleMin" type="Float"/>
+		<field name="fVehiclePartBulletDamageChanceScaleMax" type="Float"/>
+	</object>
+	<object name="curveNormalizedDeformVsDamageVelocity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="VehicleSphereDeformSettings">
+		<object name="Scratching">
+			<field name="fMinDamageSpeed" type="Float"/>
+			<field name="fMaxDamageSpeed" type="Float"/>
+			<field name="fMaxChangePerCollision" type="Float"/>
+			<field name="fMaxDamage" type="Float"/>
+		</object>
+		<object name="Static">
+			<field name="fMinDamageSpeed" type="Float"/>
+			<field name="fMaxDamageSpeed" type="Float"/>
+			<field name="fMaxChangePerCollision" type="Float"/>
+			<field name="fMaxDamage" type="Float"/>
+		</object>
+		<object name="Dynamic">
+			<field name="fMinDamageSpeed" type="Float"/>
+			<field name="fMaxDamageSpeed" type="Float"/>
+			<field name="fMaxChangePerCollision" type="Float"/>
+			<field name="fMaxDamage" type="Float"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Datacardpanelsetting_dc2e27b8Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fDisplayTimeMin" type="Float"/>
+	<field name="fDisplayTimeMax" type="Float"/>
+</class>

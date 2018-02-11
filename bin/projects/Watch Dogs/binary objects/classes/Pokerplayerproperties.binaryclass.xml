@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PokerplayerpropertiesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="sName" type="String"/>
+	<field name="uiAge" type="Int64"/>
+	<field name="sPersonality" type="BinHex"/>
+	<field name="sJob" type="BinHex"/>
+	<field name="uiBankBalance" type="Int64"/>
+	<field name="sConvictions" type="BinHex"/>
+	<field name="sPokerFact" type="String"/>
+	<field name="fCardLookChance" type="Float"/>
+	<field name="selPersonalityEnum" type="Enum"/>
+	<field name="fRandomnessFactorOffset" type="Float"/>
+	<field name="fMinCallConfidenceOffset" type="Float"/>
+	<field name="fMinRaiseConfidenceOffset" type="Float"/>
+	<field name="fHandStrengthPreferenceOffset" type="Float"/>
+	<field name="fDesperationFactorOffset" type="Float"/>
+	<field name="fEarlyPositionTightnessOffset" type="Float"/>
+	<field name="fPositionPreferenceOffset" type="Float"/>
+	<field name="fOpponentRespectOffset" type="Float"/>
+	<field name="fBaseConfidenceOffset" type="Float"/>
+	<field name="fRaisingFrequencyOffset" type="Float"/>
+	<field name="fAllInMinPlayerInvestmentRatioOffset" type="Float"/>
+	<field name="fAllInMinPotPercentageOffset" type="Float"/>
+	<field name="fAllInMinConfidenceOffset" type="Float"/>
+	<field name="fAllInChanceOffset" type="Float"/>
+	<field name="fBasePercentilePredictionOffset" type="Float"/>
+	<field name="fRaisePercentileModificationOffset" type="Float"/>
+	<field name="fPositionPercentileMultiplierOffset" type="Float"/>
+	<field name="fPreflopCallConfidenceAugmentationFactorOffset" type="Float"/>
+	<field name="fChanceToKnowExactOpponentHandsOffset" type="Float"/>
+</class>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemcategoryParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bEnable" type="Boolean"/>
+	<field name="bIgnoreCurrentGen" type="Boolean"/>
+	<object name="locstridItemCategoryNameId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridItemCategoryDescriptionId">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

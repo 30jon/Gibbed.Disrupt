@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclemotorcycleParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vehicleVehicle" type="BinHex"/>
+	<field name="vehiclemcextrasMotorCycleExtras" type="BinHex"/>
+	<field name="fFrontTyreRadius" type="Float"/>
+	<field name="fRearTyreRadius" type="Float"/>
+	<field name="bChangeCheck" type="Boolean"/>
+	<field name="hidWheelBaseTest" type="BinHex"/>
+</class>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fireuihudlayer3dpropertiesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fScale" type="Float"/>
+	<object name="PositionProperties">
+		<field name="vectorOffset" type="Vector3"/>
+		<field name="bOffsetBasedOnEntityPosition" type="Boolean"/>
+		<object name="PositionBlendFactorProperties">
+			<field name="bUsePositionBlendFactor" type="Boolean"/>
+			<field name="fXBlendFactor" type="Float"/>
+			<field name="fYBlendFactor" type="Float"/>
+			<field name="fZBlendFactor" type="Float"/>
+		</object>
+	</object>
+	<object name="AngleProperties">
+		<field name="angvecAngle" type="Vector3"/>
+		<field name="angvecMinAngle" type="Vector3"/>
+		<field name="angvecMaxAngle" type="Vector3"/>
+		<object name="AngleBlendFactorProperties">
+			<field name="bUseAngleBlendFactor" type="Boolean"/>
+			<field name="fPitchBlendFactor" type="Float"/>
+			<field name="fRollBlendFactor" type="Float"/>
+			<field name="fYawBlendFactor" type="Float"/>
+		</object>
+	</object>
+</class>

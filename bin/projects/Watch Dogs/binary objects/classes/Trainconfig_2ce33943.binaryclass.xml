@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Trainconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTrainNormalMotionSpeed" type="Float"/>
+	<field name="fMaxAcceleration" type="Float"/>
+	<field name="nCarriagesPerTrain" type="Int32"/>
+	<field name="fMaxCornerSpeedScale" type="Float"/>
+	<field name="fExtendedDistanceForCornerDetect" type="Float"/>
+	<field name="fMinActiveCurveCosine" type="Float"/>
+	<object name="StationLogic">
+		<field name="fTimeToWaitInStation" type="Float"/>
+		<field name="fDistanceToStopAfterStation" type="Float"/>
+		<field name="fStationDetectionDistanceAhead" type="Float"/>
+		<field name="fStationDetectionDistanceBehind" type="Float"/>
+		<field name="fArrivingStationStimRadius" type="Float"/>
+		<field name="fDistanceToTannoyAnnouncement" type="Float"/>
+		<field name="fThresholdTannoyAnnouncement" type="Float"/>
+		<field name="fTimedurationOfDoorBell" type="Float"/>
+		<field name="fTimedurationOfDoorClosing" type="Float"/>
+		<object name="curveSpeedApproachingStation">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSpeedLeavingStation">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Spawning">
+		<field name="text_archDefaultArchetype" type="String"/>
+		<field name="archDefaultArchetype" type="BinHex"/>
+		<field hash="DAF795F7" type="String"/>
+		<field name="archDefaultInteriorArchetype" type="BinHex"/>
+		<field hash="6EEB5072" type="String"/>
+		<field name="archDoorBlocker" type="BinHex"/>
+		<field name="fMinDelayRedLine" type="Float"/>
+		<field name="fMinDelaybBueLine" type="Float"/>
+		<field name="fMaxDelayRedLine" type="Float"/>
+		<field name="fMaxDelayBlueLine" type="Float"/>
+		<field name="fExpectedDelayRedLine" type="Float"/>
+		<field name="fExpectedDelayblueLine" type="Float"/>
+		<field name="vec2PassengersPerCarriageMinMax" type="VectorInt"/>
+		<field name="uiMaxDirtEntities" type="Int64"/>
+		<field name="fInteriorSpawningDistanceSq" type="Float"/>
+		<field name="fInteriorDespawningDistanceSq" type="Float"/>
+		<object name="DirtArchetypes">
+			<object name="Dirt">
+				<field hash="040662CF" type="String"/>
+				<field name="archDirtArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DriverSpawnInfo">
+			<field hash="6BC07341" type="BinHex"/>
+			<field hash="BE4849E0" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Perception">
+		<field name="fPerceptionRange" type="Float"/>
+	</object>
+	<object name="Blackout">
+		<field name="fBlackOutBreakingDistance" type="Float"/>
+		<object name="curveBlackoutSpeedCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DynamicObstacle">
+		<field name="fDynamicObstacleBreakingDistance" type="Float"/>
+		<field name="fDynamicObstacleCriticalDistance" type="Float"/>
+		<field name="fDynamicObstacleVehicleDistanceOffset" type="Float"/>
+		<object name="curveDynamicObstacleSpeedCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TrafficLight">
+		<field name="fCriticalDistanceBeforeTrafficLight" type="Float"/>
+		<field name="fCriticalDistanceAfterTrafficLight" type="Float"/>
+		<field name="fTrafficLightPlanActiveRange" type="Float"/>
+	</object>
+	<object hash="824A23BA">
+		<field name="fElectricSparksDistanceThreshold" type="Float"/>
+	</object>
+	<object name="Decoration">
+		<field name="fRestrictedPartReuseDelay" type="Float"/>
+	</object>
+	<object name="HackingProperties">
+		<field name="fTrainHackIconViewAngle" type="Float"/>
+		<field name="fHackToStopMaxDistance" type="Float"/>
+		<field name="fHackToMotionMaxDistance" type="Float"/>
+		<field name="fTrainHackAppTimeWait" type="Float"/>
+		<field name="fTrainHackAppTimeWaitMultiplayer" type="Float"/>
+		<field name="fMaxTimeHackedInSeconds" type="Float"/>
+		<object name="curveHackToStop">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveHackToMotion">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CameraShakeAfterHack">
+		<field name="fHackShakeInVehicleCoefficient" type="Float"/>
+		<field name="fHackShakeStopSpeed" type="Float"/>
+		<field name="vec2HackShakeSpeedDistanceRef" type="Vector2"/>
+		<field name="vec2HackShakeSpeedMinMax" type="Vector2"/>
+		<field name="vec2HackSakeStrengthDistanceRef" type="Vector2"/>
+		<field name="vec2HackShakeStrengthMinMax" type="Vector2"/>
+		<field name="vec2HackShakeSpeedRef" type="Vector2"/>
+		<field name="vec2HackShakeStrengthSpeedMinMax" type="Vector2"/>
+	</object>
+	<object name="FastTravel">
+		<field hash="FA8DE531" type="String"/>
+		<field name="archFastTravelSecurityCameraArchetype" type="BinHex"/>
+		<field hash="A9CCF93F" type="String"/>
+		<field name="ActionMapName" type="BinHex"/>
+		<field name="fPlayerMaximumSpeedOnAutonav" type="Float"/>
+		<field name="vectorCameraOffset" type="Vector3"/>
+		<field name="fMAxTimeInAutoNav" type="Float"/>
+		<field name="ftimeFakeSpeed" type="BinHex"/>
+	</object>
+	<object name="Audio">
+		<field name="sndvarTrainSpeedRTPC" type="BinHex"/>
+		<field name="fLargeObjectOcclusionRange" type="Float"/>
+	</object>
+	<object name="WindowOpaquenessForSpawning">
+		<object name="fDistanceForTransparency">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="fDistanceForOpacity">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="fOpacityChangeSpeed">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+	</object>
+</class>

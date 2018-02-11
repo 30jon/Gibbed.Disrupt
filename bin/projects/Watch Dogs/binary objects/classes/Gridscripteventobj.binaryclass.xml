@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GridscripteventobjParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="3EC6D4E9" type="String"/>
+	<field name="gridscripteventdescriptorElementDescriptor" type="BinHex"/>
+	<object name="EventDescriptor">
+		<field name="fEventDuration" type="Float"/>
+		<field name="selSpecialEventType" type="Enum"/>
+		<field name="fWantedLifeTime" type="Float"/>
+		<field name="vec3UnveilCentrePosition" type="Vector3"/>
+		<field name="fLifeTime" type="Float"/>
+		<field name="vec3SpawnLocation" type="Vector3"/>
+		<field name="entHubEntity" type="BinHex"/>
+		<object name="GridScriptedDialog">
+			<object name="ScriptedDialog">
+				<field name="bDisplayPhoneCallInterface" type="Boolean"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field name="TmpDuration" type="BinHex"/>
+				<object name="locstridTextId">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="locstridHeaderId">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="locstridLineId">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="PhoneCallDisplay">
+					<field name="selFaceLabel" type="Enum"/>
+					<field name="fXScreenPosition" type="Float"/>
+					<field name="fYScreenPosition" type="Float"/>
+				</object>
+			</object>
+		</object>
+		<field name="mapicondescDefaultEventMapIcon" type="BinHex"/>
+		<field name="entTargetEntity" type="BinHex"/>
+		<field name="fCameraDuration" type="Float"/>
+		<field name="fCurve0" type="Float"/>
+		<field name="fCurve1" type="Float"/>
+		<field name="entEntity" type="BinHex"/>
+		<field name="TargetPosition" type="BinHex"/>
+		<object name="locstridTitle">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridTypeTextId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<field name="bSetCameraOriginAtCurrent" type="Boolean"/>
+		<field name="virtualmapcameracontrollerCameraOrigin" type="BinHex"/>
+		<field name="virtualmapcameracontrollerCameraTarget" type="BinHex"/>
+		<field name="bUseLocalCameraData" type="Boolean"/>
+		<field name="fTargetCameraDistance" type="Float"/>
+		<field name="TargetFOV" type="BinHex"/>
+		<field name="TargetCameraAngle" type="BinHex"/>
+		<field name="fOriginCameraDistance" type="Float"/>
+		<field name="OriginFOV" type="BinHex"/>
+		<field name="OriginCameraAngle" type="BinHex"/>
+		<field name="fInitialDelay" type="Float"/>
+		<field hash="926DCFF4" type="BinHex"/>
+		<field name="sndSound" type="BinHex"/>
+	</object>
+</class>

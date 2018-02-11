@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RewardintervalamountlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="RewardIntervalAmountList">
+		<object name="RewardIntervalAmountValue">
+			<field name="iSlotValue" type="Int32"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProgressionentitydbParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="EntityProgressionItem">
+		<field name="accessidAccessId" type="BinHex"/>
+		<field name="bEnableGlobalIlluminationOverride" type="Boolean"/>
+		<field name="iGIVisibilityIndex" type="Int32"/>
+		<object name="EntityStateList">
+			<object name="EntityState">
+				<field name="entEntityId" type="BinHex"/>
+				<field name="bIsVisible" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+</class>

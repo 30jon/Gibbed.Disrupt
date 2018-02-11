@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Eventprogressionlists_f3c492e0Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ProgressionEventLists">
+		<object name="ProgressionEventList">
+			<field name="accessidRequiredAccessId" type="BinHex"/>
+			<field name="randomeventlistsUnlockedEventList" type="BinHex"/>
+		</object>
+	</object>
+</class>

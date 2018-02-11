@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclecontexttriggersParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CameraContextReverse">
+		<field name="fMinSpeedToUpdateValues" type="Float"/>
+		<field name="fReverseAngleBackToFronMult" type="Float"/>
+		<object name="curveReverseAngleValue">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CameraContextJump">
+		<field name="fAirTimeToTrigger" type="Float"/>
+	</object>
+</class>

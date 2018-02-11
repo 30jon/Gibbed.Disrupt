@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Civilianoptimizationsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="bSlicingActivated">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="fSlicingMinDistance">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="fSlicingMaxDistance">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="ClothSizeLimitOnScreen">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="ClothMaxModulo">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="SlicingConfigs">
+		<object name="ControllerUpdate">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="RaycastNavmesh">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="ComputeAvoidanceCone">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="PropagatePanic">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="UpdateThreatProximity">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="StateManager">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="Animation">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+		<object name="FakeCrowd">
+			<object name="minDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="maxDist">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="minModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="medModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="maxModulo">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>

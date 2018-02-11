@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Profilerglobalsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMaxPlayerSpeed" type="Float"/>
+	<field name="fMaxPlayerSpeedOnFoot" type="Float"/>
+	<field name="fConnectingDelayMin" type="Float"/>
+	<field name="fConnectingDelayMax" type="Float"/>
+	<field name="fDiscoveringDelayMin" type="Float"/>
+	<field name="fDiscoveringDelayMax" type="Float"/>
+	<field name="fRefreshInformationDelayMin" type="Float"/>
+	<field name="fRefreshInformationDelayMax" type="Float"/>
+	<field name="fLoseFocusDelayNoProfilerAndTowardsCharacter" type="Float"/>
+	<field name="fMinScanDuration" type="Float"/>
+	<field name="fMaxScanDuration" type="Float"/>
+	<field name="uiNumberOfScanners" type="Int64"/>
+	<field name="fFovAngleXMultiplierForTargeting" type="Float"/>
+	<field name="fMaxApparentDistance" type="Float"/>
+	<field name="fMaxDataCloudDensity" type="Float"/>
+	<field name="sndTypingTextSoundStart" type="BinHex"/>
+	<field name="sndTypingTextSoundStop" type="BinHex"/>
+	<field name="sndTurnOnSound" type="BinHex"/>
+	<field name="sndTurnOffSound" type="BinHex"/>
+	<field name="sndStartGainingFocusSound" type="BinHex"/>
+	<field name="sndGainedFocusSound" type="BinHex"/>
+	<field name="sndStartLosingFocusSound" type="BinHex"/>
+	<field name="sndLostFocusSound" type="BinHex"/>
+	<field name="sndBehaviorAnalysisActivation" type="BinHex"/>
+	<field name="fDelayBeforeSendingDominoEvent" type="Float"/>
+	<field name="colorProfilerPortraitBackgroundColor" type="Vector4"/>
+	<field hash="6296328F" type="String"/>
+	<field name="sCinemaPostFx" type="BinHex"/>
+	<field name="fRewardPanelTextEffectDuration" type="Float"/>
+	<field name="fOthersLinesTextEffectDelay" type="Float"/>
+	<field name="fWebSearchWheelSpeed" type="Float"/>
+	<field name="fProfilerRewardTimer" type="Float"/>
+	<field name="fEmailActivityPanelDisplayDuration" type="Float"/>
+	<field name="fChatDisplayDurationAfterLastMessage" type="Float"/>
+	<field name="fVoiceDisplayDurationAfterDialog" type="Float"/>
+	<field name="profilerinfofilterSystemKeyProfileFilter" type="BinHex"/>
+	<object name="curveIllegalAppLineWidthOverDist">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="DataCloudsSettings">
+		<field name="iNumberOfPlanes" type="Int32"/>
+		<object name="InitialDisposition">
+			<field name="fPlaneScale" type="Float"/>
+			<field name="PlaneLocalOrientation" type="Vector3"/>
+			<field name="vecPlaneLocalOffsetMin" type="Vector3"/>
+			<field name="vecPlaneLocalOffsetMax" type="Vector3"/>
+			<field name="vecPlaneLocalOffsetInterval" type="Vector3"/>
+			<field name="fYawInterval" type="Float"/>
+		</object>
+		<object name="Movement">
+			<field name="fRotationSpeedMin" type="Float"/>
+			<field name="fRotationSpeedMax" type="Float"/>
+		</object>
+		<object name="Alpha">
+			<field name="fBaseAlpha" type="Float"/>
+			<object name="curveAlphaOverDistanceFromCamera">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveAlphaOverTimeOfDay">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="ProfilerPicture">
+		<field name="fCamHeightOffset" type="Float"/>
+		<field name="fCamHeightOffsetVariance" type="Float"/>
+		<field name="fCamDistance" type="Float"/>
+		<field name="fCamFieldOfView" type="Float"/>
+		<field name="fCamFieldOfViewVariance" type="Float"/>
+		<object name="Poses">
+			<object name="Pose">
+				<field hash="01D698D6" type="String"/>
+				<field name="fileProfilerPortraitAnimRes" type="BinHex"/>
+				<field hash="E4C77BC5" type="String"/>
+				<field name="fileProfilerPortraitPoseRes" type="BinHex"/>
+				<field name="selGender" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="ProfilerDefault">
+		<field hash="887D1A31" type="String"/>
+		<field name="ethnicitytypeEthnicityDefaultType" type="BinHex"/>
+		<field name="uAgeMin" type="Int64"/>
+		<field name="uAgeMax" type="Int64"/>
+		<field name="uRichBankAccountIncomeRequired" type="Int64"/>
+		<field name="sndvarProfilerAmbienceRTPC" type="BinHex"/>
+		<field name="uRecordCaseNbMin" type="Int64"/>
+		<field name="uRecordCaseNbMax" type="Int64"/>
+		<field hash="012B9F7A" type="String"/>
+		<field name="fileProfilerThumbnailOverride" type="BinHex"/>
+		<field hash="81217E4B" type="String"/>
+		<field name="fileProfilerThumbnailOverrideBlackout" type="BinHex"/>
+		<field hash="0C97FD1F" type="String"/>
+		<field name="fileProfilerThumbnailOverrideCompanion" type="BinHex"/>
+		<object name="locsectionidOccupationType">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidNoveltyFactTypeCommon">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidNoveltyFactTypeRare">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridXIngredientStateOFF">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridXIngredientStateON">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSecurityCameraInUseStateOasisString">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSecurityCameraStateHostile">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSecurityCameraStateFriendly">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidSpecificHubLockedProfilerInfoId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locsectionidSpecificBlackoutProfilerInfoId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="FiltersAndDataCardCyclingArchetypes">
+		<field name="datacardcyclingarchetypedescDataCardCyclingArchetype" type="BinHex"/>
+		<field name="datacardpanelarchetypedescDataCardPanelArchetype" type="BinHex"/>
+		<field name="criminalrecordarchetypedescCriminalRecordArchetypeDefault" type="BinHex"/>
+		<field name="websearcharchetypedescWebSearchArchetypeDefault" type="BinHex"/>
+		<field name="medicalrecordarchetypedescMedicalRecordArchetypeDefault" type="BinHex"/>
+		<field name="travelrecordarchetypedescTravelRecordArchetypeDefault" type="BinHex"/>
+		<field name="socialrecordarchetypedescSocialRecordArchetypeDefault" type="BinHex"/>
+	</object>
+	<object name="GlobalConnectionLinksManagerSettings">
+		<field name="fMaxLinkedEntities" type="Int16"/>
+		<field name="fMaxLinksPerEntity" type="Int16"/>
+		<field name="fMaxEntitiesDistanceToPlayer" type="Float"/>
+		<field name="fMaxDistanceBetweenEntities" type="Float"/>
+		<field name="fLineWidth" type="Float"/>
+		<field name="bUseRandomTextureMaskCycling" type="Boolean"/>
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field name="fMaskTextureScale" type="Float"/>
+		<field name="fRandomOffsetRange" type="Float"/>
+		<field name="fMaxEntitiesDistanceToPlayerForRandomEntities" type="Float"/>
+		<field name="bUseOcclusion" type="Boolean"/>
+		<object name="MaskTextures">
+			<object name="fileTexture">
+				<field hash="1CB97581" type="String"/>
+				<field name="fileTexture" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="ProfilerConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+		<object name="curveAlphaOverSquaredDistFromCam">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveAlphaOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMinDistanceFromCamToShowOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveRevealDistanceOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DisruptCommConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+		<object name="curveAlphaOverSquaredDistFromCam">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveAlphaOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMinDistanceFromCamToShowOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveRevealDistanceOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="HackingConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+		<field name="fHackingHalfAperture" type="Float"/>
+		<object name="curveAlphaOverSquaredDistFromCam">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveAlphaOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMinDistanceFromCamToShowOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveRevealDistanceOverTime">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="MyPerkLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CtOsConnectionLineSettings">
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DownloadLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TeamBoostLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DataTheftLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="BinHex"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TargetingSettings">
+		<field name="fSlowerSwitchTime" type="Float"/>
+		<field name="fNormalSwitchTime" type="Float"/>
+		<field name="fFasterSwitchTime" type="Float"/>
+		<field name="iNormalCivilianPriority" type="Int32"/>
+		<field name="iHackableCivilianCivilianPriority" type="Int32"/>
+		<field name="iHackableCivilianRareRewardPriority" type="Int32"/>
+		<field name="iCameraPriority" type="Int32"/>
+		<field name="iXIngredientPriority" type="Int32"/>
+		<field name="iPlayerPriority" type="Int32"/>
+		<field name="iMissionObjectivePriority" type="Int32"/>
+	</object>
+	<object name="EmailReadSpeedSettings">
+		<field name="fWordPerSecond" type="Float"/>
+		<field name="fWaitMin" type="Float"/>
+		<field name="fWaitMax" type="Float"/>
+	</object>
+	<object name="ChatReadSpeedSettings">
+		<field name="fWordPerSecond" type="Float"/>
+		<field name="fWaitMin" type="Float"/>
+		<field name="fWaitMax" type="Float"/>
+	</object>
+	<object name="PhoneCallSettings">
+		<field name="sndPhoneCallIncomingSMS" type="BinHex"/>
+		<field name="sndPhoneCallIncomingMail" type="BinHex"/>
+		<field name="sndPhoneCallIncomingCall" type="BinHex"/>
+	</object>
+	<object name="NoveltyFactSystemKey">
+		<object name="locstridSystemKey">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="NoveltyFactRandomEvent">
+		<object name="locstridMissionConvoy">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMissionIntimidation">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridVigilante">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridItemInterest">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="NoveltyFactOnlineActivity">
+		<object name="locstridOnlineTailing">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridOnlineRacing">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridOnlineHacking">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="VideoFile">
+		<field hash="5B5B2C23" type="String"/>
+		<field name="matDefaultMaterial" type="BinHex"/>
+	</object>
+</class>

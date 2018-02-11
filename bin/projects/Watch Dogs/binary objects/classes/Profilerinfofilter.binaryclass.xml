@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProfilerinfofilterParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="criminalrecordarchetypedescCriminalRecordArchetypeDefault" type="BinHex"/>
+	<field name="websearcharchetypedescWebSearchArchetypeDefault" type="BinHex"/>
+	<field name="medicalrecordarchetypedescMedicalRecordArchetypeDefault" type="BinHex"/>
+	<field name="travelrecordarchetypedescTravelRecordArchetypeDefault" type="BinHex"/>
+	<field name="socialrecordarchetypedescSocialRecordArchetypeDefault" type="BinHex"/>
+	<object name="locsectionidOccupationType">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locsectionidNoveltyFactType">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

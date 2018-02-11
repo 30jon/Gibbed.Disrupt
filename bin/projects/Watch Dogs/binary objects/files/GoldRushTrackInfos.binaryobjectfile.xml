@@ -1,7 +1,8 @@
-<file name="GoldRushTrackInfos">
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Goldrushtrackinfos">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="CGoldRushTrackInfos" />
+			<inherit name="GoldrushtrackinfosParameters"/>
 		</object>
 	</object>
 </file>

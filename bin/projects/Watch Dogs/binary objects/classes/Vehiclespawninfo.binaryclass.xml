@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclespawninfoParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="E6655990" type="BinHex"/> <!-- TODO String but crashes with all-0 -->
+	<field name="archArchetype" type="BinHex"/>
+	<field name="bIsTraffic" type="Boolean"/>
+	<field name="bIsParking" type="Boolean"/>
+	<field name="bIsParkingEnticer" type="Boolean"/>
+	<field name="bIsBoat" type="Boolean"/>
+	<field name="selVehicleType" type="Enum"/>
+	<field name="sDebugName" type="String"/>
+	<object name="Parking">
+		<field name="fBaseParkingAngle" type="Float"/>
+		<field name="fRandomParkingAngle" type="Float"/>
+		<field name="fRandomParkingOffsetLow" type="Float"/>
+		<field name="fRandomParkingOffsetHigh" type="Float"/>
+	</object>
+	<object name="Spawning">
+		<field name="uiMaxInstances" type="Int64"/>
+		<field name="fCoolDown" type="Float"/>
+	</object>
+	<object name="Passenger">
+		<object name="PassengerSpec">
+			<field hash="E4C8C438" type="BinHex"/>
+			<field hash="971E88CF" type="BinHex"/>
+		</object>
+		<object name="PeopleSpawnInfo">
+			<field hash="6BC07341" type="BinHex"/>
+			<field hash="BE4849E0" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ShopsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vectorAutoNavDestinationLocalOffset" type="Vector3"/>
+	<field name="bAutoNavUseTargetAngle" type="Boolean"/>
+	<field name="fAutoNavTargetAngle" type="Float"/>
+	<field name="vectorShopkeeperSpawnOffset" type="Vector3"/>
+	<field hash="FF22650F" type="String"/>
+	<field name="archShopKeeper" type="BinHex"/>
+	<field hash="32F4B348" type="String"/>
+	<field name="archCashRegister" type="BinHex"/>
+	<field name="bIsShopBroadcastForbidden" type="Boolean"/>
+	<field name="fTalkingReactionProbability" type="Float"/>
+	<field name="fPanickingReactionProbability" type="Float"/>
+	<field name="fPressingAlarmReactionProbability" type="Float"/>
+	<field name="fileBeforeInteractionIdleMove" type="String"/>
+	<field name="bUseIdleActivityOutsideInteractionRange" type="Boolean"/>
+	<field name="fileBeforeInteractionActivityMove" type="String"/>
+	<field name="fileBeforeInteractionActivityMove_BranchOut" type="String"/>
+	<field name="fileGreetingMove" type="String"/>
+	<field name="fileGreetingMoveReputation" type="BinHex"/>
+	<field name="fileAfterInteractionIdleMove" type="String"/>
+	<field name="fileAfterInteractionActivityMove" type="String"/>
+	<field name="fileOutroWithTradeMove" type="String"/>
+	<field name="fileOutroNoTradeMove" type="String"/>
+	<field name="fileOutroGiveItemMove" type="BinHex"/>
+	<field name="fileHoldUpMove" type="String"/>
+	<field name="fileHoldUpMoveLoop" type="String"/>
+	<field name="uiShopCashMin" type="Int64"/>
+	<field name="uiShopCashMax" type="Int64"/>
+	<field name="itemsReward" type="BinHex"/>
+	<field name="bShopPlayerCanSellValuable" type="Boolean"/>
+	<field name="uiAlarmAddHeatAmount" type="Int64"/>
+	<field name="selFelonyType" type="Enum"/>
+	<field name="fHoldUpDistanceBeforeGoingToPanic" type="Float"/>
+	<field name="bAvailableInMP" type="Boolean"/>
+	<field name="sndStealSound" type="BinHex"/>
+	<field hash="9ED75256" type="String"/>
+	<field name="sPlayerGreetingsTrigger" type="BinHex"/>
+	<object name="locstridInteractionText">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locstridStealText">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="ShopkeeperAnimations">
+		<field name="fileReactionLookAtMediaBroadcastStart" type="String"/>
+		<field name="fileReactionDoNotRecognizeEnd" type="String"/>
+		<field name="fileReactionPanick" type="String"/>
+		<field name="fileReactionPressAlarm" type="String"/>
+	</object>
+	<object name="ShopCameras">
+		<field hash="CABE74B9" type="String"/>
+		<field name="fileInsideShopMenu" type="BinHex"/>
+		<field hash="1C71844F" type="String"/>
+		<field name="fileFugitiveMediaBroadcastInProgress" type="BinHex"/>
+		<field hash="5B7B9C2C" type="String"/>
+		<field name="fileConsumingAdrenalineCameraAnimation" type="BinHex"/>
+		<field name="sConsumingAdrenalinePlayerAnimationAnchorId" type="String"/>
+		<field name="fileConsumingAdrenalinePlayerAnimation" type="String"/>
+	</object>
+	<object name="ShopMenu">
+		<field name="selShopType" type="Enum"/>
+		<field name="reputationeffectsReputationEffect" type="BinHex"/>
+		<field name="sShopTextureName" type="String"/>
+		<field name="selShopTutorialType" type="Enum"/>
+		<object name="locstridShopName">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridShopDescription">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="Shopkeeper">
+		<field name="selShopkeeperReactionIndex" type="Enum"/>
+	</object>
+	<object name="InventoryItems">
+		<object name="Item">
+			<field name="itemsItem" type="BinHex"/>
+		</object>
+	</object>
+</class>

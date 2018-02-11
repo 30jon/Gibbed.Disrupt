@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Ugcconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="UGCPersistence">
+		<field name="disNextId" type="BinHex"/>
+		<field name="iDefaultPersistenceId" type="Int32"/>
+		<object name="Persistence">
+			<object name="PersistenceData">
+				<field name="disId" type="BinHex"/>
+				<field name="bPermanentUgc" type="Boolean"/>
+				<field name="iTimePeriodHours" type="Int32"/>
+				<field name="iMinRewardCycles" type="Int32"/>
+				<field name="iMaxRewardCycles" type="Int32"/>
+				<field name="iCost" type="Int32"/>
+				<field name="sDebugName" type="BinHex"/>
+				<object name="locstridLocalisedName">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Monetization">
+		<field name="iUgcBaseCost" type="Int32"/>
+		<field name="iNumFreeUgcNodes" type="Int32"/>
+		<field name="iNodeCost" type="Int32"/>
+		<field name="bFreeUgcNodeAllowedInPaidUgc" type="Boolean"/>
+		<field name="fEntranceFeeCostPercentage" type="Float"/>
+		<field name="fEntranceFeeRewardSplit" type="Float"/>
+	</object>
+	<object name="Audio">
+		<field name="sndAddNodeSoundId" type="BinHex"/>
+		<field name="sndRemoveNodeSoundId" type="BinHex"/>
+		<field name="sndMoveNodeSoundId" type="BinHex"/>
+		<field name="sndUndoOperationSoundId" type="BinHex"/>
+		<field name="sndFailedOperationSoundId" type="BinHex"/>
+		<field name="sndSelectFocusSoundId" type="BinHex"/>
+	</object>
+	<object name="Misc">
+		<field name="iMaxNodes" type="Int32"/>
+		<field name="fCoinHeightOffset" type="Float"/>
+		<field hash="A71A1722" type="String"/>
+		<field name="archGoldRushChallenge" type="BinHex"/>
+		<field hash="2E847971" type="String"/>
+		<field name="archGoldRushCreation" type="BinHex"/>
+		<field hash="307E2D0F" type="String"/>
+		<field name="archGoldRushVehicleCreation" type="BinHex"/>
+		<field hash="DD84F2E1" type="String"/>
+		<field name="archGoldRushStartPoint" type="BinHex"/>
+		<field hash="9CBFF9F4" type="String"/>
+		<field name="archGoldRushCreationFocus" type="BinHex"/>
+		<field name="mapicondescGoldRushStart" type="BinHex"/>
+		<field name="mapicondescGoldRushCoin" type="BinHex"/>
+		<field name="randomeventsUGCPropositionRandomEvent" type="BinHex"/>
+		<field name="fUGCPropositionInterval" type="Float"/>
+		<field name="fUGCPropositionDuration" type="Float"/>
+		<field name="fUGCUnclaimedCashCheckInterval" type="Float"/>
+	</object>
+</class>

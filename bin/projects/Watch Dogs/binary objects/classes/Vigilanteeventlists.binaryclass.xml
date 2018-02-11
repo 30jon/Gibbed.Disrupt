@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VigilanteeventlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="VigilanteEventTypes">
+		<object name="VigilanteEventType">
+			<field hash="76BEED44" type="String"/>
+			<field name="sEventType" type="BinHex"/>
+			<field hash="D772ECFF" type="String"/>
+			<field name="sEventVariation" type="BinHex"/>
+			<object name="locstridRelatedConversation"/>
+			<object name="RelatedConversationLists">
+				<object name="locstridRelatedConversation">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

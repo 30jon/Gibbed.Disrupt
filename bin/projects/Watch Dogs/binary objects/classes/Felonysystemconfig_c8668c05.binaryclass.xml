@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Felonysystemconfig_c8668c05Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="5BA06B90" type="String"/>
+	<field name="archFelonyChopperEntity" type="BinHex"/>
+	<object name="Barks">
+		<field name="uiWitnessKillCivilianWithCarNbr" type="Int64"/>
+		<field name="fWitnessKillCivilianWithCarTime" type="Float"/>
+		<field name="uiWitnessKillCopWithCarNbr" type="Int64"/>
+		<field name="fWitnessKillCopWithCarTime" type="Float"/>
+		<field name="fWitnessPlayerEnterCarDelay" type="Float"/>
+		<field name="fPatrolBullhornDistance" type="Float"/>
+		<field name="fPatrolBullhornDistanceTime" type="Float"/>
+		<field name="fPatrolCarDownCooldownTime" type="Float"/>
+	</object>
+</class>

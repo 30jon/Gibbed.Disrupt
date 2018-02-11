@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Monitoring3dapplicationsettings_9b5fc7e8Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="CameraControls">
+		<field name="fMinCameraDist" type="Float"/>
+		<field name="fMaxCameraDist" type="Float"/>
+		<field name="fCameraZoomSpeed" type="Float"/>
+		<field name="fCameraMoveSpeed" type="Float"/>
+		<field name="fCameraMinPitch" type="Float"/>
+		<field name="fCameraMaxPitch" type="Float"/>
+		<field name="fSnapDistance" type="Float"/>
+	</object>
+	<object name="Icons">
+		<field name="mapicondescGridCopsMapIcon" type="BinHex"/>
+	</object>
+	<object name="SoundSettings">
+		<field name="sndEnterMapSoundEvent" type="BinHex"/>
+		<field name="sndExitMapSoundEvent" type="BinHex"/>
+		<field name="sndEnterSoundEvent" type="BinHex"/>
+		<field name="sndExitSoundEvent" type="BinHex"/>
+		<field name="sndvarCamHeightRtpc" type="BinHex"/>
+		<object name="SoundLayers">
+			<field name="sndPlayHighLayerSoundEvent" type="BinHex"/>
+			<field name="sndStopHighLayerSoundEvent" type="BinHex"/>
+			<field name="sndPlayMidLayerSoundEvent" type="BinHex"/>
+			<field name="sndStopMidLayerSoundEvent" type="BinHex"/>
+			<field name="sndPlayLowLayerSoundEvent" type="BinHex"/>
+			<field name="sndStopLowLayerSoundEvent" type="BinHex"/>
+		</object>
+		<object name="Emitters">
+			<field name="sndemitSpeaker1" type="BinHex"/>
+			<field name="sndemitSpeaker2" type="BinHex"/>
+			<field name="sndemitSpeaker3" type="BinHex"/>
+			<field name="sndemitSpeaker4" type="BinHex"/>
+		</object>
+		<object name="CameraMovement">
+			<field name="fMaxCamSpeed" type="Float"/>
+			<field name="sndmlCamSpeedMultilayer" type="BinHex"/>
+			<field name="sndCamStartMoveEvent" type="BinHex"/>
+			<field name="sndCamStopMoveEvent" type="BinHex"/>
+			<field name="sndCamZoomInStartEvent" type="BinHex"/>
+			<field name="sndCamZoomInStopEvent" type="BinHex"/>
+			<field name="sndCamZoomOutStartEvent" type="BinHex"/>
+			<field hash="8E5AFFA5" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Localization">
+		<object name="locstridZoomInTextId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridZoomOutTextId">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAddWaypoint">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridRemoveWaypoint">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridAddRemoveWaypoint">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridShowLegend">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridHideLegend">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSwitchToGrid">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSwitchToMap">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridGridRefresh">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridBack">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridNavigate">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridSurvivalGuide">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridMap">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+		<object name="locstridGrid">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+</class>

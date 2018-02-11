@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Cameracontext">
+	<object name="lib">
+		<object hash="72DE4948">
+			<inherit name="CameracontextParameters"/>
+		</object>
+	</object>
+</file>

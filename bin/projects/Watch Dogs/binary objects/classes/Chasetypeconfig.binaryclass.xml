@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasetypeconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selFelonyType" type="Enum"/>
+	<field name="chasestageconfigMPStage" type="BinHex"/>
+	<field name="chasestageconfigCompanionStage" type="BinHex"/>
+	<field name="fReinforcementLowSpeedRangeReductionThreshold" type="Float"/>
+	<field name="bUseRaycastInSpawnSystem" type="Boolean"/>
+	<field name="fOutOfUsefullRange" type="Float"/>
+	<field name="fOutOfUsefullRangeEmptyCarOnFootAgent" type="Float"/>
+	<field name="fPlayerZoneInMeter" type="Float"/>
+	<field name="bAvoidTraffic" type="Boolean"/>
+	<field name="bTrafficGiveChaserWay" type="Boolean"/>
+	<field name="bTrafficStopAtIntersection" type="Boolean"/>
+	<field name="fGateUnblockingDelay" type="Float"/>
+	<field name="maneuverdbManeuverDatabase" type="BinHex"/>
+	<field name="mapicondescRoadBlockMapIcon" type="BinHex"/>
+	<field name="mapicondescSearchZoneMapIcon" type="BinHex"/>
+	<field name="mapicondescRimMapIcon" type="BinHex"/>
+	<field name="mapicondescRimEffectMapIcon" type="BinHex"/>
+	<field name="mapicondescHideInCarMapIcon" type="BinHex"/>
+	<field name="mapicondescHideInCarRimMapIcon" type="BinHex"/>
+	<field name="colorHideInCarNoSafeZone" type="Vector3"/>
+	<field name="fRoadBlockTimeToReachPlayerZoneOnSpawn" type="Float"/>
+	<field name="fRoadBlockTimeToReachPlayerZone" type="Float"/>
+	<field name="archRoadBlockZone" type="BinHex"/>
+	<field name="archRoadBlockSpikeStrip" type="BinHex"/>
+	<field name="fScoreUnspawnDelay" type="Float"/>
+	<field name="fUnspawnQueueTimeMin" type="Float"/>
+	<field name="fUnspawnQueueTimeMax" type="Float"/>
+	<object name="Sounds">
+		<field name="sndChaseStartedSound" type="BinHex"/>
+		<field name="sndChaseStoppedSound" type="BinHex"/>
+		<field name="sndSearchStartedSound" type="BinHex"/>
+		<field name="sndSearchStoppedSound" type="BinHex"/>
+	</object>
+	<object name="SpawnRules">
+		<field name="fInnerCircleStartRadius" type="Float"/>
+		<field name="fInnerCircleRadius" type="Float"/>
+		<field name="fMiddleCircleRadius" type="Float"/>
+		<field name="fOuterCircleRadius" type="Float"/>
+		<field name="fMinDistanceBetweenSpawnPoint" type="Float"/>
+		<field name="fMinDistanceToEvade" type="Float"/>
+		<object name="OnFootSpawnRules">
+			<field name="fNormalOnFootCircleStartRadius" type="Float"/>
+			<field name="fNormalOnFootCircleRadius" type="Float"/>
+			<field hash="3E7BA611" type="BinHex"/>
+			<field hash="2C0116F8" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DamageModifier">
+		<field name="fAIDamageScaleFactorWhenHitByPlayer" type="Float"/>
+		<field name="fAIDamageScaleFactorWhenHitByTraffic" type="Float"/>
+		<field name="fPlayerScaleFactorWhenHitByEnemyAI" type="Float"/>
+	</object>
+	<object name="PlayerAreaMobility">
+		<field name="fStayInSameAreaTimeSec" type="Float"/>
+		<field name="fStayInSameAreaRadius" type="Float"/>
+	</object>
+	<object name="PlayerCorridor">
+		<field name="fCorridorOriginRadius" type="Float"/>
+		<field name="fCorridorWidth" type="Float"/>
+		<field name="fCorridorLength" type="Float"/>
+	</object>
+	<object name="TrainVariables">
+		<field name="fMaxDistanceFromStationToSpawn" type="Float"/>
+		<field name="fMinDistanceFromStationToSpawn" type="Float"/>
+		<field name="fPlatformSpawnOffset" type="Float"/>
+	</object>
+	<object name="RecentSpawnExclusion">
+		<field name="fRecentSpawnRadius" type="Float"/>
+		<field name="fRecentSpawnTimer" type="Float"/>
+		<field name="fRecentRoadBlockSpawnRadius" type="Float"/>
+		<field name="fRecentRoadBlockSpawnTimer" type="Float"/>
+		<field name="fRecentOnFootSpawnRadius" type="Float"/>
+		<field name="fRecentOnFootSpawnTimer" type="Float"/>
+	</object>
+	<object name="SoundArchetypes">
+		<object name="PilotArchetypes">
+			<object name="Pilot">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="PatrolArchetypes">
+			<object name="Patrol">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DispatchArchetypes">
+			<object name="Dispatch">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="OperatorArchetypes">
+			<object name="Operator">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

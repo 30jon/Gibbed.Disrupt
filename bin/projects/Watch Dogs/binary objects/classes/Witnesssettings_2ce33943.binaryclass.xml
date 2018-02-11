@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Witnesssettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DenunciatorSettings">
+		<object name="Misc">
+			<field name="fDenunciatorDelay" type="Float"/>
+			<field name="fMaxTimeToReachSafeZone" type="Float"/>
+			<field name="fDelayBetween911andDenunciator" type="Float"/>
+			<field name="fDelayBetweenReactionAndDenunciator" type="Float"/>
+			<field name="fForceDenunciatorSearchRadius" type="Float"/>
+			<field hash="A7EC39BB" type="String"/>
+			<field name="sDefaultDenunciatorBark" type="BinHex"/>
+			<field hash="AAC7E6AE" type="String"/>
+			<field name="sDenunciatorBarkFromDetector" type="BinHex"/>
+			<field name="sndDenunciatorStart" type="BinHex"/>
+			<field name="sndDenunciatorPrevented" type="BinHex"/>
+			<object name="curveDenunciatorProbabilityCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="DenunciatorGPSTexture">
+				<field hash="33E4567C" type="String"/>
+				<field name="fileIconTexture" type="BinHex"/>
+			</object>
+			<object name="DenunciatorDisruptedGPSTexture">
+				<field hash="33E4567C" type="String"/>
+				<field name="fileIconTexture" type="BinHex"/>
+			</object>
+			<object name="curveSinglePlayerWitnessHeatScale">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveMultiPlayerWitnessHeatScale">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveInvasionPlayerWitnessHeatScale">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="PMSValuesNeeded">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+			<object name="PMSValuesExcluded">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+		</object>
+		<object name="HeatLevelSettings">
+			<object name="HeatLevel1">
+				<field name="fDenunciatorMaxDist" type="Float"/>
+				<field name="iMaxDenunciators" type="Int32"/>
+				<field name="fCallSpeed" type="Float"/>
+				<field name="fOnSpotDistance" type="Float"/>
+			</object>
+			<object name="HeatLevel2">
+				<field name="fDenunciatorMaxDist" type="Float"/>
+				<field name="iMaxDenunciators" type="Int32"/>
+				<field name="fCallSpeed" type="Float"/>
+				<field name="fOnSpotDistance" type="Float"/>
+			</object>
+			<object name="HeatLevel3">
+				<field name="fDenunciatorMaxDist" type="Float"/>
+				<field name="iMaxDenunciators" type="Int32"/>
+				<field name="fCallSpeed" type="Float"/>
+				<field name="fOnSpotDistance" type="Float"/>
+			</object>
+			<object name="HeatLevel4">
+				<field name="fDenunciatorMaxDist" type="Float"/>
+				<field name="iMaxDenunciators" type="Int32"/>
+				<field name="fCallSpeed" type="Float"/>
+				<field name="fOnSpotDistance" type="Float"/>
+			</object>
+			<object name="HeatLevel5">
+				<field name="fDenunciatorMaxDist" type="Float"/>
+				<field name="iMaxDenunciators" type="Int32"/>
+				<field name="fCallSpeed" type="Float"/>
+				<field name="fOnSpotDistance" type="Float"/>
+			</object>
+		</object>
+		<object name="Incidents">
+			<object name="AimedByARGun">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="AimedByGun">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ARGunShot">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="Arrest">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BlackoutStart_Day">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BlackoutStop_Day">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BlackoutStart_Night">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BlackoutStop_Night">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BlumeAgentHacked">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="BulletImpact">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CivilianAnxiety">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CivilianPanic">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CivilianSpiderTankPanic">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CivilianHitByACarButNotDead_ReputationOnly">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarCrash">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarCrashBig">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarCrashPileup">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarHackedAlarm">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarHonk">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarHonkPlayer">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="Carjacking">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarOnOpenBridge">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarSiren">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CarTheft">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CommunicationDisrupted">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CopNonLethalShot">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CopNonLethalTakedown">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="CuriousBhv">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="KilledMobster">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="DeadBody">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="DenunciatorAttacked">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ElectricSpark">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="Fire">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="FleeFromShop">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="GrenadeInEnvironment">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="GrenadeInHand">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="GunShot">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="GunShotAtPolice">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="GunShotInPanic">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="HackedEntityMalfunction">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="HitByVehicle">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="HoldUpShopkeeper">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="IncomingClimber">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="IncomingThreat">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="IncomingRunner">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="KilledCivilian">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="KilledCivilianByCar">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="KilledPolice">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="LargeBump">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="LargeCloseObjectBroken">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="LargeExplosion">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="MyCloseObjectBroken">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="MyCloseObjectBigBroken">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="MyCarJackingFinished">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="fDistance" type="Float"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="MyCarJackingFinishedRunAway">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="MyTakeDownFinished">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="OffRoadDriving">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="OnLeaderQuitCuriosity">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="OnLeaderQuitAnxiety">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="OnLeaderQuitPanic">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="OwnCarStolen">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PanicInside">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PeopleDie">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PersonAttacked">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PlayerPlayingARGame">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PlayerProximity">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ProlongedPlayerProximity">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="PuddleSplash">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="RainStart">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="RainStop">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ReputationGood">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ReputationBad">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="RunningPeopleProximity">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ShutDownMediaBroadcast">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SmallBump">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SmallCloseObjectBroken">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SmallExplosion">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SpecialBroadcast">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SteamPipe">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SteamPipeExplosion">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="SECarAccident">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="ThreatProximity">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="UncommonAction">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="UnholsteredGun">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field hash="5DCA6216" type="String"/>
+				<field name="DenunciatorBark" type="BinHex"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="XIngredientHack_Audio">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="XIngredientHack_MechanicalBig">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="XIngredientHack_MechanicalSmall">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+			<object name="XIngredientHack_Visual">
+				<field name="iDenunciatorProbability" type="Int32"/>
+				<field name="iDenunciatorProbabilityMP" type="Int32"/>
+				<field name="iDenunciatorProbabilityInvasion" type="Int32"/>
+				<field name="fDenunciatorMax" type="Int16"/>
+				<field name="fSafeDistance" type="Float"/>
+				<field name="bCheckThreatProximity" type="Boolean"/>
+				<field name="bCheckThreatInCar" type="Boolean"/>
+				<field name="bForceOnSpot" type="Boolean"/>
+			</object>
+		</object>
+		<object name="ForceDenunciatorSettings">
+			<object name="KilledByGun">
+				<field name="fMinDelay" type="Float"/>
+				<field name="fRequastMinDelay" type="Float"/>
+				<field name="iMaxDensity" type="Int32"/>
+				<field name="iMinCivilianKilled" type="Int32"/>
+				<field name="fCivilianKilledInterval" type="Float"/>
+				<field name="fCanForceDelay" type="Float"/>
+				<field name="fMinDelayAfterForced" type="Float"/>
+				<field name="iExtraKillForDenunciatorKill" type="Int32"/>
+			</object>
+			<object name="KilledByCar">
+				<field name="fMinDelay" type="Float"/>
+				<field name="fRequastMinDelay" type="Float"/>
+				<field name="iMaxDensity" type="Int32"/>
+				<field name="iMinCivilianKilled" type="Int32"/>
+				<field name="fCivilianKilledInterval" type="Float"/>
+				<field name="fCanForceDelay" type="Float"/>
+				<field name="fMinDelayAfterForced" type="Float"/>
+				<field name="iExtraKillForDenunciatorKill" type="Int32"/>
+			</object>
+		</object>
+		<object name="AiForceDenunciatorSettings">
+			<field name="fVigilanteDenunciatorProbability" type="Float"/>
+			<field name="fGunFightDenunciatorProbability" type="Float"/>
+			<field name="fGunFightDenunciatorTimeBetweenThreeShot" type="Float"/>
+			<field name="fGunFightVerificationCheckDelay" type="Float"/>
+		</object>
+	</object>
+	<object name="BlumeAgentDenunciatorSettings">
+		<field name="dialactorlistDialogActorsList" type="BinHex"/>
+		<field name="fMinDenunciateDelay" type="Float"/>
+		<field name="fMaxDenunciateDelay" type="Float"/>
+		<field name="fDenunciateTime" type="Float"/>
+		<field name="fSafeDistance" type="Float"/>
+		<field name="fProfileCoolDown" type="Float"/>
+		<field name="iMinHackInterval" type="Int32"/>
+		<field name="iMaxHackInterval" type="Int32"/>
+		<object name="GPSTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
+		</object>
+		<object name="ExcludedRewardItems">
+			<object name="ExcludedRewardItem">
+				<field name="itemsItem" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridNoveltyFact">
+			<field name="LocalizationId" type="Int64"/>
+		</object>
+	</object>
+	<object name="DetectorSettings">
+		<field hash="995B332C" type="String"/>
+		<field name="Bark" type="BinHex"/>
+		<field name="fDetectorDelay" type="Float"/>
+		<field name="fDistanceMaxToDetect" type="Float"/>
+		<field name="fDistanceMaxToLooseInterest" type="Float"/>
+		<field name="fSafeDistanceForDenunciator" type="Float"/>
+		<field name="fMinDistBetweenDetectors" type="Float"/>
+		<field name="selVisibilityAngle" type="Enum"/>
+		<field name="iGoodReputationDetectorProbability" type="Int32"/>
+		<field name="GoodRepBark" type="BinHex"/>
+		<object name="DetectorGPSTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
+		</object>
+		<object name="HeatLevelSettings">
+			<object name="HeatLevel1">
+				<field name="iMaxDetector" type="Int32"/>
+			</object>
+			<object name="HeatLevel2">
+				<field name="iMaxDetector" type="Int32"/>
+			</object>
+			<object name="HeatLevel3">
+				<field name="iMaxDetector" type="Int32"/>
+			</object>
+			<object name="HeatLevel4">
+				<field name="iMaxDetector" type="Int32"/>
+			</object>
+			<object name="HeatLevel5">
+				<field name="iMaxDetector" type="Int32"/>
+			</object>
+		</object>
+		<object name="PMSValuesNeeded">
+			<object name="PMSValue">
+				<field hash="363F5FCE" type="String"/>
+				<field name="pmsPMSName" type="BinHex"/>
+				<field name="selEnumValue" type="Enum"/>
+			</object>
+		</object>
+		<object name="PMSValuesExcluded">
+			<object name="PMSValue">
+				<field hash="363F5FCE" type="String"/>
+				<field name="pmsPMSName" type="BinHex"/>
+				<field name="selEnumValue" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="PanicInvestigation">
+		<field name="fTimer" type="Float"/>
+		<field name="iMinCivilians" type="Int32"/>
+		<field name="fBaseProbability" type="Float"/>
+		<field name="fIndividualProbability" type="Float"/>
+	</object>
+	<object name="CompanionFelonSetting">
+		<field name="mapicondescIncidentReportIcon" type="BinHex"/>
+		<field name="mapicondescOperatorActionIcon" type="BinHex"/>
+	</object>
+</class>

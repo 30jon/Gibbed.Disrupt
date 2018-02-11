@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemeventlistsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ItemEventLists">
+		<object name="ItemEventList">
+			<field name="text_archItemArchetype" type="String"/>
+			<field name="archItemArchetype" type="BinHex"/>
+			<object name="locstridRelatedConversation"/>
+			<object name="RelatedConversationLists">
+				<object name="locstridRelatedConversation">
+					<field name="LocalizationId" type="Int64"/>
+				</object>
+				<object name="RelatedConversationLists">
+					<object name="locstridRelatedConversation">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SkyParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+    <object name="kfgradSkyDomeColorSunSide">
+        <object name="Knots">
+            <object name="Knot">
+                <field name="Position" desc="Time of day" type="Float" />
+                <object name="Gradient">
+                    <object name="Knots">
+                        <object name="Knot">
+                            <field name="Position" type="Float" />
+                            <field name="Color" />
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object name="kfgradSkyDomeColorSunOppositeSide">
+        <object name="Knots">
+            <object name="Knot">
+                <field name="Position" desc="Time of day" type="Float" />
+                <object name="Gradient">
+                    <object name="Knots">
+                        <object name="Knot">
+                            <field name="Position" type="Float" />
+                            <field name="Color" />
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+    <object name="curveSkyDomeIntensity">
+        <field name="hidNumKnots" type="Enum" />
+        <object name="Knots">
+            <object name="Knot">
+                <field name="Value" type="Vector4" />
+                <field name="Info" type="Vector4" />
+                <field name="Type" />
+            </object>
+        </object>
+    </object>
+    <object name="curveSunSpriteIntensity">
+        <field name="hidNumKnots" type="Enum" />
+        <object name="Knots">
+            <object name="Knot">
+                <field name="Value" type="Vector4" />
+                <field name="Info" type="Vector4" />
+                <field name="Type" />
+            </object>
+        </object>
+    </object>
+    <object name="curveMoonSpriteIntensity">
+        <field name="hidNumKnots" type="Enum" />
+        <object name="Knots">
+            <object name="Knot">
+                <field name="Value" type="Vector4" />
+                <field name="Info" type="Vector4" />
+                <field name="Type" />
+            </object>
+        </object>
+    </object>
+</class>

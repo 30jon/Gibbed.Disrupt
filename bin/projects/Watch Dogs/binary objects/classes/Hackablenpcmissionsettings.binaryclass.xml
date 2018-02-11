@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackablenpcmissionsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="HackableNPCMissionSettings">
+		<object name="MissionSettings">
+			<field name="selSettingsType" type="Enum"/>
+			<field name="missionlistMission" type="BinHex"/>
+			<field name="fHackableAIRatio" type="Float"/>
+			<field name="bEnableDistract" type="Boolean"/>
+			<field name="bEnableExplode" type="Boolean"/>
+			<field name="bEnableDisruptComm" type="Boolean"/>
+			<field name="bEnableDisableCallReinf" type="Boolean"/>
+		</object>
+	</object>
+</class>

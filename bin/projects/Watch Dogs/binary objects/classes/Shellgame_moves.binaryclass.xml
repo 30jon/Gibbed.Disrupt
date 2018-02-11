@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Shellgame_movesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selMove" type="Enum"/>
+	<object name="BallEndPosition">
+		<field name="BallEndPos0" type="BinHex"/>
+		<field name="BallEndPos1" type="BinHex"/>
+		<field name="BallEndPos2" type="BinHex"/>
+	</object>
+	<object name="CupEndPosition">
+		<field name="CupEndPos0" type="BinHex"/>
+		<field name="CupEndPos1" type="BinHex"/>
+		<field name="CupEndPos2" type="BinHex"/>
+	</object>
+</class>

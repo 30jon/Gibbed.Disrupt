@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletypeforwheelparticlesParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="OperationRange">
+		<field name="fMinTyreTemperature" type="Float"/>
+		<field name="fMaxTyreTemperature" type="Float"/>
+		<field name="fMinTyreSpeed" type="Float"/>
+		<field name="fMaxTyreSpeed" type="Float"/>
+		<field name="fMinVehicleSpeed" type="Float"/>
+		<field name="fMaxVehicleSpeed" type="Float"/>
+	</object>
+</class>

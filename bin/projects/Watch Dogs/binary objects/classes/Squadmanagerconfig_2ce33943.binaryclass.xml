@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Squadmanagerconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Squads">
+		<object name="Squad">
+			<field hash="234CF054" type="String"/>
+			<field name="sType" type="BinHex"/>
+			<field name="tmplDescription" type="String"/>
+		</object>
+	</object>
+</class>

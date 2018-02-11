@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Carcrashattractorsdatabase_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fGatherRadiusAdd" type="Float"/>
+	<field name="fTargetRadiusCff" type="Float"/>
+	<object name="HelpableAttractorsList">
+		<field name="bCivilian" type="Boolean"/>
+		<field hash="5270412C" type="BinHex"/>
+		<object name="Bank">
+			<object name="Entry">
+				<field name="attactAction" type="BinHex"/>
+				<field name="uiCoefficient" type="Int64"/>
+			</object>
+		</object>
+	</object>
+	<object name="PileupAttractorsList">
+		<field name="bCivilian" type="Boolean"/>
+		<field hash="5270412C" type="BinHex"/>
+		<object name="Bank">
+			<object name="Entry">
+				<field name="attactAction" type="BinHex"/>
+				<field name="uiCoefficient" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>

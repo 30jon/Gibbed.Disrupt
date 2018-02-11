@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CivilianreactionbehaviorParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selReaction" type="Enum"/>
+	<field name="selBehaviorType" type="Enum"/>
+	<object name="StateMachine">
+		<field name="bPlayAnimEntry" type="Boolean"/>
+		<field name="bPlayAnimLoop" type="Boolean"/>
+		<field name="bPlayAnimExit" type="Boolean"/>
+		<field name="bPlayAnimSitEntry" type="Boolean"/>
+		<field name="bPlayAnimSitLoop" type="Boolean"/>
+		<field name="bPlayAnimSitExit" type="Boolean"/>
+		<field name="bUpdateThreatAnglePMSOnLoop" type="Boolean"/>
+		<field name="bUpdateThreatAnglePMSOnExit" type="Boolean"/>
+		<field name="fBarkLatency" type="Float"/>
+		<field name="bPlayPanicBarkOnExit" type="Boolean"/>
+	</object>
+</class>

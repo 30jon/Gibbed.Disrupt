@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclemotorcycleextrasParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fRollSpeedLow" type="Float"/>
+	<field name="fRollSpeedHigh" type="Float"/>
+	<field name="fRollSpeedAcc" type="Float"/>
+	<field name="fLeanAngleLow" type="Float"/>
+	<field name="fLeanAngleMax" type="Float"/>
+	<field name="fTyreWidth" type="Float"/>
+	<field name="fOutOfControlMaxLeanAngle" type="Float"/>
+	<field name="fOutOfControlLinAccLimit" type="Float"/>
+	<field name="fOutOfControlAngAccLimit" type="Float"/>
+	<field name="fOutOfControlEjectionScale" type="Float"/>
+	<field name="fOutOfControlVerticalBaseComponent" type="Float"/>
+	<field name="fOutOfControlVerticalLinearComponent" type="Float"/>
+	<field name="fOutOfControlVerticalScaleRange" type="Float"/>
+	<field name="fOutOfControlLandingMaxSideVel" type="Float"/>
+	<field name="fOutOfControlLandingMaxBackVel" type="Float"/>
+	<field name="fOutOfControlWheelieLinAccLimit" type="Float"/>
+	<field name="fFrontWheelieOffsetY" type="Float"/>
+	<field name="fFrontWheelieOffsetZ" type="Float"/>
+	<field name="fFrontWheeliePitchHelperAcc" type="Float"/>
+	<field name="fFrontWheeliePitchHelperMaxSpeed" type="Float"/>
+	<field name="fFrontWheeliePitchHelperMinSpeed" type="Float"/>
+	<field name="fFrontWheeliePitchHelperMinAngle" type="Float"/>
+	<field name="fFrontWheeliePitchHelperMaxAngle" type="Float"/>
+	<field name="fRearWheelieOffsetY" type="Float"/>
+	<field name="fRearWheelieOffsetZ" type="Float"/>
+	<field name="fRearWheeliePitchHelperAcc" type="Float"/>
+	<field name="fRearWheeliePitchHelperMaxSpeed" type="Float"/>
+	<field name="fRearWheeliePitchHelperMinAngle" type="Float"/>
+	<field name="fRearWheeliePitchHelperMaxAngle" type="Float"/>
+	<field name="fWheelieMaxPitchMoment" type="Float"/>
+	<field name="fWheelieMinPitchMoment" type="Float"/>
+	<field name="fBackwardSpeed" type="Float"/>
+	<field name="fBackwardSpeedAcc" type="Float"/>
+	<field name="fFrontWheelLateralFriction" type="Float"/>
+	<field name="fFrontWheelLongitudinalFriction" type="Float"/>
+	<field name="fBackWheelLateralFriction" type="Float"/>
+	<field name="fBackWheelLongFriction" type="Float"/>
+	<field name="bUseContactForLeanRotationCenter" type="Boolean"/>
+	<field name="fRollAccelerationScaleUp" type="Float"/>
+	<field name="fExtraGetUpRollScale" type="Float"/>
+	<field name="fMinimumWheelieLiftoffForce" type="Float"/>
+	<field name="fMaximumWheelieLiftoffForce" type="Float"/>
+	<field name="bUsingFixedPitchCenter" type="Boolean"/>
+	<object name="WheelieControls">
+		<field name="fStartWheelieThrottleThreshold" type="Float"/>
+		<field name="fStartWheelieLeftStickThreshold" type="Float"/>
+		<field name="fNoWheelieLeftStickThreshold" type="Float"/>
+		<field name="fWheelieFailLeftStickThreshold" type="Float"/>
+		<field name="fRearWheelieFailTargetAngle" type="Float"/>
+		<field name="fFrontWheelieFailTargetAngle" type="Float"/>
+	</object>
+	<object name="NonDriving">
+		<field name="fLeanSpeedLowForced" type="Float"/>
+	</object>
+	<object name="AirborneControl">
+		<field name="bUseAirborneControl" type="Boolean"/>
+		<field name="fMaxYawSpeed" type="Float"/>
+		<field name="fMaxYawAcceleration" type="Float"/>
+		<field name="fMinimumSteer" type="Float"/>
+		<field name="fMaxPitchSpeed" type="Float"/>
+		<field name="fMaxPitchAcceleration" type="Float"/>
+		<field name="fMinimumPitchInput" type="Float"/>
+	</object>
+</class>

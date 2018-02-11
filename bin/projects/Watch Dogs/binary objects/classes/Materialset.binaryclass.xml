@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MaterialsetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="iRandomSeedBias" type="Int32"/>
+	<object name="Slots">
+		<object name="Slot">
+			<field hash="6E7A746B" type="String"/>
+			<field name="SlotName" type="BinHex"/>
+			<object name="Materials">
+				<object name="Material">
+					<field name="matMaterial" type="String"/>
+					<field name="unChances" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

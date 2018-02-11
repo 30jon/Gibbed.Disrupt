@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Rewardglobalsettings_108b3224Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ItemTypesCooldown">
+		<object name="ItemTypeCooldown">
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="text_itemdescriptorItemDescriptor" type="String"/>
+			<field name="itemdescriptorItemDescriptor" type="BinHex"/>
+			<field name="fCoolDown" type="Float"/>
+		</object>
+	</object>
+</class>

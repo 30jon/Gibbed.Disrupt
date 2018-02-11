@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleengineParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fTorqueFactorAtMinRPM" type="Float"/>
+	<field name="fTorqueFactorAtMaxRPM" type="Float"/>
+	<field name="fResistanceFactorAtMinRPM" type="Float"/>
+	<field name="fResistanceFactorAtOptRPM" type="Float"/>
+	<field name="fResistanceFactorAtMaxRPM" type="Float"/>
+	<field name="fEngineInertia" type="Float"/>
+	<field name="fLimiterRpmDropDeadZone" type="Float"/>
+	<field name="fClutchTorqueScale" type="Float"/>
+	<field name="fClutchMaxRPM" type="Float"/>
+	<field name="fRPMScaleFactor" type="Float"/>
+	<field name="fEngineTorqueScale" type="Float"/>
+	<field name="fMaxTorque" type="Float"/>
+	<object name="curveEngineTorqueDynoCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveEngineResistanceRatioCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

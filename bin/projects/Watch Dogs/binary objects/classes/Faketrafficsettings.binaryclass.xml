@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FaketrafficsettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selDistrictEnum" type="Enum"/>
+	<object name="VehicleList">
+		<object name="VehicleSettings">
+			<field name="fOccurrence" type="Float"/>
+			<field name="fLightHeight" type="Float"/>
+			<field name="fLightOffset" type="Float"/>
+			<field name="fLightSpacing" type="Float"/>
+			<field name="lighteffectprefabHeadlight" type="BinHex"/>
+			<field name="lighteffectprefabTaillight" type="BinHex"/>
+		</object>
+	</object>
+</class>

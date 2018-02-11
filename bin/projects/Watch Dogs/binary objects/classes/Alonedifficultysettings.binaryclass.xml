@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AlonedifficultysettingsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="uiRequiredDistricNumber" type="Int64"/>
+	<field name="alonespawnsettingOutOfChaseSpawn" type="BinHex"/>
+	<field name="alonespawnsettingInChaseSpawn" type="BinHex"/>
+	<object name="CheckPlayerPos">
+		<field name="fValidCheckRadius" type="Float"/>
+		<field name="fMinDistFromPlayer" type="Float"/>
+		<field name="uiNumberOfChecker" type="Int64"/>
+		<field name="fDelayBetweenChecks" type="Float"/>
+	</object>
+</class>

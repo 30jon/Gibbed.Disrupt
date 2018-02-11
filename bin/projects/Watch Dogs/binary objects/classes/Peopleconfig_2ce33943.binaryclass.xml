@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Peopleconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="DefaultArchetypes">
+		<field hash="470FE3AF" type="String"/>
+		<field name="archMale" type="BinHex"/>
+		<field hash="85276ED2" type="String"/>
+		<field name="archFemale" type="BinHex"/>
+	</object>
+</class>

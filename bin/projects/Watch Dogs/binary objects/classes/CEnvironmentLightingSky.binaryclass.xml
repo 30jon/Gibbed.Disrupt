@@ -1,0 +1,18 @@
+<class name="CEnvironmentSky">
+	<inherit name="CNomadDbObjectNamed" />
+	<object name="kfgradSkyDomeColorSunSide">
+		<inherit name="CKeyFramedGradientColor" />
+	</object>
+	<object name="kfgradSkyDomeColorSunOppositeSide">
+		<inherit name="CKeyFramedGradientColor" />
+	</object>
+	<object hash="CE0A71B0">
+		<inherit name="CCurveObj" />
+	</object>
+	<object hash="68FD64CC">
+		<inherit name="CCurveObj" />
+	</object>
+	<object hash="883BBFFA">
+		<inherit name="CCurveObj" />
+	</object>
+</class>

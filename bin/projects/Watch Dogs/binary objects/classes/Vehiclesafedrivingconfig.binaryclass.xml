@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclesafedrivingconfigParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fSpeedLimitRatio" type="Float"/>
+	<field name="fThrottleModifier" type="Float"/>
+	<field name="fBrakeModifier" type="Float"/>
+	<field name="fLaneSwitchUrgency" type="Float"/>
+	<field name="fLaneSwitchIntersectionDist" type="Float"/>
+	<field name="fLaneSwitchTravelDist" type="Float"/>
+</class>

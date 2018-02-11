@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PoweredconstraintpresetParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Pelvis">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftThigh">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftCalf">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftFoot">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightThigh">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightCalf">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightFoot">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="Spine">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="Spine1">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="Spine2">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="Head">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftUpperArm">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftForeArm">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="LeftHand">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightUpperArm">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightForeArm">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+	<object name="RightHand">
+		<field name="fMuscleIntensity" type="Float"/>
+		<field name="bCollisionEnabled" type="Boolean"/>
+	</object>
+</class>

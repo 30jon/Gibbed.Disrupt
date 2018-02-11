@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BlackouteffectParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="ParticleEmitterParams">
+		<object name="ParticleEmitterParam">
+			<field hash="B4B54F24" type="String"/>
+			<field name="psParticleEmitter" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WeaponParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="selShootingType" type="Enum"/>
+	<field name="selWeaponPerkType" type="Enum"/>
+	<field name="bManualEnableAutomatic" type="Boolean"/>
+	<field name="iManualAutomaticBulletsMax" type="Int32"/>
+	<field name="itemsBulletItem" type="BinHex"/>
+	<field name="fBulletsPerClip" type="Int32"/>
+	<field name="fRateOfFire" type="Float"/>
+	<field name="fRateOfFireVehicleMultiplier" type="Float"/>
+	<field name="iReloadAlertMinBullets" type="Int32"/>
+	<field name="fShootingRange" type="Float"/>
+	<field name="fPrecisionRange" type="Float"/>
+	<field name="fPrecisionSpreadAngle" type="Float"/>
+	<field name="bDestroysVehicleParts" type="Boolean"/>
+	<field name="iPierceStrength" type="Int32"/>
+	<field name="iMinPiercingStrengthToDamage" type="Int32"/>
+	<field name="nTracesRatio" type="Int32"/>
+	<field name="fAccuracyModifier" type="Float"/>
+	<field name="fBulletSpreadAngle" type="Float"/>
+	<field name="fbulletImpactDelay" type="BinHex"/>
+	<field name="bDisplayReticleBetweenRateOfFire" type="Boolean"/>
+	<field name="fLaserSightNoiseRangeX" type="Float"/>
+	<field name="fLaserSightNoiseRangeY" type="Float"/>
+	<field name="fLaserSightNoiseSpeedMultiplier" type="Float"/>
+	<object name="curveBulletDamageDistance">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveImpactStrengthDistance">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilTranslationX">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilTranslationY">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilTranslationZ">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilRotationX">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilRotationY">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRecoilRotationZ">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveShootingCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveBodyRecoilCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveBulletImpactDelayOverDistanceCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveAdrenalineBulletImpactDelayOverDistanceCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveBulletDamageModifierByAngleCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="AdrenalineSettings">
+		<field name="fAdrenalineRateOfFire" type="Float"/>
+	</object>
+	<object name="AnimationInfo">
+		<field name="selWeaponGrip" type="Enum"/>
+		<field name="selWeaponType" type="Enum"/>
+		<field name="selWeaponSpecific" type="Enum"/>
+	</object>
+	<object name="PartsRecoil">
+		<object name="SlidePart">
+			<field name="selProceduralType" type="Enum"/>
+			<field name="vectorProceduralAxis" type="Vector3"/>
+			<object name="curveProceduralMovement">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CameraAiming">
+		<field name="selAimingContext" type="Enum"/>
+		<field name="selCoverAimingLeft" type="Enum"/>
+		<field name="selCoverAimingRight" type="Enum"/>
+		<field name="selCoverAimingStraightLeft" type="Enum"/>
+		<field name="selCoverAimingStraightRight" type="Enum"/>
+	</object>
+	<object name="CameraRecoil">
+		<object name="InitialPhaseImpulses">
+			<field name="fDuration" type="Float"/>
+			<field name="vec2PitchLimits" type="Vector2"/>
+			<field name="vec2YawLimits" type="Vector2"/>
+			<field name="fReductionDuration" type="Float"/>
+			<field name="vec2ReductionCurve" type="Vector2"/>
+			<object name="Normal">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="2EAB7254">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Adrenaline">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="2EAB7254">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="ClampedPhaseImpulses">
+			<field name="fDuration" type="Float"/>
+			<field name="vec2PitchLimits" type="Vector2"/>
+			<field name="vec2YawLimits" type="Vector2"/>
+			<field name="fReductionDuration" type="Float"/>
+			<field name="vec2ReductionCurve" type="Vector2"/>
+			<object name="Normal">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="2EAB7254">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Adrenaline">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="2EAB7254">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FriendlyFireOptions">
+		<field name="bSkipCollisionsWithMobsterNPCs" type="Boolean"/>
+		<field name="bSkipCollisionsWithMobsterVehicles" type="Boolean"/>
+		<field name="bSkipCollisionsWithPoliceNPCs" type="Boolean"/>
+		<field name="bSkipCollisionsWithPoliceVehicles" type="Boolean"/>
+		<field name="bSkipCollisionsWithCivilians" type="Boolean"/>
+		<field name="bSkipCollisionsWithTraffics" type="Boolean"/>
+		<field name="bSkipCollisionsWithPlayers" type="Boolean"/>
+	</object>
+	<object name="DamageMultiplier">
+		<field name="fVehicleMultplier" type="Float"/>
+		<object name="LocationDamageMultiplier">
+			<object name="LocationMultiplier">
+				<field name="selLocation" type="Enum"/>
+				<object name="curveDamageMultOverDistance">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="curveAdrenalineDamageMultOverDistance">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Radiobroadcastsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="uiCooldownEnterCarMin" type="Int64"/>
+	<field name="uiCooldownEnterCarMax" type="Int64"/>
+	<field name="uiCooldownIntervalMin" type="Int64"/>
+	<field name="uiCooldownIntervalMax" type="Int64"/>
+	<field name="uiBroadcastActWeight" type="Int64"/>
+	<field name="uiBroadcastReputationWeight" type="Int64"/>
+	<object name="ActRadioBlogs">
+		<object name="RadioBlog">
+			<field name="uiStartPlayingInAct" type="Int64"/>
+			<object name="Variations">
+				<object name="Song">
+					<field name="musiclibrarySong" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="ReputationRadioBlogs">
+		<object name="ReputatioRadioBlog">
+			<field name="uiStartPlayingInAct" type="Int64"/>
+			<field name="uiKeepPlayingUntilAct" type="Int64"/>
+			<field name="selReputationType" type="Enum"/>
+			<object name="Variations">
+				<object name="Song">
+					<field name="musiclibrarySong" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundconfig_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fObjectSpeedMultiplier" type="Float"/>
+	<object name="DareStudio">
+		<field name="sSolutionName" type="String"/>
+		<field name="sProjectName" type="String"/>
+		<field name="sExtractInfoScriptId" type="String"/>
+		<field name="sExtractOasisScriptId" type="String"/>
+		<field name="sCustomCriteriaName" type="String"/>
+		<field name="sCustomCriteriaHighEndValue" type="String"/>
+		<field name="sCustomCriteriaLowEndValue" type="String"/>
+	</object>
+	<object name="DirectoryInfo">
+		<field name="sScript" type="String"/>
+		<field name="sBinary" type="String"/>
+	</object>
+	<object name="OcclusionInfo">
+		<field name="fTransitionTime" type="Float"/>
+		<field name="fMultiplier_PC" type="Float"/>
+		<field name="fMultiplier_Xenon" type="Float"/>
+		<field name="fMultiplier_PS3" type="Float"/>
+		<field name="fMultiplier_Durango" type="Float"/>
+		<field name="fMultiplier_Orbis" type="Float"/>
+	</object>
+	<object name="MicroInfo">
+		<field name="sDefaultMicroId" type="String"/>
+	</object>
+	<object name="BusGroups">
+		<object name="BusGroup">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<object name="BusIdList">
+				<object name="BusId">
+					<field name="sndbusSoundBusId" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="HackLimiter">
+		<object name="Limit">
+			<field name="sndSountToLimit" type="BinHex"/>
+			<field name="fMaximumDistance" type="Float"/>
+		</object>
+	</object>
+	<object name="Contextualisation">
+		<object name="MaxPlayableSoundPoints">
+			<field name="Normal" type="Int64"/>
+			<field name="HighEnd" type="Int64"/>
+		</object>
+	</object>
+</class>

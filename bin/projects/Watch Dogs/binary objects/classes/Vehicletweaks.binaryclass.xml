@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletweaksParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="vehiclegoingstraighttweak" type="BinHex"/>
+	<field name="fSuspensionDampingSpeedMaxAcceleration" type="Float"/>
+	<field name="bInterpolateinput" type="Boolean"/>
+	<field name="bUseSuspProjWithContactNormalAndChassisUp" type="Boolean"/>
+	<field name="bUseNewSuspensionProjection" type="Boolean"/>
+	<field name="bUseDampingForcesWithPacejka" type="Boolean"/>
+	<field name="bUseEngineRpmCapForAxleSpin" type="Boolean"/>
+	<field name="bUseContactPatchForChassisSpringForcePos" type="Boolean"/>
+	<field name="bIgnoreChassisPitchForSuspensionDir" type="Boolean"/>
+	<field name="bUseUnconnectedInertiaWhenClutching" type="Boolean"/>
+	<field name="fBrakeSteerReduction" type="Float"/>
+	<field name="fBrakeSteerReductionMaxSpeed" type="Float"/>
+	<field name="bUseHandBrakeYawHelper" type="Boolean"/>
+	<field name="fHandBrakeYawHelperAcc" type="Float"/>
+	<field name="fHandBrakeYawHelperMaxTime" type="Float"/>
+	<field name="bUseHandBrakeLoadBasedTorque" type="Boolean"/>
+	<field name="bUseNormalBrakeLoadBasedTorque" type="Boolean"/>
+	<field name="bUseCenterOfMassHeightForTyreForcePos" type="Boolean"/>
+	<field name="fVehicleSoftDampingFactor" type="Float"/>
+	<object name="GravityJump">
+		<field name="bGravityJump" type="Boolean"/>
+	</object>
+	<object name="JumpHelper">
+		<field name="bUseJumpHelper" type="Boolean"/>
+		<field name="fMinimumActivationAirTime" type="Float"/>
+		<field name="fPitchVelocityDamping" type="Float"/>
+		<field name="fRollVelocityDamping" type="Float"/>
+		<field name="fYawVelocityDamping" type="Float"/>
+		<field name="fMaximumPitchAcceleration" type="Float"/>
+		<field name="fMaximumRollAcceleration" type="Float"/>
+		<field name="fMaximumYawAcceleration" type="Float"/>
+	</object>
+	<object name="ChassisInertiaScale">
+		<field name="fChassisPitchInertiaScale" type="Float"/>
+		<field name="fChassisRollInertiaScale" type="Float"/>
+		<field name="fChassisYawInertiaScale" type="Float"/>
+	</object>
+	<object name="LaunchHelper">
+		<field name="bUseLaunchHelper" type="Boolean"/>
+		<field name="fLongFrictionReductionRatio" type="Float"/>
+		<field name="fTyreTemperatureIncreaseRatio" type="Float"/>
+		<field name="fFadeoutTime" type="Float"/>
+		<field name="fFullEffectTime" type="Float"/>
+		<field name="fMinimumSpeedStandStill" type="Float"/>
+		<field name="fMinimumStandStillTimeForLaunch" type="Float"/>
+		<field name="bUseBurnoutOscillation" type="Boolean"/>
+		<field name="fOscillationAmplitude" type="Float"/>
+		<field name="fOscillationPeriod" type="Float"/>
+		<field name="fOscillationOffset" type="Float"/>
+	</object>
+	<object name="DriftHelper">
+		<field name="bUseDriftHelper" type="Boolean"/>
+		<field name="fNoGearShiftSlipThreshold" type="Float"/>
+		<field name="fLateralFrictionScaleUnderTarget" type="Float"/>
+		<field name="fLateralFrictionScaleAboveTarget" type="Float"/>
+		<field name="fLateralFrictionScaleAboveTargetNoSteer" type="Float"/>
+		<field name="fLateralFrictionMaxScale" type="Float"/>
+		<field name="fTargetDriftAngle" type="Float"/>
+		<field name="fEngineTorqueScale" type="Float"/>
+		<field name="fSteeringTimeBeforeHelperActivation" type="Float"/>
+		<field name="fDriftRatioForEngineBoostStart" type="Float"/>
+		<field name="fDriftRatioForEngineBoostFull" type="Float"/>
+		<field name="fSteerPoolIncreaseRate" type="Float"/>
+		<field name="fSteerPoolDecayRate" type="Float"/>
+		<field name="fStayActivatedTimeBuffer" type="Float"/>
+		<field name="bNoTractionControl" type="Boolean"/>
+		<field name="fFadeInTime" type="Float"/>
+		<field name="fFadeOutTime" type="Float"/>
+		<field name="bUseFrictionModOnlyWithCounterSteerAboveTarget" type="Boolean"/>
+		<field name="fAboveTargetFrictionFadeTime" type="Float"/>
+		<object name="OneEighty">
+			<field name="fHandbrakeTimeThreshold" type="Float"/>
+			<field name="fDriftAngleTarget180" type="Float"/>
+			<field name="fTimeToReachTargetDriftAngle" type="Float"/>
+			<field name="fStayActiveTimeAfterHandbrakeRelease" type="Float"/>
+			<field name="fFirstGearEngineScale" type="Float"/>
+		</object>
+	</object>
+	<object name="AntiDriftHelper">
+		<field name="bUseAntiDriftHelper" type="Boolean"/>
+	</object>
+	<object name="CollisionResponseModifiers">
+		<field name="vec2RagdollType" type="Vector2"/>
+		<field name="vec2DynamicType" type="Vector2"/>
+		<field name="vec2StaticType" type="Vector2"/>
+	</object>
+	<object name="VehicleCollisionHelper">
+		<field name="fLateralTolerancePercentage" type="Float"/>
+		<field name="fVerticalTolerancePercentage" type="Float"/>
+		<field name="fFrontalDetectionLength" type="Float"/>
+		<field name="fBoxShapeForwardOffset" type="Float"/>
+	</object>
+	<object name="Adrenaline">
+		<field name="fSteerScale" type="Float"/>
+		<field name="fYawInertiaScale" type="Float"/>
+		<field name="fFrictionScale" type="Float"/>
+	</object>
+</class>

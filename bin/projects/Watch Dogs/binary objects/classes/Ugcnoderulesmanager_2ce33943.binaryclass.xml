@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Ugcnoderulesmanager_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="OnFootRaceNodeRules">
+		<object name="NodeQtyRules">
+			<object name="StartNodeQtyRules">
+				<field name="iMin" type="Int32"/>
+				<field name="iMax" type="Int32"/>
+			</object>
+			<object name="RouteNodeRules">
+				<field name="iMin" type="Int32"/>
+				<field name="iMax" type="Int32"/>
+			</object>
+		</object>
+		<object name="AutoDropRule">
+			<field name="bEnableAutoNodeDrop" type="Boolean"/>
+			<field name="fAutoDropDistance" type="Float"/>
+		</object>
+		<object name="StartNodeRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values"/>
+				</object>
+			</object>
+		</object>
+		<object name="RouteNodeRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values"/>
+				</object>
+			</object>
+		</object>
+		<object name="TeleportRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values">
+						<field name="bInWaterRequired" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="VehicleRaceNodeRules">
+		<object name="NodeQtyRules">
+			<object name="StartNodeQtyRules">
+				<field name="iMin" type="Int32"/>
+				<field name="iMax" type="Int32"/>
+			</object>
+			<object name="RouteNodeRules">
+				<field name="iMin" type="Int32"/>
+				<field name="iMax" type="Int32"/>
+			</object>
+		</object>
+		<object name="AutoDropRule">
+			<field name="bEnableAutoNodeDrop" type="Boolean"/>
+			<field name="fAutoDropDistance" type="Float"/>
+		</object>
+		<object name="StartNodeRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values"/>
+				</object>
+			</object>
+		</object>
+		<object name="RouteNodeRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values"/>
+				</object>
+			</object>
+		</object>
+		<object name="TeleportRules">
+			<object name="NodeRule">
+				<object name="RuleInfo">
+					<field name="sFailedReasonDebug" type="BinHex"/>
+					<object name="locstridFailedReason">
+						<field name="LocalizationId" type="Int64"/>
+					</object>
+				</object>
+				<object name="Process">
+					<field hash="95DE01BE" type="String"/>
+					<field name="ugcnoderuleprocessUgcNodeRuleProcessRuleType" type="BinHex"/>
+					<object name="Values">
+						<field name="bInWaterRequired" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

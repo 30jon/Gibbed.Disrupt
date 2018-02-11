@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GridracelayoutsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="MissionLayerName" type="String"/>
+	<field name="uiNumberOfLaps" type="Int64"/>
+	<field name="entRoute" type="BinHex"/>
+	<field name="fTimeAllowance" type="Float"/>
+	<object name="Icons">
+		<field name="entRaceVehicleIcon" type="BinHex"/>
+	</object>
+	<object name="RaceIntroCameras">
+		<object name="CameraEntities">
+			<field name="entCamera" type="BinHex"/>
+			<field name="entCameraAnchor" type="BinHex"/>
+		</object>
+	</object>
+	<object name="RaceOutroCameras">
+		<object name="CameraEntities">
+			<field name="entCamera" type="BinHex"/>
+			<field name="entCameraAnchor" type="BinHex"/>
+		</object>
+	</object>
+	<object name="TriggerBreakableEntities">
+		<object name="TriggerBreakableEntity">
+			<field name="entEntity" type="BinHex"/>
+			<field name="uiTriggerLap" type="Int64"/>
+			<object name="Triggers">
+				<object name="Trigger">
+					<field name="entTrigger" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="PreHackedEntities">
+		<object name="PreHacked">
+			<field name="bOpen" type="Boolean"/>
+			<field name="bLocked" type="Boolean"/>
+			<field name="entEntity" type="BinHex"/>
+		</object>
+	</object>
+	<object name="StartGrid">
+		<field name="vectorGridLocation" type="Vector3"/>
+		<field name="fGridZRotation" type="Float"/>
+		<field name="uiGridColumns" type="Int64"/>
+		<field name="fGridWidthBetweenVehicle" type="Float"/>
+		<field name="fGridDepthBetweenVehicle" type="Float"/>
+	</object>
+</class>

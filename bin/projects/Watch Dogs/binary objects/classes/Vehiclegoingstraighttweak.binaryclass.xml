@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclegoingstraighttweakParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="bUseV2" type="Boolean"/>
+	<field name="fAngVelReduceAccHigh" type="Float"/>
+	<field name="fAngVelReduceAccLow" type="Float"/>
+	<field name="fBodySlipLow" type="Float"/>
+	<field name="fBodySlipHigh" type="Float"/>
+	<field name="fInputFadeZone" type="Float"/>
+	<field name="bUseRearLateralSlip" type="Boolean"/>
+</class>

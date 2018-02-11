@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Civilianactionsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="fMinDistanceToPlayer" type="Float"/>
+	<field name="fCoolDownBetweenAction" type="Float"/>
+	<object name="Actions">
+		<object name="Action">
+			<field name="entcontContext" type="BinHex"/>
+			<field name="selWalkType" type="Enum"/>
+			<field name="fCoolDown" type="Float"/>
+			<object name="PMSValuesNeeded">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+			<object name="PMSValuesExcluded">
+				<object name="PMSValue">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="bBoolValue" type="Boolean"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="PanicBarkSettings">
+		<field name="fMinCoolDown" type="Float"/>
+		<field name="fMaxCoolDown" type="Float"/>
+		<field name="fMinDistToPlayer" type="Float"/>
+		<field name="fMaxDistToPlayer" type="Float"/>
+		<field hash="9185455A" type="String"/>
+		<field name="sBark" type="BinHex"/>
+	</object>
+	<object name="WallaSettings">
+		<object name="Idle">
+			<field name="sndSoundDay" type="BinHex"/>
+			<field name="sndStopDay" type="BinHex"/>
+			<field name="sndSoundNight" type="BinHex"/>
+			<field name="sndStopNight" type="BinHex"/>
+			<field name="sndvarCrowdRTPC" type="BinHex"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+		</object>
+		<object name="Panic">
+			<field name="sndCrowdPanic" type="BinHex"/>
+			<field name="sndCrowdPanicStop" type="BinHex"/>
+			<field name="sndvarCrowdPanicRTPC" type="BinHex"/>
+			<field name="fCrownPanicDuration" type="Float"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+		</object>
+		<object name="SoundObject">
+			<field name="sndvarMinCivDistRtpc" type="BinHex"/>
+			<field name="sndvarAvgCivDistRtpc" type="BinHex"/>
+			<field name="fSoundObjectLag" type="Float"/>
+			<field name="fMinCivDistLag" type="Float"/>
+		</object>
+	</object>
+	<object name="DebugGPSTexture">
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureWalker">
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureEnticer">
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureAttracted">
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureInCar">
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SoundpointParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field hash="2EDDB091" type="String"/>
+	<field name="hidResId" type="BinHex"/>
+	<field name="iNumMaxPlaying" type="Int32"/>
+	<object name="RTPCList">
+		<object name="RTPC">
+			<field hash="0126A8E1" type="String"/>
+			<field name="sndrtpcRTPCType" type="BinHex"/>
+			<field name="sndvarRTPCId" type="BinHex"/>
+		</object>
+	</object>
+	<object name="SoundElements">
+		<object name="SoundElement">
+			<object name="sndpairSound">
+				<field name="dissndStart" type="BinHex"/>
+				<field name="dissndStop" type="BinHex"/>
+			</object>
+			<object name="Conditions">
+				<object name="Condition">
+					<field hash="79FEFA82" type="String"/>
+					<field name="sndcondConditionType" type="BinHex"/>
+					<field name="fMinValue" type="Float"/>
+					<field name="fMaxValue" type="Float"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="disInaudibleDistances">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+</class>

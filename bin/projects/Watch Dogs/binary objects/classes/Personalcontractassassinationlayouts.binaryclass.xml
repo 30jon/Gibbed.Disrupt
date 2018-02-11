@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PersonalcontractassassinationlayoutsParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="Layers">
+		<object name="Layers">
+			<field name="LayerName" type="String"/>
+			<field name="vectorLayerCentrePoint" type="Vector3"/>
+			<object name="SubLayers">
+				<object name="SubLayers">
+					<object name="Stages">
+						<object name="StageSetUp">
+							<field name="bUseAllBlocks" type="Boolean"/>
+						</object>
+						<object name="MissionBlocks">
+							<field name="entMissionBlock" type="BinHex"/>
+							<object name="MissionBlocks">
+								<field name="entMissionBlock" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Stages">
+							<object name="StageSetUp">
+								<field name="bUseAllBlocks" type="Boolean"/>
+							</object>
+							<object name="MissionBlocks">
+								<field name="entMissionBlock" type="BinHex"/>
+								<object name="MissionBlocks">
+									<field name="entMissionBlock" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Localisation">
+		<object name="UIStrings">
+			<object name="locstridGoToMessage">
+				<field name="LocalizationId" type="Int64"/>
+			</object>
+			<object name="locstridFullSuccessMessage"/>
+			<object name="locstridPartialSuccessMessage"/>
+			<object name="locstridFailMessage"/>
+		</object>
+	</object>
+</class>

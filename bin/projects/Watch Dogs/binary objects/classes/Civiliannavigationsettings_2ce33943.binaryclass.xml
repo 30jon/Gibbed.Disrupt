@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Civiliannavigationsettings_2ce33943Parameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<object name="PathFollowingSettings">
+		<field name="fCrossingRatio" type="Float"/>
+		<field hash="B66FBFD0" type="BinHex"/>
+		<field name="selFollowTurningAngle" type="Enum"/>
+		<field name="selNavMeshEdgeTurningAngle" type="Enum"/>
+		<field name="fStartAccelerateAfterNewPathDelay" type="Float"/>
+		<field name="fIgnoreLookBackDelay" type="Float"/>
+	</object>
+	<object name="PathComputationSettings">
+		<field name="fDistToRecoverFromOutsideNavmesh" type="Float"/>
+		<field name="fDistToFindANavMeshHelperExit" type="Float"/>
+		<field name="fDistToFindANavMeshHelperPoint" type="Float"/>
+		<field name="fDistToFindASpline" type="Float"/>
+		<field name="bAllowDeadEnd" type="Boolean"/>
+	</object>
+</class>

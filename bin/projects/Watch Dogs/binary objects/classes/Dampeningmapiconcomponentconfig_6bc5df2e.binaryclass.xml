@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dampeningmapiconcomponentconfig_6bc5df2eParameters">
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="mapicondescDampenerMapIcon" type="BinHex"/>
+	<field name="mapicondescDisruptedDampenerMapIcon" type="BinHex"/>
+</class>

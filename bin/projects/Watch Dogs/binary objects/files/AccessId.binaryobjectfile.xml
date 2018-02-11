@@ -1,7 +1,8 @@
-<file name="AccessId">
+<?xml version="1.0" encoding="utf-8"?>
+<file name="Accessid">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="CAccessId" />
+			<inherit name="AccessidParameters"/>
 		</object>
 	</object>
 </file>

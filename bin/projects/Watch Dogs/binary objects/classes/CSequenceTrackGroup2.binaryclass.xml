@@ -1,0 +1,18 @@
+<class name="CSequenceTrackGroup2">
+    <object name="CSequenceTrackGroup">
+        <field name="sName" type="String"/>
+        <field name="disUniqueId"/>
+        <field name="bEnabled" type="Boolean"/>
+        <field hash="22958F3A"/>
+        <field name="disMuted"/>
+        <object name="Tracks">
+            <inherit name="CCameraTrack"/>
+            <inherit name="CCameraTrackGroup"/>
+            <inherit name="CCharacterTrackGroup"/>
+            <inherit name="CEntityTrackGroup"/>
+            <inherit name="COverlayTrack"/>
+            <inherit name="CPlayerTrackGroup"/>
+            <inherit name="CVehicleTrackGroup"/>
+        </object>
+    </object>
+</class>
