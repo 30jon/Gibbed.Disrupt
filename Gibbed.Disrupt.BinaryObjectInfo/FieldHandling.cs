@@ -157,20 +157,14 @@ namespace Gibbed.Disrupt.BinaryObjectInfo
 
                 if (def != null)
                 {
-                    name = string.Format("field '{0}'",
-                                         string.IsNullOrEmpty(def.Name) == false
-                                             ? def.Name
-                                             : def.Hash.ToString("X8", CultureInfo.InvariantCulture));
+                    name = string.Format("field '{0}'", !string.IsNullOrEmpty(def.Name) ? def.Name : def.Hash.ToString("X8", CultureInfo.InvariantCulture));
                 }
                 else
                 {
                     name = type.ToString();
                 }
 
-                throw new FormatException(string.Format("did not consume all data for {0} (read {1}, total {2})",
-                                                        name,
-                                                        read,
-                                                        count));
+                throw new FormatException(string.Format("did not consume all data for {0} with type {1} (read {2}, total {3})", name, type.ToString(), read, count));
             }
 
             return value;
@@ -185,6 +179,20 @@ namespace Gibbed.Disrupt.BinaryObjectInfo
                                   XmlWriter writer,
                                   out int read)
         {
+            Export(def, type, arrayType, buffer, offset, count, writer, out read, null, 0);
+        }
+
+        public static void Export(FieldDefinition def,
+                                  FieldType type,
+                                  FieldType arrayType,
+                                  byte[] buffer,
+                                  int offset,
+                                  int count,
+                                  XmlWriter writer,
+                                  out int read,
+                                  FieldDefinition origDef,
+                                  uint itemNo)
+        {
             if (writer == null)
             {
                 throw new ArgumentNullException("writer");
@@ -195,7 +203,7 @@ namespace Gibbed.Disrupt.BinaryObjectInfo
                 throw new ArgumentException("type mismatch", "def");
             }
 
-            if (_Handlers.ContainsKey(type) == false)
+            if (!_Handlers.ContainsKey(type))
             {
                 throw new NotSupportedException(string.Format("no handler for {0}", type));
             }
@@ -209,20 +217,18 @@ namespace Gibbed.Disrupt.BinaryObjectInfo
 
                 if (def != null)
                 {
-                    name = string.Format("field '{0}'",
-                                         string.IsNullOrEmpty(def.Name) == false
-                                             ? def.Name
-                                             : def.Hash.ToString("X8", CultureInfo.InvariantCulture));
+                    name = string.Format("field '{0}'", !string.IsNullOrEmpty(def.Name) ? def.Name : def.Hash.ToString("X8", CultureInfo.InvariantCulture));
+                }
+                else if (origDef != null)
+                {
+                    name = string.Format("field no. {0} in array '{1}'", itemNo, !string.IsNullOrEmpty(origDef.Name) ? origDef.Name : origDef.Hash.ToString("X8", CultureInfo.InvariantCulture));
                 }
                 else
                 {
                     name = type.ToString();
                 }
 
-                throw new FormatException(string.Format("did not consume all data for {0} (read {1}, total {2})",
-                                                        name,
-                                                        read,
-                                                        count));
+                throw new FormatException(string.Format("did not consume all data for {0} with type {1} (read {2}, total {3})", name, type.ToString(), read, count));
             }
         }
     }

@@ -1,5 +1,7 @@
 .vs/
-bin/
+bin/*.dll
+bin/*.exe
+bin/*.pdb
 */bin/Debug/
 */bin/Release/
 */obj/Debug/
