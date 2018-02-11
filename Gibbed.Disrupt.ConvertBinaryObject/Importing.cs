@@ -1,21 +1,21 @@
 ﻿/* Copyright (c) 2014 Rick (rick 'at' gibbed 'dot' us)
- * 
+ *
  * This software is provided 'as-is', without any express or implied
  * warranty. In no event will the authors be held liable for any damages
  * arising from the use of this software.
- * 
+ *
  * Permission is granted to anyone to use this software for any purpose,
  * including commercial applications, and to alter it and redistribute it
  * freely, subject to the following restrictions:
- * 
+ *
  * 1. The origin of this software must not be misrepresented; you must not
  *    claim that you wrote the original software. If you use this software
  *    in a product, an acknowledgment in the product documentation would
  *    be appreciated but is not required.
- * 
+ *
  * 2. Altered source versions must be plainly marked as such, and must not
  *    be misrepresented as being the original software.
- * 
+ *
  * 3. This notice may not be removed or altered from any source
  *    distribution.
  */
@@ -46,7 +46,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                                    XPathNavigator nav)
         {
             var root = new BinaryObject();
-            ReadNode(root, new BinaryObject[0], objectDef, basePath, nav);
+            ReadNode(root, new BinaryObject[0], objectDef, basePath, nav, null);
             return root;
         }
 
@@ -54,7 +54,8 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                               IEnumerable<BinaryObject> parentChain,
                               ClassDefinition objectDef,
                               string basePath,
-                              XPathNavigator nav)
+                              XPathNavigator nav,
+                              string currentFileName)
         {
             var chain = parentChain.Concat(new[] { node });
 
@@ -89,6 +90,16 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                 uint fieldNameHash;
 
                 LoadNameAndHash(fields.Current, out fieldName, out fieldNameHash);
+
+                if (fieldNameHash == 0x9D8873F8 && currentFileName != null) // crc32(text_hidName)
+                {
+                    var specifiedName = fields.Current.Value;
+                    specifiedName = specifiedName.Replace('"', '_').Replace(':', '_').Replace('*', '_').Replace('?', '_').Replace('<', '_').Replace('>', '_').Replace('|', '_');
+                    if (!currentFileName.Equals(specifiedName))
+                    {
+                        throw new ArgumentException(string.Format("Specified file name \"{0}\" does not match actual file name \"{1}\"", specifiedName, currentFileName), "text_hidName");
+                    }
+                }
 
                 FieldType fieldType;
                 var fieldTypeName = fields.Current.GetAttribute("type", "");
@@ -125,7 +136,8 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                                      IEnumerable<BinaryObject> chain,
                                      ClassDefinition parentDef,
                                      string basePath,
-                                     XPathNavigator nav)
+                                     XPathNavigator nav,
+                                     string currentFileName)
         {
             string className;
             uint classNameHash;
@@ -135,14 +147,14 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
             if (parentDef == null || parentDef.DynamicNestedClasses == false)
             {
                 var def = parentDef != null ? parentDef.GetObjectDefinition(classNameHash, chain) : null;
-                ReadNode(node, chain, def, basePath, nav);
+                ReadNode(node, chain, def, basePath, nav, currentFileName);
                 return;
             }
 
             if (parentDef.DynamicNestedClasses == true)
             {
                 var def = this._InfoManager.GetClassDefinition(classNameHash);
-                ReadNode(node, chain, def, basePath, nav);
+                ReadNode(node, chain, def, basePath, nav, currentFileName);
                 return;
             }
 
@@ -158,7 +170,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
             var external = nav.GetAttribute("external", "");
             if (string.IsNullOrWhiteSpace(external) == true)
             {
-                HandleChildNode(node, chain, objectDef, basePath, nav);
+                HandleChildNode(node, chain, objectDef, basePath, nav, null);
                 return;
             }
 
@@ -174,7 +186,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     throw new InvalidOperationException();
                 }
 
-                HandleChildNode(node, chain, objectDef, Path.GetDirectoryName(inputPath), root);
+                HandleChildNode(node, chain, objectDef, Path.GetDirectoryName(inputPath), root, Path.GetFileNameWithoutExtension(external));
             }
         }
 
