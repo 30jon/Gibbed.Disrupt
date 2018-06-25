@@ -86,10 +86,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     throw new InvalidOperationException();
                 }
 
-                string fieldName;
-                uint fieldNameHash;
-
-                LoadNameAndHash(fields.Current, out fieldName, out fieldNameHash);
+                LoadNameAndHash(fields.Current, out string fieldName, out uint fieldNameHash);
 
                 if (fieldNameHash == 0x9D8873F8 && currentFileName != null) // crc32(text_hidName)
                 {
@@ -186,7 +183,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
                     throw new InvalidOperationException();
                 }
 
-                HandleChildNode(node, chain, objectDef, Path.GetDirectoryName(inputPath), root, Path.GetFileNameWithoutExtension(external));
+                HandleChildNode(node, chain, objectDef, Path.GetDirectoryName(inputPath), root, external.Substring(0, external.LastIndexOf('.')).Replace('\\', '/'));
             }
         }
 
