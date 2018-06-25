@@ -22,6 +22,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace Gibbed.Disrupt.FileFormats
@@ -37,7 +38,16 @@ namespace Gibbed.Disrupt.FileFormats
 
         public override string ToString()
         {
-            return string.Join(",", points);
+            NumberFormatInfo nfi = new NumberFormatInfo
+            {
+                NumberDecimalSeparator = "."
+            };
+            var result = new List<string>();
+            foreach (var point in points)
+            {
+                result.Add(point.ToString(nfi));
+            }
+            return string.Join(",", result);
         }
 
         public override bool Equals(object obj)
