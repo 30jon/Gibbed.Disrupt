@@ -90,8 +90,8 @@ namespace Gibbed.Disrupt.Pack
             {
                 { "v|verbose", "be verbose", v => verbose = v != null },
                 //{ "c|compress", "compress data with LZO1x", v => compress = v != null },
-                { "pv|package-version", "package version (default 8)", v => packageVersion = ParsePackageVersion(v) },
-                { "pt|package-target", "package platform (default Win64)", v => packageTarget = ParsePackageTarget(v) },
+                { "pv|package-version=", "package version (default 8)", v => packageVersion = ParsePackageVersion(v) },
+                { "pt|package-target=", "package platform (default Win64)", v => packageTarget = ParsePackageTarget(v) },
                 { "h|help", "show this message and exit", v => showHelp = v != null },
             };
 
