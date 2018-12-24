@@ -105,6 +105,7 @@ namespace Gibbed.Disrupt.FileFormats
                 target != Big.Target.Win32 &&
                 target != Big.Target.Xbox360 &&
                 target != Big.Target.PS3 &&
+                target != Big.Target.WiiU &&
                 target != Big.Target.Win64)
             {
                 throw new FormatException("unsupported or invalid platform");

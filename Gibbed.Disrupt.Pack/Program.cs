@@ -72,6 +72,21 @@ namespace Gibbed.Disrupt.Pack
                 {
                     return (Big.Platform)5;
                 }
+
+                case Big.Target.WiiU:
+                {
+                    return (Big.Platform)5;
+                }
+                
+                case Big.Target.PS3:
+                {
+                    return (Big.Platform)4;
+                }
+                
+                case Big.Target.Xbox360:
+                {
+                    return (Big.Platform)5;
+                }
             }
 
             throw new NotSupportedException();
@@ -236,6 +251,10 @@ namespace Gibbed.Disrupt.Pack
                      packageTarget == Big.Target.Xbox360)
             {
                 fat.Unknown70 = 0x37;
+            }
+            else if (packageTarget == Big.Target.WiiU)
+            {
+                fat.Unknown70 = 0x38;
             }
             else
             {
