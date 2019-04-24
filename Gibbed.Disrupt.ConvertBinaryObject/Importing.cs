@@ -88,7 +88,7 @@ namespace Gibbed.Disrupt.ConvertBinaryObject
 
                 LoadNameAndHash(fields.Current, out string fieldName, out uint fieldNameHash);
 
-                if (fieldNameHash == 0x9D8873F8 && currentFileName != null) // crc32(text_hidName)
+                if (fieldName != null && fieldNameHash == 0x9D8873F8 && currentFileName != null) // crc32(text_hidName)
                 {
                     var specifiedName = fields.Current.Value;
                     specifiedName = specifiedName.Replace('"', '_').Replace(':', '_').Replace('*', '_').Replace('?', '_').Replace('<', '_').Replace('>', '_').Replace('|', '_');
