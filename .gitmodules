@@ -1,6 +1,6 @@
 [submodule "XCompression"]
 	path = XCompression
-	url = https://github.com/30jon/XCompression.git
+	url = https://github.com/j301scott/XCompression.git
 [submodule "Gibbed.IO"]
 	path = Gibbed.IO
 	url = https://github.com/gibbed/Gibbed.IO.git

@@ -255,7 +255,7 @@ namespace Gibbed.Disrupt.FileFormats
                     return false;
                 }
 
-                if (unknown70 != 0x32)
+                if (unknown70 != 0x32 && unknown70 != 0x37)
                 {
                     return false;
                 }
